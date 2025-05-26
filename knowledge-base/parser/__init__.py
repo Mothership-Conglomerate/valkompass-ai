@@ -1,25 +1,36 @@
 from model import Document
 from .pdf_parser import parse_pdf
-import os
+from analysis.segmentation import segment_document
 from util.errors import NoSuchDocumentError
+import os
 
 
 def parse_document(path: str) -> Document:
+    raw_content: str = ""
+    segments: list = []  # Initialize segments list
+
     _, file_extension = os.path.splitext(path)
 
     if file_extension.lower() == ".pdf":
-        return parse_pdf(path)
-    # Add more cases here for other document types like .docx, .txt etc.
-    # For .txt or unknown, use the existing plain text parser
-    else:
         try:
-            with open(path, "r", encoding="utf-8") as file:  # Specify encoding
-                content = file.read()
-            return Document(path=path, raw_content=content, lines=[])
-        except FileNotFoundError:  # Explicitly catch FileNotFoundError
-            # Re-raise the FileNotFoundError to indicate the file was not found
+            # parse_pdf now returns (raw_text, pdf_segments)
+            raw_content, segments = parse_pdf(path)
+        except NoSuchDocumentError:  # Re-raise if pdf_parser raised it
+            raise
+        # If parse_pdf has other internal errors and returns (some_text, []), it's handled.
+
+    else:  # For non-PDF files
+        try:
+            with open(path, "r", encoding="utf-8") as file:
+                raw_content = file.read()
+            # For non-PDFs, use the general segment_document function
+            segments = segment_document(raw_content)
+        except FileNotFoundError:
             raise NoSuchDocumentError(f"Document {path} not found")
         except Exception as e:
-            print(f"Error parsing document {path}: {e}")
-            # For other errors, return a document with empty content
-            return Document(path=path, raw_content="", lines=[])
+            print(f"Error reading or segmenting document {path}: {e}")
+            # Return Document with empty content and segments
+            # raw_content will be its default "", segments its default []
+            pass  # Allow returning an empty document below
+
+    return Document(path=path, raw_content=raw_content, lines=segments)
