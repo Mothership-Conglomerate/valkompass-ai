@@ -1,0 +1,14 @@
+{
+  "name": "valkompass-commands",
+  "version": "1.0.0",
+  "description": "Commands for fetching political data",
+  "type": "module",
+  "scripts": {
+    "fetch-politicians": "npx tsx fetch-politicians.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+} 
