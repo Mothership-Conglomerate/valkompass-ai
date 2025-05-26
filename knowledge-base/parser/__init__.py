@@ -5,7 +5,7 @@ from util.errors import NoSuchDocumentError
 import os
 
 
-def parse_document(path: str) -> Document:
+def parse_document(path: str, document_id: str) -> Document:
     raw_content: str = ""
     segments: list = []  # Initialize segments list
 
@@ -14,7 +14,7 @@ def parse_document(path: str) -> Document:
     if file_extension.lower() == ".pdf":
         try:
             # parse_pdf now returns (raw_text, pdf_segments)
-            raw_content, segments = parse_pdf(path)
+            raw_content, segments = parse_pdf(path, document_id)
         except NoSuchDocumentError:  # Re-raise if pdf_parser raised it
             raise
         # If parse_pdf has other internal errors and returns (some_text, []), it's handled.
@@ -34,4 +34,6 @@ def parse_document(path: str) -> Document:
             # raw_content will be its default "", segments its default []
             pass  # Allow returning an empty document below
 
-    return Document(path=path, raw_content=raw_content, segments=segments)
+    return Document(
+        id=document_id, path=path, raw_content=raw_content, segments=segments
+    )

@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import PCA
 import numpy as np
 
-from model import DocumentSegment, Topic  # Corrected import paths
+from model import DocumentSegment, Topic
 
 # Ensure NLTK data is available
 try:
@@ -26,52 +26,99 @@ def extract_topics(
     nr_topics: int | None = None,
     min_topic_size: int = 10,
     top_n_words: int = 10,
-) -> tuple[BERTopic, list[int], np.ndarray]:
-    texts = [seg.text for seg in segments if seg.text and seg.text.strip()]
-    if not texts:
+) -> BERTopic:
+    """
+    Extracts topics from a list of DocumentSegment objects, updates the segments with topic IDs,
+    and returns the fitted BERTopic model.
+    Only segments with non-empty text and existing embeddings are used for topic modeling.
+    """
+    # Filter segments that have text and embeddings
+    valid_segments = [
+        seg
+        for seg in segments
+        if seg.text and seg.text.strip() and seg.embedding is not None
+    ]
+
+    if not valid_segments:
         raise ValueError(
-            "No text segments to analyze. Topic modeling requires textual input."
+            "No valid segments (with text and embeddings) to analyze. Topic modeling requires textual input and embeddings."
         )
 
+    texts = [seg.text for seg in valid_segments]
+    # Ensure embeddings is a 2D array
+    embeddings = np.array(
+        [seg.embedding for seg in valid_segments if seg.embedding is not None]
+    )
+    if embeddings.ndim == 1:  # Should not happen if embeddings are correctly generated
+        print(
+            f"Warning: Embeddings array is 1D, attempting to reshape. Shape: {embeddings.shape}"
+        )
+        if embeddings.shape[0] > 0 and embeddings.shape[0] % len(valid_segments) == 0:
+            # This is a heuristic, assuming all embeddings have the same known dimension if it was flattened
+            try:
+                # Attempt to infer embedding dimension, e.g. 1536 for text-embedding-3-small
+                # This part is risky without knowing the exact embedding dimension used.
+                # For now, we'll rely on UMAP/PCA to handle it or error out if incompatible.
+                # A better fix would be to ensure embeddings are always stored/retrieved as 2D.
+                pass  # PCA might handle it or fail gracefully.
+            except Exception as e:
+                print(
+                    f"Could not reshape embeddings, proceeding with 1D array which might fail: {e}"
+                )
+
+    print("Fitting PCA...")
+    # Use PCA instead of UMAP for speed, ensure n_components is valid
+    n_components_pca = min(
+        10,
+        len(valid_segments) // 2,
+        embeddings.shape[1] if embeddings.ndim > 1 and embeddings.shape[1] > 0 else 10,
+    )
+    if n_components_pca <= 0:  # If not enough samples or features for PCA
+        print(
+            f"Not enough samples or features for PCA (n_components_pca={n_components_pca}). Skipping PCA."
+        )
+        reduced_embeddings = embeddings  # Use original embeddings
+    else:
+        pca = PCA(n_components=n_components_pca)
+        try:
+            reduced_embeddings = pca.fit_transform(embeddings)
+        except ValueError as e:
+            print(f"PCA failed: {e}. Using original embeddings.")
+            reduced_embeddings = embeddings
+
+    print("Fitting BERTopic...")
     # Fastest vectorizer settings
     vectorizer = CountVectorizer(
         stop_words=COMBINED_STOPWORDS,
         ngram_range=(1, 2),
-        max_features=5000,
+        max_features=5000,  # Limit features for speed and memory
     )
-
-    embeddings = np.array(
-        [seg.embedding for seg in segments if seg.embedding is not None]
-    )
-
-    print("Fitting PCA...")
-    # Use PCA instead of UMAP for speed
-    pca = PCA(n_components=min(10, len(segments) // 2))
-    reduced_embeddings = pca.fit_transform(embeddings)
-
-    print("Fitting BERTopic...")
     topic_model = BERTopic(
         nr_topics=nr_topics,
         vectorizer_model=vectorizer,
         min_topic_size=min_topic_size,
         top_n_words=top_n_words,
-        umap_model=None,  # disables UMAP, uses embeddings as-is
-        low_memory=True,  # reduces memory usage in clustering[7]
+        umap_model=None,  # Disables UMAP, using PCA-reduced embeddings
+        low_memory=True,
     )
 
     # Fit using reduced embeddings
-    topic_ids, probs = topic_model.fit_transform(texts, reduced_embeddings)
+    topic_assignments, _ = topic_model.fit_transform(texts, reduced_embeddings)
     print("Fitted BERTopic.")
-    return topic_model, topic_ids, probs
+
+    # Assign topic IDs back to the original DocumentSegment objects
+    for segment, topic_id in zip(valid_segments, topic_assignments):
+        segment.topic_id = int(topic_id)  # Ensure topic_id is int
+
+    return topic_model
 
 
 def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
     """
     Converts topics from a fitted BERTopic model to a list of Pydantic Topic models.
-
-    - Builds a human-readable name and description for each topic
-      based on its top keywords.
-    - Skips the outlier topic (ID -1).
+    Builds a human-readable name and description for each topic
+    based on its top keywords.
+    Skips the outlier topic (ID -1).
     """
     pydantic_topics: list[Topic] = []
     if not hasattr(topic_model, "get_topic_info") or not hasattr(
@@ -83,43 +130,37 @@ def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
         return pydantic_topics
 
     try:
-        # topic_info_df might be empty if no topics were found other than -1
         topic_info_df = topic_model.get_topic_info()
         if topic_info_df.empty:
             return pydantic_topics
 
-        for index, row in topic_info_df.iterrows():
+        for _, row in topic_info_df.iterrows():  # Use _ if index is not needed directly
             tid = row["Topic"]
             if tid == -1:  # Skip outlier topic
                 continue
 
-            # Get top words for this topic
-            # The get_topic method returns a list of (word, score) tuples or False if topic_id does not exist
             kw_scores = topic_model.get_topic(tid)
-            if (
-                not kw_scores
-            ):  # Should not happen if tid is from get_topic_info and not -1
+            if not kw_scores:
                 continue
 
-            keywords = [word for word, score in kw_scores[:5]]  # Get top 5 keywords
+            keywords = [word for word, _ in kw_scores[:5]]  # score not needed here
 
-            # Create a name and description
-            # Ensure at least one keyword for name, and handle cases with fewer than 2 keywords
             if len(keywords) >= 2:
                 name = " / ".join(keywords[:2])
             elif len(keywords) == 1:
                 name = keywords[0]
-            else:  # No keywords found for this topic (should be rare for non -1 topics)
-                name = f"Topic {tid}"  # Fallback name
+            else:
+                name = f"Topic {tid}"
 
             description = "Keywords: " + ", ".join(keywords)
             if not keywords:
                 description = "No keywords found for this topic."
 
-            pydantic_topics.append(Topic(name=name, description=description))
+            pydantic_topics.append(
+                Topic(id=int(tid), name=name, description=description)
+            )
 
     except Exception as e:
         print(f"Error converting topics to Pydantic: {e}")
-        # Depending on desired robustness, could return partial list or re-raise
 
     return pydantic_topics

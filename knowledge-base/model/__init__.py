@@ -4,11 +4,13 @@ from typing import Any
 
 
 class Topic(BaseModel):
+    id: int
     name: str
     description: str
 
 
 class DocumentSegment(BaseModel):
+    id: str
     model_config = {"arbitrary_types_allowed": True}
     text: str
     start_index: int
@@ -16,10 +18,13 @@ class DocumentSegment(BaseModel):
     page: int
     metadata: dict | None = None
     embedding: np.ndarray | None = None
+    topic_id: int | None = None
 
     @field_serializer("embedding", when_used="json")
     def serialize_embedding_to_list(self, v: np.ndarray) -> list[float]:
         """Convert np.ndarray to list for JSON serialization."""
+        if v is None:
+            return None
         return v.tolist()
 
     @field_validator("embedding", mode="before")
@@ -34,6 +39,7 @@ class DocumentSegment(BaseModel):
 
 
 class Document(BaseModel):
+    id: str
     path: str
     raw_content: str
     segments: list[DocumentSegment]

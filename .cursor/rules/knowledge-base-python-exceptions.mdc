@@ -1,0 +1,30 @@
+---
+description: 
+globs: **/*.py
+alwaysApply: false
+---
+# Python Exception Handling in knowledge-base
+
+When working with Python files within the `knowledge-base` directory, please adhere to the following exception handling guideline:
+
+**Avoid broad exception catches.** Do not use generic `except Exception as e:` blocks that simply print the exception and continue. Instead, allow exceptions to propagate (fail fast) unless you have a specific, well-understood reason to catch and handle a particular type of exception.
+
+For example, instead of:
+
+```python
+try:
+    # some operation
+    result = risky_operation()
+except Exception as e:
+    print(f"An error occurred: {e}")
+    result = None # or some default
+```
+
+Prefer to let the exception propagate:
+
+```python
+# some operation
+result = risky_operation() # If this fails, let it fail and stop execution
+```
+
+Let most errors just crash the application. This is what users want.

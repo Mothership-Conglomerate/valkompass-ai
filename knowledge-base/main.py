@@ -8,14 +8,16 @@ import asyncio
 from tqdm import tqdm
 from tqdm.asyncio import tqdm as async_tqdm
 
-from model import Document
+from model import Document, DocumentSegment, Topic
 from parser import parse_document
 from util.errors import NoSuchDocumentError
 from analysis.embedding import EmbeddingClient
+from analysis.topic_modeling import extract_topics, topics_to_pydantic
 from model.store import (
     store_documents_as_json,
     load_documents_from_json,
     store_document_as_json,
+    store_topics_as_json,
 )
 
 load_dotenv()
@@ -62,31 +64,21 @@ def load_and_parse_documents(
     parsed_documents: List[Document] = []
     print(f"Found {len(doc_paths_abs)} documents. Starting parsing...")
 
-    for doc_path_abs in tqdm(doc_paths_abs, desc="Parsing documents", unit="doc"):
+    for i, doc_path_abs in enumerate(
+        tqdm(doc_paths_abs, desc="Parsing documents", unit="doc")
+    ):
         try:
             # Parse document using its absolute path for reading
-            document_obj = parse_document(str(doc_path_abs))
+            document_obj = parse_document(str(doc_path_abs), str(i))
 
-            # Make the path relative to the project root for storage/representation
-            try:
-                relative_path = doc_path_abs.relative_to(project_root)
-                document_obj.path = str(
-                    relative_path
-                )  # Update the path in the Document object
-            except ValueError:
-                # This happens if doc_path_abs is not under project_root, which shouldn't occur here
-                # but as a fallback, keep the absolute path or handle as an error.
-                print(
-                    f"Warning: Could not make path {doc_path_abs} relative to {project_root}. Keeping absolute."
-                )
-                # document_obj.path remains as is (absolute)
+            relative_path = doc_path_abs.relative_to(project_root)
+            document_obj.path = str(
+                relative_path
+            )  # Update the path in the Document object
 
             parsed_documents.append(document_obj)
         except NoSuchDocumentError as e:
             print(f"Skipping (not found): {doc_path_abs}. Error: {e}")
-        except Exception as e:
-            # Catch any other errors during parsing of a specific document
-            print(f"Error parsing document {doc_path_abs}: {e}. Skipping.")
 
     print(
         f"Successfully parsed {len(parsed_documents)} out of {len(doc_paths_abs)} documents."
@@ -100,9 +92,9 @@ async def main():
     parser.add_argument(
         "--actions",
         nargs="+",
-        choices=["parse", "embed"],
+        choices=["parse", "embed", "topicmodel"],
         default=["parse", "embed"],
-        help="Specify a list of actions: parse, embed. Default is parse then embed.",
+        help="Specify a list of actions: parse, embed, topicmodel. Default is parse then embed.",
     )
     parser.add_argument(
         "--docs-dir",
@@ -170,6 +162,63 @@ async def main():
                 f"Successfully embedded and stored {processed_docs_count} documents incrementally."
             )
             # No need to store all documents again at the end, as it's done incrementally
+            processed_something = True
+
+    if "topicmodel" in args.actions:
+        if not documents:
+            print(
+                f"Loading documents from {structured_output_dir} for topic modeling..."
+            )
+            documents = load_documents_from_json(structured_output_dir)
+            if not documents:
+                print(
+                    f"No documents found in {structured_output_dir}. Cannot proceed with topic modeling."
+                )
+                return
+
+        if documents:
+            print(
+                f"Starting topic modeling for segments in {len(documents)} documents..."
+            )
+            all_segments: List[DocumentSegment] = []
+            for doc in documents:
+                all_segments.extend(doc.segments)
+
+            if not all_segments:
+                print(
+                    "No segments found in the loaded documents. Cannot perform topic modeling."
+                )
+                return
+
+            print(
+                f"Performing topic modeling on {len(all_segments)} segments with embeddings..."
+            )
+            # extract_topics modifies segments in-place by adding topic_id
+            topic_model_bertopic = extract_topics(
+                all_segments
+            )  # Pass only segments with embeddings
+
+            pydantic_topics = topics_to_pydantic(topic_model_bertopic)
+
+            if pydantic_topics:
+                print(f"Generated {len(pydantic_topics)} topics.")
+                store_topics_as_json(
+                    pydantic_topics, structured_output_dir, "topics.json"
+                )
+            else:
+                print("No topics were generated (excluding outliers).")
+
+            # After topic IDs are assigned to segments, documents need to be re-saved
+            print(
+                f"Storing updated documents with topic information back to {structured_output_dir}..."
+            )
+            updated_doc_count = 0
+            for doc in tqdm(
+                documents, desc="Storing Documents with Topics", unit="doc"
+            ):
+                store_document_as_json(doc, structured_output_dir)
+                updated_doc_count += 1
+            print(f"Successfully stored {updated_doc_count} documents with topic IDs.")
             processed_something = True
 
     if not processed_something:

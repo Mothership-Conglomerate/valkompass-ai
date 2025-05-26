@@ -3,13 +3,14 @@ from model import DocumentSegment
 import pdfplumber
 
 
-def parse_pdf(path: str) -> tuple[str, list[DocumentSegment]]:
-    return __parse_and_segment_langchain(path)
+def parse_pdf(path: str, document_id: str) -> tuple[str, list[DocumentSegment]]:
+    return __parse_and_segment_langchain(path, document_id)
 
 
 # TODO: Optimize this?
 def __parse_and_segment_langchain(
     path: str,
+    document_id: str,
     chunk_size: int = 2000,
     chunk_overlap: int = 200,
 ) -> tuple[str, list[DocumentSegment]]:
@@ -63,7 +64,7 @@ def __parse_and_segment_langchain(
     # 5) Build DocumentSegment objects, now with page numbers
     segments: list[DocumentSegment] = []
     current_search_cursor = 0
-    for text_chunk in split_texts:
+    for i, text_chunk in enumerate(split_texts):
         if not text_chunk.strip():  # Skip empty or whitespace-only chunks
             continue
 
@@ -100,6 +101,7 @@ def __parse_and_segment_langchain(
 
         segments.append(
             DocumentSegment(
+                id=f"{document_id}-{i}",
                 text=text_chunk,
                 start_index=chunk_start_index,
                 end_index=chunk_end_index,

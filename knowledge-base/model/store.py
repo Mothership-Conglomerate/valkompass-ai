@@ -3,7 +3,10 @@ from pathlib import Path
 from typing import List
 from tqdm import tqdm
 
-from . import Document  # Assuming Document is in __init__.py in the same package
+from . import (
+    Document,
+    Topic,
+)  # Assuming Document and Topic are in __init__.py in the same package
 
 
 def store_documents_as_json(documents: List[Document], output_dir: Path):
@@ -28,16 +31,11 @@ def store_documents_as_json(documents: List[Document], output_dir: Path):
         # and potentially adding a suffix if it's an intermediate or final version.
         json_filename = original_path.stem + ".json"
         output_filepath = output_dir / json_filename
+        # Pydantic's model_dump_json handles np.ndarray by converting to list
+        json_string = doc.model_dump_json(indent=2)
+        with open(output_filepath, "w", encoding="utf-8") as f:
+            f.write(json_string)
 
-        try:
-            # Pydantic's model_dump_json handles np.ndarray by converting to list
-            json_string = doc.model_dump_json(indent=2)
-            with open(output_filepath, "w", encoding="utf-8") as f:
-                f.write(json_string)
-        except Exception as e:
-            print(
-                f"Error storing document {doc.path} as JSON to {output_filepath}: {e}"
-            )
     print(f"Successfully stored documents in {output_dir}.")
 
 
@@ -55,15 +53,10 @@ def store_document_as_json(document: Document, output_dir: Path):
     json_filename = original_path.stem + ".json"
     output_filepath = output_dir / json_filename
 
-    try:
-        # Pydantic's model_dump_json handles np.ndarray by converting to list
-        json_string = document.model_dump_json(indent=2)
-        with open(output_filepath, "w", encoding="utf-8") as f:
-            f.write(json_string)
-    except Exception as e:
-        print(
-            f"Error storing document {document.path} as JSON to {output_filepath}: {e}"
-        )
+    # Pydantic's model_dump_json handles np.ndarray by converting to list
+    json_string = document.model_dump_json(indent=2)
+    with open(output_filepath, "w", encoding="utf-8") as f:
+        f.write(json_string)
 
 
 def load_documents_from_json(input_dir: Path) -> List[Document]:
@@ -85,15 +78,37 @@ def load_documents_from_json(input_dir: Path) -> List[Document]:
     print(f"Loading {len(json_files)} documents from JSON in {input_dir}...")
 
     for json_file_path in tqdm(json_files, desc="Loading JSON documents", unit="doc"):
-        try:
-            with open(json_file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                # Pydantic will attempt to convert list back to np.ndarray for 'embedding'
-                # if DocumentSegment's embedding field is type-hinted as np.ndarray
-                document_obj = Document(**data)
-                loaded_documents.append(document_obj)
-        except Exception as e:
-            print(f"Error loading document from {json_file_path}: {e}")
+        with open(json_file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            # Pydantic will attempt to convert list back to np.ndarray for 'embedding'
+            # if DocumentSegment's embedding field is type-hinted as np.ndarray
+            document_obj = Document(**data)
+            loaded_documents.append(document_obj)
 
     print(f"Successfully loaded {len(loaded_documents)} documents from {input_dir}.")
     return loaded_documents
+
+
+def store_topics_as_json(
+    topics: List[Topic], output_dir: Path, filename: str = "topics.json"
+):
+    """
+    Serializes a list of Topic objects to a single JSON file.
+
+    Args:
+        topics: A list of Topic objects to serialize.
+        output_dir: The directory where the JSON file will be stored.
+        filename: The name of the JSON file.
+    """
+    if not topics:
+        print("No topics to store.")
+        return
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_filepath = output_dir / filename
+
+    # Convert list of Pydantic models to a list of dicts, then dump to JSON
+    topics_data = [topic.model_dump() for topic in topics]
+    with open(output_filepath, "w", encoding="utf-8") as f:
+        json.dump(topics_data, f, indent=2, ensure_ascii=False)
+    print(f"Successfully stored {len(topics)} topics in {output_filepath}.")
