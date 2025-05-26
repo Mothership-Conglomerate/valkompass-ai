@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NavBar from "@/components/nav-bar";
+import CTA from "@/components/cta";
 
 export default function HomePage() {
   const activePage: string = "Hem"; // This is the home page, so "Hem" is active
@@ -33,6 +34,7 @@ export default function HomePage() {
               Allt vi gör är open source. För kod och mer information, se <a href="https://github.com/Mothership-Conglomerate/valkompass-ai" className="text-blue-500 hover:text-blue-600">vårt GitHub-repo</a>.
             </p>
           </section>
+          <CTA />
         </div>
       </main>
     </div>
