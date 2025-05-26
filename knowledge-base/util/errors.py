@@ -1,0 +1,2 @@
+class NoSuchDocumentError(Exception):
+    pass
