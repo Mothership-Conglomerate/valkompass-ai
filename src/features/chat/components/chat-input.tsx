@@ -23,7 +23,7 @@ export default function ChatInput({ onSendMessage }: ChatInputProps) {
           placeholder="Skriv ditt meddelande..."
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyPress={(e) => {
+          onKeyUp={(e) => {
             if (e.key === 'Enter') {
               handleSend();
             }

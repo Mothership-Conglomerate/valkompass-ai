@@ -3,12 +3,7 @@
 import ChatInput from "./chat-input";
 import MessageBubble from "./message-bubble";
 import { useState } from "react";
-
-interface Message {
-  id: number;
-  text: string;
-  role: "user" | "ai";
-}
+import { Message } from "../types/types";
 
 export default function ChatArea() {
   const [messages, setMessages] = useState<Message[]>([]);
