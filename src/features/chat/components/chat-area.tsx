@@ -17,19 +17,28 @@ export default function ChatArea() {
     setMessages([...messages, { id: messages.length + 1, text: message, role: "user" as const }]);
   };
 
-  // Placeholder messages - in a real app, this would come from state
-  const messagesa = [
-    { id: 1, text: "Hej! Hur kan jag hjälpa till idag?", role: "ai" as const },
-    { id: 2, text: "Jag undrar över X.", role: "user" as const },
-    { id: 3, text: "Intressant fråga! Låt mig kolla upp det.", role: "ai" as const },
-  ];
+  const clearMessages = () => {
+    setMessages([]);
+  };
 
   return (
     <>
-      <div className="flex-grow bg-gray-50 rounded-t-lg shadow-lg p-6 space-y-4 overflow-y-auto">
-        {messages.map((msg) => (
-          <MessageBubble key={msg.id} message={msg.text} role={msg.role} />
-        ))}
+      <div className="flex-grow bg-gray-50 rounded-t-lg shadow-lg p-6 flex flex-col">
+        <div className="flex-grow space-y-4 overflow-y-auto">
+          {messages.map((msg) => (
+            <MessageBubble key={msg.id} message={msg.text} role={msg.role} />
+          ))}
+        </div>
+        {messages.length > 0 && (
+          <div className="pt-4 flex justify-end">
+            <button
+              onClick={clearMessages}
+              className="bg-transparent hover:underline text-sm text-gray-500"
+            >
+              Rensa chatten
+            </button>
+          </div>
+        )}
       </div>
       <ChatInput onSendMessage={handleSendMessage} />
     </>
