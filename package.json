@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fetch-politicians": "cd commands && npm install && npm run fetch-politicians"
+    "fetch-politicians": "cd commands && bun install && bun run fetch-politicians",
+    "extract-parties": "cd commands && bun install && bun run extract-parties"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

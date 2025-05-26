@@ -1,0 +1,18 @@
+{
+  "description": "Swedish political parties mapping from initials to full names",
+  "extractedAt": "2025-05-26T16:38:41.339Z",
+  "totalParties": 10,
+  "source": "Extracted from politicians.json",
+  "parties": {
+    "C": "Centerpartiet",
+    "FP": "Folkpartiet liberalerna",
+    "L": "Liberalerna",
+    "M": "Moderaterna",
+    "S": "Socialdemokraterna",
+    "KD": "Kristdemokraterna",
+    "-": "Partilös",
+    "SD": "Sverigedemokraterna",
+    "MP": "Miljöpartiet de gröna",
+    "V": "Vänsterpartiet"
+  }
+}

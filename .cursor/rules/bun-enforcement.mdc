@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Bun Package Manager Enforcement
+
+## Package Manager Standards
+
+This project uses **Bun** as the primary package manager and runtime. Always use Bun commands instead of npm equivalents.
+
+### Required Command Mappings
+
+- ❌ `npm install` → ✅ `bun install`
+- ❌ `npm run <script>` → ✅ `bun run <script>` or `bun <script>`
+- ❌ `npx <command>` → ✅ `bunx <command>`
+- ❌ `npm start` → ✅ `bun run start`
+- ❌ `npm test` → ✅ `bun run test`
+- ❌ `npm build` → ✅ `bun run build`
+
+### Package.json Scripts
+
+When creating or modifying [package.json](mdc:package.json) scripts, ensure they use Bun commands:
+
+```json
+{
+  "scripts": {
+    "dev": "bun run next dev",
+    "build": "bun run next build",
+    "start": "bun run next start",
+    "fetch-politicians": "cd commands && bun install && bun run fetch-politicians"
+  }
+}
+```
+
+### Command Line Usage
+
+- For running TypeScript files directly: `bunx tsx file.ts`
+- For installing dependencies: `bun install`
+- For adding new packages: `bun add <package>`
+- For development dependencies: `bun add -d <package>`
+
+### Performance Benefits
+
+Bun provides:
+- Faster package installation
+- Better TypeScript support out of the box
+- Improved runtime performance
+- Native bundling capabilities
+
+### Migration Notes
+
+When updating existing scripts or documentation:
+1. Replace all `npm` references with `bun`
+2. Replace all `npx` references with `bunx`
+3. Update README files and documentation
+4. Verify all scripts work with Bun runtime
