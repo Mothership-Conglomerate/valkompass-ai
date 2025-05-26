@@ -14,7 +14,9 @@
     "concurrency-test": "cd commands && bun install && bun run concurrency-test",
     "fetch-votes": "cd commands && bun install && bun run fetch-votes",
     "test-fetch-voteringar": "cd commands && bun install && bun run test-fetch-voteringar",
-    "fetch-voteringar": "cd commands && bun install && bun run fetch-voteringar"
+    "fetch-voteringar": "cd commands && bun install && bun run fetch-voteringar",
+    "enrich-voteringar": "cd commands && bun install && bun run enrich-voteringar",
+    "test-enrich-voteringar": "cd commands && bun install && bun run test-enrich-voteringar"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

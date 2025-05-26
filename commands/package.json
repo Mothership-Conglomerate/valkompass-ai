@@ -9,7 +9,9 @@
     "fetch-votes": "bunx tsx fetch-votes.ts",
     "test-fetch-votes": "bunx tsx fetch-votes-test.ts",
     "fetch-voteringar": "bunx tsx fetch-voteringar.ts",
-    "test-fetch-voteringar": "bunx tsx fetch-voteringar-test.ts"
+    "test-fetch-voteringar": "bunx tsx fetch-voteringar-test.ts",
+    "enrich-voteringar": "bunx tsx enrich-voteringar.ts",
+    "test-enrich-voteringar": "bunx tsx enrich-voteringar-test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
