@@ -3,44 +3,43 @@
 import fs from 'fs';
 import path from 'path';
 
-interface Vote {
-  votering_id: string;
-  datum: string;
-  beteckning: string;
-  punkt: string;
-  rost: string;
-  avser: string;
-  intressent_id: string;
-  namn: string;
-  parti: string;
-  valkrets: string;
-  banknummer: string;
+interface Politician {
+  name: string;
+  id: string;
 }
 
-interface VoteData {
+interface PoliticianVote {
+  votering_id: string;
+  vote: 'Ja' | 'Nej' | 'Frånvarande' | 'Avstår';
+}
+
+interface PoliticianVoteData {
   politician: string;
+  politicianId: string;
+  parliamentarySession: string;
   year: number;
   totalVotes: number;
-  votes: Vote[];
+  votes: PoliticianVote[];
   extractedAt: string;
+  source: string;
 }
 
-async function fetchVotesForPolitician(politicianId: string, politicianName: string, year: number): Promise<Vote[]> {
+async function fetchVotesForPoliticianAndSession(politician: Politician, session: string): Promise<PoliticianVote[]> {
   const baseUrl = 'https://data.riksdagen.se/voteringlista/';
   
-  // Parameters for the API call
+  // Parameters for the API call - fetch votes for specific politician and parliamentary session
   const params = new URLSearchParams({
-    iid: politicianId,
-    from: `${year}-01-01`,
-    tom: `${year}-12-31`,
+    iid: politician.id,
+    rm: session,
     sz: '10000', // Maximum votes per call
-    utformat: 'json'
+    utformat: 'json',
+    gruppering: 'votering_id'
   });
   
   const url = `${baseUrl}?${params.toString()}`;
+  console.log(`    API URL: ${url}`);
   
   try {
-    console.log(`  Fetching votes for ${politicianName} (${year})...`);
     const response = await fetch(url);
     
     if (!response.ok) {
@@ -51,7 +50,6 @@ async function fetchVotesForPolitician(politicianId: string, politicianName: str
     
     // Handle empty responses
     if (!data || data.trim() === '') {
-      console.log(`    No data returned for ${politicianName} (${year})`);
       return [];
     }
     
@@ -59,84 +57,99 @@ async function fetchVotesForPolitician(politicianId: string, politicianName: str
     try {
       jsonData = JSON.parse(data);
     } catch (parseError) {
-      console.log(`    Invalid JSON response for ${politicianName} (${year})`);
       return [];
     }
     
     // Extract votes from the response
-    const votes: Vote[] = [];
+    const votes: PoliticianVote[] = [];
     
     if (jsonData.voteringlista && jsonData.voteringlista.votering) {
       const voterings = Array.isArray(jsonData.voteringlista.votering) 
         ? jsonData.voteringlista.votering 
         : [jsonData.voteringlista.votering];
       
+      console.log(`    Found ${voterings.length} voting sessions`);
+      
       for (const votering of voterings) {
         if (votering.votering_id) {
-          const vote: Vote = {
+          // Determine the vote based on which field has "1"
+          let vote: 'Ja' | 'Nej' | 'Frånvarande' | 'Avstår';
+          
+          if (votering.Ja === '1') {
+            vote = 'Ja';
+          } else if (votering.Nej === '1') {
+            vote = 'Nej';
+          } else if (votering.Frånvarande === '1') {
+            vote = 'Frånvarande';
+          } else if (votering.Avstår === '1') {
+            vote = 'Avstår';
+          } else {
+            // Skip if no clear vote found
+            continue;
+          }
+          
+          votes.push({
             votering_id: votering.votering_id,
-            datum: votering.systemdatum || '',
-            beteckning: votering.beteckning || '',
-            punkt: votering.punkt || '',
-            rost: votering.rost || '',
-            avser: votering.avser || '',
-            intressent_id: votering.intressent_id || '',
-            namn: votering.namn || politicianName,
-            parti: votering.parti || '',
-            valkrets: votering.valkrets || '',
-            banknummer: votering.banknummer || ''
-          };
-          votes.push(vote);
+            vote: vote
+          });
         }
       }
     }
     
-    console.log(`    Found ${votes.length} votes for ${politicianName} (${year})`);
     return votes;
     
   } catch (error) {
-    console.error(`    Error fetching votes for ${politicianName} (${year}):`, error);
+    console.error(`    Error fetching votes for ${politician.name} in session ${session}:`, error);
     return [];
   }
 }
 
 async function testFetchVotes() {
   try {
-    console.log('Reading politicians.json...');
+    console.log('🗳️  Starting test vote extraction with new API approach...');
+    console.log('📋 This will test the gruppering=votering_id approach');
+    
+    // Load politicians
+    console.log('\nReading politicians.json...');
     const politiciansData = JSON.parse(fs.readFileSync('../knowledge-base/documents/voting/politicians.json', 'utf8'));
+    console.log(`Found ${politiciansData.politicians.length} politicians`);
+    
+    // Test with first 3 politicians
+    const testPoliticians = politiciansData.politicians.slice(0, 3);
+    console.log(`Testing with ${testPoliticians.length} politicians:`);
+    testPoliticians.forEach((p: Politician, i: number) => {
+      console.log(`  ${i + 1}. ${p.name} (ID: ${p.id})`);
+    });
+    
+    // Test with 2023/24 session
+    const testSession = '2023/24';
+    const testYear = 2023;
+    console.log(`\nTesting with parliamentary session: ${testSession} (${testYear})`);
     
     // Create output directory
-    const outputDir = '../knowledge-base/documents/voting/test-votes';
+    const outputDir = '../knowledge-base/documents/voting/test-votes-new-api';
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
     
-    // Test with just 2023 and first 3 politicians
-    const testYear = 2023;
-    const testPoliticians = politiciansData.politicians.slice(0, 3);
-    
-    console.log(`\nTesting with ${testPoliticians.length} politicians for year ${testYear}`);
-    
-    let totalFiles = 0;
+    let totalVotes = 0;
     
     // Process each test politician
     for (const politician of testPoliticians) {
       console.log(`\nProcessing: ${politician.name} (ID: ${politician.id})`);
       
-      if (!politician.id || !politician.name) {
-        console.log(`  Skipping invalid politician entry: ${politician}`);
-        continue;
-      }
-      
-      const votes = await fetchVotesForPolitician(politician.id, politician.name, testYear);
+      const votes = await fetchVotesForPoliticianAndSession(politician, testSession);
       
       // Create the vote data object
-      const voteData: VoteData = {
+      const voteData: PoliticianVoteData = {
         politician: politician.name,
+        politicianId: politician.id,
+        parliamentarySession: testSession,
         year: testYear,
         totalVotes: votes.length,
-        votes: votes,
-        extractedAt: new Date().toISOString()
+        votes: votes.sort((a, b) => a.votering_id.localeCompare(b.votering_id)),
+        extractedAt: new Date().toISOString(),
+        source: `Swedish Riksdag API - Test votes for ${politician.name} in ${testSession}`
       };
       
       // Create filename: politician-name-year.json
@@ -148,30 +161,79 @@ async function testFetchVotes() {
         .replace(/-+/g, '-')
         .replace(/^-|-$/g, '');
       
-      const fileName = `${safeFileName}-${testYear}.json`;
+      const fileName = `${safeFileName}-${testYear}-test.json`;
       const filePath = path.join(outputDir, fileName);
       
       // Save the file
       fs.writeFileSync(filePath, JSON.stringify(voteData, null, 2));
-      totalFiles++;
+      totalVotes += votes.length;
       
-      console.log(`  Saved ${votes.length} votes to ${fileName}`);
+      console.log(`  💾 Saved ${votes.length} votes to ${fileName}`);
       
-      // Add a small delay to avoid overwhelming the server
-      await new Promise(resolve => setTimeout(resolve, 500));
+      // Show vote breakdown
+      if (votes.length > 0) {
+        const voteBreakdown = votes.reduce((acc, vote) => {
+          acc[vote.vote] = (acc[vote.vote] || 0) + 1;
+          return acc;
+        }, {} as Record<string, number>);
+        
+        console.log(`  📊 Vote breakdown:`, voteBreakdown);
+      }
+      
+      // Small delay between politicians
+      await new Promise(resolve => setTimeout(resolve, 200));
     }
     
-    console.log(`\n✅ Test completed! Created ${totalFiles} test files in ${outputDir}`);
+    console.log(`\n🎉 Test completed! Found ${totalVotes} total votes across ${testPoliticians.length} politicians`);
+    
+    // Show some sample votes if any were found
+    if (totalVotes > 0) {
+      console.log('\n📋 Sample vote structure:');
+      const firstFile = fs.readdirSync(outputDir).find(f => f.endsWith('-test.json'));
+      if (firstFile) {
+        const sampleData = JSON.parse(fs.readFileSync(path.join(outputDir, firstFile), 'utf8'));
+        if (sampleData.votes.length > 0) {
+          const sampleVote = sampleData.votes[0];
+          console.log(`  Politician: ${sampleData.politician}`);
+          console.log(`  Votering ID: ${sampleVote.votering_id}`);
+          console.log(`  Vote: ${sampleVote.vote}`);
+          console.log(`  Parliamentary Session: ${sampleData.parliamentarySession}`);
+          console.log(`  Year: ${sampleData.year}`);
+        }
+      }
+    }
+    
+    // Test with Magdalena Andersson specifically (from your example)
+    console.log('\n🔍 Testing with Magdalena Andersson (from your example)...');
+    const magdalenaId = '098412828516';
+    const magdalena = politiciansData.politicians.find((p: Politician) => p.id === magdalenaId);
+    
+    if (magdalena) {
+      console.log(`Found Magdalena Andersson: ${magdalena.name} (ID: ${magdalena.id})`);
+      const magdalenaVotes = await fetchVotesForPoliticianAndSession(magdalena, testSession);
+      console.log(`Magdalena Andersson has ${magdalenaVotes.length} votes in ${testSession}`);
+      
+      if (magdalenaVotes.length > 0) {
+        const magdalenaBreakdown = magdalenaVotes.reduce((acc, vote) => {
+          acc[vote.vote] = (acc[vote.vote] || 0) + 1;
+          return acc;
+        }, {} as Record<string, number>);
+        console.log(`Magdalena's vote breakdown:`, magdalenaBreakdown);
+      }
+    } else {
+      console.log(`❌ Could not find politician with ID ${magdalenaId}`);
+    }
     
   } catch (error) {
-    console.error('Error in testFetchVotes:', error);
+    console.error('❌ Error in testFetchVotes:', error);
     process.exit(1);
   }
 }
 
 // Run the script
 if (import.meta.url === `file://${process.argv[1]}`) {
-  console.log('🗳️  Starting vote extraction test...');
+  console.log('🗳️  Starting test vote extraction with new API approach...');
+  console.log('📋 This will test the gruppering=votering_id approach');
   
   testFetchVotes().catch(error => {
     console.error('Test failed:', error);

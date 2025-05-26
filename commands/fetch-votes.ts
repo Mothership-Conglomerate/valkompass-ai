@@ -8,44 +8,58 @@ interface Politician {
   id: string;
 }
 
-interface Vote {
-  votering_id: string;
-  datum: string;
-  beteckning: string;
-  punkt: string;
-  rost: string;
-  avser: string;
-  intressent_id: string;
-  namn: string;
-  parti: string;
-  valkrets: string;
-  banknummer: string;
+interface VoteringarData {
+  year: number;
+  totalVoteringar: number;
+  voteringar: any[];
+  extractedAt: string;
+  source: string;
 }
 
-interface VoteData {
+interface PoliticianVote {
+  votering_id: string;
+  vote: 'Ja' | 'Nej' | 'Frånvarande' | 'Avstår';
+}
+
+interface PoliticianVoteData {
   politician: string;
+  politicianId: string;
+  parliamentarySession: string;
   year: number;
   totalVotes: number;
-  votes: Vote[];
+  votes: PoliticianVote[];
   extractedAt: string;
+  source: string;
 }
 
-async function fetchVotesForPolitician(politicianId: string, politicianName: string, year: number): Promise<Vote[]> {
+// Map parliamentary sessions to years
+const sessionToYear: Record<string, number> = {
+  '2016/17': 2016,
+  '2017/18': 2017,
+  '2018/19': 2018,
+  '2019/20': 2019,
+  '2020/21': 2020,
+  '2021/22': 2021,
+  '2022/23': 2022,
+  '2023/24': 2023,
+  '2024/25': 2024
+};
+
+async function fetchVotesForPoliticianAndSession(politician: Politician, session: string): Promise<PoliticianVote[]> {
   const baseUrl = 'https://data.riksdagen.se/voteringlista/';
   
-  // Parameters for the API call
+  // Parameters for the API call - fetch votes for specific politician and parliamentary session
   const params = new URLSearchParams({
-    iid: politicianId,
-    from: `${year}-01-01`,
-    tom: `${year}-12-31`,
+    iid: politician.id,
+    rm: session,
     sz: '10000', // Maximum votes per call
-    utformat: 'json'
+    utformat: 'json',
+    gruppering: 'votering_id'
   });
   
   const url = `${baseUrl}?${params.toString()}`;
   
   try {
-    console.log(`  Fetching votes for ${politicianName} (${year})...`);
     const response = await fetch(url);
     
     if (!response.ok) {
@@ -56,7 +70,6 @@ async function fetchVotesForPolitician(politicianId: string, politicianName: str
     
     // Handle empty responses
     if (!data || data.trim() === '') {
-      console.log(`    No data returned for ${politicianName} (${year})`);
       return [];
     }
     
@@ -64,12 +77,11 @@ async function fetchVotesForPolitician(politicianId: string, politicianName: str
     try {
       jsonData = JSON.parse(data);
     } catch (parseError) {
-      console.log(`    Invalid JSON response for ${politicianName} (${year})`);
       return [];
     }
     
     // Extract votes from the response
-    const votes: Vote[] = [];
+    const votes: PoliticianVote[] = [];
     
     if (jsonData.voteringlista && jsonData.voteringlista.votering) {
       const voterings = Array.isArray(jsonData.voteringlista.votering) 
@@ -78,39 +90,59 @@ async function fetchVotesForPolitician(politicianId: string, politicianName: str
       
       for (const votering of voterings) {
         if (votering.votering_id) {
-          const vote: Vote = {
+          // Determine the vote based on which field has "1"
+          let vote: 'Ja' | 'Nej' | 'Frånvarande' | 'Avstår';
+          
+          if (votering.Ja === '1') {
+            vote = 'Ja';
+          } else if (votering.Nej === '1') {
+            vote = 'Nej';
+          } else if (votering.Frånvarande === '1') {
+            vote = 'Frånvarande';
+          } else if (votering.Avstår === '1') {
+            vote = 'Avstår';
+          } else {
+            // Skip if no clear vote found
+            continue;
+          }
+          
+          votes.push({
             votering_id: votering.votering_id,
-            datum: votering.systemdatum || '',
-            beteckning: votering.beteckning || '',
-            punkt: votering.punkt || '',
-            rost: votering.rost || '',
-            avser: votering.avser || '',
-            intressent_id: votering.intressent_id || '',
-            namn: votering.namn || politicianName,
-            parti: votering.parti || '',
-            valkrets: votering.valkrets || '',
-            banknummer: votering.banknummer || ''
-          };
-          votes.push(vote);
+            vote: vote
+          });
         }
       }
     }
     
-    console.log(`    Found ${votes.length} votes for ${politicianName} (${year})`);
     return votes;
     
   } catch (error) {
-    console.error(`    Error fetching votes for ${politicianName} (${year}):`, error);
+    console.error(`    Error fetching votes for ${politician.name} in session ${session}:`, error);
     return [];
   }
 }
 
-// No longer needed - we'll use the politician data directly from the JSON file
+function getParliamentarySessions(): string[] {
+  return [
+    '2016/17', '2017/18', '2018/19', '2019/20', // 2016-2020 election period
+    '2020/21', '2021/22', '2022/23', '2023/24', // 2020-2024 election period
+    '2024/25' // Current session
+  ];
+}
 
 async function fetchAllVotes() {
   try {
-    console.log('Reading politicians.json...');
+    console.log('🗳️  Starting comprehensive vote extraction...');
+    console.log('📋 This will fetch individual votes for each politician for each parliamentary session');
+    
+    // Load politicians
+    console.log('\nReading politicians.json...');
     const politiciansData = JSON.parse(fs.readFileSync('../knowledge-base/documents/voting/politicians.json', 'utf8'));
+    console.log(`Found ${politiciansData.politicians.length} politicians`);
+    
+    // Get parliamentary sessions
+    const sessions = getParliamentarySessions();
+    console.log(`Processing ${sessions.length} parliamentary sessions: ${sessions.join(', ')}`);
     
     // Create output directory
     const outputDir = '../knowledge-base/documents/voting/by-politician-year';
@@ -118,17 +150,11 @@ async function fetchAllVotes() {
       fs.mkdirSync(outputDir, { recursive: true });
     }
     
-    // Years to fetch (from 2016 onwards as requested)
-    const years = [];
-    const currentYear = new Date().getFullYear();
-    for (let year = 2016; year <= currentYear; year++) {
-      years.push(year);
-    }
-    
-    console.log(`\nFetching votes for ${politiciansData.politicians.length} politicians across ${years.length} years (${years[0]}-${years[years.length - 1]})`);
+    console.log(`\n🚀 Processing ${politiciansData.politicians.length} politicians across ${sessions.length} sessions`);
     
     let totalFiles = 0;
     let processedPoliticians = 0;
+    let totalVotesExtracted = 0;
     
     // Process each politician
     for (const politician of politiciansData.politicians) {
@@ -136,21 +162,28 @@ async function fetchAllVotes() {
       console.log(`\n[${processedPoliticians}/${politiciansData.politicians.length}] Processing: ${politician.name} (ID: ${politician.id})`);
       
       if (!politician.id || !politician.name) {
-        console.log(`  Skipping invalid politician entry: ${politician}`);
+        console.log(`  ❌ Skipping invalid politician entry`);
         continue;
       }
       
-      // Process each year for this politician
-      for (const year of years) {
-        const votes = await fetchVotesForPolitician(politician.id, politician.name, year);
+      // Process each parliamentary session for this politician
+      for (const session of sessions) {
+        const year = sessionToYear[session];
+        
+        console.log(`  Processing session ${session} (${year})...`);
+        
+        const votes = await fetchVotesForPoliticianAndSession(politician, session);
         
         // Create the vote data object
-        const voteData: VoteData = {
+        const voteData: PoliticianVoteData = {
           politician: politician.name,
+          politicianId: politician.id,
+          parliamentarySession: session,
           year: year,
           totalVotes: votes.length,
-          votes: votes,
-          extractedAt: new Date().toISOString()
+          votes: votes.sort((a, b) => a.votering_id.localeCompare(b.votering_id)),
+          extractedAt: new Date().toISOString(),
+          source: `Swedish Riksdag API - Individual votes for ${politician.name} in ${session}`
         };
         
         // Create filename: politician-name-year.json
@@ -168,38 +201,43 @@ async function fetchAllVotes() {
         // Save the file
         fs.writeFileSync(filePath, JSON.stringify(voteData, null, 2));
         totalFiles++;
+        totalVotesExtracted += votes.length;
         
-        // Add a small delay to avoid overwhelming the server
+        console.log(`    ✅ Saved ${votes.length} votes to ${fileName}`);
+        
+        // Small delay to avoid overwhelming the server
         await new Promise(resolve => setTimeout(resolve, 100));
       }
     }
     
-    console.log(`\n✅ Completed! Created ${totalFiles} vote files in ${outputDir}`);
+    console.log(`\n🎉 Completed! Created ${totalFiles} vote files with ${totalVotesExtracted} total votes`);
     
     // Create a summary file
     const summary = {
-      description: 'Summary of voting data extraction',
+      description: 'Summary of comprehensive voting data extraction',
       extractedAt: new Date().toISOString(),
       totalPoliticians: politiciansData.politicians.length,
-      yearsProcessed: years,
+      sessionsProcessed: sessions,
       totalFilesCreated: totalFiles,
-      outputDirectory: outputDir
+      totalVotesExtracted: totalVotesExtracted,
+      outputDirectory: outputDir,
+      fileNamingPattern: 'politician-name-year.json',
+      methodology: 'Fetched individual votes using gruppering=votering_id with politician ID and parliamentary session'
     };
     
     fs.writeFileSync(path.join(outputDir, '_summary.json'), JSON.stringify(summary, null, 2));
     console.log(`📊 Summary saved to ${outputDir}/_summary.json`);
     
   } catch (error) {
-    console.error('Error in fetchAllVotes:', error);
+    console.error('❌ Error in fetchAllVotes:', error);
     process.exit(1);
   }
 }
 
 // Run the script
 if (import.meta.url === `file://${process.argv[1]}`) {
-  console.log('🗳️  Starting vote extraction process...');
-  console.log('⚠️  Note: This will create many files and may take a long time!');
-  console.log('⚠️  Note: Currently using placeholder IDs - needs real politician IDs from website');
+  console.log('🗳️  Starting comprehensive vote extraction process...');
+  console.log('📋 This will fetch individual votes for each politician for each parliamentary session');
   
   fetchAllVotes().catch(error => {
     console.error('Script failed:', error);
