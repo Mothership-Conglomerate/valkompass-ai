@@ -1,16 +1,16 @@
 import nltk
 from nltk.corpus import stopwords
-
 from bertopic import BERTopic
-from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import PCA
+import numpy as np
 
 from model import DocumentSegment, Topic  # Corrected import paths
 
 # Ensure NLTK data is available
 try:
     nltk.data.find("corpora/stopwords")
-except nltk.downloader.DownloadError:
+except LookupError:  # Catch LookupError if resource not found
     nltk.download("stopwords", quiet=True)
 
 # Prepare combined stopword list for English & Swedish
@@ -23,46 +23,45 @@ COMBINED_STOPWORDS = list(
 
 def extract_topics(
     segments: list[DocumentSegment],
-    nr_topics: int | None = None,  # Use int | None for type hint
-    min_topic_size: int = 10,  # Default from BERTopic
-    top_n_words: int = 10,  # Default from BERTopic
-) -> tuple[
-    BERTopic, list[int], list[list[float]] | None
-]:  # Probs can be None if not calculated
-    """
-    Extracts topics from a list of document segments using BERTopic.
-
-    - Uses a multilingual SentenceTransformer encoder.
-    - Configures BERTopic with combined English and Swedish stopwords.
-    - Returns the fitted BERTopic model, a list of topic IDs per segment,
-      and a list of probability vectors for each segment's topic assignment.
-    """
+    nr_topics: int | None = None,
+    min_topic_size: int = 10,
+    top_n_words: int = 10,
+) -> tuple[BERTopic, list[int], np.ndarray]:
     texts = [seg.text for seg in segments if seg.text and seg.text.strip()]
     if not texts:
-        raise ValueError("No text segments to analyze")
+        raise ValueError(
+            "No text segments to analyze. Topic modeling requires textual input."
+        )
 
-    # Multilingual embeddings (Swedish + English)
-    # Using the specific model from the example
-    embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-
-    # Bag-of-words layer with both Swedish & English stopwords
+    # Fastest vectorizer settings
     vectorizer = CountVectorizer(
         stop_words=COMBINED_STOPWORDS,
         ngram_range=(1, 2),
-        max_df=0.9,
-        min_df=5,  # As in the example, consider making this configurable
+        max_features=5000,
     )
 
+    embeddings = np.array(
+        [seg.embedding for seg in segments if seg.embedding is not None]
+    )
+
+    print("Fitting PCA...")
+    # Use PCA instead of UMAP for speed
+    pca = PCA(n_components=min(10, len(segments) // 2))
+    reduced_embeddings = pca.fit_transform(embeddings)
+
+    print("Fitting BERTopic...")
     topic_model = BERTopic(
         nr_topics=nr_topics,
-        embedding_model=embedding_model,
         vectorizer_model=vectorizer,
-        calculate_probabilities=True,  # Ensure probabilities are calculated
         min_topic_size=min_topic_size,
         top_n_words=top_n_words,
+        umap_model=None,  # disables UMAP, uses embeddings as-is
+        low_memory=True,  # reduces memory usage in clustering[7]
     )
 
-    topic_ids, probs = topic_model.fit_transform(texts)
+    # Fit using reduced embeddings
+    topic_ids, probs = topic_model.fit_transform(texts, reduced_embeddings)
+    print("Fitted BERTopic.")
     return topic_model, topic_ids, probs
 
 

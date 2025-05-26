@@ -12,9 +12,15 @@ dependencies = [
     "sentence-transformers>=4.1.0",
     "langdetect>=1.0.9",
     "scikit-learn>=1.0",
+    "tqdm>=4.67.1",
+    "langchain-text-splitters>=0.3.8",
+    "einops>=0.8.1",
+    "openai>=1.82.0",
+    "python-dotenv>=1.1.0",
 ]
 
 [dependency-groups]
 dev = [
     "pytest>=8.3.5",
+    "pytest-asyncio>=1.0.0",
 ]

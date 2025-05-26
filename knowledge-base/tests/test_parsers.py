@@ -16,13 +16,13 @@ def test_parse_pdf():
     assert document.path == pdf_path, "The document path should match the input path."
     assert isinstance(document.raw_content, str), "Raw content should be a string."
     assert len(document.raw_content) > 1000, "Raw content should not be empty."
-    assert isinstance(document.lines, list), (
+    assert isinstance(document.segments, list), (
         "Document lines (segments) should be a list."
     )
-    assert len(document.lines) > 0, (
+    assert len(document.segments) > 0, (
         "Document lines (segments) should not be empty for this PDF."
     )
-    for segment in document.lines:
+    for segment in document.segments:
         assert isinstance(segment, DocumentSegment), (
             "Each item in document.lines should be a DocumentSegment."
         )

@@ -24,6 +24,7 @@ def parse_document(path: str) -> Document:
             with open(path, "r", encoding="utf-8") as file:
                 raw_content = file.read()
             # For non-PDFs, use the general segment_document function
+            # TODO: Maybe skip this??
             segments = segment_document(raw_content)
         except FileNotFoundError:
             raise NoSuchDocumentError(f"Document {path} not found")
@@ -33,4 +34,4 @@ def parse_document(path: str) -> Document:
             # raw_content will be its default "", segments its default []
             pass  # Allow returning an empty document below
 
-    return Document(path=path, raw_content=raw_content, lines=segments)
+    return Document(path=path, raw_content=raw_content, segments=segments)

@@ -1,5 +1,12 @@
 import re
 from model import DocumentSegment
+import nltk
+
+# Ensure NLTK data is available
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:  # Catch LookupError if resource not found
+    nltk.download("punkt", quiet=True)
 
 
 def segment_document(raw_content: str) -> list[DocumentSegment]:
