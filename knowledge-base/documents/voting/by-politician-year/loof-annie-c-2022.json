@@ -1,0 +1,247 @@
+{
+  "politician": "Lööf, Annie (C)",
+  "politicianId": "0862868280923",
+  "parliamentarySession": "2022/23",
+  "year": 2022,
+  "totalVotes": 59,
+  "votes": [
+    {
+      "votering_id": "0862564A-E7C4-47AB-A43E-D2F42B3D54B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0B771E7B-D719-40A3-9771-C7087A7AC20D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "0E7BC721-232A-495A-B305-FC99575F83ED",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "105A8CB7-913F-43DA-9369-3122FBF35EA3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1459843C-F3F9-43D5-933C-759BE764543B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "19BEF2C6-3BB4-4647-8CE7-CAC426A8D6E4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1CD4E98E-1706-4852-BD77-D5A46964CA8F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1DF964EE-B639-4462-9B35-C6D98A33CE6A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "24318FC2-7698-416E-9A32-F7944FB258A4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "26EF1EF8-B01A-45FC-8E63-83556D2F5F83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2840874F-9F27-4704-BB3E-26557FF4D72A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "28FE868E-316E-496C-8F61-3CB1A268B17C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2A7EE5A3-5F29-4293-9C6C-A401F161C620",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2AC86BD5-5360-4BC1-8A99-FF4175003DFB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2AE81505-40F1-40A7-8453-C389EDFF711B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2BB5FE3D-D1EF-40FF-91AD-5405C8DF9B8A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "315C5C6B-6299-4315-91D4-96E15C0D6622",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "329F9E66-61B8-4B25-80CA-636F2BEB645F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "32BC97E5-BB9F-453D-883E-401442004685",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "376923A0-8D12-4D74-981A-F3BF5B0200E7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "39F9EA47-139B-4E50-A593-56ADB88E697A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46703E6B-E7B5-47A9-82B8-FAA20C743D82",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46A967F6-0704-4E98-AB11-96B60D9205CB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "57982A47-5CB3-48B5-862A-D69AEC6ED041",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "58ED1351-78C2-4CDE-821D-2A6644B9AB72",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5B129C13-4514-4E60-A0AA-E8EF296C684B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5D6440F9-9A24-4A4B-A882-6CA5871DAC27",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63211B28-1AE6-4C12-AAB6-DE085BF429F1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "67FF9D06-8346-4014-AD13-08E8280064DA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "70EE89C9-B5D3-498B-BD07-465227737E83",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "78FF6849-4C95-4A26-906B-47E61C02E47A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "834DB60C-A822-420E-9C03-9E2F8F51B21E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "888A03FE-E755-40C5-AD84-7A610BDCF1B8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8C441BF5-1E39-40A2-AE0A-F8E4CB565DBC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8D1F96AB-81FF-4783-BA15-FE3F866523F3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "929F8FAB-4918-4952-A0FD-996109D29816",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "93C00594-78D0-4254-BEE6-82D8C273A625",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "94FAEBFB-D90B-45C0-B952-96C2CE247CA1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "99C6E88B-AE0B-4B0D-AC05-CED13E90755E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9B322D1A-F43D-4F75-A7C0-397819B0FBE8",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A1CDD3DC-B97C-4E2A-BCBB-6AAC1C74A839",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A2E569C3-0FFD-4A50-981E-784BE9ECE277",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A5E32EAE-C89F-4C6F-8D6F-163CE3CA9848",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A7C8FBA6-42E7-4CAD-9F3F-13F9EBB0194B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B6542C29-E1B2-490A-81F9-1BF018EDCFFD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C7E795A0-9F65-49C8-A574-6CBEBF90DD0E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D169445A-8324-4E42-814D-D4E3427858A5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D1B31538-2D78-4C37-A1C8-9BFD47FD336E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D61FF1CC-405E-4939-A367-A192D75C5A52",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DC5797D0-04F0-4006-8045-A50B78B7DC98",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DF8FAF60-0FAB-4B3F-9B78-0FEF191BC013",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DFBF68C8-7E11-4790-83E4-751BAEB4DE03",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E187E14A-EAEB-42CD-A8A1-606BFAD5D0E0",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E3F60E14-6F5D-4E81-8059-D8F1A9E662BE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E63F9B00-E32A-4E24-A777-ED2C36EF88F4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F21EDAC3-C441-49B5-9CAA-321F3EA6368B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F6E57D52-0CB2-4F33-AAB8-2B74B8B359BE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F8E30CBE-D34E-43A0-82E0-4823ACD8ED67",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "FD565FF5-02C3-4D15-8E6F-F2FBA88E5DE3",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:22:15.431Z",
+  "source": "Swedish Riksdag API - Individual votes for Lööf, Annie (C) in 2022/23"
+}

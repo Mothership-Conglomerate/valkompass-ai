@@ -1,0 +1,215 @@
+{
+  "politician": "Nådin, Erica (S)",
+  "politicianId": "0511863596121",
+  "parliamentarySession": "2019/20",
+  "year": 2019,
+  "totalVotes": 51,
+  "votes": [
+    {
+      "votering_id": "0027A0A4-925A-4E95-9ECC-0D6EDFC4A5DD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "009C13CE-8EDF-4DDC-8D06-FD3719C5FFAA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "05DB6230-A57C-4017-89A3-8869856DD5B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0F5FCB8A-1A8B-4BB1-9B93-2CE754B471CC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1262AF80-3892-4AE8-9AF3-1DDE022E9692",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "155F2383-C28A-4F64-B704-DF37934ED80C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "199F23DF-5758-4155-AD27-3C711E9617AD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "19B69E8A-7AC8-4C33-B123-C3BFE967E047",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1B1B003A-75D1-4484-A43E-207C6A63E394",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1DF84EDD-7C4E-4174-A68B-092A3A526272",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "24859505-7CA2-4F14-AB44-1B380100A440",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34C857AC-D054-4A04-8C88-053751262692",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3DE3F789-60E6-47A6-8819-43C51697D688",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3F857D39-1A47-4DED-85EE-55EB1E2B0A1F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "40A334B7-E7E1-4A68-8FD1-ECEA7814F790",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "43C5033D-1A38-438D-B32D-5E8808BD573B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "44CF8A28-A6B4-4342-ACFE-AC4C431D3B67",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46081478-0A4C-42A9-8996-9F35BD28C760",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46C5B35E-0163-44DB-B275-2DCC8FC1A2BD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4D57CEE4-CD30-4C02-8113-B59B51B8EAF3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "575E032E-347F-4FE6-A51E-E55FF24A16EF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5AB0CDBF-159E-404A-9829-6EC439694119",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5C33DA11-44F6-41AF-865B-DBD041D732B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "61251BDB-E53E-48E6-8269-14FBCED03846",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "61E6FBF3-4837-436F-A4A9-18EABBC266E3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "698DC057-5FA3-454C-AB5B-9C6B7D68188F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6CFDA9DC-24A9-4194-8820-858AD870CB88",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "767C4662-0E8B-4BE6-A81D-9C5DA53DD56E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7B7FC5EA-B8C7-4B57-AF80-0F710D5FFF79",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "84A99DF5-E587-4182-A0E6-BD89E5144DDD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8DE8F704-2FBE-43B1-ACF7-8B71BF5E5C55",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9975256F-12B5-45AB-A0EE-06B02B7B0D6C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9DA25380-D40E-4DBB-8A18-4AEA5AB3DBAE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9DD8DED5-5DD8-4658-9A88-8F5D58CC9C74",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9F530A4D-CF74-421F-8EF1-B3487426FC4D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B06B117C-5E75-4297-9B7E-3B0E81801230",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B1FFED43-30EC-41A1-A17A-23735FA39F4A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B7197DFB-E72F-4787-AFD9-5D9125A164D1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C20815FC-DE9A-4F2B-9098-62A22AD51655",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C2A81735-5B36-467A-9973-FBD8BBA1988C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C35353D0-43D5-477A-97A2-6FA5550F9C26",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CAB5C84D-711B-4FBF-A9D8-8FA0CC80235C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D40CF5B8-8928-482D-851A-6D2E0C73AC2F",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D4215754-CD2F-4D08-9B1E-D2D475A88227",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DA91C8F3-5B94-4C64-8033-134E5EEEA644",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DA993F76-7435-4337-A5DA-9E0AE3C7407C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E6C7BB7A-E359-42BC-8CB5-2B3B011E92FB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F05E8000-8584-4AB8-8E5C-4D9607E49265",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F95AB17E-2C81-4A18-97F6-E793A5C789DE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FAC1CCDB-4A7D-4F7F-9148-B2415A36594B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FCEEDE24-BBD6-4FFC-B99B-C86FD5AB3262",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:23:00.799Z",
+  "source": "Swedish Riksdag API - Individual votes for Nådin, Erica (S) in 2019/20"
+}

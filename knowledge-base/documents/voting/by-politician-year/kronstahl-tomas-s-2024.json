@@ -1,0 +1,59 @@
+{
+  "politician": "Kronståhl, Tomas (S)",
+  "politicianId": "0457722435319",
+  "parliamentarySession": "2024/25",
+  "year": 2024,
+  "totalVotes": 12,
+  "votes": [
+    {
+      "votering_id": "03F1A619-39B6-410B-B5B6-D9AAC2620ED8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "06AC5687-0F93-4C5B-8A94-0E087FD0698F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "12B831E0-3801-4654-A546-DB8C27938EF2",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "16E03B09-1307-422D-9A5C-429A80AFA9BF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1F760ED5-B83F-47ED-87CF-FDE2932FF039",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "20494A28-0905-49EC-8500-B204A3D505DE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "25C23DDB-EB51-4E6F-BD48-324ECE81DD1C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3C119F1D-A114-4560-A5CD-89F9845F1422",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "43871F08-12C3-4CA0-89F3-F59E73D6AFEC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "72A9210F-2570-4EC2-BE4A-4B28700FBF26",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C1167FDE-7ED5-47BA-8324-48AF3D567952",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "EE45EFD9-EBE7-40C3-BC2E-08019A34AE68",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:21:22.768Z",
+  "source": "Swedish Riksdag API - Individual votes for Kronståhl, Tomas (S) in 2024/25"
+}

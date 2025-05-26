@@ -1,0 +1,19 @@
+{
+  "politician": "Köhler, Katarina (s)",
+  "politicianId": "0251617324715",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 2,
+  "votes": [
+    {
+      "votering_id": "830003F8-A7C9-4F44-A411-6B78F46EC9A9",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BC2C0DC4-CA02-430F-9F7A-0E3A7102F1E7",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:21:17.466Z",
+  "source": "Swedish Riksdag API - Individual votes for Köhler, Katarina (s) in 2017/18"
+}

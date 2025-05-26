@@ -1,0 +1,27 @@
+{
+  "politician": "Svensk Larm, Jim (S)",
+  "politicianId": "0822010116020",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 4,
+  "votes": [
+    {
+      "votering_id": "026043B0-B0EA-47FA-BEB2-B9AA74D9AFF5",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "10365429-CA33-4428-BCAF-604AC9E5C72E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "71A6CFDC-5096-4E88-9EA2-90F27067AD36",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "84CE3F65-4701-4624-A16D-7221D97EB2B6",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:27:06.408Z",
+  "source": "Swedish Riksdag API - Individual votes for Svensk Larm, Jim (S) in 2023/24"
+}

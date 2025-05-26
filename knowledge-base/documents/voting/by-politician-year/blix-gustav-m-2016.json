@@ -1,0 +1,199 @@
+{
+  "politician": "Blix, Gustav (m)",
+  "politicianId": "0741005094627",
+  "parliamentarySession": "2016/17",
+  "year": 2016,
+  "totalVotes": 47,
+  "votes": [
+    {
+      "votering_id": "0200548D-7502-4559-A520-A9744979122E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "0BB528BA-853F-44C1-A1FB-589027595FCF",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1114DC3B-96A4-4DFB-9E40-75211DDBBC3D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "151D643F-F5FB-46A0-9060-12D89B77A735",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18B0FEF0-55D0-455A-B062-0096B256204C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1BC62FAE-B04F-4579-8214-9679258607ED",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1E5990BF-E8E1-41B7-8269-EF1F5D8C7C76",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2242161A-D5AF-4D17-852B-CCBE7DED627D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2244EE34-3017-4F1F-9FC6-689E5D156D7F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "28916804-75DF-45A9-ACBE-EAA1991D16A6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "29A4FCBC-24BA-439C-B33F-4E3CD0B1E9A4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "308AE3FB-3C41-4BF1-BF5D-C62C7E2DB259",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "346EFFD6-E59B-4514-96F8-EED6CEB0F6E7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "34A8B104-A290-490C-929D-0AECF7A06169",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "37020C1B-E740-44E1-8401-2526C2DA0DDB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "385D9813-1D67-46BD-B282-01756C891E25",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "426CBE84-1A2F-4E0D-9AC7-59C18F894ACE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "45C9B25B-B19F-403A-B85A-A745CC917ED4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5D9122CD-FFD0-4572-8CBD-5078B6BA9B14",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5EA9CE8B-1567-4087-BD12-50E9A450B803",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5F41A2DC-7906-47D4-B26A-7CB9FB3D1CBF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "66EF6D49-A762-4909-96C7-185583B8C8A4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7645A317-4402-4F09-ACBD-864B45B13492",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "7B36A546-4F6A-4B29-9EC0-7405D95B3EDD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7F13CF67-7FBF-4BF5-81EE-6ED41BB83996",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8748CFC6-4CE8-408E-B91A-EE1C85CEEF69",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9713CAC9-2F8F-475D-BDC6-6DC58D35E84D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "994D456D-9085-4FE9-967C-47E66A40D086",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9BA92A82-682C-40DC-A259-26016D39BE18",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A411C2FE-5225-437B-AAE0-18E8977E85C1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A7534ED9-1B36-45D4-B417-500E2A8C1C49",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A7F288AD-6472-4C28-9885-ED0951B41386",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AC07BE75-1CF3-4171-9B83-87E65A58AB69",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "AE4EEF54-EEE5-41F0-ABA9-9459B14A3600",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B0956796-F167-4046-B93B-C25082B4CCFD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B8EE36C6-3603-488E-AC32-4F713F63CB60",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "BCACE61D-D3C7-4FA8-B51E-77429F3190C9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BF8B3AD9-6475-4886-8F54-536CA81F8E8C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C3255BCC-9C20-4C07-9EAB-656212BB850C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C91CE0FF-D3AF-4BE6-BB2C-0171A877225E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D64CB1AE-C719-4D76-812A-46F4E5AF10E1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DBBB1C3C-0848-4D56-BAAE-83B21BA151CA",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "EA1EB2D7-FF95-4B78-AB03-E42C6936E3F4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EC0EDD3D-E9E4-4BC6-AD43-0BACA137A93D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "EE664484-C3D9-484F-AA1A-601A15F25A9D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F63DCFE6-819A-4ADD-9D5A-186C30E43526",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F9EF39A5-CE55-4995-BA64-D8A41123CEAC",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:15:29.096Z",
+  "source": "Swedish Riksdag API - Individual votes for Blix, Gustav (m) in 2016/17"
+}

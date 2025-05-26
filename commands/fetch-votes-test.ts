@@ -104,10 +104,54 @@ async function fetchVotesForPoliticianAndSession(politician: Politician, session
   }
 }
 
+async function testConcurrentFetching(politicians: Politician[], sessions: string[]): Promise<void> {
+  console.log(`\n🚀 Testing concurrent fetching for ${politicians.length} politicians across ${sessions.length} sessions`);
+  
+  const startTime = Date.now();
+  
+  // Process all politicians concurrently
+  const politicianPromises = politicians.map(async (politician) => {
+    console.log(`  Processing ${politician.name} concurrently...`);
+    
+    // Process all sessions for this politician concurrently
+    const sessionPromises = sessions.map(async (session) => {
+      const votes = await fetchVotesForPoliticianAndSession(politician, session);
+      return {
+        politician: politician.name,
+        session,
+        votes: votes.length,
+        voteBreakdown: votes.reduce((acc, vote) => {
+          acc[vote.vote] = (acc[vote.vote] || 0) + 1;
+          return acc;
+        }, {} as Record<string, number>)
+      };
+    });
+    
+    const sessionResults = await Promise.all(sessionPromises);
+    return {
+      politician: politician.name,
+      sessions: sessionResults
+    };
+  });
+  
+  const results = await Promise.all(politicianPromises);
+  
+  const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`\n⚡ Concurrent processing completed in ${totalTime} seconds`);
+  
+  // Display results
+  for (const result of results) {
+    console.log(`\n📊 ${result.politician}:`);
+    for (const session of result.sessions) {
+      console.log(`  ${session.session}: ${session.votes} votes`, session.voteBreakdown);
+    }
+  }
+}
+
 async function testFetchVotes() {
   try {
-    console.log('🗳️  Starting test vote extraction with new API approach...');
-    console.log('📋 This will test the gruppering=votering_id approach');
+    console.log('🗳️  Starting test vote extraction with concurrent processing...');
+    console.log('📋 This will test the concurrent gruppering=votering_id approach');
     
     // Load politicians
     console.log('\nReading politicians.json...');
@@ -121,87 +165,75 @@ async function testFetchVotes() {
       console.log(`  ${i + 1}. ${p.name} (ID: ${p.id})`);
     });
     
-    // Test with 2023/24 session
-    const testSession = '2023/24';
-    const testYear = 2023;
-    console.log(`\nTesting with parliamentary session: ${testSession} (${testYear})`);
+    // Test with multiple sessions
+    const testSessions = ['2022/23', '2023/24'];
+    console.log(`\nTesting with parliamentary sessions: ${testSessions.join(', ')}`);
     
     // Create output directory
-    const outputDir = '../knowledge-base/documents/voting/test-votes-new-api';
+    const outputDir = '../knowledge-base/documents/voting/test-votes-concurrent';
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
     
+    // Test concurrent processing
+    await testConcurrentFetching(testPoliticians, testSessions);
+    
+    console.log('\n📁 Now saving files sequentially for comparison...');
+    
     let totalVotes = 0;
     
-    // Process each test politician
+    // Process each test politician and session
     for (const politician of testPoliticians) {
-      console.log(`\nProcessing: ${politician.name} (ID: ${politician.id})`);
-      
-      const votes = await fetchVotesForPoliticianAndSession(politician, testSession);
-      
-      // Create the vote data object
-      const voteData: PoliticianVoteData = {
-        politician: politician.name,
-        politicianId: politician.id,
-        parliamentarySession: testSession,
-        year: testYear,
-        totalVotes: votes.length,
-        votes: votes.sort((a, b) => a.votering_id.localeCompare(b.votering_id)),
-        extractedAt: new Date().toISOString(),
-        source: `Swedish Riksdag API - Test votes for ${politician.name} in ${testSession}`
-      };
-      
-      // Create filename: politician-name-year.json
-      const charMap: Record<string, string> = { 'å': 'a', 'ä': 'a', 'ö': 'o' };
-      const safeFileName = politician.name
-        .toLowerCase()
-        .replace(/[åäö]/g, (match: string) => charMap[match] || match)
-        .replace(/[^a-z0-9]/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-|-$/g, '');
-      
-      const fileName = `${safeFileName}-${testYear}-test.json`;
-      const filePath = path.join(outputDir, fileName);
-      
-      // Save the file
-      fs.writeFileSync(filePath, JSON.stringify(voteData, null, 2));
-      totalVotes += votes.length;
-      
-      console.log(`  💾 Saved ${votes.length} votes to ${fileName}`);
-      
-      // Show vote breakdown
-      if (votes.length > 0) {
-        const voteBreakdown = votes.reduce((acc, vote) => {
-          acc[vote.vote] = (acc[vote.vote] || 0) + 1;
-          return acc;
-        }, {} as Record<string, number>);
+      for (const session of testSessions) {
+        const year = session === '2022/23' ? 2022 : 2023;
         
-        console.log(`  📊 Vote breakdown:`, voteBreakdown);
-      }
-      
-      // Small delay between politicians
-      await new Promise(resolve => setTimeout(resolve, 200));
-    }
-    
-    console.log(`\n🎉 Test completed! Found ${totalVotes} total votes across ${testPoliticians.length} politicians`);
-    
-    // Show some sample votes if any were found
-    if (totalVotes > 0) {
-      console.log('\n📋 Sample vote structure:');
-      const firstFile = fs.readdirSync(outputDir).find(f => f.endsWith('-test.json'));
-      if (firstFile) {
-        const sampleData = JSON.parse(fs.readFileSync(path.join(outputDir, firstFile), 'utf8'));
-        if (sampleData.votes.length > 0) {
-          const sampleVote = sampleData.votes[0];
-          console.log(`  Politician: ${sampleData.politician}`);
-          console.log(`  Votering ID: ${sampleVote.votering_id}`);
-          console.log(`  Vote: ${sampleVote.vote}`);
-          console.log(`  Parliamentary Session: ${sampleData.parliamentarySession}`);
-          console.log(`  Year: ${sampleData.year}`);
+        console.log(`\nProcessing: ${politician.name} for ${session} (${year})`);
+        
+        const votes = await fetchVotesForPoliticianAndSession(politician, session);
+        
+        // Create the vote data object
+        const voteData: PoliticianVoteData = {
+          politician: politician.name,
+          politicianId: politician.id,
+          parliamentarySession: session,
+          year: year,
+          totalVotes: votes.length,
+          votes: votes.sort((a, b) => a.votering_id.localeCompare(b.votering_id)),
+          extractedAt: new Date().toISOString(),
+          source: `Swedish Riksdag API - Test concurrent votes for ${politician.name} in ${session}`
+        };
+        
+        // Create filename: politician-name-year.json
+        const charMap: Record<string, string> = { 'å': 'a', 'ä': 'a', 'ö': 'o' };
+        const safeFileName = politician.name
+          .toLowerCase()
+          .replace(/[åäö]/g, (match: string) => charMap[match] || match)
+          .replace(/[^a-z0-9]/g, '-')
+          .replace(/-+/g, '-')
+          .replace(/^-|-$/g, '');
+        
+        const fileName = `${safeFileName}-${year}-concurrent-test.json`;
+        const filePath = path.join(outputDir, fileName);
+        
+        // Save the file
+        fs.writeFileSync(filePath, JSON.stringify(voteData, null, 2));
+        totalVotes += votes.length;
+        
+        console.log(`  💾 Saved ${votes.length} votes to ${fileName}`);
+        
+        // Show vote breakdown
+        if (votes.length > 0) {
+          const voteBreakdown = votes.reduce((acc, vote) => {
+            acc[vote.vote] = (acc[vote.vote] || 0) + 1;
+            return acc;
+          }, {} as Record<string, number>);
+          
+          console.log(`  📊 Vote breakdown:`, voteBreakdown);
         }
       }
     }
+    
+    console.log(`\n🎉 Test completed! Found ${totalVotes} total votes across ${testPoliticians.length} politicians and ${testSessions.length} sessions`);
     
     // Test with Magdalena Andersson specifically (from your example)
     console.log('\n🔍 Testing with Magdalena Andersson (from your example)...');
@@ -210,15 +242,22 @@ async function testFetchVotes() {
     
     if (magdalena) {
       console.log(`Found Magdalena Andersson: ${magdalena.name} (ID: ${magdalena.id})`);
-      const magdalenaVotes = await fetchVotesForPoliticianAndSession(magdalena, testSession);
-      console.log(`Magdalena Andersson has ${magdalenaVotes.length} votes in ${testSession}`);
       
-      if (magdalenaVotes.length > 0) {
-        const magdalenaBreakdown = magdalenaVotes.reduce((acc, vote) => {
-          acc[vote.vote] = (acc[vote.vote] || 0) + 1;
-          return acc;
-        }, {} as Record<string, number>);
-        console.log(`Magdalena's vote breakdown:`, magdalenaBreakdown);
+      // Test concurrent fetching for multiple sessions
+      const magdalenaSessions = ['2022/23', '2023/24'];
+      const magdalenaStartTime = Date.now();
+      
+      const magdalenaPromises = magdalenaSessions.map(async (session) => {
+        const votes = await fetchVotesForPoliticianAndSession(magdalena, session);
+        return { session, votes: votes.length };
+      });
+      
+      const magdalenaResults = await Promise.all(magdalenaPromises);
+      const magdalenaTime = ((Date.now() - magdalenaStartTime) / 1000).toFixed(1);
+      
+      console.log(`Magdalena Andersson concurrent results (${magdalenaTime}s):`);
+      for (const result of magdalenaResults) {
+        console.log(`  ${result.session}: ${result.votes} votes`);
       }
     } else {
       console.log(`❌ Could not find politician with ID ${magdalenaId}`);
@@ -232,8 +271,8 @@ async function testFetchVotes() {
 
 // Run the script
 if (import.meta.url === `file://${process.argv[1]}`) {
-  console.log('🗳️  Starting test vote extraction with new API approach...');
-  console.log('📋 This will test the gruppering=votering_id approach');
+  console.log('🗳️  Starting test vote extraction with concurrent processing...');
+  console.log('📋 This will test the concurrent gruppering=votering_id approach');
   
   testFetchVotes().catch(error => {
     console.error('Test failed:', error);

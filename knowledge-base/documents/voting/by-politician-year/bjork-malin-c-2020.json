@@ -1,0 +1,15 @@
+{
+  "politician": "Björk, Malin (C)",
+  "politicianId": "0770363683317",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "D3D934AE-B3F6-42E7-81B8-2700ED662307",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:15:19.814Z",
+  "source": "Swedish Riksdag API - Individual votes for Björk, Malin (C) in 2020/21"
+}

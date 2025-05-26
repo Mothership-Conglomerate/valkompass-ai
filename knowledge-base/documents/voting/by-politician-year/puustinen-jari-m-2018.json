@@ -1,0 +1,83 @@
+{
+  "politician": "Puustinen, Jari (M)",
+  "politicianId": "0184153884114",
+  "parliamentarySession": "2018/19",
+  "year": 2018,
+  "totalVotes": 18,
+  "votes": [
+    {
+      "votering_id": "0F25C5CE-0C14-45E5-B094-01860B2F9ACF",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1587AF9B-70E3-4E15-A047-E3221817B485",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2073AB28-DA63-4850-B402-E9387E5C9602",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "21379139-85B7-44EC-A439-35C326954C68",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "28BF2BCC-C1C4-4766-B02E-A5966B741F35",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "36EDD8DA-86EB-42D4-A780-1E315CD5E85B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3723FFF6-B2CC-4389-9C66-FEA3E9180D8C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4BF0457F-6729-47BA-8B0C-98F1BFBDF67D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "57D1F81B-3B74-4ABA-BE42-7D3C46C20FC2",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7884518C-1EFD-44E6-9BA6-E39E9E898C0A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "859B1AE8-2671-4E01-950E-6B4E049263D1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8D487772-A383-42DE-B475-2E088EBB77C5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9C42D956-BF9A-47E1-A3B4-0148A1C8E637",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "AB0BD174-1F16-481D-86B1-7EB0D79D1B56",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C43A0231-C883-47FD-9F3B-58D9865FFAF6",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "CFD1C9D8-4490-4A53-882F-9F769CB9523C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D8D2848A-7F2E-4058-9C21-6CB9E04869B4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DF09CF7B-AD9C-49F0-8B75-FA8C5F6C5753",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:24:58.417Z",
+  "source": "Swedish Riksdag API - Individual votes for Puustinen, Jari (M) in 2018/19"
+}

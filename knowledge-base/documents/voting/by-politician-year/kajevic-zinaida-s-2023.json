@@ -1,0 +1,207 @@
+{
+  "politician": "Kajevic, Zinaida (S)",
+  "politicianId": "0990587970528",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 49,
+  "votes": [
+    {
+      "votering_id": "014D8DE9-BB66-4B3A-914C-DA49F65AC7A6",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "02A57C69-5F30-4CBC-8D61-B2D8755A5043",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "050AE700-7EC2-41DD-BACF-DAAA53F03AFB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "053B74F5-44B8-4E1C-AE0B-44F66328F267",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0D69292E-97FF-43DE-A2BD-EA5D18FB8941",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "0E8BC199-998E-4FFD-A77F-8AC8E1CB7D13",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "16A4D95D-96C1-40FB-87FB-9BD00AA9C082",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "190D71ED-1EE8-4F74-9878-84252D5010B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1CE81D01-41E6-40C1-A309-C89CBF30DBB1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1DDCE957-19BA-4BE7-9BA2-9B0F072B3FD7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "21E8B615-C235-489F-8189-D26CABD56F24",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "229DB0DC-20AE-4205-ABFC-8CCADE1E0F87",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2517918A-977A-43F7-B167-FD5AE0746195",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "26E5285B-8258-4587-997A-58BA83BFF110",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "28140E0B-895C-4A2E-A6B6-55E8DFAB6CAA",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2C198CDF-3A9C-4318-A678-E6AFF5C2C68A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "301E19DB-5ECE-4FC1-94A6-B50D296B9AAD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "306B8E22-2F60-4649-817C-DE3740017360",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "31005E24-EDCB-4D43-9179-9A5A9312C87D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "35B5E914-F3FD-45C4-AE5F-A9539273E361",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "46B018B4-3F64-4613-883C-F160032658BE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "53DB4665-6FE7-45F1-9C16-9D8F15515B63",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "63AE4719-546B-407F-82B1-B6A3BBC4F4F7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "659FE59F-52AD-4C3B-BE11-E09351F91BE7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "66EC0126-AA53-462A-B30A-D7E13BCA9B55",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "6B741FC0-B732-4CBA-90FF-A16AD5AA1044",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "71B0A692-BE49-4DF0-98E4-6FC645975428",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7C39CD95-8ACB-4804-A32B-DDBC2DE7877C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "83367492-F8F8-419D-89F0-FF08FD6957F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86B43E0C-14E5-407E-8876-B6B0A5F92548",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86CD7737-A18E-4E06-B804-336656E8B507",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "86D12C4F-A105-4981-9364-DD28F8C07B08",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "89F89497-8E7F-4E77-92ED-D1ED0B5ED40C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8F7B319D-30B7-488F-8A0D-BE10D8E71A09",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "909B4414-7D77-4725-BAE9-23130A2771E7",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "9B6E9997-71ED-4CDD-846B-1EF77DDE29B4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9D5A0694-44CD-495E-91AC-4CC87B327B15",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A76B7349-3091-4DC7-8BA5-61193538B146",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "ABC22B82-5935-4752-9395-B57E4FB86CA7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B3AA6B98-5DDB-413B-A8F2-F21D577724FD",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B4B495A1-CA0F-47C4-A802-FCCE38B39496",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B8D6523D-858F-47F6-808C-4C9803B65B54",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B94A3044-2E8F-4671-81CD-F2957AE3F6F5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BCB627A8-7345-44FD-9AC1-AE0CD8E1B82D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D3D272A2-C951-4DE5-A5DC-3141EA584850",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E249E6B5-9081-4B2A-A62A-B2987F9303E0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "ED208C80-715B-4447-9B53-A0F1F9A9CA4C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F381ECA1-42F3-45A7-BBD8-F09D78C0E185",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "FC5FE0A2-7EE9-43D4-B739-F0910696D91A",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:20:48.399Z",
+  "source": "Swedish Riksdag API - Individual votes for Kajevic, Zinaida (S) in 2023/24"
+}

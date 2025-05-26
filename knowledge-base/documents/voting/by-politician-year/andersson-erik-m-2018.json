@@ -1,0 +1,27 @@
+{
+  "politician": "Andersson, Erik (M)",
+  "politicianId": "0480085646428",
+  "parliamentarySession": "2018/19",
+  "year": 2018,
+  "totalVotes": 4,
+  "votes": [
+    {
+      "votering_id": "2F716E21-AA19-4995-86FF-785FEC87BAA7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "681BAE1D-31BA-4137-AC4E-E6759303BEC6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F2116D61-64CB-4E1A-AD74-6A5E46A8C574",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FDC42252-647A-47B0-B0C4-01E428F8196F",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:14:07.307Z",
+  "source": "Swedish Riksdag API - Individual votes for Andersson, Erik (M) in 2018/19"
+}

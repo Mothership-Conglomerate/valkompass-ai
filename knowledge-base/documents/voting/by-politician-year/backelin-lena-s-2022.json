@@ -1,0 +1,163 @@
+{
+  "politician": "Bäckelin, Lena (S)",
+  "politicianId": "0599661454115",
+  "parliamentarySession": "2022/23",
+  "year": 2022,
+  "totalVotes": 38,
+  "votes": [
+    {
+      "votering_id": "022C2EEA-C1EE-4083-A65C-1F64C3257C6A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0B771E7B-D719-40A3-9771-C7087A7AC20D",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "1061B86A-A4BF-458E-B3D0-92531EB97010",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11166599-9594-4F46-B2DA-E416807E3C33",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "15E5B638-46E0-496F-9C13-E82B44D2FAF3",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "1DF964EE-B639-4462-9B35-C6D98A33CE6A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "24318FC2-7698-416E-9A32-F7944FB258A4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "25915FC5-9612-4243-9097-1C0CE96AB180",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "329F9E66-61B8-4B25-80CA-636F2BEB645F",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "46A967F6-0704-4E98-AB11-96B60D9205CB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "47AAAC34-0050-4CCC-A06E-D559DFE1209A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "51057154-7755-4DD2-BEBA-FF584E96BD26",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "58ED1351-78C2-4CDE-821D-2A6644B9AB72",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5B129C13-4514-4E60-A0AA-E8EF296C684B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "672AEF0C-0E6B-4E2A-87BE-324EBF13C5FE",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "67BDCF4D-C3A9-48E0-979A-499012CF62CB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "70EE89C9-B5D3-498B-BD07-465227737E83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7E27D687-E5EA-4E78-A049-9E13163D9270",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "7E36B891-94F2-41E6-B75A-C92DA9578A66",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "888A03FE-E755-40C5-AD84-7A610BDCF1B8",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8C2BC1DA-FC4C-413C-9FA7-8A1EB168DD3D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8C441BF5-1E39-40A2-AE0A-F8E4CB565DBC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "93C00594-78D0-4254-BEE6-82D8C273A625",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A1C97D8D-AB4C-40EC-8115-2B8BE4B63205",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A2E569C3-0FFD-4A50-981E-784BE9ECE277",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "A7C8FBA6-42E7-4CAD-9F3F-13F9EBB0194B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C63B5008-74A8-47EC-B070-25D8ECFE9058",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "CC07AB2E-2E5C-4023-9A91-834444EA4E5C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D169445A-8324-4E42-814D-D4E3427858A5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D480B3B2-9E19-4098-9B43-96365BAF279B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D61FF1CC-405E-4939-A367-A192D75C5A52",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DC5797D0-04F0-4006-8045-A50B78B7DC98",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E3F60E14-6F5D-4E81-8059-D8F1A9E662BE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E63F9B00-E32A-4E24-A777-ED2C36EF88F4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F1D875AD-C0A7-4896-94AA-AE89B18BB4EE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F21EDAC3-C441-49B5-9CAA-321F3EA6368B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F6E57D52-0CB2-4F33-AAB8-2B74B8B359BE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F77555F8-59EF-4822-9574-034A1DF5A148",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:14:47.586Z",
+  "source": "Swedish Riksdag API - Individual votes for Bäckelin, Lena (S) in 2022/23"
+}

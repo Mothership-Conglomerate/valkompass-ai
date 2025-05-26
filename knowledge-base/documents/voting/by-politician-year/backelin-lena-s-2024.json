@@ -1,0 +1,203 @@
+{
+  "politician": "Bäckelin, Lena (S)",
+  "politicianId": "0599661454115",
+  "parliamentarySession": "2024/25",
+  "year": 2024,
+  "totalVotes": 48,
+  "votes": [
+    {
+      "votering_id": "062B49C9-96CF-4241-8465-B87AFAB5758B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0817BF58-C84E-4F3B-B92E-0012E9AD3579",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0A5EACD3-D435-42A1-8124-458AD48DF644",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0B5BC944-8620-47BF-A4F1-9698D844BCCB",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "0F6C0168-4C90-4C88-9D3A-7F1B50C19A74",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1319DEB0-CFB3-40C5-B090-608D45F9BF35",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1CE6B17E-A7E1-458C-8EC8-88BAE9463AD1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "20F65818-B1CC-4FF6-AC04-DA06B8CCA6D0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E5E87C5-54BC-4C8A-A65C-8B4B39B76251",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "37E0F64C-1C02-4BE3-B44E-584476978084",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "420E141F-D81B-44DF-97BC-BC37DFC6B080",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "599386ED-D19C-4701-8D19-4BB9310B84B1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5D23AD73-8E54-4063-B45E-3DB5D0A3D8F1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5FAC7632-ECB4-4A98-9E62-BC6261B9E3A7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "61D483E0-5630-4520-9B5B-73B846092450",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63AEBD78-FB1B-4A5C-BDE7-3DB05EB0AB43",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "68BD1D8F-7744-4593-8E6F-54AF63532181",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "7FE1CE83-3888-48A0-A5DD-2498DF3FB658",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "83486D80-4519-4636-BD9C-578450BCCC7E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8F054C9B-F9F7-4A32-8423-31C1DD8EAAD1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9005A968-B8D6-4AAD-9459-8F5479566D7D",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "91BFCB4E-B8A6-4D3A-A6EA-E85408F1C77F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "941525C9-2B9B-4F7C-B5C9-BD1A3F2CB110",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9668B6FB-9694-44A4-8E7B-455E8C30D3AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A1F3E0A-467D-4B65-8F62-2121F115655C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9B06FF13-5DF4-4261-99BE-DF94663C3D89",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "9D9382B1-132C-401B-901D-90F660346D63",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9DA91716-4C59-4774-BDC3-2ABD00E2F5A1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9E8BA008-D9EB-4D11-990A-FCF788250744",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A052C38C-2C95-492D-AAE5-210E9461C624",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "A158516E-A4DA-4987-8592-3DE1CF2F2B69",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A967002B-0C70-4BBE-8274-0BF2463023F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B456B753-B937-4A4B-9638-C83EFEA3BBDD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B5B3E091-1A3F-43FF-B1D7-9E7192387D19",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "BAF484CD-DC84-40D6-8780-3C48CF49D472",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "C728AF79-652E-49AD-BC77-4EC630E9E0C5",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D3F85585-1067-41B8-B252-BF27694B7579",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5E4ED38-3BCB-48C3-B797-98CDFAC2C6F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD18B4ED-DD78-47AB-A6D9-401B48753D4B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DD462A86-86E6-412C-8E93-32521C7C0800",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "DEFCAAB6-F263-4E65-8999-0D956B57C4FB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E11C9A4F-6162-4BE6-9099-2E54E3E10D0A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E360AA13-2658-4435-BCFE-0208AFF3E718",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E59868A5-07DA-4466-A91A-2825B01329AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EC5FE63B-FBA2-421C-BC2D-13F885C63F6C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F682BF88-C7A5-426F-8C27-E30790963AC4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F6F7CD39-DD33-4B90-966E-5E6E8BC10485",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F96BE47E-9D63-420C-9331-9A701366938F",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:14:47.741Z",
+  "source": "Swedish Riksdag API - Individual votes for Bäckelin, Lena (S) in 2024/25"
+}

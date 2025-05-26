@@ -1,0 +1,255 @@
+{
+  "politician": "Paarup-Petersen, Niels (C)",
+  "politicianId": "0587736055221",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 61,
+  "votes": [
+    {
+      "votering_id": "014D8DE9-BB66-4B3A-914C-DA49F65AC7A6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "01797F8E-B810-4293-9F8E-8299070ED590",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "026043B0-B0EA-47FA-BEB2-B9AA74D9AFF5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "02A57C69-5F30-4CBC-8D61-B2D8755A5043",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "050AE700-7EC2-41DD-BACF-DAAA53F03AFB",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "053B74F5-44B8-4E1C-AE0B-44F66328F267",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0D69292E-97FF-43DE-A2BD-EA5D18FB8941",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0E8BC199-998E-4FFD-A77F-8AC8E1CB7D13",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "10365429-CA33-4428-BCAF-604AC9E5C72E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16A4D95D-96C1-40FB-87FB-9BD00AA9C082",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16B2B634-9C3C-4C40-A630-C0C348F97588",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "190D71ED-1EE8-4F74-9878-84252D5010B3",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "1CE81D01-41E6-40C1-A309-C89CBF30DBB1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "21E8B615-C235-489F-8189-D26CABD56F24",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "229DB0DC-20AE-4205-ABFC-8CCADE1E0F87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2517918A-977A-43F7-B167-FD5AE0746195",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "26E5285B-8258-4587-997A-58BA83BFF110",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "2C198CDF-3A9C-4318-A678-E6AFF5C2C68A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "301E19DB-5ECE-4FC1-94A6-B50D296B9AAD",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "306B8E22-2F60-4649-817C-DE3740017360",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "31005E24-EDCB-4D43-9179-9A5A9312C87D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "34EF7406-505E-4377-95ED-ECF65B7605DF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "35B5E914-F3FD-45C4-AE5F-A9539273E361",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "388C6247-EA49-43BE-B63C-4A5BA7E3D125",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "44BA73E6-9A26-40D4-9647-D70C45F9667D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "46B018B4-3F64-4613-883C-F160032658BE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4F290D06-858D-413D-A5DC-13C8337941E3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "53DB4665-6FE7-45F1-9C16-9D8F15515B63",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5734C357-7F6B-468C-981B-C525D7AEA915",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5C3D93E1-6DD1-4522-BB02-B567BE4781AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5EAD6BFA-4AA0-4BF4-AA3C-F9886BAD3744",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "63AE4719-546B-407F-82B1-B6A3BBC4F4F7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "66EC0126-AA53-462A-B30A-D7E13BCA9B55",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "6B741FC0-B732-4CBA-90FF-A16AD5AA1044",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "70502CE6-BE84-4BAB-B6B9-1F904C6E6230",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "71A6CFDC-5096-4E88-9EA2-90F27067AD36",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "71B0A692-BE49-4DF0-98E4-6FC645975428",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "74D2984C-E5E3-4C4E-AE14-3463F4B84AE7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "84CE3F65-4701-4624-A16D-7221D97EB2B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86B43E0C-14E5-407E-8876-B6B0A5F92548",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86CD7737-A18E-4E06-B804-336656E8B507",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "89F89497-8E7F-4E77-92ED-D1ED0B5ED40C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8BED0FF0-C542-46CE-9E39-E6293C76C7FF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9B6E9997-71ED-4CDD-846B-1EF77DDE29B4",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "9D5A0694-44CD-495E-91AC-4CC87B327B15",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "A25BFD0B-AB6E-4169-B3D1-4DD607ADD207",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A76B7349-3091-4DC7-8BA5-61193538B146",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ABC22B82-5935-4752-9395-B57E4FB86CA7",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "B378F2BF-84AA-45B8-A88F-01F3ED592EE1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B3AA6B98-5DDB-413B-A8F2-F21D577724FD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B4B495A1-CA0F-47C4-A802-FCCE38B39496",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B8D6523D-858F-47F6-808C-4C9803B65B54",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B94A3044-2E8F-4671-81CD-F2957AE3F6F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BBF95418-BDCB-486A-818F-CB8D94FC16F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BCB627A8-7345-44FD-9AC1-AE0CD8E1B82D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CB227AE3-881B-4D24-9A64-B8D847C65E5D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D3D272A2-C951-4DE5-A5DC-3141EA584850",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "D7FD3597-AA63-4725-89BA-FD7906C08F5E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E249E6B5-9081-4B2A-A62A-B2987F9303E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ED208C80-715B-4447-9B53-A0F1F9A9CA4C",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "FC5FE0A2-7EE9-43D4-B739-F0910696D91A",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:24:27.258Z",
+  "source": "Swedish Riksdag API - Individual votes for Paarup-Petersen, Niels (C) in 2023/24"
+}

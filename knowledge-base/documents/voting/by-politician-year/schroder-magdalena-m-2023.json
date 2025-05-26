@@ -1,0 +1,1331 @@
+{
+  "politician": "Schröder, Magdalena (M)",
+  "politicianId": "041911485722",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 330,
+  "votes": [
+    {
+      "votering_id": "0005C5A0-9CD4-42BA-9C62-8FFF47BB688F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0014C723-1AC4-4E2A-AD2C-ABDA3FF9B7A9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "014D8DE9-BB66-4B3A-914C-DA49F65AC7A6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "01797F8E-B810-4293-9F8E-8299070ED590",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "01D45D5D-CF7E-4F48-992D-07DF6163674A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0236D8E3-199E-4211-9F5F-A45AA7671050",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "026043B0-B0EA-47FA-BEB2-B9AA74D9AFF5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "02A57C69-5F30-4CBC-8D61-B2D8755A5043",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "050AE700-7EC2-41DD-BACF-DAAA53F03AFB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "05161E59-3E29-4389-AA5B-D174FFE8524B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "053B74F5-44B8-4E1C-AE0B-44F66328F267",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "055CA519-C63C-4EBF-AC48-1CD66392DD25",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "07370E7A-E91C-4AC9-BD65-91AEED327284",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "08D443AE-FABF-42DB-A299-EF846C96114F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "09E5C215-C867-4CC6-9928-D080085A9A6A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "09F75F0C-D172-4DB0-81D2-02F540CA3C2E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0A1AF9BD-19BF-4188-8AF2-67FA09A8D0E9",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "0A7734D5-BA93-4BBE-A2F1-06EEB02D3ABC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0B06BECF-6611-439B-865F-D40E6A221D3F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0C008E7E-5063-43A5-A7D9-BC18635C0883",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "0C347D2E-AE88-44CA-A6BE-5B95C8F07A06",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0C7CFC1A-9AD9-452F-8725-EE2871C00A57",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0D69292E-97FF-43DE-A2BD-EA5D18FB8941",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0E46DB84-493A-4B96-8219-36BF4A734DBD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0E8BC199-998E-4FFD-A77F-8AC8E1CB7D13",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0F20C054-8530-47DC-B5FE-C5380F58D3F9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0FAF6DA4-9FB0-4971-AA55-954A5940B3CA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "10365429-CA33-4428-BCAF-604AC9E5C72E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "10F49FF8-02C5-4858-BF02-DC65FCEB0194",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11014E4E-4C66-4CDF-A919-D7C72EF83934",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11480DB0-D986-4AF2-85D0-8A4903BA7640",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "11912C81-11F3-4530-9969-316B8235EC12",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "129D0A01-9E4C-4759-AE81-1251AF006504",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "12BC5BD7-2537-4E08-A6A8-22A517F242C4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "12D5B32D-D88A-4D5D-871A-3208A6E66F44",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "12FCDE98-AAC9-4458-AF77-75CAEA076C27",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1508CB30-3E4F-45E9-968E-7B74C77E6A10",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "15B479B7-3046-4700-B2AE-F9AE08E2AC99",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16A4D95D-96C1-40FB-87FB-9BD00AA9C082",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16B2B634-9C3C-4C40-A630-C0C348F97588",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "186B4CDB-D59C-49E7-8D71-F4B99DBE94E3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1896DCB3-3183-4278-8EA5-82F7BD9C9FC1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18AE7919-588A-4ADC-B436-8AF298D918F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1907F9D2-C679-4A46-9B32-5E782468B497",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "190D71ED-1EE8-4F74-9878-84252D5010B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "198C0CE7-76CA-4F78-8E41-72EE61E7FC6D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1A41BC41-75A8-4601-93E2-E61D3BBCE389",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1B05BBE7-D30D-4D7F-816B-732F692E5B8A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1C24F5E7-C503-4108-88AE-5D64ED6E2F5E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1C43C1DE-DA96-446C-B190-5976F5BB2D1E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1CE81D01-41E6-40C1-A309-C89CBF30DBB1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1D4856BC-E1C8-4547-BA84-E43E1EC4D0B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1D62F67E-53D0-4DF7-B884-800F087C3719",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "1DDCE957-19BA-4BE7-9BA2-9B0F072B3FD7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1DFA9BF4-0DFF-4078-89B6-01E0890756C6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "207EC4AC-E2FD-4DBF-9A3B-D33DFA8025EC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2134F333-7C3F-4112-9D93-5DCCA0AA5C8A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "215468B9-12A3-445F-AD76-228BAD77D564",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "21B819E2-3778-4BF2-AC22-8DE4782D7823",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "21E8B615-C235-489F-8189-D26CABD56F24",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2209C2C1-ED7E-436C-93D5-FBEA9035B9D0",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "229DB0DC-20AE-4205-ABFC-8CCADE1E0F87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2360C1CE-3CD1-4709-8213-A7AC9A122506",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2517918A-977A-43F7-B167-FD5AE0746195",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "25E272A2-90DD-435B-AD9C-E3A3AC97C930",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "26E5285B-8258-4587-997A-58BA83BFF110",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "27429D01-9A87-4ECE-9288-802724D22C04",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "28140E0B-895C-4A2E-A6B6-55E8DFAB6CAA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "29566432-DDDF-4B5F-8CA7-2A262D4F38D8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "29582A10-373C-42BC-A6C6-B91829D85626",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2A5D9F94-C0F6-4DC2-A07A-8BB84172503A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2A9FBE07-4707-4CFD-9594-04EA3FCBC54E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2BDC751A-3FCA-47AF-9E4B-F408B4A4D2D3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2C198CDF-3A9C-4318-A678-E6AFF5C2C68A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2C23A169-1130-4829-A6B6-8D077A053A52",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2D17404A-E4B4-489E-A40B-0F4F550DCA07",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2D2AC8B7-72E4-4DF2-83E2-9AE9A9147A87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2D2FAD43-CB23-4CE4-BE64-F7943E4E1EAC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E5D30B3-D4FC-456B-BF12-2A31D25D7363",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2F05A7F3-D7F4-4031-9332-87912F64383E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2F843119-5666-42D2-936F-4E8BD739FB15",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2FCADC97-6006-4E93-8A08-505B5A744A52",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2FEA2D1B-D2C3-4E29-B2A2-BFE2FD19BB52",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "301E19DB-5ECE-4FC1-94A6-B50D296B9AAD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "305458EC-EEA5-46DE-802F-370168022544",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "306B8E22-2F60-4649-817C-DE3740017360",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "30DB556B-3C47-4E9C-81C8-1D1D1D194676",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "30FBF2D2-51FD-4B29-BADD-17D74088E536",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "31005E24-EDCB-4D43-9179-9A5A9312C87D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "31292E33-1A40-4B02-8872-9FB3068436A8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3197F904-5FC2-4711-9BC5-D38357DC9FC1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "31C859C1-3633-4C11-AD13-C2777163332F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "32171ADB-5CA0-4CC0-ACD0-55C30E249AFF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "33C4B39C-1C56-4F1E-88AD-E49CDB78C5B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "33F3E1D7-7BB7-49C2-A094-CF21A7395E3F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "344B7D87-30A6-4E25-9587-22D3EC22F4CB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34762C75-D91F-4734-B053-1D1534A4D260",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34993EFC-BB01-49D6-A52A-E14FFB5FF04C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34EF7406-505E-4377-95ED-ECF65B7605DF",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "357B1C39-71FB-4C25-B289-8E30B6198138",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "35B5E914-F3FD-45C4-AE5F-A9539273E361",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "35D04CE4-B15D-4F11-A44F-2A42FF218A81",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "364DCA37-C7A6-445A-B4E3-C260C4BA2939",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3659017C-C0FD-4117-97D1-6BD1A1E7C117",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3707BCBA-4548-4800-A198-2129AA0A9A6C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "37B08E17-DE9B-40B3-844D-181B67100202",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "388C6247-EA49-43BE-B63C-4A5BA7E3D125",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "38E41584-0CC9-4D11-BBA8-E7A2B0469BDC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "39E7DFE4-F0CE-4E63-B504-65E638E60E3C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3C246C4C-553B-4E81-A534-EF130D0A64E8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3C3E7F4C-AE2A-4B67-8E59-7186035CEDDE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3C51A5F3-9DE0-4C35-8892-AA750E185A41",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3CAE69E6-5947-454B-B3F0-80ED7D1A89AD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3CC6157F-6DBD-48CB-9E80-8281D0BFA11B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3FAF102C-EE5F-45BF-A794-A5E074D006F9",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3FB77892-7EA7-4A56-ABAA-E81F84365773",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3FEB9E46-CBFF-49C1-B4A2-9EB0C8994B51",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "41787716-3F11-46D3-9D6A-238FD595321F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "42253DF8-23C6-49FC-9A98-5945EE797209",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "423477C3-FEE5-4308-ABAA-C692F27674B5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "434C2ECC-763F-4BB1-AC82-F6E5976CFC56",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "434F8E13-5316-4F77-838D-6110936A5CDE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "44BA73E6-9A26-40D4-9647-D70C45F9667D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4633B3CC-CA0E-4D64-9B7D-EF96740203A7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "46B018B4-3F64-4613-883C-F160032658BE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "47160B80-34EE-4438-83B7-277E86BE7D93",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "47B36B64-DA6F-4C3C-BE17-B719968B2AD3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4A20CAD2-97D4-4154-BC56-5029FDBEB94F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4AA83A71-6D1F-4870-8BA0-73D5CB955BA8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4AE811AD-A122-4CE9-9511-162F3A4E4914",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4B89B9F4-9AFE-43B3-BE61-176374146B28",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4D6E0D41-BFC7-4311-8D25-528842C70238",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4D9A7166-FDEF-46E6-AA38-368AA9E7C979",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4DA66DFA-E66A-4811-9E51-3879EE4A1409",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4DAA4653-A015-4320-AE05-6DED13F0C491",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4E906135-2A79-4E6A-977E-E915F292D6AA",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4F290D06-858D-413D-A5DC-13C8337941E3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4F574810-2CAB-4F96-B8A9-85CC03E66C27",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4FB31523-9E0C-4A02-940F-C621D44F572D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "50D11406-A035-4C23-AB56-59531DF174C6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "50E68708-369B-4036-8CD1-FCD73163077D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "51F614E9-61AE-44B8-9BF8-3C9A9067F1EF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "52638061-36E9-4CDD-BAF0-45816FDBE2FC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "537B42E0-F9B1-4CB1-B5AC-4860DBAB3A13",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "53DB4665-6FE7-45F1-9C16-9D8F15515B63",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5734C357-7F6B-468C-981B-C525D7AEA915",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "58821F2A-8D94-4AA4-B88B-A44B37D4CEA5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5B780D49-FD6A-4FFB-8610-4C7B4967C851",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5C3D93E1-6DD1-4522-BB02-B567BE4781AA",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5D0E26AB-354D-4290-AE93-F55D08E1D1B9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5EAD6BFA-4AA0-4BF4-AA3C-F9886BAD3744",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5F984AC8-9AE3-4CBC-B4B4-0174C58D4B2C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5FDEE983-F0A6-4B81-AE4D-7FD3FD8912CD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "605512FA-043A-4602-8D32-74ED01924793",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "605AD875-7515-4414-81C4-FD49DF1C2A9E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "610B3E27-5A53-4F0C-8979-FC4E2801C329",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "616FC695-3AFA-42EF-8D98-9BE770165941",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63AE4719-546B-407F-82B1-B6A3BBC4F4F7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "649A412A-EE55-45F2-A8A9-008F01BC2B2C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "64DC9C4F-A17A-4244-8711-7304919DF05F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "657B9525-36F7-449D-8BA9-12ABDCD1781C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "659FE59F-52AD-4C3B-BE11-E09351F91BE7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "66EC0126-AA53-462A-B30A-D7E13BCA9B55",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "67921CF4-968B-42DF-93C2-2D21A98BEAC2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6798ABE2-25CD-49D7-B084-C1D932A3DE6D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "67CEED4C-AB96-4107-8FD4-9A338BC9BE56",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6B741FC0-B732-4CBA-90FF-A16AD5AA1044",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6BC670A2-D873-49A3-8C73-278939AC5249",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6D42D08A-6FD0-49D9-98EA-BA405BA4A0FC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6E831E6C-217E-4B33-A38F-98D99D6BD987",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "70502CE6-BE84-4BAB-B6B9-1F904C6E6230",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "70549036-8F9D-41FC-8730-09EBD78F89C0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "70FB8971-5C0A-4909-A455-55F0174B960A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "71A6CFDC-5096-4E88-9EA2-90F27067AD36",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "71B0A692-BE49-4DF0-98E4-6FC645975428",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "73D0E25A-06D7-4CD8-99A2-83903FA392C2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "74D2984C-E5E3-4C4E-AE14-3463F4B84AE7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "75854152-B1A6-4A7C-8B5A-004080F16042",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "78DC0F09-CB6F-4D07-86E1-D6391211ABE6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "79BF1CC6-4508-4656-98A0-F62E4D176149",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "79FAFE63-FDBA-4E06-9FDA-D966D571C3D7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7A48C07F-7BEE-4BF1-85A5-92F3644FE9FD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7B464B03-C68D-4DAC-B3D1-44C79C396F05",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7BDA44E7-9038-4CE5-8618-DA9F68057CF5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7C363C1C-058B-40E9-A7FE-AC8C94C97384",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7C39CD95-8ACB-4804-A32B-DDBC2DE7877C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7D443B1B-7D9A-42BA-88D5-A2D6DE960A56",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7E0B224A-D304-42B6-8DBC-CF9D351B05C0",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7F59D1E2-FAB0-45E1-A8EB-A8E74341D4C7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7F6F71EF-E99A-4C85-B265-3D935D1E59A1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7F6FD165-F329-422A-8FCC-FB9768B9A55A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7FC9C41C-4366-43EC-9FD2-E402021574E2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "805FFB5A-300D-443A-94A6-4D198562B1F8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "813CB046-FF65-4EE9-9F26-E9FD2F5AD8B7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "83367492-F8F8-419D-89F0-FF08FD6957F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8362A25D-ED01-446B-A52C-82FECFC1B455",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "83EE61EB-0580-40EF-8562-6E34FACA9695",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "84CE3F65-4701-4624-A16D-7221D97EB2B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86B43E0C-14E5-407E-8876-B6B0A5F92548",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86CD7737-A18E-4E06-B804-336656E8B507",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86D12C4F-A105-4981-9364-DD28F8C07B08",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "872C8EDA-EE35-4E40-A666-632DFD027690",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "89F89497-8E7F-4E77-92ED-D1ED0B5ED40C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8A08A61B-1AF4-4548-BE00-0B308E0672F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8A7FA595-659A-4B11-B14B-23906D2A6D38",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8A87C607-24BF-4CBE-A619-24102C8EC24E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8AD2E313-43A7-4130-BBDE-D90AB0578ACD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8BC1CCB6-2EAA-4F85-9122-9416E85ED7AE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8BED0FF0-C542-46CE-9E39-E6293C76C7FF",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8D8C4A50-5C20-4174-AD80-5353E42B81F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8E3EB52A-AA75-49AB-A739-ECF4FB9EC08A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8F7B319D-30B7-488F-8A0D-BE10D8E71A09",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8F857E8E-D26C-4D4D-BB32-976EAD7818C4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "906B6569-D106-4B00-9325-B5EFC56ABB5E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "907C0BEA-9933-4CCC-991C-0CFC02463B55",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "909B4414-7D77-4725-BAE9-23130A2771E7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "93069A52-4554-405E-9B80-CA388B46A3A2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "933C8E1A-E985-4AD3-8361-C4F7087109BF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9353F398-551F-4604-8495-7149F4F10F4E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "936C1130-F7BD-4CDC-9231-DBBEAB7710F4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "93CC546C-AD02-4EF4-9008-0BB95E6FAB74",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "94C12E58-4A55-41A7-BC4C-021107586135",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9548F17C-CC53-4CBE-8F80-63A40B970CBB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "95E9CE26-D792-483A-B804-0DBD33E117F6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "96A7AE5E-232C-4872-9564-13A05395F6B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "96EDDAB5-2570-4910-B881-FE8925D0AA8C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "97246EC6-8F96-48DD-B92B-4F8422C01806",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9781DF49-6147-4DAD-AF8C-E7EE3B4FEEAB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "97A2B0AA-2411-4954-A049-9B3DDD9F9351",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "980FA04E-F125-438B-9410-47F891D6645A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "995A3B2A-2953-4A96-B478-1E553B66DE4B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "99CF20B5-2358-4BAE-939D-F3B97A3C25CC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A44AE84-FF76-476B-9119-A57C3D89BC2D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A78E11B-0F5B-4FC1-97EC-C0CAD19BC57B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9B6E9997-71ED-4CDD-846B-1EF77DDE29B4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9D5A0694-44CD-495E-91AC-4CC87B327B15",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9FD8DB60-5D6D-4D2A-9132-5655B72AE885",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A117F0FA-23AC-423A-9CFC-09FB8450CB83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A1433894-E2C6-4EB0-AB4E-8D15EB859BEA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A25BFD0B-AB6E-4169-B3D1-4DD607ADD207",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A3CE1A90-55AA-422E-A121-7C78AEA9A213",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A4E6BAFA-663C-4738-8400-E3C8F8DF14F2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A62CA87E-CED8-4D0C-AD92-AC8B775A9366",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A76B7349-3091-4DC7-8BA5-61193538B146",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A966C363-BF43-417B-B064-6D65A57E92B5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ABC22B82-5935-4752-9395-B57E4FB86CA7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AC5B179E-110C-46D6-8075-9482D29DC76E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AD23FA67-476A-46B5-B2E4-639952F0579E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AE1AFA7D-770D-47CC-8246-277C7CCAE571",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AEE83524-D807-4B2A-86E1-A91FEF1FABB0",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B26E15FA-19ED-460C-8A1A-8673BA872D98",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B2D6905D-18E6-4C49-A86B-87AAF14D451F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B33749A9-611B-4B00-AB4E-341B830531FE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B378F2BF-84AA-45B8-A88F-01F3ED592EE1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B3AA6B98-5DDB-413B-A8F2-F21D577724FD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B3D5D87B-8A25-48A1-B87E-DCF8EE2309A8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B43F2923-6946-4C48-AFD6-4EAA0AC6D594",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B4B495A1-CA0F-47C4-A802-FCCE38B39496",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B5115250-BF6A-4350-A6FC-4F810CC777D0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B60E2FFB-2ED6-4040-8375-6429A32E668C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B71DF974-BF39-4C0D-9E2B-2BFBECCDD97B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B7224BE5-A9F6-4270-A3BC-AD8B7BDDEE39",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B741F619-3939-4184-8EDC-8E4EC8A79105",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B747FD6E-A4AE-4F0D-AAA8-4FF974C84181",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B828E67A-3107-4898-9BBF-B2219EECCB25",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B8A2B6CF-ED0C-46CA-8E78-05D63C63B7C3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B8D6523D-858F-47F6-808C-4C9803B65B54",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B94A3044-2E8F-4671-81CD-F2957AE3F6F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B950E68E-F7CA-4D20-96B6-2C3C539A8938",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BB044E00-3112-4772-B475-4043A4E8D10F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BB132C44-E773-4C99-B1B6-A36F631052DE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BBF95418-BDCB-486A-818F-CB8D94FC16F3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BC0BC894-13A7-4A3B-AC22-2FE2D02B6FCA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BCB627A8-7345-44FD-9AC1-AE0CD8E1B82D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BDAEDB62-6EAF-47F4-9CAF-3B3365D0A7B8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BF908A13-68FE-499C-B39E-3C0B724FBDB1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C04B368A-D2E7-4B4E-A000-0EBF81A34CE2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C155CDB8-981A-4EED-804F-471A132EEDB7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C2194D4A-3017-4DA0-89FA-A2239207E777",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C363988F-D67D-48F8-BA01-3CAD8FC84A87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C571453C-5925-4881-AE03-FE1FDE5DCEAE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C66F1013-1F3A-4654-BBF4-36F2E28C19B1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C67A6453-8D70-428B-A352-AFCCB5A64DAF",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C9E4089F-8486-49E9-B817-62CE1BA0FB62",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CB227AE3-881B-4D24-9A64-B8D847C65E5D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "CF1F675F-E484-4D48-9943-87AB45127C6B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CF413690-502F-4CCD-AFEA-56F05AE7E132",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D029A271-41C7-4D81-A878-5324D4B678AD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D1D8F9DC-2D69-440B-A016-E668C5223575",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D30525A2-478E-467D-86C8-A2CD2AF584B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D3D272A2-C951-4DE5-A5DC-3141EA584850",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D421C169-0885-472B-9D0C-B94849B08D6C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D5288126-D9EB-444D-8FD6-42CB19C01FBF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D7CADE1C-DA43-496A-A647-36F04C970D5F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D938A355-ED1B-4CC5-9C21-938B938720FC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DA47CE51-C99B-44DD-BE60-B59B69F7786F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DCC6E7FC-7F44-4850-B9FD-37136FE71B99",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD560E54-23F4-4C54-B6A2-FD7EA140A20F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DE3D3C59-4A75-464D-B74B-ED5C05CEBBA6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DEFD4EF8-7437-4800-B56F-8ACE715A5F3B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DFD794A2-DD42-408B-AA5A-BAA824FD552B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E00972BC-48DC-4C98-8BE4-F97C1FCE7C5B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E0290A92-052B-468E-8891-31C5828D5371",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E249E6B5-9081-4B2A-A62A-B2987F9303E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E36ABC83-B156-49C5-8A8F-AB3D45544F0B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E601592F-EDBD-4661-BDB4-D8E9882FEF7E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E83952C1-2E9E-4ED8-8298-B30DB2806CEB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E9E160B4-744C-4CDA-A11C-88B68205CC22",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EB8F38CF-DE8E-4DE6-959F-4FBB7C67AED0",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "EC1680F5-01A1-4E18-906E-E60F7D81FF65",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ED208C80-715B-4447-9B53-A0F1F9A9CA4C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EEAB91A0-1232-4E60-9E73-58AA86FEB87A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EFA3EBBD-D14A-47FA-9C93-7C82EE5DE0BB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EFE6A74A-C4A1-4D26-B0AF-F247B4BAF933",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F0B9F746-E8DD-4145-861F-16C6E638A341",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F0CBC3ED-2BF9-45D6-8B2C-E52A4B18EAC7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F12244A2-B3CA-43BE-B064-BD0316D237AC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F13C5B8C-302F-4DF8-B07C-41B6C7469E08",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F381ECA1-42F3-45A7-BBD8-F09D78C0E185",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F6049453-E94E-4090-9127-21FABEAF37BD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F7063EC9-3F2E-4162-B058-EB3A48F3C4A7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F72B6671-2955-4234-91F7-46F540418D20",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F7754841-F326-4054-95CE-76376687C7A0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F7B72619-E6C1-4B21-A24E-90690BAC3962",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FA13B88E-5785-4E7B-B940-C30D909C09F3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "FAF4FDA1-B008-4D92-B94B-DB5249130373",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FC592703-F60D-42CE-BB49-1991D2F4200E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FC5FE0A2-7EE9-43D4-B739-F0910696D91A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FCFB9571-E240-4A26-9521-97027727CE33",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FE133D8F-88DB-4F3E-8A33-03E6B17B2DBD",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:25:54.449Z",
+  "source": "Swedish Riksdag API - Individual votes for Schröder, Magdalena (M) in 2023/24"
+}

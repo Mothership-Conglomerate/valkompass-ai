@@ -1,0 +1,31 @@
+{
+  "politician": "Manhammar, Magnus (S)",
+  "politicianId": "025967059622",
+  "parliamentarySession": "2022/23",
+  "year": 2022,
+  "totalVotes": 5,
+  "votes": [
+    {
+      "votering_id": "0FAF31FB-E463-4390-8BF2-BFD41EFE3A39",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "70ACCF25-BF8A-426A-8254-3D021202E4E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "880CAB58-EC4C-4C4F-8617-11470CF0D198",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B13A0147-B765-4993-98D6-01F444F6B762",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CCD60A0B-5D0A-40A7-BEB6-C0159C503184",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:22:39.465Z",
+  "source": "Swedish Riksdag API - Individual votes for Manhammar, Magnus (S) in 2022/23"
+}

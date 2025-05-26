@@ -1,0 +1,19 @@
+{
+  "politician": "Lundqvist, Patrik (S)",
+  "politicianId": "0418929039326",
+  "parliamentarySession": "2022/23",
+  "year": 2022,
+  "totalVotes": 2,
+  "votes": [
+    {
+      "votering_id": "C7E795A0-9F65-49C8-A574-6CBEBF90DD0E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E187E14A-EAEB-42CD-A8A1-606BFAD5D0E0",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:22:26.050Z",
+  "source": "Swedish Riksdag API - Individual votes for Lundqvist, Patrik (S) in 2022/23"
+}

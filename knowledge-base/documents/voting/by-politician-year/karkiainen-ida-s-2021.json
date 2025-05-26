@@ -1,0 +1,259 @@
+{
+  "politician": "Karkiainen, Ida (S)",
+  "politicianId": "0509830681123",
+  "parliamentarySession": "2021/22",
+  "year": 2021,
+  "totalVotes": 62,
+  "votes": [
+    {
+      "votering_id": "00F42F6D-FF66-4CC7-B9B0-AC5D0552DFBB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "03265833-DACB-485E-97BC-8FDEFC7AD106",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "04461551-6E31-46A7-AB01-8562DEBBACC3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0D198221-692B-49CF-96EF-B1635A45ACEE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11B0F5C8-A9A0-419A-BD97-532197EECBCB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "13F72E3B-DA37-4EA9-B64B-D15B9518954F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "14F6DF94-9516-4BB7-BE5C-5E905FCCF2C2",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "16046BC1-8D15-4F8E-97D7-7B9C247695D9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16711C3E-B86F-4259-88F5-C5CCA850E9C2",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1685C47A-E54D-4AF5-BC10-695AA297A1ED",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "17F27627-89B4-487B-A16F-066DBB77E35A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18DEB8BC-4243-4B26-9680-BC0A0BD2DE83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "23D2A266-2C26-4132-971A-69E9C5C74C43",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E3FE645-6236-4B87-A79B-8FCBA10FDD58",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3235572E-E998-4CE9-BEEC-3D88CAE7702D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "40414160-4C09-432B-A55D-1268DBD29B9B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "40C91CE0-01CD-4D13-8EB9-F34BE2C2B01A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4A23F582-5C3D-4010-931F-B605800D6975",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "54DC5C7A-A184-41D7-AA98-FEA00793CE54",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "55FC9523-4BBB-4E0E-9046-B959D1C15FC5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "56F83A5F-6943-4819-BF57-62300EB5C062",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5F56D02F-3D91-4E68-8748-8760AAF41A5E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6088BA25-841B-4443-A954-84D6503636CD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "60ACAEC5-EDE5-420F-B650-430CE2B94E13",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63FA49F2-4FCF-416F-82AD-DDB83BE1E782",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "65B207D9-B3EC-4C73-AA49-741FF81153AB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6CC076D8-77C4-433B-AED4-24D0DBAFEF20",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "74778408-AB4A-431B-95E6-D4E9B1CE2E32",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7859983E-AE49-449A-A330-347F3FE5ADBE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7F961B3B-204B-4FE9-B10E-4155C25EAB80",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8107D536-F838-47D6-8FDF-B2FA07644B0F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "82D9B49B-32F4-4E23-AE4D-9E96F7DA6DFF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "844F80E1-5995-4E7C-99C3-22E1B64BCC33",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "891AC81F-1182-43AA-8A58-A20D130354F0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8C0666F8-FFDF-450B-A45C-0C2CC080A5F7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8E098FA6-4392-4F24-A423-288A3E5CF4DD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8E1D2466-539C-4F60-B6CC-310A69B26273",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9E104CCD-3FF4-41F6-AF13-811120BDC003",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A1BEF4A7-31C5-4890-BAF2-AD84AB656F77",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A4464B3C-D7C2-4D48-96D3-7DAB7006E5FF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A4C6065F-4624-47D7-BEF5-5C0E9084E24D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A4CD2719-7485-4779-A60A-7797265B4C4F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B3205C44-2F69-4CFF-8131-38AB3ED404CE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B4754915-75D7-457D-A443-E16EA5C84AE0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BA325F6C-5C41-41E3-A2A8-7FFEFD91CEE2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BB74595B-343D-4370-A429-8FD6C6727C58",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C82C0E6C-7F45-4539-B61F-480FA6538D48",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C953BE74-2AE0-46F5-88D2-C7A646891457",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "CE8DE22B-1970-43EC-A233-759BF6534C1F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5D3E1C4-0A55-46DD-9602-DC6F134F8C05",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DE9F1819-092B-4892-98DB-4BD292684843",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E59A923D-758C-496E-AB27-BF9E6DC58226",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E655E002-6782-4263-B432-7136ACE7A36D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E7AD2974-5726-4ADF-882B-370A7F16C096",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E87586E4-E68C-4EDE-B171-A53ED3E13357",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EBF3966A-2FE7-46FC-A3D8-AB9E1B1C27F6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EE791B32-69E6-4DCB-8E6F-0FC7DD080612",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F2E82626-94EF-4A29-9852-67BDEBDE91FC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F41FB45B-F1CB-4D63-9B5B-4159A48F8ABF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F9908159-D69C-4B0F-9360-9DEB722FC45F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FBB0C35F-2A1A-470C-9678-B4B08D582A46",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FCC8B041-D658-46C1-9ABC-C9C0F5D527B1",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:20:55.671Z",
+  "source": "Swedish Riksdag API - Individual votes for Karkiainen, Ida (S) in 2021/22"
+}

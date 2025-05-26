@@ -1,0 +1,15 @@
+{
+  "politician": "Strömberg, Anna-Belle (S)",
+  "politicianId": "07921826010",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "D3D934AE-B3F6-42E7-81B8-2700ED662307",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:26:46.874Z",
+  "source": "Swedish Riksdag API - Individual votes for Strömberg, Anna-Belle (S) in 2020/21"
+}

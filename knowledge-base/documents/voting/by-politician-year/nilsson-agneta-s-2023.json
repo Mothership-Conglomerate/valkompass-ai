@@ -1,0 +1,35 @@
+{
+  "politician": "Nilsson, Agneta (S)",
+  "politicianId": "0653578338415",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 6,
+  "votes": [
+    {
+      "votering_id": "026043B0-B0EA-47FA-BEB2-B9AA74D9AFF5",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "10365429-CA33-4428-BCAF-604AC9E5C72E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "34EF7406-505E-4377-95ED-ECF65B7605DF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "71A6CFDC-5096-4E88-9EA2-90F27067AD36",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "84CE3F65-4701-4624-A16D-7221D97EB2B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BBF95418-BDCB-486A-818F-CB8D94FC16F3",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:23:05.897Z",
+  "source": "Swedish Riksdag API - Individual votes for Nilsson, Agneta (S) in 2023/24"
+}

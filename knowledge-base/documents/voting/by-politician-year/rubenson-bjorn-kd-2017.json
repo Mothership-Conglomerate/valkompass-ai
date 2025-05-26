@@ -1,0 +1,31 @@
+{
+  "politician": "Rubenson, Björn (KD)",
+  "politicianId": "0504073787702",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 5,
+  "votes": [
+    {
+      "votering_id": "54EFA8F6-F541-4D7B-BD7F-17ECFFE4A5EB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5A288D97-DAEB-4986-BCC0-4F6C82AF5820",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E8BD6F0-7C44-4089-9582-FB83066FC4E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AD609FB7-0001-4AD0-9B0A-7CF86F488FB4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E477F586-2DE9-4B04-A2AA-C28DC91D388A",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:25:36.014Z",
+  "source": "Swedish Riksdag API - Individual votes for Rubenson, Björn (KD) in 2017/18"
+}

@@ -1,0 +1,307 @@
+{
+  "politician": "Färm, Daniel (S)",
+  "politicianId": "0575584900819",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 74,
+  "votes": [
+    {
+      "votering_id": "01585D4B-3642-49C9-BB2F-21A3EEED6D9D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "04CD68E7-7519-45CD-98E1-FB4CDAEEA947",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "050666B3-2F95-44E9-8F17-CA8A176B61E8",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "056D3ABC-2B84-4794-AB29-1D524602D2AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11AF4D0C-24CA-4623-851D-01DEBB9AB91F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "11DD8EA2-CCAF-4EF6-BC15-DC553186FF18",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1273D5FE-6FBD-4185-8CD8-D2E29C4CE177",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1561C61D-B34D-4690-A6A6-00761D52F95A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18932104-30A0-4157-A6E2-3E5AFF64D172",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1AA1A0E5-6B62-4A85-97B8-E3D4C3032AEF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1D5E4946-F6DF-452D-AB64-3BD8388CB6B6",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "21419CD6-68BD-4990-8D1F-0741E8F86C7A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "22BFCAAE-6336-470E-B2D7-DF12EC69B559",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "25BB6F38-9BBB-453F-B6F6-9F593B86F178",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "269A89A0-B554-4DC7-AC23-55F9E2FF1555",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2AA1F291-3DF8-4EE4-99A3-8FC16980A259",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2AB8CDED-A4ED-4467-A650-2822BE106FB6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E581808-2A60-4FDE-B011-D5A778BDCC7F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2FD7DB49-D153-4496-BB3D-670ACF4E825D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2FF3A560-6671-420F-A749-25B0B9A2D542",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "35BC0C65-2D35-4D10-9022-A0011D3F0E5F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "37A45E8F-7D08-42A6-AE0D-2102E215FDF9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "37C1B1F3-9A2B-477A-AA9B-87A945F1811E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3A84C523-46C4-4188-9D70-8842DD215073",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3C1B645B-A2E4-4E0C-97C2-B39D3BB01E63",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4348BE0D-E7C7-4F7F-88D1-E808A114FFCE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46B97854-18BE-493A-BFF0-C7241623F99B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4862ED52-6935-46E7-94CF-995CBCD85660",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4B026EE6-4DFD-4DA3-8AC8-05B8F6B7B3ED",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5061595C-5360-4B28-B0C5-75C0EFCB94B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5156CC89-290A-4BA3-B5B6-C295AB5EEDF1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "53BBB2BB-1C20-49E2-B53C-051940F4EE3E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5EF3FA79-07AB-42D2-8F3B-E0809F07771D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6B0AB572-8CBA-4BD7-945A-E4EB53BB1650",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7087C2EC-8EE0-47D4-84BD-382DA9C00BF6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "73CED569-F4C7-4C95-9232-E9E0F607AAD3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7472A82C-1C3F-4787-9106-6DBB19094ED6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "75B6E225-4C09-48BF-AE70-2F86DA4D4B2B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "769562B6-C1F3-42E3-9415-D1CF3AF4CA64",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8CE53209-FBAA-4FEA-B735-04250C01AF3F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8ED2D4F1-3E94-44F6-BE78-7207AB234BE4",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "934BD0F5-AC94-415C-8A8E-D69535AFD92B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "95AC31AB-763E-413E-B65C-6E6754FC879A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9844D664-9B20-4A74-8712-72C742F4BDA3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "987F5F86-25E0-4451-99D3-9DFD608DF5E5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "99B8BB78-E7B2-4FEF-B159-177E5C6BC55A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9AEC8C6D-EF56-4ABD-A786-7964AE57F6FC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E0E844C-AA33-4F5F-86D3-CCF6210B36EB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9F5F3974-73E7-477C-A828-8ECBCCCBD435",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A58FFC4B-962F-4ED5-8E2A-4B8B8646D5CD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A88E3D89-CEA5-42EA-AC53-9A4CA48E33BB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B0892746-9D11-4745-9585-9550DFB84D1D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B210D47E-7AED-4156-BBCD-0AF8911FC52D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B258E5C0-2CA9-4C1A-B830-04AAD7AF8F89",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B2939D43-09BF-43F5-AD36-CA843AB6C0AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B7E17701-E6FC-4581-9911-71B01F1549AC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BBB235A7-76DA-4C85-BAC3-A42F64C97C02",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BD25BA5E-676F-4B12-ABD4-851B645FDB66",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BE10433B-6166-4748-BDA3-EAAA554201B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BF511BDA-C982-4160-B3D9-F0E17F1AE843",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C6BD7ED9-851C-438F-BDAB-E37EF0DCBB2A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CD08856D-0CED-4930-9DB5-D40C0955F0C0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CD69E7E5-D3D7-417D-B33F-EB37BF1FA492",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "CE9D531A-B17B-4275-ABED-A5AE7A31F87F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D37674E7-669F-4D15-8DA6-70C95671D4F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5FCAF2A-7F1F-497C-964B-1718EB895DD0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DBC0AB1D-668C-456D-A770-EDA753C916F4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD856516-910D-4A2F-99C8-44490666DD9C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DF744B20-A25B-4684-8403-2B5D99D447D7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EDB6D2DE-3ED4-46E0-A064-B17E0585B071",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F676FBD0-06D8-4954-8BDF-69282D29714F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F82BBA43-913B-47AA-BA77-6808871B45F6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FD7CD51A-97CF-42D9-933E-F5A6EC875354",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FE2E9E63-E9BB-4DCF-9A01-06C6A950EF7E",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:17:28.076Z",
+  "source": "Swedish Riksdag API - Individual votes for Färm, Daniel (S) in 2020/21"
+}

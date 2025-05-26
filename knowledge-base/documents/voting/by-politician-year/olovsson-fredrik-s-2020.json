@@ -1,0 +1,35 @@
+{
+  "politician": "Olovsson, Fredrik (s)",
+  "politicianId": "0653904370212",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 6,
+  "votes": [
+    {
+      "votering_id": "129AB246-4CB9-4C99-B94D-DEFA9B77D02F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7D6722EA-28C7-433C-86E2-BF18835283CC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C5F161C3-05B0-4FBC-8B6A-53E2F80EF05A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C9F1AFB3-A8D2-41AF-9BEC-A6B23E56469E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "DAEC16C0-1A2E-4B94-ACC1-8D2F5FA68CB3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E524FB9A-AFBD-450F-A1FB-AC5BC0B5EEB4",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:23:55.985Z",
+  "source": "Swedish Riksdag API - Individual votes for Olovsson, Fredrik (s) in 2020/21"
+}

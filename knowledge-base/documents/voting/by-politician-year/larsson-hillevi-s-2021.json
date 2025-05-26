@@ -1,0 +1,79 @@
+{
+  "politician": "Larsson, Hillevi (S)",
+  "politicianId": "0878075468027",
+  "parliamentarySession": "2021/22",
+  "year": 2021,
+  "totalVotes": 17,
+  "votes": [
+    {
+      "votering_id": "1685C47A-E54D-4AF5-BC10-695AA297A1ED",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "17F27627-89B4-487B-A16F-066DBB77E35A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "23D2A266-2C26-4132-971A-69E9C5C74C43",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2E3FE645-6236-4B87-A79B-8FCBA10FDD58",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3235572E-E998-4CE9-BEEC-3D88CAE7702D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "40C91CE0-01CD-4D13-8EB9-F34BE2C2B01A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "54DC5C7A-A184-41D7-AA98-FEA00793CE54",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "55FC9523-4BBB-4E0E-9046-B959D1C15FC5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "63FA49F2-4FCF-416F-82AD-DDB83BE1E782",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7859983E-AE49-449A-A330-347F3FE5ADBE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8107D536-F838-47D6-8FDF-B2FA07644B0F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "9E104CCD-3FF4-41F6-AF13-811120BDC003",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BA325F6C-5C41-41E3-A2A8-7FFEFD91CEE2",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BB74595B-343D-4370-A429-8FD6C6727C58",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C82C0E6C-7F45-4539-B61F-480FA6538D48",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F9908159-D69C-4B0F-9360-9DEB722FC45F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "FBB0C35F-2A1A-470C-9678-B4B08D582A46",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:21:33.388Z",
+  "source": "Swedish Riksdag API - Individual votes for Larsson, Hillevi (S) in 2021/22"
+}

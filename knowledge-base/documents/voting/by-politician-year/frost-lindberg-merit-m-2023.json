@@ -1,0 +1,15 @@
+{
+  "politician": "Frost Lindberg, Merit (M)",
+  "politicianId": "0533104339313",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "D7FD3597-AA63-4725-89BA-FD7906C08F5E",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:17:52.115Z",
+  "source": "Swedish Riksdag API - Individual votes for Frost Lindberg, Merit (M) in 2023/24"
+}

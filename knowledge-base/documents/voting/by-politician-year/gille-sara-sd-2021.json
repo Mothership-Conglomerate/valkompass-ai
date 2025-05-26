@@ -1,0 +1,47 @@
+{
+  "politician": "Gille, Sara (SD)",
+  "politicianId": "0338088431726",
+  "parliamentarySession": "2021/22",
+  "year": 2021,
+  "totalVotes": 9,
+  "votes": [
+    {
+      "votering_id": "23D2A266-2C26-4132-971A-69E9C5C74C43",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2E3FE645-6236-4B87-A79B-8FCBA10FDD58",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "3235572E-E998-4CE9-BEEC-3D88CAE7702D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "40C91CE0-01CD-4D13-8EB9-F34BE2C2B01A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "55FC9523-4BBB-4E0E-9046-B959D1C15FC5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "7859983E-AE49-449A-A330-347F3FE5ADBE",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8107D536-F838-47D6-8FDF-B2FA07644B0F",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C82C0E6C-7F45-4539-B61F-480FA6538D48",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F9908159-D69C-4B0F-9360-9DEB722FC45F",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:18:09.720Z",
+  "source": "Swedish Riksdag API - Individual votes for Gille, Sara (SD) in 2021/22"
+}

@@ -1,0 +1,267 @@
+{
+  "politician": "Jonsson, Marcus (KD)",
+  "politicianId": "0765747165821",
+  "parliamentarySession": "2019/20",
+  "year": 2019,
+  "totalVotes": 64,
+  "votes": [
+    {
+      "votering_id": "0A63A1D2-90BE-4D3D-A049-812F091834EB",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "0AC3BAF7-AEC7-432F-8E09-FB3562FBC694",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "155BB246-4F9B-475A-B682-F0118DB01EF4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "186E4D9E-5303-4105-BD5B-E74A8C1F4CC0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "19B4FE7D-9FF5-4103-93D7-59C926CF294D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1B3271B7-7B85-46A5-9A73-4788C42E705E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "210D1067-C2CD-4F7D-A23A-73EBC1F6AAD3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "278E87D9-33D5-4E8B-90B3-0060B287E549",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "36EA0215-2DA2-4E0C-A8E6-F9315BAD62A4",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "37B843FD-959D-41A8-AA5C-E5E5E1744FE3",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "464FCB71-8973-4D73-A5A4-EEA8355D5F5D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "49866EDC-EC29-4EA9-A0C8-167370F3D48E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5E40C287-F091-4DC3-8F90-52C14CB9CB8E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "61384B70-58C2-458D-A551-F34F71476D37",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "64F56255-3030-4058-8011-903B2BA5CCF7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "67766912-8897-4FC2-A807-81F954AEDF7A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6D58E372-9EBF-4C31-A1D0-81B9DF219174",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6F6CAD7B-47C6-4940-BDFE-DA03FD37316E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "70D3DC8E-3C65-475C-956F-40589DF9E605",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "76E40721-46B0-4B01-B696-C99624EB156B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "78D5C582-EBB1-4581-861A-E8C70F781BCF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "7D381153-A76E-42A1-BF8C-307446B91F15",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "7DD2796E-AEFA-4301-8508-1BA11A060E57",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "7F078EB3-5E9B-4A60-B260-B9D6A4B092B9",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "83DCF4E3-13BA-4D91-AFCA-06CC6CFC3331",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "861A4205-A3AC-4E8E-BA61-66388FF8E06E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8B3E22F4-04F0-49CE-8CBA-316AB94744DB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "913D6B4A-5958-40FC-9897-1407EC91A3A4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "957E2C17-1AB3-4D13-98DA-3DD27995A866",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "9739E20E-D009-4E55-8638-F5FCDF327EA0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9899F373-0738-410E-914E-FB685437B057",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A14BA3B-68B9-4802-8522-DF7257B047B0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9DF9ECF1-13A1-44CD-9D75-297D98796E53",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A0DFDDEC-5C8A-440A-A8C5-17E341B6CF96",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AAFED895-ACE9-408B-BE40-3390944E0B0A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AB6F84A6-1398-438A-B576-2893011EAF1A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B04DF50A-49A2-4415-BF37-7FF755CB321B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B2B4C59A-0455-4EDE-8AA6-FA937F567031",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "B3DC1FD8-B31A-4F5E-9927-93D07E45334C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B6D2D85D-04F4-465F-96E7-B9ED55039361",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B700B9EC-2EB2-47FF-A5BA-DE1EE18719B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B8903182-5BBB-476B-B722-2287FAA117B3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C1671449-D3D7-422E-B910-6FBE51716EFC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C3D268B3-5CCD-4431-BB2E-90779C850073",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "C45154C8-F705-4613-9DE0-96A28D912732",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C65D1B98-DD8A-4427-8027-D4296C32E802",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5CAA0C5-AE1A-4E57-8502-A10AAE36BA7B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D627607E-B002-47A6-B976-A71D1BBC0D01",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "DA5A066C-E325-4212-99F7-767B821EFB18",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E142F947-0695-44B1-A391-DD1657A02D37",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "E48927C1-6910-45C8-8E0A-B8BD18302C2D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E4C55AA6-4828-41FF-A270-A790A00376E5",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "E957F10C-01D0-454B-BF4B-657496BCA756",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E9E6D48F-1FFE-4AFE-A9A6-752293FAB149",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "EA49EA56-CDFB-4F67-AB49-3044C20476A9",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "EB874FAA-39FE-487B-A839-0FBAEBB1A0FB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "EE89BC15-2B4A-4C9E-B663-5A8EEAC62A24",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EFAE3A35-032E-43E9-8D42-FCF27E6B6BEE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F00978BB-18E9-40C8-A3B6-3213E3D5AC62",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F3A3DC67-38F6-4A8D-983B-589A4B89AA91",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F9759A88-B822-4B13-BB3A-73AFB6C97F0F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FC1E56AA-9651-46BB-9BDC-2D3EDE51D3F7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "FCAFEE11-7F00-4E53-9081-3EFA78265153",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FE5374CE-D382-4EFD-8BA2-CECD113D5E8F",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:20:37.518Z",
+  "source": "Swedish Riksdag API - Individual votes for Jonsson, Marcus (KD) in 2019/20"
+}

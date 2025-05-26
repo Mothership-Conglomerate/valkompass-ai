@@ -1,0 +1,107 @@
+{
+  "politician": "Sandgren, Jacob (S)",
+  "politicianId": "0206034257412",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 24,
+  "votes": [
+    {
+      "votering_id": "09E69DF1-ED56-41C3-9C46-C1787C943885",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "182635F0-ED0B-44B0-BD37-9C095632F5DC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2AA4D74B-5144-4812-B296-F7376B1FBFF8",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "31286FFA-3B79-4E41-B36E-B1237D00BEE4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "39334665-ED5A-41BF-9EE7-E386BC16EDBB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "57BE692A-E2EC-43EF-A341-7A750A602A98",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5FAAA299-D5E7-466C-968F-32E2A4D4C6AA",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "6788E483-8514-41C6-AC42-67C24D918158",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "6F2AE564-8CED-44BD-A039-9C644728E854",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "71C3A926-B168-4ECC-9B2A-A9CE94CFE772",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "731C6D2A-7722-46FF-BE18-E2AEEFF4D167",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "87E51685-35E1-4140-89FB-425BF73FA5E2",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8D7392E6-E065-4251-A896-1DAD05C2B997",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8E53EE41-3228-43A1-9E97-28C184A61012",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "95FEB38A-75E4-4902-AB6B-8DAD4B60D96A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A134288F-C618-4C46-935A-6D85E8AC3202",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A58C8287-7D44-4284-8008-239D3E1C52AB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "AD0625A8-F65D-4242-B375-DE0DEC096C23",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B68CF3E4-AB51-4134-9144-5195CCD4BB55",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BD229280-FABB-4FF7-995C-E9631B76499C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C46A5E43-72A0-4817-8B4D-95BAE679F9C1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E1A5B7B2-DDE5-4F46-AA0F-8A5210B5B2AC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E29AFEAF-5676-40A0-9655-5968A98B43CB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F459A54B-D47D-4D0B-8666-0266D29041E6",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:25:45.485Z",
+  "source": "Swedish Riksdag API - Individual votes for Sandgren, Jacob (S) in 2017/18"
+}

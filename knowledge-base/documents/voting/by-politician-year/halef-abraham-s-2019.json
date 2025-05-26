@@ -1,0 +1,15 @@
+{
+  "politician": "Halef, Abraham (S)",
+  "politicianId": "0488332307829",
+  "parliamentarySession": "2019/20",
+  "year": 2019,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "BD94D46F-E33C-4CE8-B625-26B22246F9CB",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:18:48.878Z",
+  "source": "Swedish Riksdag API - Individual votes for Halef, Abraham (S) in 2019/20"
+}

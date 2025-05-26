@@ -1,0 +1,127 @@
+{
+  "politician": "Attefjord, Nicklas (MP)",
+  "politicianId": "0965245623824",
+  "parliamentarySession": "2022/23",
+  "year": 2022,
+  "totalVotes": 29,
+  "votes": [
+    {
+      "votering_id": "0862564A-E7C4-47AB-A43E-D2F42B3D54B2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "105A8CB7-913F-43DA-9369-3122FBF35EA3",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1459843C-F3F9-43D5-933C-759BE764543B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "19BEF2C6-3BB4-4647-8CE7-CAC426A8D6E4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1CD4E98E-1706-4852-BD77-D5A46964CA8F",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "26EF1EF8-B01A-45FC-8E63-83556D2F5F83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2840874F-9F27-4704-BB3E-26557FF4D72A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "28FE868E-316E-496C-8F61-3CB1A268B17C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2A7EE5A3-5F29-4293-9C6C-A401F161C620",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2AC86BD5-5360-4BC1-8A99-FF4175003DFB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2AE81505-40F1-40A7-8453-C389EDFF711B",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "315C5C6B-6299-4315-91D4-96E15C0D6622",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "32BC97E5-BB9F-453D-883E-401442004685",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "376923A0-8D12-4D74-981A-F3BF5B0200E7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "46703E6B-E7B5-47A9-82B8-FAA20C743D82",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "57982A47-5CB3-48B5-862A-D69AEC6ED041",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63211B28-1AE6-4C12-AAB6-DE085BF429F1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "78FF6849-4C95-4A26-906B-47E61C02E47A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "834DB60C-A822-420E-9C03-9E2F8F51B21E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8D1F96AB-81FF-4783-BA15-FE3F866523F3",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "929F8FAB-4918-4952-A0FD-996109D29816",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "99C6E88B-AE0B-4B0D-AC05-CED13E90755E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9B322D1A-F43D-4F75-A7C0-397819B0FBE8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A5E32EAE-C89F-4C6F-8D6F-163CE3CA9848",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "D1B31538-2D78-4C37-A1C8-9BFD47FD336E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DF8FAF60-0FAB-4B3F-9B78-0FEF191BC013",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DFBF68C8-7E11-4790-83E4-751BAEB4DE03",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F8E30CBE-D34E-43A0-82E0-4823ACD8ED67",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FD565FF5-02C3-4D15-8E6F-F2FBA88E5DE3",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:14:37.453Z",
+  "source": "Swedish Riksdag API - Individual votes for Attefjord, Nicklas (MP) in 2022/23"
+}

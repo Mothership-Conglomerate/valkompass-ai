@@ -1,0 +1,75 @@
+{
+  "politician": "Henriksson, Stig (V)",
+  "politicianId": "0644177413119",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 16,
+  "votes": [
+    {
+      "votering_id": "12C88A21-67FC-41C2-95F8-2E2A847A26FB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "44ADFE88-8E76-4E47-B7CC-CF96453AB873",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "44D406AC-BA91-4048-A64B-34ADC008A84C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "54EFA8F6-F541-4D7B-BD7F-17ECFFE4A5EB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5A288D97-DAEB-4986-BCC0-4F6C82AF5820",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5C108269-8A49-4B84-A4A7-675F363DA856",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "61D1F1DB-D8AC-4888-936E-8DA96B25F151",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6838D3A7-B61A-427B-9717-8A312E1C6E7F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "79309877-5074-488C-8AD4-FB6D31F7B220",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "830003F8-A7C9-4F44-A411-6B78F46EC9A9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8B3D8ADC-2FE4-402F-A9EB-C95CB173BBAA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E8BD6F0-7C44-4089-9582-FB83066FC4E0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A77A0EC5-9127-48E6-A3A0-F254CB4C0AAE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AD609FB7-0001-4AD0-9B0A-7CF86F488FB4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BC2C0DC4-CA02-430F-9F7A-0E3A7102F1E7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E477F586-2DE9-4B04-A2AA-C28DC91D388A",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:19:23.766Z",
+  "source": "Swedish Riksdag API - Individual votes for Henriksson, Stig (V) in 2017/18"
+}

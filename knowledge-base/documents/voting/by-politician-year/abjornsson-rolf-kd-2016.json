@@ -1,0 +1,123 @@
+{
+  "politician": "Åbjörnsson, Rolf (KD)",
+  "politicianId": "0530361204603",
+  "parliamentarySession": "2016/17",
+  "year": 2016,
+  "totalVotes": 28,
+  "votes": [
+    {
+      "votering_id": "0D8311AC-0345-4BCA-A0BD-C46478B4C434",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1DD11FD0-7128-4A23-BDAC-E2A6FA8CD2EC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "300C529F-1CAB-457D-801C-AD1F5A08A9A9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "36755902-5103-476A-B27E-A632C42F6936",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "36BB5FA3-E84D-4642-967F-A0D7FA7D7422",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "44CA7483-BDA9-4970-9E38-4AA22A295911",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5040DE08-FBCC-4105-8E15-2D95C706BE00",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "54E96B3F-4EC1-4647-87B4-E6CA9F7E9793",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5CAE42B0-29C3-4D9D-9067-61E2DD45849E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "725C56FE-234B-490E-9FF4-5025C336FED5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "76EACC8C-DC92-4029-865C-2EEB34E303F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "79686513-5B7A-44DB-95DD-5F459343D0E8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86C9DCBF-9E1A-4337-BEA2-19CF71B44367",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "878A208B-73AE-4977-A99A-0CDF1440FF6E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8F8CB1BF-2E5D-4B3A-BD40-2A36A729AC4C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "914F6694-4744-4015-A0DA-6CAB80B326E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "97531871-CDAB-4EE1-B2B6-0110EB229A95",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A3E9FD87-29F9-4521-A7BA-F8187D68EA14",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A7C2E6C7-F89C-48AA-8FB2-09171DA70A87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AA9F7605-4C33-49DE-AA57-DF907BE2C5E7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B247BD4E-9940-42E2-9D1B-1B2E75ED50A5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B767E0DC-32D2-4F59-A78E-E1C523FF5144",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C9D565E0-5298-4FA2-B633-C526965E3BD7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CE65BDC7-4053-454F-958F-CE4721ACB79A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D3729075-9FF2-452D-9427-AB6348547864",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D57DCB53-24D6-4A71-BF3A-255885AC336A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FC620632-5017-4CD7-9A12-1398FD7FB906",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FE7B22CF-E595-4A0B-B913-F4B81296A1D4",
+      "vote": "Avstår"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:13:30.516Z",
+  "source": "Swedish Riksdag API - Individual votes for Åbjörnsson, Rolf (KD) in 2016/17"
+}

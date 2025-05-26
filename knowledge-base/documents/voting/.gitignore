@@ -1,3 +1,2 @@
 test-voteringar/
-test-votes/
-test-votes-new-api/
+test-votes-concurrent/

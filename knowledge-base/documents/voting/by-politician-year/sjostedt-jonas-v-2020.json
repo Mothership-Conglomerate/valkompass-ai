@@ -1,0 +1,79 @@
+{
+  "politician": "Sjöstedt, Jonas (V)",
+  "politicianId": "0383111552218",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 17,
+  "votes": [
+    {
+      "votering_id": "129AB246-4CB9-4C99-B94D-DEFA9B77D02F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2D25E7AA-1726-4F7B-9844-964920B5BA41",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E14757C-9363-4603-94ED-09B4D6527177",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6095B35F-AFD0-4EB8-9E81-4AC6EE3B9689",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "68A402F5-F086-480F-98B9-6ACA8ACE491D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7D6722EA-28C7-433C-86E2-BF18835283CC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7E91708B-2319-4133-89D7-F7D055A92014",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "97E25E0D-CCEE-4E7F-9704-9AC7FF468FA4",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "A1A21E22-8426-4B2A-9F14-D5C871897462",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C2AB3F2D-FFFA-47B4-A446-F8800925281B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C5F161C3-05B0-4FBC-8B6A-53E2F80EF05A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C9F1AFB3-A8D2-41AF-9BEC-A6B23E56469E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D4486563-AB31-4E19-BF9D-F234A66DFCE5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D8F66189-36D8-4F83-9A36-F9536D4C5374",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DA6FE2D9-9BA5-413A-9477-7A51932DC6F7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DAEC16C0-1A2E-4B94-ACC1-8D2F5FA68CB3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E524FB9A-AFBD-450F-A1FB-AC5BC0B5EEB4",
+      "vote": "Avstår"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:26:09.320Z",
+  "source": "Swedish Riksdag API - Individual votes for Sjöstedt, Jonas (V) in 2020/21"
+}

@@ -1,0 +1,15 @@
+{
+  "politician": "Hartzell, Åsa (M)",
+  "politicianId": "0534870997412",
+  "parliamentarySession": "2023/24",
+  "year": 2023,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "D7FD3597-AA63-4725-89BA-FD7906C08F5E",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:19:05.797Z",
+  "source": "Swedish Riksdag API - Individual votes for Hartzell, Åsa (M) in 2023/24"
+}

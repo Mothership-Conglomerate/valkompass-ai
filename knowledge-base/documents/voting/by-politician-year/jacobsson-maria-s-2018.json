@@ -1,0 +1,87 @@
+{
+  "politician": "Jacobsson, Maria (S)",
+  "politicianId": "0342890774415",
+  "parliamentarySession": "2018/19",
+  "year": 2018,
+  "totalVotes": 19,
+  "votes": [
+    {
+      "votering_id": "0F21A660-8AA7-4A3E-84D2-A09E3672A803",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "17268CA6-1FA1-4FEE-8712-DC4D2C9A656A",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "32260704-9341-473E-8CBF-8518134A0AE9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3678A5C4-7D7C-467D-8FED-019E9AD20891",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "3EFFD733-7E20-43F2-B46E-F9F7569B2101",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46BDA9A2-0912-46F1-BF39-BC5FCA260805",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4C197BC2-EC72-4D6D-ADBD-4CE0C94AB5AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63BFFCD2-954F-42D1-A319-3C7C7CDB3308",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "65CA6100-BD8A-4BEF-8E03-D1F592B6847C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6C6D21A1-FF7A-49FF-A084-C38200733AA7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "740186C9-DAFF-4294-BB97-4C86820F189E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7405AB3B-0D5E-4B22-9EA4-4403CD01D05E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AC96C80D-A098-4D91-8431-43EBD425CEBE",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "B73751CA-36C7-40D9-9470-F7D950F1678D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C14541F9-F0E8-47DC-A270-06C92E6C7D29",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CC947A1A-06E4-480C-B5B4-A959B0804195",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EDBADDF1-AA88-4A39-BCB4-70599F553FEE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F06B69C1-265A-4916-86FD-C03C1C3BB334",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "FC7C6DBF-389C-4F23-8955-0CEC50B22E25",
+      "vote": "Avstår"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:19:52.602Z",
+  "source": "Swedish Riksdag API - Individual votes for Jacobsson, Maria (S) in 2018/19"
+}

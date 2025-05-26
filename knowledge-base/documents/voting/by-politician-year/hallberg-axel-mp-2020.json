@@ -1,0 +1,15 @@
+{
+  "politician": "Hallberg, Axel (MP)",
+  "politicianId": "0556755096938",
+  "parliamentarySession": "2020/21",
+  "year": 2020,
+  "totalVotes": 1,
+  "votes": [
+    {
+      "votering_id": "D3D934AE-B3F6-42E7-81B8-2700ED662307",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:18:50.599Z",
+  "source": "Swedish Riksdag API - Individual votes for Hallberg, Axel (MP) in 2020/21"
+}

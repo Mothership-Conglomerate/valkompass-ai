@@ -1,0 +1,427 @@
+{
+  "politician": "Thuresson, Magdalena (M)",
+  "politicianId": "041911485722",
+  "parliamentarySession": "2024/25",
+  "year": 2024,
+  "totalVotes": 104,
+  "votes": [
+    {
+      "votering_id": "02FBA58F-361D-4364-A88D-186950BA4AA0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "062B49C9-96CF-4241-8465-B87AFAB5758B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0817BF58-C84E-4F3B-B92E-0012E9AD3579",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0A5EACD3-D435-42A1-8124-458AD48DF644",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0B5BC944-8620-47BF-A4F1-9698D844BCCB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0E4DAB3D-E788-4F5F-971E-B525221A5ECA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0F6C0168-4C90-4C88-9D3A-7F1B50C19A74",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "10E79143-3D14-404E-8B46-FFEDA75F1AD6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1173A52A-EC84-4098-BB8A-CBACB40B9C61",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1319DEB0-CFB3-40C5-B090-608D45F9BF35",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1450E92E-7549-4DA2-9AF6-A1396EB2AC14",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18B06442-7957-40EE-B916-EC870DE49EAD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "18B9E0AB-60F4-4E0B-85D3-A2DE6000EAE8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "193FD3AA-5D98-4B10-9B70-0C4C4BBCC0BB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1CE6B17E-A7E1-458C-8EC8-88BAE9463AD1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "20F65818-B1CC-4FF6-AC04-DA06B8CCA6D0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "23ACEAEA-E1AD-4BC2-A85C-98A70259548D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2494404A-C1AA-4652-8223-282124363A8B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2662CC2F-CFA1-4EAC-B8B0-C899F4319ECB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2E5E87C5-54BC-4C8A-A65C-8B4B39B76251",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "35F8218B-FFDE-4614-AEEC-AAC9E3EBE5F8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "37E0F64C-1C02-4BE3-B44E-584476978084",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "420E141F-D81B-44DF-97BC-BC37DFC6B080",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "43B5216F-A7C8-41CD-9480-666B7E6F65CF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "444764D7-21C2-42C5-9A5D-3C6B09F4DB47",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "459E7A94-E09A-4156-BCE5-3982D585DAC2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "466BF5AE-2A62-4144-A9ED-9B5F583BFB87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4EB77678-3F73-44B0-B6A5-5B3480B1A3B5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4F2CCF54-A384-46BD-A88E-29F7630C2491",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "535E6A34-CE23-416A-B2E3-B77B736772F4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5918E3AC-5C21-477F-976E-FD7822CBFD96",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "599386ED-D19C-4701-8D19-4BB9310B84B1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5CE5FB2D-B976-44E0-A8F2-57AFDF33C79E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5D23AD73-8E54-4063-B45E-3DB5D0A3D8F1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5E58B55D-5C59-4EA5-BC6C-0CDB8B0EBF18",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5E6FF81A-D029-4B75-B35D-A92ACB74831B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5FAC7632-ECB4-4A98-9E62-BC6261B9E3A7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "61D483E0-5630-4520-9B5B-73B846092450",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63AEBD78-FB1B-4A5C-BDE7-3DB05EB0AB43",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "63C2EE4A-B721-49B5-80A5-50F17DCB08B1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "683CF528-E8A7-47F0-BF8C-3D7B4C364DF9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "68BD1D8F-7744-4593-8E6F-54AF63532181",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "69FFD4E1-E06C-4883-8F50-E0AFBF8362DD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "716BAB95-F05F-46A9-9700-AF86C65DCA2B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7380FF11-72A2-4B83-AC1A-9BB782016B35",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "73C8DCA7-72C4-44DA-94D2-57D18686CF88",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "78185F44-88FE-4C12-837B-4409A27A99E5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7FE1CE83-3888-48A0-A5DD-2498DF3FB658",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "818E76D1-39F1-4BC0-9C20-D453EF59C507",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8251D216-DD25-400A-BB33-D30E85D22A50",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "83486D80-4519-4636-BD9C-578450BCCC7E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8B1899ED-5A41-43E0-A8F0-98A17518E5CB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8F054C9B-F9F7-4A32-8423-31C1DD8EAAD1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9005A968-B8D6-4AAD-9459-8F5479566D7D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "91BFCB4E-B8A6-4D3A-A6EA-E85408F1C77F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "941525C9-2B9B-4F7C-B5C9-BD1A3F2CB110",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "964D0632-AB2D-4F3C-BB63-BBF6B4EC4521",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9668B6FB-9694-44A4-8E7B-455E8C30D3AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "994CCB97-DC05-4E56-8C2F-19A0160FE556",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A1F3E0A-467D-4B65-8F62-2121F115655C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9B06FF13-5DF4-4261-99BE-DF94663C3D89",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9D9382B1-132C-401B-901D-90F660346D63",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9DA91716-4C59-4774-BDC3-2ABD00E2F5A1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E8BA008-D9EB-4D11-990A-FCF788250744",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A0298D8B-EBDF-42AB-BB01-98C8AE53A828",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A052C38C-2C95-492D-AAE5-210E9461C624",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A158516E-A4DA-4987-8592-3DE1CF2F2B69",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A558A772-D418-40EA-B49C-FEEF58A9497B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A8151610-0C5C-4CED-9C7E-1CDEF47E4A58",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A967002B-0C70-4BBE-8274-0BF2463023F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AA314285-7EB6-45BB-A45A-DEC2CAD2E758",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AEA441C3-9DCD-463F-AFBF-D9086A45B71E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B00BD793-C431-4F65-9888-0E5039E92315",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B1346EB7-44C2-45C6-BDC9-E7C7A66942D5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B456B753-B937-4A4B-9638-C83EFEA3BBDD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B45A53BF-4FDA-4F00-8850-9F3A03BC2DA1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B51F36A1-63DF-457A-A0DF-9C0D5BDD0FC6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B5B3E091-1A3F-43FF-B1D7-9E7192387D19",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BA4DC857-7AE3-4914-BD91-39514EF8B406",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BAF484CD-DC84-40D6-8780-3C48CF49D472",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BC0232D4-ED78-45A0-855A-3480352C886C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C00446DA-DD77-47B0-993C-E553FB87950D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C4A94345-871D-416E-B1AC-5081B32EBFEF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C728AF79-652E-49AD-BC77-4EC630E9E0C5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C9070BB6-D466-4A27-B5DF-97B199B5C29C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CBCF7B10-8A00-4E9A-B5B6-B31F278CD7DB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D3F85585-1067-41B8-B252-BF27694B7579",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5E4ED38-3BCB-48C3-B797-98CDFAC2C6F3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD18B4ED-DD78-47AB-A6D9-401B48753D4B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD462A86-86E6-412C-8E93-32521C7C0800",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DEFCAAB6-F263-4E65-8999-0D956B57C4FB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E11C9A4F-6162-4BE6-9099-2E54E3E10D0A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E236CF9C-E640-4055-8559-CEB19ECD3C47",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E360AA13-2658-4435-BCFE-0208AFF3E718",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E59868A5-07DA-4466-A91A-2825B01329AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E7E60FCE-12D0-4110-B9EF-7D0482B5E559",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EC5FE63B-FBA2-421C-BC2D-13F885C63F6C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EDADC2B5-0C70-477E-B72E-F28BD5735975",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F1D0B7FA-7D9E-4411-B185-EA8A280928A4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F682BF88-C7A5-426F-8C27-E30790963AC4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F6F7CD39-DD33-4B90-966E-5E6E8BC10485",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F7CD4001-97B9-49B1-BCE9-741656FDFD31",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F9604EA2-B9BD-442C-B0C0-1E704D1B6FD0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F96BE47E-9D63-420C-9331-9A701366938F",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:27:32.262Z",
+  "source": "Swedish Riksdag API - Individual votes for Thuresson, Magdalena (M) in 2024/25"
+}

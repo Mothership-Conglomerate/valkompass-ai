@@ -1,0 +1,1223 @@
+{
+  "politician": "Mohamed Abdirahman, Mubarik (S)",
+  "politicianId": "0940558892720",
+  "parliamentarySession": "2021/22",
+  "year": 2021,
+  "totalVotes": 303,
+  "votes": [
+    {
+      "votering_id": "001DA5C6-DBC6-4895-9DC7-FF3D7941166C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "00281A8E-1463-41BD-B2A1-357756D9A29A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "01D2AFF4-B4EB-47E7-BA89-8573C45CF92F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "01FA4211-6A75-4DF2-B851-9C336635B7E6",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "020BA341-5990-41F0-85F2-DA5EB8ABAFB5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "02388BE3-6FF8-41DB-B78C-B2828D1DD193",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0238C174-F1E3-4ABE-AF06-3F525E15EED8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "03140222-8C0C-45B4-8BC4-383745235AD7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "047BC4E6-7F38-487B-B052-4CBC3FEAC788",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "04B514A0-FE0B-47AF-B94F-78C04C41DD67",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "06EF4095-D6EE-4850-B1C8-9F31F844CCE5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "077F3C19-DA1C-4451-A952-124162F89A55",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "083BA6CA-926C-4EA6-BC67-A398EEBA8C5B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "08ADCE9F-E108-455B-A1DC-5AE61C211098",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0944D710-BC94-493B-981D-9C70815CA406",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0971E09D-FBD9-432A-B5CD-E7870F6813FE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0A04C0BE-70F3-4207-9941-DB9AFB7968DE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0ADA6FA1-37B7-4B72-93CC-9F86A19DF314",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0BE31874-B061-45CF-A263-8C55CB658656",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0C6DDDFB-95F7-4A76-B1D8-4A8DD3A16F55",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0CA3E863-C61A-44CE-AB38-E2C4C188B7D1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0D77D4EA-A111-4A6B-A611-59B9887B7A9B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0E140959-9839-44AD-8921-48FA99E50E75",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0ED55CD1-DA84-4EC5-BC3D-9998B37110C9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "0EFAFF7E-331F-4E42-864D-B32C9BDB9D3D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1052980E-86A4-4E13-8416-711688E01661",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "112EA275-0B80-40FE-8CE3-A0584DC51CC6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1193B20D-BADE-4C9C-A6DD-73C21BA67627",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "151848AE-BD25-4201-8291-F4303123E9EC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1653A8FF-85CA-42B6-9969-18359B83E197",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "16FE7162-2609-419A-9FEB-17DD3B9C129A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1888034F-A7A5-4216-A070-56F17F08ED1A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "19EE3D56-B89F-43E9-8529-5EDD63A0C202",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1AB17C5D-2E03-4932-A51A-C45DFB394FAA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1ABF7282-F6F0-401E-BF96-333B7C2EC677",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1BB079F8-0758-4989-9FDD-20017D814D4A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1CCC876D-2A8C-41EC-8B5B-2A0E7E743096",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1CD178D8-4D7E-4A29-B8C3-8A39692D732C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1D0D8646-0329-422F-B3BC-A7EB6B0AB459",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1D618844-9E71-4920-80DA-545128760F31",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "1DC02891-D10D-4B60-83BA-E766E3D8FC79",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1E5A4CD3-1DFB-4136-93C7-268E3FD58AA0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "20642FF4-08C2-4FDA-A741-86288053D746",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "24B6ACD4-2137-4359-AC97-95128B920DDB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "24BA69EB-04F6-47BE-A055-ECC9D4D6A6F0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "24EE0033-70B5-44AD-A98D-FB53C61CBEAB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2701A6B4-064D-47A0-9E87-9590BA75DC3D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2816DAE8-90C6-410A-AA85-0F352FE6146C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "28184CD0-6205-420B-9702-F1C3FCCD531F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "284A24A1-EBDD-45D0-A143-446FE80DA730",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2862BD91-D168-4C9C-8ED6-38B54B320B9B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2972E968-6D03-4FE9-ABC7-2AB6C3FF66B5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "29C2E8E9-EFCA-4704-BB62-343E5E653836",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2A1213A3-7611-4617-82A3-5FAA4E0C2DFC",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2A1617B4-1BD2-43D2-BCF5-FB193E31FFCE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2B2629DF-F7DC-4442-8852-2BCB850D6697",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2CCFCF80-1820-4E9F-99A1-3CA4FC306047",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2EACCBC6-F05B-491D-98A5-38ADF36214A3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "30DAEF9E-6E7E-4D5F-8C7F-10D8E437E680",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "31BC9D5C-60EF-468F-8E63-6BDCA7A4C297",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34A7FB09-E523-4911-912B-6C224533775C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34D02EC8-7156-4B58-B7BF-DB83034C6C76",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "350C2F56-FA11-4830-BCEA-EF1897C1F290",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "38A90100-288E-4702-A8A8-5248B16F018C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "394112AC-D730-4C9A-BEAD-7D6E8070D941",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3A3D239F-EEA6-4BA8-8B8E-9E3FD22CC1D7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3C738110-D460-4DBF-80AB-9C5DCD0EF5E9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "3CA2EF48-6AA1-4363-AF6D-8AFA1C009D4F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3CCE99D4-B84C-4A91-BD97-F394ED241A55",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3CDDBE48-749C-428A-A50F-CD109277FAFF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3D92E8DF-A23E-4A9E-996F-D7DD8C647964",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "3EAB2A35-D9A4-42A7-9E6B-E8BDD75B98FD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "403ADDA1-E1FB-4BBB-B66B-E7008B8FF7AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4061EA2B-25FA-45E3-9BC5-C5A4C9DF5978",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "40A08C04-DA02-4A88-A526-FD73A1643A1E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "40E5A089-E170-420F-859B-34447C3DD44F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "417033D9-F84A-4D70-BD49-6261E00A8AB9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "431C3194-0D5E-42DC-A574-56986DD4BE0D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4324DA95-7A96-46F3-92CB-9D28ACC527D9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "43D4C27C-1085-4560-B907-615FEE35EDF2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "45CBEFB9-1424-49BF-910A-495B57D4C44F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "45DF3E0D-241C-4FE9-AE29-2DA0E9777915",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "45F11328-D195-4B64-8D44-A28B5760C507",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "460E8657-5F19-49F8-B6D0-9C15A01FA339",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "464CA5AA-E7DB-4438-8B61-F51DAC3111B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "472935A6-8DC5-4AA7-9571-DF1AFC9FA32A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "474120E3-C54E-4851-A61F-1D96CBF011BA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4765D063-9358-42CD-BFBF-A7C7A6CBAAFE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "48A36BAF-4749-46CB-8A59-190F4713CF69",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4919FE89-0DD3-483B-A3EA-868DBF941972",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4923DD55-37B9-44C7-919A-CCB77322CED9",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4A9060D8-8272-4D3E-9FE8-A2CB487EA57B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4BB6155F-F5BB-4404-9C19-7C2D2BF8E6D2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4C05587A-8017-425F-AF30-59D547B001EB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4C17142D-13A1-4204-86EA-13E1ACE77131",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4D92CFF8-20EA-464A-836E-B23F06612BDE",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "4E55D944-3C01-46CA-B225-EA0D0592A1CE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4E59300A-964B-44DF-931F-2F88A456C8E6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4F364240-0887-45FD-A336-E365C85E012F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4FFEFFDA-2019-4BE5-8BC1-B46554351A84",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "506ADAF9-F337-455E-9050-38B074746EC2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5133A69A-D679-44A4-A0C8-4CBEEC4E5E3B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "5258759A-3A48-499D-BC92-0CE7EACD8ED2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "52A70512-3067-4E2C-AB6C-504B4235573F",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "53FCEF36-1643-46C8-A0A2-F6F2E8CE13B1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "545C4BA2-8AAD-42B5-AAD2-D54DB9F936D6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "548829B9-3DF2-4F52-880C-8B9DC713C469",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "56D64F1A-B76D-4872-834C-58F06B0CA6AE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "58A2A6F1-2966-4E83-8F7E-1AD02E66F667",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "59502C6E-39FE-4DEB-85FA-AC9CA7A8B1D6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5C6B7114-6503-4156-B781-6FC454DA7CAB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5CB6EA7B-98EC-463B-A271-F5BF9D251777",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5D01A499-C8DE-4646-85C5-E2AA007D0B86",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5DD96A20-F1F6-4AB8-A7A9-20BE909C572D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "61053BC1-EB3D-4308-B865-B28B587E8547",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "628E2116-D88E-4C2F-99FD-EA2250810C3C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "639583E7-C670-4405-9C98-5908CBF73CEB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "64560914-6EEB-4EA0-BBCA-DAB2973E7AFE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "64DB0B60-0F49-47CC-BE98-7D762D1E828A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "651E2542-CF15-4340-A42E-99CFA24456F9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "65E67541-B430-456C-A812-E8DC725DC275",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6625A4A4-FC83-4246-996C-7154935784AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "677DFE6A-A09F-4E8E-9BCE-DDB38D694A9A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "678D874B-13E6-47EF-A4DB-F849013E85E0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6836262F-45E0-4E03-9E4A-C82AD4264B16",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6884838D-C12B-48FD-BAF7-8DB4C3125F8B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "694C2AE5-4FC1-47CA-A888-B90B7AF54EA8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6970EAE6-8EEB-4D2B-8D68-3D3ECABA6885",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6ADAEE9D-C259-47A3-85C0-E6EA764CFBA5",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6AE0DF79-4F0B-4B97-A172-034672D6D7C1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6BD186FC-A791-49F9-8EE8-4B226E280DAA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6D0514A5-8FA7-4DF6-B4B3-5B99C17D870A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6D4A08D9-C805-48F9-B77E-09F72B76E5D8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6D625F69-CB65-4490-A134-F97DF56910A6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6DED8B16-97CD-4F92-83AE-2917179842C2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6DF10EF6-A7EF-43F8-91E1-6BEEB2D289C0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6F06B8A7-03ED-4C94-8DCA-4BDD2A7F917E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6F0EE49E-56F3-4A14-8D65-2F3F339D0EBA",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "7208073C-B063-433C-934A-11EA572CFE8D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "723B0C48-3A22-439F-99D2-A85E1EE95F27",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "72EF7EF7-B2B9-46BD-A042-67E1052F3876",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "732BDFE3-00DC-4E6C-9C51-E2A15E755615",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "740CACED-DB1E-4211-B489-8F79FA0C68AD",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "74B19C8D-949D-4195-BC37-B60C05B32249",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "75A9E959-DC78-4970-B353-E69F6D98951C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "75BEE38E-C464-4940-A393-F5A1C690D55B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "762210FF-128B-4E30-922E-48CB6687C618",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "766CC2D3-4097-4B9F-94A7-C19A742609DC",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "7697CC1F-16C2-41ED-8C0C-37EA157729F9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7869749E-9763-4C01-98CC-79595994A407",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7A290887-097C-404F-90E1-813BE2EB627E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7CD14FE1-0E52-4DF0-9CA7-A72E28D7F698",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "804C3221-CA55-4BFC-BE90-766AD56468CD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "80E1361A-47DF-4388-800E-B3123B137B92",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8181D9E2-BCE6-43E5-B9CE-2F83F5F9F353",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "81FDB7E2-0860-471D-9FD4-25313189EAFD",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "82E65641-2E22-436D-91AC-36C01DDB0CA0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "846915C2-1A3E-4376-9897-FB66254E9B6D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8474E757-7E05-4B63-B4BD-7F4D20EB03E2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "84ABD9FD-D9E5-41D8-AEB1-61B695A7F1C4",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "84AEBBF1-3021-40A2-B84B-BBA0DE35C2A8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "85E488F6-221B-427C-AB7A-22C278B62778",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "86BEFEA5-00CE-4912-BEE8-F2369873A093",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "87A479D0-A08D-4B1D-A9EF-0B32807CDCEE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "882E7E95-E6BF-4FD2-8DB4-B83D1A888F38",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8B3C9A4F-8166-4D95-B1F1-7095A1813DAD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8BD7F91D-11DA-4682-B45C-7DB280ABD5EB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8D5FDD17-CBD8-4E97-8212-234A12492E75",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8D635140-3384-401B-8DFF-DBB9F2C17F12",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8D7291D7-F3B5-47C2-9C3C-17AF0E9D06E6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8DF02666-7FDD-49CF-B01B-17C9B4004684",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8F071676-5352-418C-9DEA-E44967379052",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8F7F4BC8-53F2-4B95-8927-E767C8F5C859",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "8FA57B80-E589-45FF-9EA4-DB43B1F7F89B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "90339899-B194-4E28-B70F-4D55CF3DA614",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9042AF5C-EFE0-4AB6-9D2E-6A2F4F814F83",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "90567DA5-AEB3-4787-BD5E-B4CA3E69D7AB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "90BCE7C7-F874-4CED-B44B-FB1EB37D4082",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9212B53B-45E3-4E07-9DB8-C8C35077D339",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9274FD0F-61EB-4951-B2D4-8EF77986C014",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "928B4CB3-4939-4EA1-9FAF-097F4081FF87",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "94768998-604D-4A28-9CAF-6AD4C2617212",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "95646A35-E36B-46A7-9D2C-802526130C94",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "96EDC08D-1014-4580-9538-AD443E4FCAEC",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "979B3025-A16B-4674-983E-249356181052",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "997E089F-FC35-48A9-8D06-770ACF845030",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "998E798D-F1B4-4173-97CB-3DA45098F934",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "99DCC7BD-BD10-4460-9779-E0E1C1C895D0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9A26F3CA-343A-469F-876A-72E8E5CB3E2C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A886F6C-05A3-42D3-92A8-98F12273D2AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9A8CB8A4-88EF-406D-8E0A-CE1EFC6FD169",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E3F5466-65BD-4FD3-8C0F-D0D536D955F1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9E7ACA39-D2CA-404D-80EE-7AFEC95DDF6C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9F267BB4-1FAA-443F-92B4-528AE09A077E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9F50CB23-C4A6-4F30-AC8E-F1C519CF31D0",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "9F55118E-8B83-4F17-BF24-027179CD191A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9FEE52C0-55BE-48FC-A80A-9224ACEDCF26",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A2BC96CC-D819-42E8-8FEA-259E88833263",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A4A874C0-6987-48AD-BB37-0AAF6A2D065F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A4B83507-E132-43FC-A245-BA9AF3C0D426",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A50729E9-D22C-4466-9F12-5C70108102A7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A5C41423-8F67-4872-A577-41FEB40A2AE5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A607DF5B-0CCE-4ABC-BA84-425033375782",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A774FCF5-72AF-4EED-A885-5D0DF719E13B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A7D42C0A-4378-438E-BA06-BAB22D7CDC86",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A9DB7BED-AF9D-485A-A7E9-A3776FBE9519",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AAA4B460-63DF-4A7B-9CF2-D45FCF060F03",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AAA90CE1-9FCB-4343-81C5-B2B9DA4FA117",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AB256E11-EB1E-4BC3-A7D4-D7A68B387816",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ABA00FAA-A04B-4042-9425-D5EA3BD610CB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "ABE07354-61B0-4A05-AB39-02ED78867225",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "AEB38728-6199-4E0C-B342-E4227452B066",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AEDB15DB-FBC0-4271-BE10-9C7FCFD7C8D5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AF4DF2BB-595F-4D6F-BF4E-566D647980F1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AF8EBB7B-5CD6-4351-A575-6EBE49642712",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AFDFF2B0-F982-4445-9ABD-8165C9734836",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AFE5B3EE-302C-49C5-9657-62BF51DB5EB5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B0389170-64F9-4D9D-832A-335D278FACAC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B172585B-787D-4B79-97DE-F576975040CC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BCAFE940-E48D-48CF-9301-A6783B3A00E6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BD343DA5-D19B-4CE2-83DA-63ACFE29055D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BE17DB4A-AED7-41B1-A3F3-B5343E72058E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BFD91B33-B1D8-4601-BD66-B46FCB39BEAB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C16DCE39-A761-45A2-86EF-1E8A6CE5CE34",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C199E75A-0ED9-46DF-9251-E9050E762563",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C1BF565A-5B02-45AA-BB5B-8E09BC620B12",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C1D0FB7D-01EA-4145-8D1C-A9700ACA79B9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C30D6A9A-0AAB-4FD3-A674-7A1AAE6F2E8E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C3B514B5-2B83-4BBD-AFB7-6DC1CB81CA82",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C43871FB-A800-40B9-B2BB-9AE537B84C0A",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C43F7D14-0C0D-46C9-BE92-7EF6BBAD1CCE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C5092B57-91D0-415E-889C-4C445A7C7784",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C54A0B9E-7121-4E85-9132-D1F8AAF7084C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C62667B2-1EFA-4C5B-A59D-119128F96363",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C7789325-F75A-49C6-B4A2-91C595156537",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C7E14C2D-1F0A-4236-A775-ABD4A8AE2370",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C85158D3-ED9F-442F-8AF9-3ECA9DCD5756",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CBBC7827-77D7-4854-80FC-90294CDECA5D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CE95F95C-C766-4AC4-A126-7F421760C174",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CEFB0E3A-E095-4D34-AB30-BB03C893E30F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CF7FE37F-8AA8-40E4-8706-B88C415E431E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CFC1C0CE-BC72-4C96-A3E1-6E44021FBB8F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "CFD60A1A-F5E4-4EE4-9315-B043E05988D5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D0CCDA91-1BCF-4842-A12E-6E3FC2160F23",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D11F37AC-B8AE-4542-AB5E-BD701C53A056",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D1D92C19-4EC1-4589-B074-08FD25E2DD27",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D33B7709-0450-4461-AF0F-DC356E40E434",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5175099-3CCB-4984-872A-0A3F2A241E13",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5C90D47-FB6E-4658-BABE-22AEE8233790",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D5FB1AFC-0009-471B-A730-885513EB1F89",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "D6BF6180-B1AD-49F5-B491-F4BEDC3DF00C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DA92325F-3489-4CC8-8118-5EACF1E98158",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DB071E8D-E70C-45C5-BC59-E934776818F5",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "DCAC0FD5-7F84-4E5A-B5D8-8F2A47668F9D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DD76CF92-C56F-4A66-9B4E-AE9E1E53C7A0",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DE083D59-8A86-457B-AC98-75A36856E93F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DEFFFF47-7E06-408B-95B8-6B4748FB1781",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DF0D6604-D6FB-49E5-A42B-4DBAE45A9C4B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E090EC4E-D3C2-49DC-9E21-BB9AAE8F4940",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E0C0D5DF-AD10-46B5-9A73-6551395DBF53",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E0FB6974-4AA2-43D2-969C-222697C9ABA5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E1012BA3-BD08-4839-B40F-CB14A535D34E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E10942F8-D265-4C75-B4EF-0902AE23D01F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E380D32A-F647-408E-97C3-D8DFF32CDFF1",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E3836648-0711-4DE8-8FD1-6E2726D6C596",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "E3CE73C7-603A-4067-84C8-CE027FA92138",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E4A14C97-18AB-4989-81DE-7F54B7E280AB",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E5E0E675-78BF-4B61-990E-F0DAAF0E3099",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E6177FA0-CCF6-4BD2-8015-C38BD869551B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E69556AD-CE97-46E6-BE1D-BA7FAFFC48E3",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E886203E-E892-4847-A707-039ACE80BF17",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E94D21C1-A2E2-49CD-A821-4160B70ACF37",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E9D8969C-BE04-49CD-85C2-3562FCA8E988",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E9F56283-D73C-4ABA-BB62-821BE802F898",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EA066C8F-9F6F-48A5-9790-4922B0F249FC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EAE7992A-8AB7-4FE3-BB17-2C3F5EA49FAD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EC1A7069-0491-45A2-8BDB-8893651229BA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "ED87FA2B-99A4-491A-89A8-1DA0D65AB88C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EE3F5470-6222-465A-AF6C-B4DC4338B7AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EEB86D2A-DB00-44D7-8CD8-0EC1371A475C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EF43BF6E-868F-49F9-97A2-4178EBFA51A7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EF58528F-CE5C-4A43-8929-969990AED514",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EFCB7EA2-F5E2-45F0-A45D-EB366698E5E7",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F0CF5A63-5814-4947-B0EB-15512571F9CF",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "F13D3F60-F6F0-4A98-BDD8-7EE6E1461F3E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F17ECEDB-936E-472C-B6B1-4011B716B362",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F28231E8-20DD-4C17-AA7A-671EF92F9C29",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F3BEA09D-8042-432B-92C5-0AAB6EC58F5A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F4196190-BB91-4B59-9C7E-B02BE8A19EBA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F4E28DAE-12D4-4C0A-A8C2-85A62F910915",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F4FD1F82-DC45-4522-A0EC-C3739DED9684",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F61A5962-352C-4C05-AAF7-083D97686F86",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F714CFA3-DB3F-4615-9C36-0114EE1EA36C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F7279D3E-3CA4-4277-B99C-150F376C0D15",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F9AC35A9-AF47-49AB-A735-F57CF2F134B9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FB6A8B33-0A8B-4868-8E4E-3147B8FD5892",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "FB945BAF-1FD3-4109-9AC8-9BB5C44FA9F5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FBA4F83C-8075-4CC0-91B4-9429CF036C90",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FCC6BCBD-BD1A-48F3-B046-8DE8F5D54AAD",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "FD7D48B3-4257-4C09-BE8B-107E9E911290",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FE3EEB40-E1EF-4500-AD7F-E50F47AC5243",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FF52334E-25C4-44DD-BFE4-24740C86191E",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "FF597E2E-A399-4E79-A94F-1E207220ABB3",
+      "vote": "Ja"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:22:53.585Z",
+  "source": "Swedish Riksdag API - Individual votes for Mohamed Abdirahman, Mubarik (S) in 2021/22"
+}

@@ -1,0 +1,319 @@
+{
+  "politician": "Carlsson, Christian (KD)",
+  "politicianId": "0389220391128",
+  "parliamentarySession": "2018/19",
+  "year": 2018,
+  "totalVotes": 77,
+  "votes": [
+    {
+      "votering_id": "0069C0F4-729A-4970-96B0-56C306EC698C",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "028E103E-EAB5-4EBB-BC95-764247AC39DF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "058F66CF-66E4-40F3-A8C5-6E110186B734",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0D8191DE-9E1F-4DF7-A7BA-A398F335C7B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "0F21A660-8AA7-4A3E-84D2-A09E3672A803",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "120AA16B-3665-4649-BC6B-0C712F51DD6D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "17268CA6-1FA1-4FEE-8712-DC4D2C9A656A",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1C25AD09-D9B5-430A-8405-4C5FBC158E99",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "1DDCB46B-E388-4CC1-8121-45D76C47D3A1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "21AE96F6-60E3-423D-B52D-49B7A64E9D3E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2B5F65FD-C73F-45A0-AFAC-AD390FAA0BEB",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "2CF4265A-40F3-49AD-9766-CB95B5702720",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "2F716E21-AA19-4995-86FF-785FEC87BAA7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "30D817F4-727D-410B-92FD-753B2CA62011",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "32260704-9341-473E-8CBF-8518134A0AE9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "34BDBE2F-4103-4FBE-BF2C-AC0D5EAEFDAD",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3678A5C4-7D7C-467D-8FED-019E9AD20891",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "39BF0BF0-9D3C-4248-8E76-17053FA80156",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "3E1890EB-E413-4253-8A3E-15DE902AC747",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "3EFFD733-7E20-43F2-B46E-F9F7569B2101",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "46BDA9A2-0912-46F1-BF39-BC5FCA260805",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "46E8F2A4-2600-4872-ADAE-843C95A19DD9",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "4A488080-CD5A-4A79-85A1-EC88C1C2FBF1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4C197BC2-EC72-4D6D-ADBD-4CE0C94AB5AF",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "4D1DA966-C77A-4B52-AC9D-29656DDD023B",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "512EF684-86EC-4116-A410-34285BD12E65",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5188DAC9-6AEC-48B9-9F17-FE150881BCFA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "53DC0CA2-4FC3-4097-B491-F0ECA1F1F266",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "5696A1D6-E072-4DBA-BC52-FD98191FFE8C",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "604F8851-0527-41BE-BC3C-F8D7E1DE8646",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "626182EA-C0ED-40FF-B921-69093BEC4569",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "63BFFCD2-954F-42D1-A319-3C7C7CDB3308",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "64CABE59-1E3E-4350-8F52-89A3220DE8A9",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "65CA6100-BD8A-4BEF-8E03-D1F592B6847C",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "681BAE1D-31BA-4137-AC4E-E6759303BEC6",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6AD11E9D-925B-42C1-9EBF-82DEDF568D3F",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "6C6D21A1-FF7A-49FF-A084-C38200733AA7",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "6D9A8981-BD3A-4469-965D-6FAB274180CA",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "72787FBC-E322-45C9-9493-5DAE076C16DE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "740186C9-DAFF-4294-BB97-4C86820F189E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "7405AB3B-0D5E-4B22-9EA4-4403CD01D05E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "75CA6466-6AC3-4CE8-BD03-F1491A16B00B",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "85379946-5737-4CA1-8E13-535338AEBAB5",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "87C03926-5D55-41BC-8F34-04523E5F79B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "8B0D488F-69A7-4924-BD79-BC319D183CC2",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "938FEC77-746A-41D2-9D85-7D69375DE9CC",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "95BFC6F9-AA07-4F72-A6F7-CDDF1A81F857",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "9F5D24BD-1FAC-4897-8C93-858FFE3F3F9D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A3C8D52C-0B08-478C-BB05-50A31EEB9392",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "A43C62EA-6A35-4A6E-8AC1-F760E99117C1",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A6B2B738-48C9-4E78-A35D-2EDF9E0FC6AA",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A875E831-45B3-40E1-808A-FB7BD4CD5A98",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "A8C75896-BCBD-44E7-97FB-33CC3D8C528C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "AC96C80D-A098-4D91-8431-43EBD425CEBE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AF3FA883-9F4F-41DC-98F1-73F1A9B6513D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "AF9E6E73-EC8B-4C7D-93B5-F3487E28470D",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "B04B11E4-A100-4342-A0EC-B3EC316144A6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B0617C3D-E680-46C7-815A-A9D909AB9FBE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B4668280-CBC7-48E7-BAD8-FF044D1DB331",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "B67E4251-26B9-401C-AA26-99A479BCF201",
+      "vote": "Avstår"
+    },
+    {
+      "votering_id": "B73751CA-36C7-40D9-9470-F7D950F1678D",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "BFCA7B11-D8E1-4CD6-B702-E37A67A592B6",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "C0BFB9B6-E3DF-49BE-AC59-DFA381BCC4A8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "C14541F9-F0E8-47DC-A270-06C92E6C7D29",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "CC947A1A-06E4-480C-B5B4-A959B0804195",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "D08361F5-084E-4F2A-8736-6DBFB5ACC14E",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DCA02A5B-6E0B-4394-8738-BB9B624E0706",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "DF9BF155-C244-4600-BC48-D7814777E959",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E53CEFE6-9025-4833-8E13-E94FC821E896",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "E965C8BE-0C07-4614-94C0-8E182FB902A8",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "EDA2C76C-AAD0-4AAF-8CAC-8E24D7AFB45C",
+      "vote": "Nej"
+    },
+    {
+      "votering_id": "EDBADDF1-AA88-4A39-BCB4-70599F553FEE",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F06B69C1-265A-4916-86FD-C03C1C3BB334",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "F2116D61-64CB-4E1A-AD74-6A5E46A8C574",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FB44E41E-821B-43FB-9D65-328F07B6E6B6",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FC7C6DBF-389C-4F23-8955-0CEC50B22E25",
+      "vote": "Ja"
+    },
+    {
+      "votering_id": "FDC42252-647A-47B0-B0C4-01E428F8196F",
+      "vote": "Nej"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:15:53.680Z",
+  "source": "Swedish Riksdag API - Individual votes for Carlsson, Christian (KD) in 2018/19"
+}

@@ -1,0 +1,19 @@
+{
+  "politician": "Vestlund, Börje (s)",
+  "politicianId": "0720249554818",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 2,
+  "votes": [
+    {
+      "votering_id": "5A288D97-DAEB-4986-BCC0-4F6C82AF5820",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "AD609FB7-0001-4AD0-9B0A-7CF86F488FB4",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:27:48.842Z",
+  "source": "Swedish Riksdag API - Individual votes for Vestlund, Börje (s) in 2017/18"
+}

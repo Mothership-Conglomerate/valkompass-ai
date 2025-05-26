@@ -1,0 +1,155 @@
+{
+  "politician": "Wikström, Gabriel (S)",
+  "politicianId": "0551169456620",
+  "parliamentarySession": "2017/18",
+  "year": 2017,
+  "totalVotes": 36,
+  "votes": [
+    {
+      "votering_id": "03ADDC20-0D86-405B-9BCB-7FE5EA04DDD1",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "0769A99C-32B1-4B42-B46A-12C4C771C6FB",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "07990F4D-2084-442E-8411-2F8DAE965FD3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2882A55F-49B0-49E0-AABF-563870274A3C",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "2905DB67-28CC-40C0-8598-F542BD7DD857",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "29522000-FC0B-4D64-8A9D-99544B134F5E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "34974CF8-53F3-447A-9A51-E08C99781CA9",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "37889453-CD31-4594-BEDD-501D8BCABF5E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "4D533E3D-ABDD-48B7-863B-8B74E70568EC",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "5FCCE188-D532-4669-A064-0990CA235677",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "62B64258-9BC6-41E8-A487-6D5AFDE0783D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "6C9EDEAB-46AB-429B-B6BA-7B0376C48844",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "72D30E46-75BA-42A0-868C-2F4CA3556184",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "80A22BC4-2378-47AB-BE90-D899B4CE4236",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "87E23302-6B57-47C3-9021-507518BB588B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8DB8105A-2ACC-44C2-972D-B7A5F8DF07D9",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8E20D47E-B916-443A-95C1-7AC83FF15506",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "8FAE95AD-4425-464F-BB34-4E7686D55A97",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "95ACC85A-4BDD-4AAF-8875-D80D096C68E5",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A1C6533E-780E-4CB1-982A-BD40C81BF88A",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A25D06A1-4D9E-47EE-A57F-2FC2B732E1FD",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "A9F2D99D-36D3-404D-AED6-AEA72522DDA7",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B014D443-7DFD-44CB-BB06-9CB55EFA7388",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "B9E678A7-8C08-4B19-85EC-E15DA97B3759",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "BFB9F3D7-223B-49AB-AF2A-E5C6FFD94177",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "C195AD2B-27F2-466D-A226-34057808D86E",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "D6A3C4AA-0156-4CF5-9C5C-AAD1813C5F66",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E0E147DC-BCD9-443D-91E1-B20BA8D3E5E2",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E1F3938A-89CE-48D3-9D4B-4C7BA3DE23F4",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "E49E7289-539F-43ED-93A1-1690F5C8165D",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "EBBACAD1-2896-43B2-916F-EAAD61A53D87",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F0746B36-8CAA-43A2-AEC5-E261B42140B3",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F38805E5-C38E-428C-B2F6-EC2144232A2B",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F3D3A085-DA69-4924-A36C-85A906EC3F74",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "F494DE85-3191-4C87-934E-BB062B943162",
+      "vote": "Frånvarande"
+    },
+    {
+      "votering_id": "FE02BE75-5BB2-432F-AC53-EB9038875BF4",
+      "vote": "Frånvarande"
+    }
+  ],
+  "extractedAt": "2025-05-26T19:28:23.830Z",
+  "source": "Swedish Riksdag API - Individual votes for Wikström, Gabriel (S) in 2017/18"
+}
