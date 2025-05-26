@@ -29,6 +29,7 @@ def segment_document(raw_content: str) -> list[DocumentSegment]:
                     text=para_text,
                     start_index=para_start_index,
                     end_index=para_end_index,
+                    page=0,  # Assign default page 0 for non-paginated content
                 )
             )
         except ValueError:

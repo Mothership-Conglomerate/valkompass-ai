@@ -79,12 +79,6 @@ def test_parse_pdf_basic_processing(sample_pdf_path):
         assert isinstance(segment.metadata, dict), (
             f"Segment {i} metadata should be a dict."
         )
-        assert "source_page" in segment.metadata, (
-            f"Segment {i} metadata missing 'source_page'."
-        )
-        assert isinstance(segment.metadata["source_page"], int), (
-            f"Segment {i} source_page not an int."
-        )
         assert "avg_font_size" in segment.metadata, (
             f"Segment {i} metadata missing 'avg_font_size'."
         )
@@ -93,6 +87,15 @@ def test_parse_pdf_basic_processing(sample_pdf_path):
             segment.metadata["avg_font_size"], int
         ), (
             f"Segment {i} avg_font_size not a number: {segment.metadata['avg_font_size']}"
+        )
+
+        # Test the new page field
+        assert hasattr(segment, "page"), f"Segment {i} missing 'page' attribute."
+        assert isinstance(segment.page, int), (
+            f"Segment {i} page attribute is not an int: {segment.page}"
+        )
+        assert segment.page >= 0, (
+            f"Segment {i} page attribute is negative: {segment.page}"
         )
 
 

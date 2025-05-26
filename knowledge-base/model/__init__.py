@@ -10,6 +10,7 @@ class DocumentSegment(BaseModel):
     text: str
     start_index: int
     end_index: int
+    page: int
     metadata: dict | None = None
 
 

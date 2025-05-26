@@ -181,8 +181,8 @@ def parse_pdf(path: str) -> tuple[str, list[DocumentSegment]]:
                                     end_index=current_doc_char_offset
                                     + page_segment_start_char_offset
                                     + len(segment_text),
+                                    page=page_num,
                                     metadata={
-                                        "source_page": page_num,
                                         "avg_font_size": round(avg_font_size, 2),
                                         "font_name": main_font_name,
                                     },
@@ -243,8 +243,8 @@ def parse_pdf(path: str) -> tuple[str, list[DocumentSegment]]:
                                 end_index=current_doc_char_offset
                                 + page_segment_start_char_offset
                                 + len(segment_text),
+                                page=page_num,
                                 metadata={
-                                    "source_page": page_num,
                                     "avg_font_size": round(avg_font_size, 2),
                                     "font_name": main_font_name,
                                 },
