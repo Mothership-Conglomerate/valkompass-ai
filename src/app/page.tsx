@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function HomePage() {
-  const activePage = "Hem"; // This is the home page, so "Hem" is active
+  const activePage: string = "Hem"; // This is the home page, so "Hem" is active
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -50,7 +50,7 @@ export default function HomePage() {
               Valkompass.ai
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mt-6 max-w-2xl mx-auto">
-              Välkommen till Valkompass.ai – din moderna guide i det politiska landskapet. Vi använder avancerad AI för att ge dig en klar och nyanserad bild av var partierna står i de frågor som är viktiga för dig. Snabbt, enkelt och helt anpassat efter dina intressen. Upptäck framtidens väljarstöd!
+              Välkommen till Valkompass.ai - vi samlar partiernas åsikter och handlingar och låter dig ställa frågor och konversera med dem. 
             </p>
           </section>
 
@@ -60,7 +60,7 @@ export default function HomePage() {
               Hur det funkar
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Valkompass.ai är ett projekt byggt på öppen källkod, vilket innebär fullständig transparens i hur vi matchar dig med politiska åsikter. Vi strävar efter att vara helt opartiska och fria från bias, så att du kan lita på att resultaten är rättvisa och representativa. Vårt mål är att stärka demokratin genom att tillhandahålla ett verktyg som är tillgängligt och förståeligt för alla.
+              Valkompass.ai samlar in partiernas officiella dokument - såsom partiprogram, valmanifest och andra dokument, deras voteringshistorik samt deras utlåtanden i riksdagen, arbetsgrupper och andra officiella sammanhang med offentliga protokoll. Vi tillhandahåller en AI-modell (Gemini 2.5 flash) med datan och låter dig ställa frågor och konversera med dem. Allt vi gör är open source. För kod och mer information, se <a href="https://github.com/valkompassai" className="text-blue-500 hover:text-blue-600">vårt GitHub-repo</a>.
             </p>
           </section>
         </div>
