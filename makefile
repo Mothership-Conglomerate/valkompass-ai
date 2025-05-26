@@ -7,6 +7,10 @@ parse-kb-docs:
 embed-kb-docs:
 	cd knowledge-base && uv run python main.py --actions embed
 
+topic-model-kb-docs:
+	cd knowledge-base && uv run python main.py --actions topicmodel
+
 # Default action is parse then embed
 process-kb-docs:
 	cd knowledge-base && uv run python main.py --actions parse embed
+

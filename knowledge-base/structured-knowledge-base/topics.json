@@ -1,0 +1,97 @@
+[
+  {
+    "id": 0,
+    "name": "tsefinamlav",
+    "description": "Keywords: tsefinamlav"
+  },
+  {
+    "id": 1,
+    "name": "skola / utsläpp",
+    "description": "Keywords: skola, utsläpp, land, behöva, måste"
+  },
+  {
+    "id": 2,
+    "name": "vård / skola",
+    "description": "Keywords: vård, skola, välfärd, få, sjukvård"
+  },
+  {
+    "id": 3,
+    "name": "eu / sverige",
+    "description": "Keywords: eu, sverige, samarbete, försvar, land"
+  },
+  {
+    "id": 4,
+    "name": "människa / samhälle",
+    "description": "Keywords: människa, samhälle, stor, ekonomisk, kapital"
+  },
+  {
+    "id": 5,
+    "name": "skola / kvinna",
+    "description": "Keywords: skola, kvinna, demokratin, vilja, rättighet"
+  },
+  {
+    "id": 6,
+    "name": "företag / skatt",
+    "description": "Keywords: företag, skatt, jobb, skola, arbetsmarknad"
+  },
+  {
+    "id": 7,
+    "name": "polis / brott",
+    "description": "Keywords: polis, brott, kriminell, skola, straff"
+  },
+  {
+    "id": 8,
+    "name": "skola / elev",
+    "description": "Keywords: skola, elev, barn, utbildning, skola skola"
+  },
+  {
+    "id": 9,
+    "name": "vänsterparti / sverige",
+    "description": "Keywords: vänsterparti, sverige, bygga, bra, ta"
+  },
+  {
+    "id": 10,
+    "name": "samhälle / människa",
+    "description": "Keywords: samhälle, människa, frihet, politik, fri"
+  },
+  {
+    "id": 11,
+    "name": "skola / svensk",
+    "description": "Keywords: skola, svensk, Sverige, land, sverige"
+  },
+  {
+    "id": 12,
+    "name": "Topic 12",
+    "description": "No keywords found for this topic."
+  },
+  {
+    "id": 13,
+    "name": "Topic 13",
+    "description": "No keywords found for this topic."
+  },
+  {
+    "id": 14,
+    "name": "kultur / skola",
+    "description": "Keywords: kultur, skola, kulturpolitik, kulturliv, hel"
+  },
+  {
+    "id": 15,
+    "name": "kultur / svensk",
+    "description": "Keywords: kultur, svensk, nation, svensk kultur, nationalism"
+  },
+  {
+    "id": 16,
+    "name": "ekonomi / ekonomisk",
+    "description": "Keywords: ekonomi, ekonomisk, tillväxt, marknad, skola"
+  },
+  {
+    "id": 17,
+    "name": "sverigedemokraterna / värld",
+    "description": "Keywords: sverigedemokraterna, värld, förändring, kultur, trygghet"
+  },
+  {
+    "id": 18,
+    "name": "bostad / skola",
+    "description": "Keywords: bostad, skola, öka, stad, byggande"
+  }
+]

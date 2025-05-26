@@ -2,8 +2,9 @@ import nltk
 from nltk.corpus import stopwords
 from bertopic import BERTopic
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import PCA
 import numpy as np
+import spacy
+from langdetect import detect, LangDetectException
 
 from model import DocumentSegment, Topic
 
@@ -21,15 +22,51 @@ COMBINED_STOPWORDS = list(
 )  # Use set union for unique words
 
 
+# Load spaCy models for English and Swedish (download if missing)
+try:
+    nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+except OSError:
+    spacy.cli.download("en_core_web_sm")
+    nlp_en = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+
+try:
+    nlp_sv = spacy.load("sv_core_news_sm", disable=["parser", "ner"])
+except OSError:
+    spacy.cli.download("sv_core_news_sm")
+    nlp_sv = spacy.load("sv_core_news_sm", disable=["parser", "ner"])
+
+
+def lemmatize_and_tokenize(doc: str) -> list[str]:
+    """
+    Detect language of `doc`, run through the appropriate spaCy pipeline,
+    extract lemmas for alphabetic, non-stopword tokens, and return as a token list.
+    """
+    text = doc.lower().strip()
+    # Fallback to English if detection fails
+    try:
+        lang = detect(text)
+    except LangDetectException:
+        lang = "en"
+    # Choose pipeline
+    nlp = nlp_sv if lang.startswith("sv") else nlp_en
+    spacy_doc = nlp(text)
+    lemmas = [
+        token.lemma_
+        for token in spacy_doc
+        if token.is_alpha and token.lemma_ not in COMBINED_STOPWORDS
+    ]
+    return lemmas
+
+
 def extract_topics(
     segments: list[DocumentSegment],
     nr_topics: int | None = None,
     min_topic_size: int = 10,
     top_n_words: int = 10,
-) -> BERTopic:
+) -> tuple[BERTopic, dict[str, int]]:
     """
-    Extracts topics from a list of DocumentSegment objects, updates the segments with topic IDs,
-    and returns the fitted BERTopic model.
+    Extracts topics from a list of DocumentSegment objects and returns the fitted BERTopic model
+    along with a mapping of segment IDs to their assigned topic IDs.
     Only segments with non-empty text and existing embeddings are used for topic modeling.
     """
     # Filter segments that have text and embeddings
@@ -66,51 +103,44 @@ def extract_topics(
                     f"Could not reshape embeddings, proceeding with 1D array which might fail: {e}"
                 )
 
-    print("Fitting PCA...")
-    # Use PCA instead of UMAP for speed, ensure n_components is valid
-    n_components_pca = min(
-        10,
-        len(valid_segments) // 2,
-        embeddings.shape[1] if embeddings.ndim > 1 and embeddings.shape[1] > 0 else 10,
+    print("Vectorizing...")
+    vectorizer = CountVectorizer(
+        tokenizer=lemmatize_and_tokenize,
+        token_pattern=None,  # disable default pattern so tokenizer is used
+        ngram_range=(1, 2),
+        max_df=0.90,
+        min_df=0.05,
+        max_features=2_000,
     )
-    if n_components_pca <= 0:  # If not enough samples or features for PCA
-        print(
-            f"Not enough samples or features for PCA (n_components_pca={n_components_pca}). Skipping PCA."
-        )
-        reduced_embeddings = embeddings  # Use original embeddings
-    else:
-        pca = PCA(n_components=n_components_pca)
-        try:
-            reduced_embeddings = pca.fit_transform(embeddings)
-        except ValueError as e:
-            print(f"PCA failed: {e}. Using original embeddings.")
-            reduced_embeddings = embeddings
 
     print("Fitting BERTopic...")
-    # Fastest vectorizer settings
-    vectorizer = CountVectorizer(
-        stop_words=COMBINED_STOPWORDS,
-        ngram_range=(1, 2),
-        max_features=5000,  # Limit features for speed and memory
-    )
     topic_model = BERTopic(
         nr_topics=nr_topics,
         vectorizer_model=vectorizer,
         min_topic_size=min_topic_size,
         top_n_words=top_n_words,
-        umap_model=None,  # Disables UMAP, using PCA-reduced embeddings
         low_memory=True,
+        language="multilingual",
     )
 
     # Fit using reduced embeddings
-    topic_assignments, _ = topic_model.fit_transform(texts, reduced_embeddings)
+    topic_assignments, _ = topic_model.fit_transform(texts, embeddings)
     print("Fitted BERTopic.")
 
-    # Assign topic IDs back to the original DocumentSegment objects
+    # Create a map from segment ID to topic ID
+    segment_id_to_topic_id_map: dict[str, int] = {}
     for segment, topic_id in zip(valid_segments, topic_assignments):
-        segment.topic_id = int(topic_id)  # Ensure topic_id is int
+        if (
+            segment.id is None
+        ):  # Should ideally not happen if DocumentSegment.id is always set
+            print(
+                f"Warning: Segment encountered without an ID during topic assignment: {segment.text[:50]}..."
+            )
+            continue
+        segment_id_to_topic_id_map[segment.id] = int(topic_id)
+        # segment.topic_id = int(topic_id) # REMOVED in-place modification
 
-    return topic_model
+    return topic_model, segment_id_to_topic_id_map
 
 
 def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
@@ -143,7 +173,8 @@ def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
             if not kw_scores:
                 continue
 
-            keywords = [word for word, _ in kw_scores[:5]]  # score not needed here
+            # Filter out empty or whitespace-only strings from keywords
+            keywords = [word for word, _ in kw_scores[:5] if word and word.strip()]
 
             if len(keywords) >= 2:
                 name = " / ".join(keywords[:2])

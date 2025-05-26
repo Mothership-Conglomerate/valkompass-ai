@@ -17,6 +17,8 @@ dependencies = [
     "einops>=0.8.1",
     "openai>=1.82.0",
     "python-dotenv>=1.1.0",
+    "spacy>=3.8.7",
+    "pip>=25.1.1",
 ]
 
 [dependency-groups]

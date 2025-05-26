@@ -25,6 +25,7 @@ load_dotenv()
 # Project root directory
 PROJECT_ROOT_DIR = Path(__file__).parent.parent
 DOCUMENTS_BASE_DIR_ABS = Path(__file__).parent / "documents"
+STRUCTURED_KB_OUTPUT_DIR = Path(__file__).parent / "structured-knowledge-base"
 STRUCTURED_DOCS_OUTPUT_DIR = (
     Path(__file__).parent / "structured-knowledge-base" / "documents"
 )
@@ -124,16 +125,10 @@ async def main():
         documents = load_and_parse_documents(
             documents_dir_abs=docs_dir_abs, project_root=PROJECT_ROOT_DIR
         )
-        if documents:
-            print(f"Successfully parsed {len(documents)} documents.")
-            print(f"Storing parsed documents to {structured_output_dir}...")
-            store_documents_as_json(documents, structured_output_dir)
-            processed_something = True
-        else:
-            print("No documents were parsed.")
-            if "embed" in args.actions:
-                print("Halting embed action as no documents were parsed.")
-                return
+        print(f"Successfully parsed {len(documents)} documents.")
+        print(f"Storing parsed documents to {structured_output_dir}...")
+        store_documents_as_json(documents, structured_output_dir)
+        processed_something = True
 
     if "embed" in args.actions:
         if not documents:
@@ -145,24 +140,23 @@ async def main():
                 )
                 return
 
-        if documents:
-            print(f"Starting embedding for {len(documents)} documents...")
-            embedding_client = EmbeddingClient()
-            processed_docs_count = 0
-            # Wrap the documents list with tqdm for a top-level progress bar
-            async for doc in async_tqdm(
-                embedding_client.embed_documents(documents),
-                total=len(documents),
-                desc="Embedding and Storing Documents",
-            ):
-                store_document_as_json(doc, structured_output_dir)
-                processed_docs_count += 1
+        print(f"Starting embedding for {len(documents)} documents...")
+        embedding_client = EmbeddingClient()
+        processed_docs_count = 0
+        # Wrap the documents list with tqdm for a top-level progress bar
+        async for doc in async_tqdm(
+            embedding_client.embed_documents(documents),
+            total=len(documents),
+            desc="Embedding and Storing Documents",
+        ):
+            store_document_as_json(doc, structured_output_dir)
+            processed_docs_count += 1
 
-            print(
-                f"Successfully embedded and stored {processed_docs_count} documents incrementally."
-            )
-            # No need to store all documents again at the end, as it's done incrementally
-            processed_something = True
+        print(
+            f"Successfully embedded and stored {processed_docs_count} documents incrementally."
+        )
+        # No need to store all documents again at the end, as it's done incrementally
+        processed_something = True
 
     if "topicmodel" in args.actions:
         if not documents:
@@ -176,50 +170,48 @@ async def main():
                 )
                 return
 
-        if documents:
+        print(f"Starting topic modeling for segments in {len(documents)} documents...")
+        all_segments: List[DocumentSegment] = []
+        for doc in documents:
+            all_segments.extend(doc.segments)
+
+        if not all_segments:
             print(
-                f"Starting topic modeling for segments in {len(documents)} documents..."
+                "No segments found in the loaded documents. Cannot perform topic modeling."
             )
-            all_segments: List[DocumentSegment] = []
-            for doc in documents:
-                all_segments.extend(doc.segments)
+            return
 
-            if not all_segments:
-                print(
-                    "No segments found in the loaded documents. Cannot perform topic modeling."
-                )
-                return
+        print(
+            f"Performing topic modeling on {len(all_segments)} segments with embeddings..."
+        )
+        # extract_topics modifies segments in-place by adding topic_id
+        topic_model_bertopic, segment_topic_map = extract_topics(
+            all_segments
+        )  # Pass only segments with embeddings
 
-            print(
-                f"Performing topic modeling on {len(all_segments)} segments with embeddings..."
+        pydantic_topics = topics_to_pydantic(topic_model_bertopic)
+
+        if pydantic_topics:
+            print(f"Generated {len(pydantic_topics)} topics.")
+            store_topics_as_json(
+                pydantic_topics, STRUCTURED_KB_OUTPUT_DIR, "topics.json"
             )
-            # extract_topics modifies segments in-place by adding topic_id
-            topic_model_bertopic = extract_topics(
-                all_segments
-            )  # Pass only segments with embeddings
+        else:
+            print("No topics were generated (excluding outliers).")
 
-            pydantic_topics = topics_to_pydantic(topic_model_bertopic)
-
-            if pydantic_topics:
-                print(f"Generated {len(pydantic_topics)} topics.")
-                store_topics_as_json(
-                    pydantic_topics, structured_output_dir, "topics.json"
-                )
-            else:
-                print("No topics were generated (excluding outliers).")
-
-            # After topic IDs are assigned to segments, documents need to be re-saved
-            print(
-                f"Storing updated documents with topic information back to {structured_output_dir}..."
-            )
-            updated_doc_count = 0
-            for doc in tqdm(
-                documents, desc="Storing Documents with Topics", unit="doc"
-            ):
-                store_document_as_json(doc, structured_output_dir)
-                updated_doc_count += 1
-            print(f"Successfully stored {updated_doc_count} documents with topic IDs.")
-            processed_something = True
+        # After topic IDs are assigned to segments, documents need to be re-saved
+        print(
+            f"Assigning topic IDs to segments and storing updated documents back to {structured_output_dir}..."
+        )
+        updated_doc_count = 0
+        for doc in tqdm(documents, desc="Storing Documents with Topics", unit="doc"):
+            for segment in doc.segments:
+                if segment.id in segment_topic_map:
+                    segment.topic_id = segment_topic_map[segment.id]
+            store_document_as_json(doc, structured_output_dir)
+            updated_doc_count += 1
+        print(f"Successfully stored {updated_doc_count} documents with topic IDs.")
+        processed_something = True
 
     if not processed_something:
         print(
