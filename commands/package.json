@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "fetch-politicians": "bunx tsx fetch-politicians.ts",
-    "extract-parties": "bunx tsx extract-parties.ts"
+    "extract-parties": "bunx tsx extract-parties.ts",
+    "fetch-votes": "bunx tsx fetch-votes.ts",
+    "test-fetch-votes": "bunx tsx fetch-votes-test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

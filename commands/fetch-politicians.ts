@@ -27,30 +27,35 @@ async function fetchPoliticians() {
     console.log('Found politician select element');
     const selectContent = selectMatch[1];
     
-    // Extract all option elements except the first one (which is "[Välj ledamot]")
-    const optionMatches = selectContent.match(/<option[^>]*value="[^"]*"[^>]*>([^<]+)<\/option>/g);
+    // Extract all option elements with both value (ID) and text (name)
+    const optionMatches = selectContent.match(/<option[^>]*value="([^"]*)"[^>]*>([^<]+)<\/option>/g);
     
     if (!optionMatches) {
       console.log('Could not find option elements');
       return [];
     }
     
-    const politicians: string[] = [];
+    const politicians: Array<{id: string, name: string}> = [];
     
     for (const option of optionMatches) {
-      const textMatch = option.match(/>([^<]+)</);
-      if (textMatch) {
-        const politicianName = textMatch[1].trim();
-        // Skip the "[Välj ledamot]" option
-        if (politicianName !== '[Välj ledamot]' && politicianName.length > 0) {
-          politicians.push(politicianName);
+      const match = option.match(/<option[^>]*value="([^"]*)"[^>]*>([^<]+)<\/option>/);
+      if (match) {
+        const politicianId = match[1].trim();
+        const politicianName = match[2].trim();
+        
+        // Skip the "[Välj ledamot]" option and empty values
+        if (politicianName !== '[Välj ledamot]' && politicianName.length > 0 && politicianId.length > 0) {
+          politicians.push({
+            id: politicianId,
+            name: politicianName
+          });
         }
       }
     }
     
     console.log(`\nFound ${politicians.length} politicians:`);
     politicians.slice(0, 10).forEach((politician, index) => {
-      console.log(`${index + 1}. ${politician}`);
+      console.log(`${index + 1}. ${politician.name} (ID: ${politician.id})`);
     });
     
     if (politicians.length > 10) {
@@ -60,7 +65,7 @@ async function fetchPoliticians() {
     // Save to file
     const outputData = {
       totalCount: politicians.length,
-      politicians: politicians.sort(),
+      politicians: politicians.sort((a, b) => a.name.localeCompare(b.name)),
       extractedAt: new Date().toISOString(),
       source: 'Extracted from Riksdag HTML select element'
     };

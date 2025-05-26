@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "fetch-politicians": "cd commands && bun install && bun run fetch-politicians",
-    "extract-parties": "cd commands && bun install && bun run extract-parties"
+    "extract-parties": "cd commands && bun install && bun run extract-parties",
+    "test-fetch-votes": "cd commands && bun install && bun run test-fetch-votes",
+    "fetch-votes": "cd commands && bun install && bun run fetch-votes"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
