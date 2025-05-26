@@ -1,9 +1,8 @@
 from openai import AsyncOpenAI
-from typing import List
+from typing import List, AsyncGenerator
 import numpy as np
 from model import Document
 import asyncio
-from tqdm.asyncio import tqdm
 
 
 class EmbeddingClient:
@@ -26,33 +25,44 @@ class EmbeddingClient:
 
     async def embed_documents(
         self, documents: List[Document], model: str | None = None
-    ) -> List[Document]:
+    ) -> AsyncGenerator[Document, None]:
         """
         Embeds the text of each segment in a list of Document objects.
         Updates the 'embedding' field of each DocumentSegment.
+        Only embeds segments that do not already have an embedding.
+        Yields each document after its segments have been processed.
         """
         model_to_use = model if model else self.model_name
         if not self.client:
             print("OpenAI client not initialized. Cannot embed documents.")
-            return documents
+            # Yield documents as they are if client not initialized
+            for doc in documents:
+                yield doc
+            return
 
-        segments_to_embed = []
-        for doc in documents:
+        for doc in documents:  # Iterate through documents one by one
+            segments_to_embed = []
             for segment in doc.segments:
-                if segment.text:  # Ensure there is text to embed
+                # Check if embedding is None or an empty array
+                if segment.text and (
+                    segment.embedding is None or segment.embedding.size == 0
+                ):
                     segments_to_embed.append(segment)
 
-        batch_size = 10
-        for i in tqdm(
-            range(0, len(segments_to_embed), batch_size), desc="Embedding documents"
-        ):
-            batch_segments = segments_to_embed[i : i + batch_size]
-            tasks = [
-                self.get_embedding(segment.text, model=model_to_use)
-                for segment in batch_segments
-            ]
-            embedding_vectors = await asyncio.gather(*tasks)
-            for segment, embedding_vector in zip(batch_segments, embedding_vectors):
-                if embedding_vector is not None:
-                    segment.embedding = np.array(embedding_vector)
-        return documents
+            if not segments_to_embed:
+                yield doc  # Yield doc if no segments to embed
+                continue
+
+            # Process segments_to_embed in batches for the current document
+            batch_size = 10  # OpenAI API batch limit or your preference
+            for i in range(0, len(segments_to_embed), batch_size):
+                batch_segments = segments_to_embed[i : i + batch_size]
+                tasks = [
+                    self.get_embedding(segment.text, model=model_to_use)
+                    for segment in batch_segments
+                ]
+                embedding_vectors = await asyncio.gather(*tasks)
+                for segment, embedding_vector in zip(batch_segments, embedding_vectors):
+                    if embedding_vector is not None:
+                        segment.embedding = np.array(embedding_vector)
+            yield doc  # Yield the processed document

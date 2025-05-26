@@ -34,7 +34,8 @@ async def test_get_embedding_success(embedding_client: EmbeddingClient):
             ],
         )
     ]
-    updated_documents = await embedding_client.embed_documents(documents)
+    updated_documents_generator = embedding_client.embed_documents(documents)
+    updated_documents = [doc async for doc in updated_documents_generator]
 
     assert updated_documents is not None
     assert isinstance(updated_documents, list)

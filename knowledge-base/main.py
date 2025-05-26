@@ -6,12 +6,17 @@ import argparse
 import asyncio
 
 from tqdm import tqdm
+from tqdm.asyncio import tqdm as async_tqdm
 
 from model import Document
 from parser import parse_document
 from util.errors import NoSuchDocumentError
 from analysis.embedding import EmbeddingClient
-from model.store import store_documents_as_json, load_documents_from_json
+from model.store import (
+    store_documents_as_json,
+    load_documents_from_json,
+    store_document_as_json,
+)
 
 load_dotenv()
 
@@ -151,10 +156,20 @@ async def main():
         if documents:
             print(f"Starting embedding for {len(documents)} documents...")
             embedding_client = EmbeddingClient()
-            documents = await embedding_client.embed_documents(documents)
-            print(f"Successfully embedded {len(documents)} documents.")
-            print(f"Storing embedded documents back to {structured_output_dir}...")
-            store_documents_as_json(documents, structured_output_dir)
+            processed_docs_count = 0
+            # Wrap the documents list with tqdm for a top-level progress bar
+            async for doc in async_tqdm(
+                embedding_client.embed_documents(documents),
+                total=len(documents),
+                desc="Embedding and Storing Documents",
+            ):
+                store_document_as_json(doc, structured_output_dir)
+                processed_docs_count += 1
+
+            print(
+                f"Successfully embedded and stored {processed_docs_count} documents incrementally."
+            )
+            # No need to store all documents again at the end, as it's done incrementally
             processed_something = True
 
     if not processed_something:

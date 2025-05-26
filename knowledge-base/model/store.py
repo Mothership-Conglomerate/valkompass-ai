@@ -41,6 +41,31 @@ def store_documents_as_json(documents: List[Document], output_dir: Path):
     print(f"Successfully stored documents in {output_dir}.")
 
 
+def store_document_as_json(document: Document, output_dir: Path):
+    """
+    Serializes a single Document object to a pretty-printed JSON file.
+    The document's path attribute is assumed to be relative to the project root.
+
+    Args:
+        document: The Document object to serialize.
+        output_dir: The directory where the JSON file will be stored.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    original_path = Path(document.path)
+    json_filename = original_path.stem + ".json"
+    output_filepath = output_dir / json_filename
+
+    try:
+        # Pydantic's model_dump_json handles np.ndarray by converting to list
+        json_string = document.model_dump_json(indent=2)
+        with open(output_filepath, "w", encoding="utf-8") as f:
+            f.write(json_string)
+    except Exception as e:
+        print(
+            f"Error storing document {document.path} as JSON to {output_filepath}: {e}"
+        )
+
+
 def load_documents_from_json(input_dir: Path) -> List[Document]:
     """
     Loads Document objects from JSON files in a specified directory.
