@@ -10,7 +10,9 @@
     "fetch-politicians": "cd commands && bun install && bun run fetch-politicians",
     "extract-parties": "cd commands && bun install && bun run extract-parties",
     "test-fetch-votes": "cd commands && bun install && bun run test-fetch-votes",
-    "fetch-votes": "cd commands && bun install && bun run fetch-votes"
+    "fetch-votes": "cd commands && bun install && bun run fetch-votes",
+    "test-fetch-voteringar": "cd commands && bun install && bun run test-fetch-voteringar",
+    "fetch-voteringar": "cd commands && bun install && bun run fetch-voteringar"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

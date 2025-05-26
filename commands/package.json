@@ -7,7 +7,9 @@
     "fetch-politicians": "bunx tsx fetch-politicians.ts",
     "extract-parties": "bunx tsx extract-parties.ts",
     "fetch-votes": "bunx tsx fetch-votes.ts",
-    "test-fetch-votes": "bunx tsx fetch-votes-test.ts"
+    "test-fetch-votes": "bunx tsx fetch-votes-test.ts",
+    "fetch-voteringar": "bunx tsx fetch-voteringar.ts",
+    "test-fetch-voteringar": "bunx tsx fetch-voteringar-test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

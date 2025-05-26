@@ -1,0 +1,19 @@
+{
+  "description": "Summary of voteringar (voting sessions) extraction",
+  "extractedAt": "2025-05-26T18:03:37.367Z",
+  "sessionsProcessed": [
+    "2016/17",
+    "2017/18",
+    "2018/19",
+    "2019/20",
+    "2020/21",
+    "2021/22",
+    "2022/23",
+    "2023/24",
+    "2024/25"
+  ],
+  "totalFilesCreated": 9,
+  "totalVoteringarExtracted": 6456,
+  "outputDirectory": "../knowledge-base/documents/voting/voteringar-by-year",
+  "fileNamingPattern": "voteringar-YYYY-YY.json"
+}

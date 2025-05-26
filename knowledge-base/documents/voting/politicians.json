@@ -1,1394 +1,5555 @@
 {
   "totalCount": 1387,
   "politicians": [
-    "A Eriksson, Erik (C)",
-    "Abdu, Said (FP)",
-    "Abdu, Said (L)",
-    "Abele, Anton (M)",
-    "Abrahamsson, Maria (M)",
-    "Abramsson, Karl Gustav (s)",
-    "Acketoft, Tina (L)",
-    "Acketoft, Tina (fp)",
-    "Adaktusson, Lars (KD)",
-    "Adan, Amir (M)",
-    "Adelsbo, Christer (S)",
-    "Adelsohn Liljeroth, Lena (m)",
-    "Adolfsson Elgestam, Carina (s)",
-    "Agenberg, Tomas (s)",
-    "Ahl, Jeff (-)",
-    "Ahl, Jeff (SD)",
-    "Ahlberg, Ann-Christin (S)",
-    "Ahlgren, Anders (C)",
-    "Ahlin, Urban (s)",
-    "Ahlqvist, Birgitta (s)",
-    "Ahlstedt, Fredrik (M)",
-    "Ahlström Köster, Emma (M)",
-    "Akej, Christer (M)",
-    "Akhondi, Alireza (C)",
-    "Al-Sahlani, Abir (C)",
-    "Alfsson, Thoralf (SD)",
-    "Alftberg, Anders (SD)",
-    "Ali Elmi, Leila (MP)",
-    "Ali Maher, Osama (m)",
-    "Ali, Amne (S)",
-    "Ali-Elmi, Leila (MP)",
-    "Alm Ericson, Janine (MP)",
-    "Alm, Ann-Sofie (M)",
-    "Almqvist, Erik (SD)",
-    "Althin, Peter (kd)",
-    "Amin, Jabar (MP)",
-    "Amloh, Sofia (S)",
-    "Andersson Garpvall, Pontus (SD)",
-    "Andersson Tay, Andrea (V)",
-    "Andersson Willner, Maria (S)",
-    "Andersson, Anders (kd)",
-    "Andersson, Christina (c)",
-    "Andersson, Daniel (S)",
-    "Andersson, Erik (M)",
-    "Andersson, Helén (C)",
-    "Andersson, Jan (c)",
-    "Andersson, Jan R (m)",
-    "Andersson, Johan (S)",
-    "Andersson, Johan (s)",
-    "Andersson, Jonas (SD)",
-    "Andersson, Jonas (SD)",
-    "Andersson, Jörgen (M)",
-    "Andersson, Kerstin (s)",
-    "Andersson, Lars (SD)",
-    "Andersson, Linda (M)",
-    "Andersson, Magdalena (S)",
-    "Andersson, Magdalena (m)",
-    "Andersson, Marcus (S)",
-    "Andersson, Margareta (c)",
-    "Andersson, Max (mp)",
-    "Andersson, Phia (s)",
-    "Andersson, Pontus (SD)",
-    "Andersson, Tobias (SD)",
-    "Andersson, Ulla (V)",
-    "Andersson, Yvonne (kd)",
-    "Andnor, Berit (s)",
-    "Andreasson, Martin (fp)",
-    "André, Lili (KD)",
-    "Andrén, Gunnar (fp)",
-    "Anefur, Michael (kd)",
-    "Anger, Staffan (m)",
-    "Ankarberg Johansson, Acko (KD)",
-    "Anstrell, Alexandra (M)",
-    "Antoni, Helena (M)",
-    "Appelros, Staffan (m)",
-    "Aranda, Clara (SD)",
-    "Arkelsten, Sofia (m)",
-    "Arkhem, Mats (SD)",
-    "Arleklo, Ann (s)",
-    "Arnholm, Maria (FP)",
-    "Arnholm, Maria (L)",
-    "Arnold, Otto (KD)",
-    "Aronson, Marita (fp)",
-    "Arvidsson Wemmert, Linda (M)",
-    "Arvidsson, Eva (s)",
-    "Ask, Beatrice (m)",
-    "Aspling, Ludvig (SD)",
-    "Asplund, Lena (m)",
-    "Astudillo, Luciano (s)",
-    "Ataseven, Metin (M)",
-    "Attefall, Stefan (kd)",
-    "Attefjord, Nicklas (MP)",
-    "Aurelius, Nils Fredrik (m)",
-    "Avci, Gulan (L)",
-    "Avci, Gulan (fp)",
-    "Avenborg, Tomas (M)",
-    "Avsan, Anti (M)",
-    "Awad, Nadja (V)",
-    "Axelsson, Christina (s)",
-    "Axelsson, Lennart (s)",
-    "Axelsson, Marie (S)",
-    "Axén Olin, Kristina (M)",
-    "Axén, Gunnar (m)",
-    "Aydin, Yusuf (KD)",
-    "B Kjellin, Margareta (M)",
-    "Backeskog, Sanna (S)",
-    "Backman, Hans (fp)",
-    "Bager, Erling (fp)",
-    "Bah Kuhnke, Alice (MP)",
-    "Bali, Hanif (M)",
-    "Bargholtz, Helena (fp)",
-    "Baylan, Ibrahim (S)",
-    "Beckman, Hannes (M)",
-    "Beckman, Lars (M)",
-    "Begic, Denis (S)",
-    "Beijer, Lennart (v)",
-    "Beiming, Cinnika (s)",
-    "Bengtson Skogsberg, Eva (m)",
-    "Bengtsson, Anders (s)",
-    "Bengtsson, Angelika (SD)",
-    "Bengtsson, Finn (m)",
-    "Bengtsson, Jenny (V)",
-    "Bengtsson, Mathias (KD)",
-    "Bengtzboe, Erik (M)",
-    "Berg, Bengt (V)",
-    "Berg, Heli (fp)",
-    "Berg, Marianne (v)",
-    "Berg, Ulf (m)",
-    "Bergbäck, Åke (fp)",
-    "Bergenblock, Christofer (C)",
-    "Bergheden, Sten (m)",
-    "Berginger, Emma (MP)",
-    "Bergkvist, Anna (m)",
-    "Berglind, Mats (s)",
-    "Berglund Nilsson, Mona (s)",
-    "Berglund, Jörgen (M)",
-    "Berglund, Mats (MP)",
-    "Berglund, Rune (s)",
-    "Bergman, Håkan (S)",
-    "Bergman, Ulrik (M)",
-    "Bergstedt, Hannah (S)",
-    "Bergström, Stina (MP)",
-    "Bergström, Sven (c)",
-    "Berlin, Christina (fp)",
-    "Berliner, Agneta (fp)",
-    "Bernhardsson, Bo (s)",
-    "Berntsson, Magnus (KD)",
-    "Bieler, Paula (SD)",
-    "Bill, Per (m)",
-    "Billström, Tobias (m)",
-    "Birinxhiku, Aida (S)",
-    "Bjellqvist, Elsemarie (S)",
-    "Bjurling, Laila (s)",
-    "Bjälkö, Sara-Lena (SD)",
-    "Björck, Anders (m)",
-    "Björck, Patrik (s)",
-    "Björk, Malin (C)",
-    "Björk, Peder (S)",
-    "Björklund, Heléne (S)",
-    "Björklund, Jan (FP)",
-    "Björklund, Jan (L)",
-    "Björkman, Jan (s)",
-    "Björling, Ewa (m)",
-    "Björlund, Torbjörn (v)",
-    "Björnlod, Leif (mp)",
-    "Björnsdotter Rahm, Elisabeth (M)",
-    "Bladelius, Yasmine (S)",
-    "Blix, Gustav (m)",
-    "Blom, Juno (L)",
-    "Blomkvist, Anna-Lena (SD)",
-    "Bodström, Thomas (s)",
-    "Bohlin Olsson, Britt (s)",
-    "Bohlin, Britt (s)",
-    "Bohlin, Carl-Oskar (M)",
-    "Bohlin, Sinikka (s)",
-    "Bojerud, Stellan (SD)",
-    "Bolund, Per (mp)",
-    "Bonnier, Helena (M)",
-    "Boulwén, Carita (SD)",
-    "Bouveng, Helena (m)",
-    "Brandin, Claes-Göran (s)",
-    "Brinck, Cecilia (M)",
-    "Brink, Josefin (v)",
-    "Britton, Sven (S)",
-    "Brodin, Camilla (KD)",
-    "Brodén, Anita (FP)",
-    "Brodén, Anne Marie (M)",
-    "Broman, Bo (SD)",
-    "Brown, Nils (M)",
-    "Brunegård, Gudrun (KD)",
-    "Brunsberg, Camilla (M)",
-    "Brus, Sven (kd)",
-    "Brännström, Katarina (M)",
-    "Bråkenhielm, Catharina (S)",
-    "Bucht, Sven-Erik (S)",
-    "Burman, Ingrid (v)",
-    "Burwick, Marlene (S)",
-    "Busch Thor, Ebba (KD)",
-    "Busch, Ebba (KD)",
-    "Bylund, Linus (SD)",
-    "Bäckelin, Lena (S)",
-    "Bäckman, Roland (s)",
-    "Bäckström Johansson, Mattias (SD)",
-    "Bäckström, Daniel (C)",
-    "Bäckström, Lars (v)",
-    "Börjesson, Agneta (MP)",
-    "Büser, Johan (S)",
-    "Caplan, Stefan (M)",
-    "Carlson, Andreas (KD)",
-    "Carlsson Löfdahl, Emma (-)",
-    "Carlsson Löfdahl, Emma (L)",
-    "Carlsson Löfdahl, Emma (fp)",
-    "Carlsson, Birgitta (c)",
-    "Carlsson, Christian (KD)",
-    "Carlsson, Clas-Göran (S)",
-    "Carlsson, ClasGöran (S)",
-    "Carlsson, Crister (M)",
-    "Carlsson, Gunilla (m)",
-    "Carlsson, Gunilla (s)",
-    "Carlsson, Rose-Marie (s)",
-    "Carlsson, Ulrika (c)",
-    "Carlsson, Willemo (m)",
-    "Carlström, Marianne (s)",
-    "Carvalho, Teresa (S)",
-    "Cato Hansson, Jonny (C)",
-    "Cato, Jonny (C)",
-    "Ceballos, Bodil (mp)",
-    "Cederbratt, Mikael (m)",
-    "Cederfelt, Margareta (M)",
-    "Christensson, Fredrik (C)",
-    "Christiansson, Alexander (SD)",
-    "Cisija, Dzenan (S)",
-    "Coenraads, Åsa (M)",
-    "Dadgostar, Nooshi (V)",
-    "Dahl, Cecilia (s)",
-    "Dahlqvist, Mikael (S)",
-    "Dalman Eek, Cecilia (S)",
-    "Dalunde, Jakop (MP)",
-    "Damberg, Mikael (s)",
-    "Damm, Sofia (KD)",
-    "Damsgaard, Mikael (M)",
-    "Danestig, Britt-Marie (v)",
-    "Danielsson, Malin (L)",
-    "Danielsson, Peter (m)",
-    "Danielsson, Staffan (c)",
-    "Darell, Linnéa (fp)",
-    "Darvik, Axel (fp)",
-    "Davidson, Inger (kd)",
-    "Delgado Varas, Lorena (V)",
-    "Delgado, Lorena (V)",
-    "Delis, Sotiris (M)",
-    "Demir, Hamza (V)",
-    "Demirok, Muharrem (C)",
-    "Deremar, Catarina (C)",
-    "Dibrani, Adnan (S)",
-    "Dinamarca, Rossana (v)",
-    "Dingizian, Esabelle (MP)",
-    "Dioukarev, Dennis (SD)",
-    "Dogru, Sedat (M)",
-    "Domeij, Åsa (mp)",
-    "Drougge, Ida (M)",
-    "Drummond, Bino (M)",
-    "Duàn, Annika (S)",
-    "E Weinerhall, John (M)",
-    "E. Weinerhall, John (M)",
-    "Eberstein, Susanne (s)",
-    "Eclund, Annika (KD)",
-    "Edin, Henrik (L)",
-    "Edlind-Friberg, Louise (fp)",
-    "Ehn, Tina (mp)",
-    "Ehrencrona, Magnus (MP)",
-    "Einarsson, Mats (v)",
-    "Ek, Lena (c)",
-    "Ek, Magnus (C)",
-    "Ekendahl, Maud (m)",
-    "Ekeroth Clausson, Ida (S)",
-    "Ekeroth, Ida (S)",
-    "Ekeroth, Kent (SD)",
-    "Ekerum, Petra (S)",
-    "Ekholm, Berndt (s)",
-    "Eklind, Hans (KD)",
-    "Eklund, Louise (L)",
-    "Eklöf, Staffan (SD)",
-    "Ekström, Anne-Marie (fp)",
-    "Ekström, Hans (S)",
-    "El Haj, Jamal (S)",
-    "El-Haj, Jamal (S)",
-    "Eldensjö, Kjell (kd)",
-    "Eliasson, Bengt (FP)",
-    "Eliasson, Bengt (L)",
-    "Elinderson, Lars (m)",
-    "Elmsäter-Svärd, Catharina (m)",
-    "Elofsson, Torsten (KD)",
-    "Emilsson, Aron (SD)",
-    "Emilsson, Lena (S)",
-    "Emtell, Per-Johan (MP)",
-    "Eneim, Montaser (M)",
-    "Eneroth, Tomas (s)",
-    "Engblom, Annicka (m)",
-    "Engdahl, Karin (S)",
-    "Engelhardt, Christer (s)",
-    "Engle, Kerstin (s)",
-    "Engström, Cecilia (KD)",
-    "Engström, Hillevi (m)",
-    "Engström, Marie (v)",
-    "Engström, Patrik (S)",
-    "Engsund, Lars (M)",
-    "Enholm, Matheus (SD)",
-    "Enochson, Annelie (kd)",
-    "Enström, Karin (m)",
-    "Ericson, Gunvor G (mp)",
-    "Ericson, Jan (M)",
-    "Ericson, Lars-Ivar (c)",
-    "Eriksson Falk, Mattias (SD)",
-    "Eriksson, Alf (s)",
-    "Eriksson, Birgitta (s)",
-    "Eriksson, Christer (c)",
-    "Eriksson, Erik A (c)",
-    "Eriksson, Fredrik (SD)",
-    "Eriksson, Jonas (MP)",
-    "Eriksson, Lars (S)",
-    "Eriksson, Peter (mp)",
-    "Eriksson, Sanne (S)",
-    "Eriksson, Sofie (S)",
-    "Eriksson, Yasmine (SD)",
-    "Eriksson, Ziita (M)",
-    "Eriksson, Åsa (S)",
-    "Erlandsson, Christer (s)",
-    "Erlandsson, Eskil (c)",
-    "Ernkrans, Matilda (s)",
-    "Ertsborn, Jan (fp)",
-    "Esbati, Ali (V)",
-    "Escanilla, Jeannette (V)",
-    "Esch, Björn (kd)",
-    "Eskilandersson, Mikael (SD)",
-    "Ezelius, Erik (S)",
-    "Fagerström, Ann-Marie (s)",
-    "Fahmi, Mahmood (m)",
-    "Falkhaven, Elisabeth (MP)",
-    "Farid, Jasmin (M)",
-    "Farivar, Rashid (SD)",
-    "Fazelian, Aylin (S)",
-    "Federley, Fredrick (c)",
-    "Felten, Olle (-)",
-    "Felten, Olle (SD)",
-    "Feltzing, Barbro (mp)",
-    "Ferm, Maria (MP)",
-    "Fernández, Rocio (fp)",
-    "Filper, Runar (SD)",
-    "Finnborg, Thomas (M)",
-    "Finstorp, Lotta (M)",
-    "Flanking, Anders (C)",
-    "Flyborg, Eva (fp)",
-    "Fogelström, Conny (s)",
-    "Forsberg, Anders (SD)",
-    "Forslund, Kenneth G (s)",
-    "Forslund, Patrik (m)",
-    "Forssell, Joar (L)",
-    "Forssell, Johan (M)",
-    "Forssmed, Jakob (kd)",
-    "Frans, Joe (s)",
-    "Fransson, Josef (SD)",
-    "Fransson, Margareta (MP)",
-    "Fransson, Sonja (s)",
-    "Franzén, Mia (fp)",
-    "Fredholm, Kajsa (V)",
-    "Fredriksson, Inger (C)",
-    "Fredriksson, Kerstin (s)",
-    "Fremling, Lennart (fp)",
-    "Frid, Egon (v)",
-    "Fridolin, Gustav (MP)",
-    "Frimert, Anders (S)",
-    "Frisk, Helena (s)",
-    "Frohm Utterstedt, Ann-Christine (SD)",
-    "From Utterstedt, Ann-Christine (SD)",
-    "From, Isak (S)",
-    "Frost Lindberg, Merit (M)",
-    "Fundahn, Marianne (S)",
-    "Furustrand, Reynoldh (s)",
-    "Fälth, Maria (KD)",
-    "Färm, Daniel (S)",
-    "Fölster, Sofia (M)",
-    "G Forslund, Kenneth (S)",
-    "Gabelic, Aleksander (s)",
-    "Gabrielsson, Ida (V)",
-    "Gamov, Pavel (-)",
-    "Gamov, Pavel (SD)",
-    "Gardfjell, Maria (MP)",
-    "Garstedt, Inge (m)",
-    "Gellerman, Helena (L)",
-    "Gerdau, Mats (m)",
-    "Gerdin, Viviann (c)",
-    "Ghasemi, Tina (M)",
-    "Gholam Ali Pour, Nima (SD)",
-    "Gidblom, Birgitta (s)",
-    "Giertz, Rasmus (SD)",
-    "Gille, Agneta (S)",
-    "Gille, Sara (SD)",
-    "Gonzalez Westling, Samuel (V)",
-    "Goude, Gunnar (mp)",
-    "Granberg, Lars U (s)",
-    "Granbom Ellison, Karin (fp)",
-    "Granbom, Karin (fp)",
-    "Granlund, Marie (s)",
-    "Granström, Per Erik (s)",
-    "Grape, Ulf (m)",
-    "Green, Mats (M)",
-    "Green, Monica (s)",
-    "Grubb, Jörgen (SD)",
-    "Grönfeldt Bergman, Lisbeth (m)",
-    "Grönhagen, Carina (s)",
-    "Grönlund Krantz, Anna (fp)",
-    "Grönlund, Anna (fp)",
-    "Gunnarsson, Hanna (V)",
-    "Gunnarsson, Jonas (S)",
-    "Gunnarsson, Rolf (m)",
-    "Gunther, Penilla (KD)",
-    "Gustafsson, Billy (s)",
-    "Gustafsson, Elin (S)",
-    "Gustafsson, Holger (kd)",
-    "Gustafsson, Inger (fp)",
-    "Gustafsson, Lars (kd)",
-    "Gustavsson, Eva-Lena (S)",
-    "Gustavsson, Lennart (v)",
-    "Gustbée, Roland (M)",
-    "Guteland, Jytte (S)",
-    "Gylling, Johnny (kd)",
-    "Göthberg, Gustaf (M)",
-    "Güclü Hedin, Roza (S)",
-    "Haag, Pontus (M)",
-    "Habsburg Douglas, Walburga (m)",
-    "Haby, Susanna (M)",
-    "Haddad, Roger (FP)",
-    "Haddad, Roger (L)",
-    "Haddou, Tony (V)",
-    "Hagberg, Christin (s)",
-    "Hagberg, Liselott (fp)",
-    "Hagberg, Michael (s)",
-    "Hagfeldt, Stefan (m)",
-    "Haglö, Kerstin (s)",
-    "Hagman, Hampus (KD)",
-    "Hagwall, Anna (-)",
-    "Hagwall, Anna (SD)",
-    "Haider, Monica (S)",
-    "Halef, Abraham (S)",
-    "Halef, Robert (KD)",
-    "Hallberg, Axel (MP)",
-    "Hallengren, Lena (s)",
-    "Hallström, Pia (M)",
-    "Hamednaca, Arhe (S)",
-    "Hamilton, Björn (m)",
-    "Hamilton, Carl B (FP)",
-    "Hamilton, Carl B (L)",
-    "Hammar Johnsson, Ann-Charlotte (M)",
-    "Hammarberg, Thomas (S)",
-    "Hammarbergh, Krister (m)",
-    "Hannah, Robert (FP)",
-    "Hannah, Robert (L)",
-    "Hansson, Agne (c)",
-    "Hansson, Anders (M)",
-    "Hansson, Ann-Louise (MP)",
-    "Hansén, Camilla (MP)",
-    "Haraldsson, Johanna (S)",
-    "Hartzell, Åsa (M)",
-    "Hassan, Maria (s)",
-    "Hassan, Rebwar (MP)",
-    "Hedberg, Anna-Lena (SD)",
-    "Hedberg, Gunnar (M)",
-    "Hedberg, Peter (S)",
-    "Hedin, Johan (C)",
-    "Hedin, Roza Güclü (S)",
-    "Hedlund, Roger (SD)",
-    "Hedquist, Lennart (m)",
-    "Hedström, Lotta (mp)",
-    "Heie, Ulrika (C)",
-    "Heikkinen Breitholtz, Sara (S)",
-    "Heindorff, Ulrika (M)",
-    "Heinemann, Kerstin (fp)",
-    "Helander, Peter (C)",
-    "Hellberg, Owe (v)",
-    "Helldén, Daniel (MP)",
-    "Hellman, Jörgen (s)",
-    "Hellmark Knutsson, Helene (S)",
-    "Hellquist, Solveig (fp)",
-    "Hellsborn, Erik (SD)",
-    "Helmersson Olsson, Caroline (S)",
-    "Helmersson-Olsson, Caroline (s)",
-    "Henriksson, Emma (kd)",
-    "Henriksson, Stig (V)",
-    "Hermansson, Ebba (SD)",
-    "Hermansson, Kerstin (c)",
-    "Herrey, Richard (M)",
-    "Herrstedt, Carina (SD)",
-    "Hervieu, Hannes (C)",
-    "Heydari, Shadiye (S)",
-    "Hietala Nordlund, Barbro (s)",
-    "Hillar Rosenqvist, Helena (mp)",
-    "Hirvonen Falk, Annika (MP)",
-    "Hirvonen, Annika (MP)",
-    "Hjalmarsson, Harald (M)",
-    "Hjerling, Annica (MP)",
-    "Hjälmered, Lars (m)",
-    "Hoff, Hans (s)",
-    "Hoffmann, Ulla (v)",
-    "Hoffstedt, Gustaf (M)",
-    "Holm Barenfeld, Christian (M)",
-    "Holm, Christian (m)",
-    "Holm, Jens (V)",
-    "Holm, Ulf (mp)",
-    "Holma, Siv (v)",
-    "Holmqvist, Nils-Göran (s)",
-    "Holmqvist, Paula (S)",
-    "Hornberger, Johanna (M)",
-    "Hovskär, Dan (KD)",
-    "Hult, Emma (MP)",
-    "Hultberg, Johan (M)",
-    "Hultqvist, Peter (s)",
-    "Husmark Pehrsson, Cristina (m)",
-    "Hägg, Carina (s)",
-    "Hägglund, Göran (kd)",
-    "Hänel Sandström, Marie-Louise (M)",
-    "Härstedt, Kent (s)",
-    "Håkansson, Per-Arne (S)",
-    "Hård, Leif (S)",
-    "Höglund, Malin (M)",
-    "Högman, Berit (s)",
-    "Högmark, Anders G (m)",
-    "Högström, Caroline (M)",
-    "Högström, Kenth (s)",
-    "Högström, Tomas (m)",
-    "Höij, Helena (kd)",
-    "Höj Larsen, Christina (V)",
-    "Hökmark, Gunnar (m)",
-    "Hökmark, Isabella (M)",
-    "Ibrisagic, Anna (m)",
-    "Ingeson, Mattias (KD)",
-    "Isacsson, Lars (S)",
-    "Isovaara, Lars (SD)",
-    "Israelsson, Margareta (s)",
-    "Jacobsson Gjörtler, Jonas (M)",
-    "Jacobsson, Jonas (M)",
-    "Jacobsson, Magnus (KD)",
-    "Jacobsson, Maria (S)",
-    "Jakobsson, Leif (s)",
-    "Jakobsson, Magnus (KD)",
-    "Jakobsson, Stefan (SD)",
-    "Jallow, Malcolm Momodou (V)",
-    "Jallow, Momodou (V)",
-    "Jallow, Momodou Malcolm (V)",
-    "Jansson, Eva-Lena (s)",
-    "Jansson, Kjell (M)",
-    "Jansson, Mikael (-)",
-    "Jansson, Mikael (SD)",
-    "Jarl Beck, Inger (s)",
-    "Jawad, Amir (L)",
-    "Jeppsson, Peter (s)",
-    "Jernbeck, Isabella (m)",
-    "Jeryd, Renée (s)",
-    "Jilmstad, Lars (M)",
-    "Johansson, Anita (s)",
-    "Johansson, Ann-Kristine (s)",
-    "Johansson, Anna (S)",
-    "Johansson, Annie (c)",
-    "Johansson, Bengt-Anders (m)",
-    "Johansson, Carl-Axel (m)",
-    "Johansson, Jan Emanuel (s)",
-    "Johansson, Johan (M)",
-    "Johansson, Jörgen (c)",
-    "Johansson, Kenneth (c)",
-    "Johansson, Lars (s)",
-    "Johansson, Lena (S)",
-    "Johansson, Martina (C)",
-    "Johansson, Mats (m)",
-    "Johansson, Mikael (mp)",
-    "Johansson, Morgan (S)",
-    "Johansson, Ola (C)",
-    "Johansson, Torgny (s)",
-    "Johansson, Wiwi-Anne (v)",
-    "Johansson, Ylva (s)",
-    "Johnson, Jacob (v)",
-    "Johnsson Fornarve, Lotta (V)",
-    "Johnsson, Eva (kd)",
-    "Johnsson, Jeppe (m)",
-    "Johnsson, Lars (M)",
-    "Johnsson, Per-Ingvar (C)",
-    "Johnsson, Peter (S)",
-    "Jomshof, Richard (SD)",
-    "Jonson, Pål (M)",
-    "Jonsson, Anders W (C)",
-    "Jonsson, Annica (v)",
-    "Jonsson, Lotta (kd)",
-    "Jonsson, Marcus (KD)",
-    "Jonsson, Mattias (S)",
-    "Jonsson, Peter (s)",
-    "Josefsson, David (M)",
-    "Juholt, Håkan (s)",
-    "Juntti, Ellen (M)",
-    "Jutterström, Peter (M)",
-    "Jämtin, Carin (s)",
-    "Järkeborn, Christoffer (M)",
-    "Järlesjö, Ina (kd)",
-    "Järrebring, Joakim (S)",
-    "Järrel, Henrik S (m)",
-    "Jóhannesson, Berit (v)",
-    "Jönsson, Anita (s)",
-    "Jönsson, Christine (m)",
-    "Jönsson, Johanna (C)",
-    "Jönsson, Mona (mp)",
-    "Jönsson, Patrik (SD)",
-    "Jörgensen, Ulrika (M)",
-    "Kain, Nina (SD)",
-    "Kajevic, Zinaida (S)",
-    "Kakabaveh, Amineh (-)",
-    "Kakabaveh, Amineh (v)",
-    "Kallifatides, Markus (S)",
-    "Kamil, Ismail (FP)",
-    "Kaplan, Mehmet (mp)",
-    "Karapet, Arin (M)",
-    "Karkiainen, Ida (S)",
-    "Karlsson, Agneta (S)",
-    "Karlsson, Anders (C)",
-    "Karlsson, Anders (s)",
-    "Karlsson, Annelie (S)",
-    "Karlsson, Christina (S)",
-    "Karlsson, Heidi (SD)",
-    "Karlsson, Kjell-Erik (v)",
-    "Karlsson, Maj (V)",
-    "Karlsson, Mattias (M)",
-    "Karlsson, Mattias (SD)",
-    "Karlsson, Niklas (S)",
-    "Karlsson, Roger (c)",
-    "Karlsson, Sara (S)",
-    "Karlsson, Sonia (s)",
-    "Karlsson, Ulrika (M)",
-    "Karlsson, Åsa (S)",
-    "Kasirga, Kadir (S)",
-    "Kayhan, Sultan (S)",
-    "Kerimo, Yilmaz (s)",
-    "Khelili Dylami, Reza (m)",
-    "Kierkemann, Marianne (m)",
-    "Kihlström, Dan (kd)",
-    "Kihlström, Ingemar (KD)",
-    "Kinberg Batra, Anna (M)",
-    "Kinnunen, Martin (SD)",
-    "Kjellberg, Bertil (m)",
-    "Kjellin, Margareta B (m)",
-    "Kjörnsberg, Arne (s)",
-    "Klackenberg, Dag (M)",
-    "Klarberg, Per (SD)",
-    "Klockare, Lennart (s)",
-    "Knutsson, Elisabet (MP)",
-    "Koliev, Faradj (S)",
-    "Kollmats, Lennart (fp)",
-    "Kornevik Jakobsson, Maria (c)",
-    "Kornevik-Jakobsson, Maria (c)",
-    "Krantz, Tobias (fp)",
-    "Kristersson, Ulf (M)",
-    "Kristiansson Karlstedt, Kerstin (s)",
-    "Kronlid, Julia (SD)",
-    "Kronståhl, Tomas (S)",
-    "Kronvall, Heidi (SD)",
-    "Kvarnström, Kurt (s)",
-    "Kvist, Kenneth (v)",
-    "Käll, Stefan (FP)",
-    "Källström, Emil (C)",
-    "Kärrholm, Fredrik (M)",
-    "Köhler, Katarina (s)",
-    "Könberg, Bo (fp)",
-    "König Jerlmyr, Anna (m)",
-    "Köse, Serkan (S)",
-    "Lahti, Birger (V)",
-    "Lahti, Marielle (MP)",
-    "Laitinen Carlsson, Diana (S)",
-    "Lakso, Linus (MP)",
-    "Lamell, Roger (S)",
-    "Lander, Jarl (s)",
-    "Landgren, Per (kd)",
-    "Lantz, Gustaf (S)",
-    "Lantz, Kenneth (kd)",
-    "Larsen, Sofia (c)",
-    "Larsson, Anders (c)",
-    "Larsson, Dag (S)",
-    "Larsson, Ewa (mp)",
-    "Larsson, Hillevi (S)",
-    "Larsson, Håkan (c)",
-    "Larsson, Jan-Olof (s)",
-    "Larsson, Kalle (v)",
-    "Larsson, Katja (s)",
-    "Larsson, Lars (SD)",
-    "Larsson, Lars Mejern (S)",
-    "Larsson, Malin (S)",
-    "Larsson, Margareta (-)",
-    "Larsson, Margareta (SD)",
-    "Larsson, Maria (kd)",
-    "Larsson, Mikael (C)",
-    "Larsson, Nina (fp)",
-    "Larsson, Olle (SD)",
-    "Larsson, Rikard (S)",
-    "Larsson, Stina (c)",
-    "Larsson, Yasmine (S)",
-    "Lasses, Anna (C)",
-    "Lavesson, Olof (m)",
-    "Le Moine, Rebecka (MP)",
-    "Leander, Helena (mp)",
-    "Leghissa, Zara (S)",
-    "Leijonborg, Lars (fp)",
-    "Leivik, Björn (m)",
-    "Lejon, Britta (s)",
-    "Lennkvist Manriquez, Andreas (V)",
-    "Lennmarker, Göran (m)",
-    "Lennström, Sanne (S)",
-    "Levi, Lennart (c)",
-    "Lewerentz, Joanna (M)",
-    "Lifvenhage, Ann-Sofie (M)",
-    "Lilja, Lars (s)",
-    "Liljeberg, Ulrika (C)",
-    "Liljevall, Désirée (s)",
-    "Lillemets, Annika (MP)",
-    "Lilliehöök, Anna (m)",
-    "Linander, Johan (c)",
-    "Lind, Amanda (MP)",
-    "Lind, Björn (s)",
-    "Lindahl, Fredrik (SD)",
-    "Lindahl, Helena (C)",
-    "Lindberg, Camilla (fp)",
-    "Lindberg, Kristoffer (S)",
-    "Lindberg, Linda (SD)",
-    "Lindberg, Niclas (s)",
-    "Lindberg, Teres (S)",
-    "Lindblad, Göran (m)",
-    "Lindblad, Lars (m)",
-    "Linde, Hans (v)",
-    "Lindell, Göran (C)",
-    "Linderoth, Curt (m)",
-    "Lindestam, Åsa (s)",
-    "Lindgren, Anna (m)",
-    "Lindgren, Else-Marie (kd)",
-    "Lindgren, Sylvia (s)",
-    "Lindgren, Ulrik (kd)",
-    "Lindh, Eva (S)",
-    "Lindhagen, Åsa (MP)",
-    "Lindholm, Jan (mp)",
-    "Lindholm, Ulf (SD)",
-    "Lindholm, Veronica (S)",
-    "Lindkvist, Britt-Marie (s)",
-    "Lindström, Leif (V)",
-    "Lindström, Lolo (M)",
-    "Lindström, Torsten (kd)",
-    "Lindvall, David (S)",
-    "Lindén, Lars (kd)",
-    "Lindén, Rolf (s)",
-    "Ling, Rasmus (MP)",
-    "Linna, Elina (v)",
-    "Lodenius, Per (C)",
-    "Lohman, Eva (M)",
-    "Loord, Jimmy (KD)",
-    "Ludvigsson, Anne (s)",
-    "Luhr, Katarina (MP)",
-    "Lund Kopparklint, Marléne (M)",
-    "Lundberg, Agneta (s)",
-    "Lundberg, Angelica (SD)",
-    "Lundberg, Carin (s)",
-    "Lundberg, Inger (s)",
-    "Lunderquist, Kajsa (M)",
-    "Lundgren, Bo (m)",
-    "Lundgren, Elin (S)",
-    "Lundgren, Kerstin (c)",
-    "Lundh Sammeli, Fredrik (s)",
-    "Lundh, Fredrik (s)",
-    "Lundqvist, Patrik (S)",
-    "Lundqvist-Brömster, Maria (fp)",
-    "Lundström, Anna-Karin (s)",
-    "Lundström, Nina (FP)",
-    "Lundström, Nina (L)",
-    "Lundström, Sten (v)",
-    "Luttropp, Agneta (MP)",
-    "Längberg, Karl (S)",
-    "Lång, David (SD)",
-    "López, Karla (mp)",
-    "Löberg, Petter (s)",
-    "Löfdahl Landberg, Emma (fp)",
-    "Löfgren, Ulla (m)",
-    "Löfsjögård, Malin (m)",
-    "Löfstrand, Johan (s)",
-    "Lönn, Daniel (SD)",
-    "Lönnberg, Anders (S)",
-    "Lönnberg, Ulf (KD)",
-    "Lönnroth, Johan (v)",
-    "Lövendahl, Torbjörn (s)",
-    "Lövgren, Monika (SD)",
-    "Lööf, Annie (C)",
-    "M. Enow, Mohamoud (M)",
-    "Magnusson, Adrian (S)",
-    "Magnusson, Cecilia (m)",
-    "Magnusson, Göran (s)",
-    "Malm, Fredrik (L)",
-    "Malm, Fredrik (fp)",
-    "Malmberg, Betty (m)",
-    "Malmberg, Niclas (MP)",
-    "Malmer Stenergard, Maria (M)",
-    "Malmqvist, Josefin (M)",
-    "Malmström, Louise (s)",
-    "Manhammar, Magnus (S)",
-    "Manouchi, Noria (M)",
-    "Marcelind, Ragnwi (kd)",
-    "Markström, Elisebeht (s)",
-    "Marmgren, Martin (MP)",
-    "Marttinen, Adam (SD)",
-    "Meijer, Louise (M)",
-    "Mejern Larsson, Lars (s)",
-    "Melin, Martin (L)",
-    "Melki, Aphram (C)",
-    "Messing, Ulrica (s)",
-    "Millard, Jonas (SD)",
-    "Mixter, Isabell (V)",
-    "Mizimovic, Nermina (S)",
-    "Moberg, Carina (s)",
-    "Modig, Aron (KD)",
-    "Modig, Linda (C)",
-    "Modigh, Sofia (KD)",
-    "Mohamed Abdirahman, Mubarik (S)",
-    "Momodou Jallow, Malcolm (V)",
-    "Montan, Göran (m)",
-    "Morell, Thomas (SD)",
-    "Mouneimne, Jamal (S)",
-    "Munkhammar, Johnny (M)",
-    "Muranovic, Azra (S)",
-    "Mutt, Valter (MP)",
-    "Mårtensen, Camilla (L)",
-    "Möller, Ola (S)",
-    "N Hedström, Lotta (mp)",
-    "Naraghi, Laila (S)",
-    "Narti, Ana Maria (fp)",
-    "Nasr, Bassem (MP)",
-    "Nenes, Christina (s)",
-    "Nicholson, Marie (M)",
-    "Niemi, Pyry (S)",
-    "Nihlén, Thomas (mp)",
-    "Nilsson Wigström, Cecilia (fp)",
-    "Nilsson, Agneta (S)",
-    "Nilsson, Annika (s)",
-    "Nilsson, Christin (s)",
-    "Nilsson, Christina (SD)",
-    "Nilsson, Dan (s)",
-    "Nilsson, Elin (L)",
-    "Nilsson, Gustav (m)",
-    "Nilsson, Ingemar (S)",
-    "Nilsson, Jennie (S)",
-    "Nilsson, Karin (c)",
-    "Nilsson, Kerstin (S)",
-    "Nilsson, Kristina (S)",
-    "Nilsson, Lennart (s)",
-    "Nilsson, Maria (L)",
-    "Nilsson, Martin (s)",
-    "Nilsson, Mats G (m)",
-    "Nilsson, Nils Oskar (m)",
-    "Nilsson, Pia (S)",
-    "Nilsson, Rolf K (m)",
-    "Nilsson, Sofia (C)",
-    "Nilsson, Stefan (-)",
-    "Nilsson, Stefan (MP)",
-    "Nilsson, Tomas (S)",
-    "Nilsson, Ulf (fp)",
-    "Nilsson, Ulrik (M)",
-    "Nissinen, Johan (SD)",
-    "Nohrén, Emma (MP)",
-    "Nordberg, Mats (SD)",
-    "Nordblom, Carl (M)",
-    "Nordborg, Gudrun (V)",
-    "Nordell, Lars-Axel (kd)",
-    "Nordengrip, Caroline (SD)",
-    "Nordgren, Gunilla (M)",
-    "Nordin, Lise (MP)",
-    "Nordin, Rickard (C)",
-    "Nordin, Sten (m)",
-    "Nordlander, Inger (s)",
-    "Nordlund, Harald (fp)",
-    "Nordmark, Gunnar (fp)",
-    "Nordquist, Kaj (s)",
-    "Nordquist, Lina (L)",
-    "Nordqvist, Kew (MP)",
-    "Nordström, Charlotte (M)",
-    "Nordström, Kjell (s)",
-    "Nordström, Susanne (M)",
-    "Nordén, Marie (s)",
-    "Norinder, Patrik (m)",
-    "Norlander, Göran (s)",
-    "Norlin, Liza-Maria (kd)",
-    "Norlén, Andreas (m)",
-    "Nouri, Aylin (S)",
-    "Noyan, Edip (M)",
-    "Nuder, Pär (s)",
-    "Nyberg, Katja (SD)",
-    "Nylander, Christer (L)",
-    "Nylander, Christer (fp)",
-    "Nylund Watz, Ingela (S)",
-    "Nylund, Anna-Karin (s)",
-    "Nysmed, Leif (S)",
-    "Nyström, Elizabeth (m)",
-    "Nådin, Erica (S)",
-    "Obminska, Marta (M)",
-    "Odell, Mats (kd)",
-    "Odenberg, Mikael (m)",
-    "Ohlsson, Birgitta (L)",
-    "Ohlsson, Birgitta (fp)",
-    "Ohlsson, Carina (S)",
-    "Ohly, Lars (v)",
-    "Ojanne, Alexander (S)",
-    "Olame Bayibsa, Solange (S)",
-    "Olander, Ronny (s)",
-    "Olauson, Britt (s)",
-    "Olin, Mona (SD)",
-    "Ollén, Peter (M)",
-    "Olofsgård, Jakob (L)",
-    "Olofsson, Eva (v)",
-    "Olofsson, Katarina (SD)",
-    "Olofsson, Maud (c)",
-    "Olovsson, Fredrik (s)",
-    "Olsen, Laila (S)",
-    "Olsson, Hans (s)",
-    "Olsson, Ingrid (s)",
-    "Olsson, Kalle (S)",
-    "Olsson, Kent (m)",
-    "Olsson, Lena (v)",
-    "Olsson, LiseLotte (v)",
-    "Olsson, Lotta (M)",
-    "Olsson, Marie (S)",
-    "Olsson, Rolf (v)",
-    "Olsson, Stefan (M)",
-    "Omanovic, Jasenko (S)",
-    "Oretorp, Kristin (c)",
-    "Oscarsson, Magnus (KD)",
-    "Oscarsson, Mikael (KD)",
-    "Oskarsson, Anne (SD)",
-    "Oskarsson, Christina (s)",
-    "Oskarsson, Irene (kd)",
-    "Osman Sherifay, Mariam (s)",
-    "Ottoson, Erik (M)",
-    "Ottosson, Kjell-Arne (KD)",
-    "Ottosson, Mattias (S)",
-    "Paarup-Petersen, Niels (C)",
-    "Pagrotsky, Leif (s)",
-    "Palm, Veronica (s)",
-    "Palmqvist, Eric (SD)",
-    "Palmstierna, Amanda (MP)",
-    "Papadopoulos, Nikos (s)",
-    "Patriksson, Runar (fp)",
-    "Pedersen, Peter (v)",
-    "Pehrson, Johan (L)",
-    "Pehrson, Johan (fp)",
-    "Perez, David (SD)",
-    "Persson, Catherine (s)",
-    "Persson, Daniel (SD)",
-    "Persson, Göran (s)",
-    "Persson, Göran (s)",
-    "Persson, Kent (v)",
-    "Persson, Magnus (SD)",
-    "Persson, Margareta (s)",
-    "Persson, Mats (FP)",
-    "Persson, Mats (L)",
-    "Persson, Peter (S)",
-    "Persson, Rickard (MP)",
-    "Persson, Sven Gunnar (kd)",
-    "Persson, Sven Yngve (m)",
-    "Pertoft, Mats (mp)",
-    "Peterson, Mikael (S)",
-    "Petersson, Björn (S)",
-    "Petersson, Helene (s)",
-    "Petersson, Jenny (M)",
-    "Pethrus Engström, Désirée (kd)",
-    "Pethrus, Désirée (KD)",
-    "Pettersson, Göran (M)",
-    "Pettersson, Helén (s)",
-    "Pettersson, Leif (S)",
-    "Pettersson, Lennart (c)",
-    "Pettersson, Marianne (S)",
-    "Pettersson, Marina (s)",
-    "Petzäll, William (-)",
-    "Petzäll, William (SD)",
-    "Pihl Krabbe, Ewa (S)",
-    "Pilsäter, Karin (fp)",
-    "Plass, Maria (M)",
-    "Plath, Stefan (SD)",
-    "Polfjärd, Jessica (m)",
-    "Posio Nilsson, Yasmine (V)",
-    "Posio, Yasmine (V)",
-    "Pourbaix-Lundin, Marietta (m)",
-    "Puustinen, Jari (M)",
-    "Pärssinen, Raimo (S)",
-    "Pålsson Ahlgren, Chatrine (kd)",
-    "Pålsson, Anne-Marie (m)",
-    "Pålsson, Chatrine (kd)",
-    "Pålsson, Margareta (m)",
-    "Püss, Lars (M)",
-    "Qarlsson, Annika (c)",
-    "Quensel, Charlotte (SD)",
-    "Quicklund, Saila (M)",
-    "Ragnarsson, Thomas (M)",
-    "Rahm, Elisabeth (M)",
-    "Rahm, Lage (mp)",
-    "Ramhorn, Per (SD)",
-    "Rangdag, Anette (SD)",
-    "Rantsi, Johanna (M)",
-    "Rask, Ola (s)",
-    "Rasmusson, Magda (MP)",
-    "Redar, Lawen (S)",
-    "Reinfeldt, Fredrik (m)",
-    "Renström, Yoomi (s)",
-    "René, Inger (m)",
-    "Resare, Magnus (M)",
-    "Reshdouni, Esabelle (mp)",
-    "Reslow, Patrick (-)",
-    "Reslow, Patrick (M)",
-    "Reslow, Patrick (SD)",
-    "Reuterskiöld, Adam (M)",
-    "Rheyneuclaudes Kihlman, Anna (M)",
-    "Riazat, Daniel (V)",
-    "Richthoff, Roger (-)",
-    "Richthoff, Roger (SD)",
-    "Richtoff, Roger (SD)",
-    "Riedl, Edward (M)",
-    "Riise, Jan (MP)",
-    "Rinaldo Miller, Camilla (KD)",
-    "Ringholm, Bosse (s)",
-    "Ringman, Agneta (s)",
-    "Ripa, Henrik (M)",
-    "Risberg, Jacob (MP)",
-    "Rivière, Helena (m)",
-    "Rodén, Jessica (S)",
-    "Rojas, Mauricio (L)",
-    "Rojas, Mauricio (fp)",
-    "Rojhan Gustafsson, Azadeh (S)",
-    "Rojhan, Azadeh (S)",
-    "Romanus, Gabriel (fp)",
-    "Romson, Åsa (MP)",
-    "Roos, Malte (MP)",
-    "Rosencrantz, Jessica (M)",
-    "Rosengren, Oliver (M)",
-    "Rosengren, Per (v)",
-    "Roslund, Carl-Axel (m)",
-    "Roswall, Jessika (M)",
-    "Roszkowska Öberg, Eliza (m)",
-    "Rothenberg, Hans (m)",
-    "Roxbergh, Claes (mp)",
-    "Rubbestad, Michael (SD)",
-    "Rubenson, Björn (KD)",
-    "Rud Pedersen, Amalia (S)",
-    "Runegrund, Rosita (kd)",
-    "Runeson, Carin (s)",
-    "Ruwaida, Yvonne (mp)",
-    "Rydell, Annette (S)",
-    "Räihä, Mirja (S)",
-    "Rådberg, Peter (mp)",
-    "Rådhström, Jan-Evert (m)",
-    "Rådström Baastad, Lena (S)",
-    "Rådström, Britta (s)",
-    "Rågsjö, Karin (V)",
-    "Rönn, Cecilia (L)",
-    "Rönnmark, Marie-Louise (S)",
-    "Saarinen, Ingegerd (mp)",
-    "Sabuni, Nyamko (fp)",
-    "Sachet, Ameer (s)",
-    "Sacrédeus, Lennart (kd)",
-    "Sahlberg, Pär Axel (s)",
-    "Sahlin, Mona (s)",
-    "Samuelson, Björn (M)",
-    "Samuelsson, Marianne (mp)",
-    "Sandahl, Olle (kd)",
-    "Sandberg, Gunnar (s)",
-    "Sandell, Joakim (S)",
-    "Sander, Mats (m)",
-    "Sandgren, Jacob (S)",
-    "Sandgren, Margareta (s)",
-    "Sandlin-Hedman, Lena (s)",
-    "Sandstedt, Margareta (SD)",
-    "Sandström, Åke (c)",
-    "Saweståhl, Fredrik (M)",
-    "Schlyter, Carl (MP)",
-    "Schröder, Anders (MP)",
-    "Schröder, Magdalena (M)",
-    "Schulte, Fredrik (M)",
-    "Schyllert, Gustav (M)",
-    "Schyman, Gudrun (-)",
-    "Schyman, Gudrun (v)",
-    "Schöldberg, Per (C)",
-    "Segelström, Inger (s)",
-    "Segerlind, Elin (V)",
-    "Selin Lindgren, Eva (c)",
-    "Selin, Markus (S)",
-    "Sellström, Anders (KD)",
-    "Sellén, Birgitta (c)",
-    "Seppälä, Sara (SD)",
-    "Sestrajcic, Daniel (V)",
-    "Shekarabi, Ardalan (S)",
-    "Sibinska, Anna (MP)",
-    "Sidén, Anita (m)",
-    "Sigfrid, Karl (m)",
-    "Sigvardsson, Niklas (S)",
-    "Sillén, Anna (M)",
-    "Sjö, Tobias (M)",
-    "Sjöblom, Inga-Lill (S)",
-    "Sjödahl, Magnus (KD)",
-    "Sjölund, Anders (m)",
-    "Sjölund, Anne-Li (C)",
-    "Sjöstedt, Jonas (V)",
-    "Sjöstedt, Oscar (SD)",
-    "Sjösten, Ulf (m)",
-    "Sjöstrand, Sven-Erik (v)",
-    "Skalberg Karlsson, Jesper (M)",
-    "Skalin, Johnny (SD)",
-    "Skog, Karolina (MP)",
-    "Skoglund, John (S)",
-    "Skoog, Christer (s)",
-    "Skånberg, Tuve (kd)",
-    "Skårman, Carl-Erik (m)",
-    "Sköld Jansson, Camilla (v)",
-    "Sköld, Linus (S)",
-    "Sköldestig, Berndt (s)",
-    "Skönnbrink, Sofia (S)",
-    "Slottner, Erik (KD)",
-    "Snecker, Linda (V)",
-    "Sohrabi, Arwin (S)",
-    "Sommestad, Lena (S)",
-    "Sonidsson, Eva (S)",
-    "Spets, Crister (SD)",
-    "Stafilidis, Tasso (v)",
-    "Stalin, Kerstin-Maria (mp)",
-    "Starbrink, Anna (L)",
-    "Staxäng, Lars-Arne (M)",
-    "Steele, Anna (FP)",
-    "SteeleKarlström, Anna (FP)",
-    "Steensland, Pia (KD)",
-    "Stegrud, Jessica (SD)",
-    "Stenberg, Fredrik (S)",
-    "Stenberg, Hans (s)",
-    "Stenberg, Maria (s)",
-    "Stenevi, Märta (MP)",
-    "Stenkvist, Robert (SD)",
-    "Stenmark, Rigmor (c)",
-    "Stockhaus, Maria (M)",
-    "Storckenfeldt, Helena (M)",
-    "Strand, Thomas (s)",
-    "Strandberg, Torkild (fp)",
-    "Strandhäll, Annika (S)",
-    "Strandman, Mikael (SD)",
-    "Streijffert, Magdalena (s)",
-    "Strömberg, Anna-Belle (S)",
-    "Strömkvist, Maria (S)",
-    "Stuart, Magnus (M)",
-    "Ståhl Herrstedt, Carina (SD)",
-    "Ståhl, Jimmy (SD)",
-    "Ståhlgren, Inge (S)",
-    "Stålhammar, Pernilla (MP)",
-    "Sundell, Ola (m)",
-    "Sundin, Cassandra (SD)",
-    "Sundin, Karin (S)",
-    "Sundin, Mathias (FP)",
-    "Sundin, Mathias (L)",
-    "Sundström, Anders (s)",
-    "Sundén Andersson, Lisbeth (M)",
-    "Svanström, Stefan (KD)",
-    "Svantesson, Elisabeth (M)",
-    "Svantorp, Gunilla (S)",
-    "Svedberg, Per (s)",
-    "Svedin, Johnny (SD)",
-    "Svenneling, Håkan (V)",
-    "Svensk Larm, Jim (S)",
-    "Svensson Smith, Karin (-)",
-    "Svensson Smith, Karin (mp)",
-    "Svensson Smith, Karin (v)",
-    "Svensson, Alf (kd)",
-    "Svensson, Ingvar (kd)",
-    "Svensson, Jonathan (S)",
-    "Svensson, Michael (M)",
-    "Svensson, Per-Olof (s)",
-    "Svensson, Suzanne (S)",
-    "Svärd, Oskar (M)",
-    "Sydow Mölleby, Mia (V)",
-    "Sydow, Björn (s)",
-    "Sydow, Henrik (m)",
-    "Szatmari Waldau, Ilona (V)",
-    "Szatmári Waldau, Ilona (V)",
-    "Szyber, Caroline (KD)",
-    "Sällström, Sven Olof (SD)",
-    "Sällström, Sven-Olof (SD)",
-    "Särnblad Stoors, Anneli (s)",
-    "Särnblad, Anneli (s)",
-    "Sätherberg, Anna-Caren (S)",
-    "Söder, Björn (SD)",
-    "Söder, Larry (KD)",
-    "Söderberg, Elin (MP)",
-    "Söderberg, Gunnel (m)",
-    "Söderlund, Per (SD)",
-    "Söderqvist, Nils-Erik (s)",
-    "Sörenson, Anna-Lena (S)",
-    "Tapper Östberg, Christina (SD)",
-    "Tedestam Berglöw, Monica (SD)",
-    "Tegnér, Mathias (S)",
-    "Teimouri, Arman (L)",
-    "Tenfjord Toftby, Cecilie (M)",
-    "Tenfjord-Toftby, Cecilie (m)",
-    "Tenje, Anna (m)",
-    "Ternemar, Tommy (s)",
-    "Ternström, Solveig (c)",
-    "Tesfazion, Rezene (s)",
-    "Thalén Finné, Ewa (m)",
-    "Thalén, Ingela (s)",
-    "Thand Ringqvist, Elisabeth (C)",
-    "Thingwall, Göran (-)",
-    "Thingwall, Göran (m)",
-    "Thomsson, Lars (C)",
-    "Thorbjörnson, Jon (V)",
-    "Thorborg, Karin (v)",
-    "Thorell, Olle (s)",
-    "Thorén, Sverker (fp)",
-    "Thulin, Mildred (c)",
-    "Thunander, Jessica (V)",
-    "Thunström, Louise (S)",
-    "Thuresson, Magdalena (M)",
-    "Thuring, Christina (SD)",
-    "Tiblom, Victoria (SD)",
-    "Tidland, Björn (SD)",
-    "Tidlund, Greger (s)",
-    "Tiefensee, Roger (c)",
-    "Timgren, Beatrice (SD)",
-    "Tingsgård, Tone (s)",
-    "Tjernberg, Gunilla (kd)",
-    "Tobé, Tomas (m)",
-    "Tolgfors, Katarina (M)",
-    "Tolgfors, Sten (m)",
-    "Tornberg, Stefan (c)",
-    "Torstensson, Åsa (c)",
-    "Tovatt, Lorentz (MP)",
-    "Tsouplaki, Vasiliki (V)",
-    "Tysklind, Lars (FP)",
-    "Tysklind, Lars (L)",
-    "Tånghag, Frida (V)",
-    "Törnestam, Andrea (S)",
-    "Töyrä, Emilia (S)",
-    "Ullenhag, Erik (L)",
-    "Ullenhag, Erik (fp)",
-    "Ulvskog, Marita (s)",
-    "Unander, Hans (s)",
-    "Unckel, Per (m)",
-    "Utbult, Roland (KD)",
-    "Valeria D, Rossana (v)",
-    "Vallius, Paavo (s)",
-    "Valtersson, Mikaela (mp)",
-    "Vencu Velasquez Castro, Daniel (S)",
-    "Venegas, Marco (MP)",
-    "Vepsä, Mattias (S)",
-    "Vestlund, Börje (s)",
-    "Vikström, Anna (S)",
-    "Vilhelmsson, Helena (C)",
-    "Vilhelmsson, Jessika (M)",
-    "Vinge, Henrik (SD)",
-    "Virgin, Lilian (s)",
-    "Vänerlöv, Ingemar (kd)",
-    "Västerteg, Claes (c)",
-    "Völker, Alexandra (S)",
-    "W Jonsson, Anders (C)",
-    "W Snecker, Linda (V)",
-    "Waberi, Abdirizak (M)",
-    "Wachtmeister, Peder (M)",
-    "Wagenius, Hanna (C)",
-    "Wahlgren, Marie (fp)",
-    "Wahlström, Göte (s)",
-    "Wahlén, Gunilla (v)",
-    "Waidelich, Tommy (s)",
-    "Wallentheim, Anna (S)",
-    "Wallin, Eva (KD)",
-    "Wallin, Gunhild (c)",
-    "Wallin, Gunnel (c)",
-    "Wallmark, Hans (m)",
-    "Wallouch, Anne-Marie (v)",
-    "Wallrup, Emma (V)",
-    "Wallén, Anna (S)",
-    "Waltersson Grönvall, Camilla (M)",
-    "Warborn, Jörgen (M)",
-    "Wasberg, Meeri (s)",
-    "Watz, Marianne (m)",
-    "Wegendal, Lars (s)",
-    "Weibull Kornias, Marie (m)",
-    "Weidby, Ciczie (V)",
-    "Weimer, Maria (FP)",
-    "Weimer, Maria (L)",
-    "Weinerhall, John (M)",
-    "Weinerhall, John E. (M)",
-    "Wemmert, Linda (M)",
-    "Wennerström, Marcus (S)",
-    "Wernäng, Jennie (M)",
-    "Wester, Ulla (s)",
-    "Westerberg, Per (m)",
-    "Westergren, Sofia (M)",
-    "Westerholm, Barbro (L)",
-    "Westerholm, Barbro (fp)",
-    "Westerlund Panke, Majléne (s)",
-    "Westerlund Snecker, Linda (V)",
-    "Westerlund, Ulrika (MP)",
-    "Westerén, Hanna (S)",
-    "Westlund, Åsa (S)",
-    "Westman, Henrik (m)",
-    "Westmont, Martin (SD)",
-    "Westroth, Eric (SD)",
-    "Wetterling, Jessica (V)",
-    "Wetterstrand, Maria (mp)",
-    "Wibe, Sören (s)",
-    "Wickberg, Marie (C)",
-    "Wickman, Linnéa (S)",
-    "Widding, Elsa (-)",
-    "Widding, Elsa (SD)",
-    "Widegren, Cecilia (m)",
-    "Widegren, John (M)",
-    "Widman, Allan (L)",
-    "Widman, Allan (fp)",
-    "Wiechel, Björn (S)",
-    "Wiechel, Markus (SD)",
-    "Wigh, Hanna (-)",
-    "Wigh, Hanna (SD)",
-    "Wigström, Cecilia (fp)",
-    "Wiking, Mats (S)",
-    "Wiklander, Tony (SD)",
-    "Wiklund, Anders (v)",
-    "Wikström, Cecilia (fp)",
-    "Wikström, Gabriel (S)",
-    "Wikström, Jonas (v)",
-    "Wikström, Rune (m)",
-    "Wikén, Stefan (s)",
-    "Winbäck, Christer (fp)",
-    "Wistedt, Lars (SD)",
-    "Wittgren-Ahl, Siw (s)",
-    "Wykman, Niklas (M)",
-    "Wälivaara, Erling (kd)",
-    "Wärnick, Viktor (M)",
-    "Yazdanfar, Maryam (s)",
-    "Ygeman, Anders (s)",
-    "Ylivainio, Linda (C)",
-    "Yngwe, Kristina (C)",
-    "Ytterberg, Mariann (s)",
-    "Yurkovskiy, Leonid (SD)",
-    "Zakariasén, Helena (s)",
-    "Zakrisson, Kristina (s)",
-    "Zander, Solveig (C)",
-    "Zedell, Christina (s)",
-    "Zethraeus, Pernilla (v)",
-    "de Pourbaix-Lundin, Marietta (m)",
-    "von Sydow, Henrik (m)",
-    "von der Esch, Björn (kd)",
-    "Åberg, Boriana (m)",
-    "Åbjörnsson, Rolf (KD)",
-    "Ådahl, Anders (C)",
-    "Ådahl, Martin (C)",
-    "Åfeldt, Jennie (SD)",
-    "Ågerfalk, Anna (fp)",
-    "Ågren Wikström, Åsa (M)",
-    "Ågren, Jan Erik (kd)",
-    "Åhman, Marianne (FP)",
-    "Åkerlund, Jonas (SD)",
-    "Åkesson, Anders (c)",
-    "Åkesson, Anette (M)",
-    "Åkesson, Jimmie (SD)",
-    "Ångström, Lars (mp)",
-    "Ångström, Yvonne (fp)",
-    "Åsebol, Ann-Britt (M)",
-    "Åsling, Per (c)",
-    "Åström, Alice (v)",
-    "Åström, Karin (s)",
-    "Öberg, Maria (s)",
-    "Ödebrink, Carina (S)",
-    "Ödeen, Lena (fp)",
-    "Ödmann, Christopher (mp)",
-    "Öfverbeck, Johanna (MP)",
-    "Öhman, Conny (s)",
-    "Öholm, Oskar (m)",
-    "Örbrink, Nike (KD)",
-    "Örn, Paula (S)",
-    "Örnebjär, Christina (FP)",
-    "Örnebjär, Christina (L)",
-    "Örnfjäder, Krister (s)",
-    "Östberg Svanelind, Maria (s)",
-    "Östberg, Christina (SD)",
-    "Österberg, Anders (S)",
-    "Österberg, Sven-Erik (s)",
-    "Östring Bergman, Karin (C)",
-    "Östros, Thomas (s)",
-    "Öz, Emanuel (S)",
-    "Özürküt, Sermin (v)"
+    {
+      "id": "0391973624515",
+      "name": "A Eriksson, Erik (C)"
+    },
+    {
+      "id": "0173210620224",
+      "name": "Abdu, Said (FP)"
+    },
+    {
+      "id": "0173210620224",
+      "name": "Abdu, Said (L)"
+    },
+    {
+      "id": "0538982776628",
+      "name": "Abele, Anton (M)"
+    },
+    {
+      "id": "0105632258713",
+      "name": "Åberg, Boriana (m)"
+    },
+    {
+      "id": "0530361204603",
+      "name": "Åbjörnsson, Rolf (KD)"
+    },
+    {
+      "id": "0695090885212",
+      "name": "Abrahamsson, Maria (M)"
+    },
+    {
+      "id": "0792474127508",
+      "name": "Abramsson, Karl Gustav (s)"
+    },
+    {
+      "id": "0582811195313",
+      "name": "Acketoft, Tina (fp)"
+    },
+    {
+      "id": "0582811195313",
+      "name": "Acketoft, Tina (L)"
+    },
+    {
+      "id": "0837394708917",
+      "name": "Ådahl, Anders (C)"
+    },
+    {
+      "id": "0494843794418",
+      "name": "Ådahl, Martin (C)"
+    },
+    {
+      "id": "0201207390210",
+      "name": "Adaktusson, Lars (KD)"
+    },
+    {
+      "id": "072019517020",
+      "name": "Adan, Amir (M)"
+    },
+    {
+      "id": "0165360915617",
+      "name": "Adelsbo, Christer (S)"
+    },
+    {
+      "id": "0427127522211",
+      "name": "Adelsohn Liljeroth, Lena (m)"
+    },
+    {
+      "id": "0731809135516",
+      "name": "Adolfsson Elgestam, Carina (s)"
+    },
+    {
+      "id": "0787535945527",
+      "name": "Åfeldt, Jennie (SD)"
+    },
+    {
+      "id": "0361964723211",
+      "name": "Agenberg, Tomas (s)"
+    },
+    {
+      "id": "0951422950012",
+      "name": "Ågerfalk, Anna (fp)"
+    },
+    {
+      "id": "0728463811911",
+      "name": "Ågren Wikström, Åsa (M)"
+    },
+    {
+      "id": "0457213878205",
+      "name": "Ågren, Jan Erik (kd)"
+    },
+    {
+      "id": "0599390849728",
+      "name": "Ahl, Jeff (-)"
+    },
+    {
+      "id": "0599390849728",
+      "name": "Ahl, Jeff (SD)"
+    },
+    {
+      "id": "0909948830718",
+      "name": "Ahlberg, Ann-Christin (S)"
+    },
+    {
+      "id": "0920966427818",
+      "name": "Ahlgren, Anders (C)"
+    },
+    {
+      "id": "0891971250317",
+      "name": "Ahlin, Urban (s)"
+    },
+    {
+      "id": "061124537800",
+      "name": "Ahlqvist, Birgitta (s)"
+    },
+    {
+      "id": "0327372175911",
+      "name": "Ahlstedt, Fredrik (M)"
+    },
+    {
+      "id": "0360160202728",
+      "name": "Ahlström Köster, Emma (M)"
+    },
+    {
+      "id": "0990688247511",
+      "name": "Åhman, Marianne (FP)"
+    },
+    {
+      "id": "0538777624511",
+      "name": "Akej, Christer (M)"
+    },
+    {
+      "id": "0879014196003",
+      "name": "Åkerlund, Jonas (SD)"
+    },
+    {
+      "id": "0677738818613",
+      "name": "Åkesson, Anders (c)"
+    },
+    {
+      "id": "0198031297912",
+      "name": "Åkesson, Anette (M)"
+    },
+    {
+      "id": "051207517226",
+      "name": "Åkesson, Jimmie (SD)"
+    },
+    {
+      "id": "0364687971222",
+      "name": "Akhondi, Alireza (C)"
+    },
+    {
+      "id": "0895706637124",
+      "name": "Al-Sahlani, Abir (C)"
+    },
+    {
+      "id": "0132698667318",
+      "name": "Alfsson, Thoralf (SD)"
+    },
+    {
+      "id": "0469384565811",
+      "name": "Alftberg, Anders (SD)"
+    },
+    {
+      "id": "0309480686522",
+      "name": "Ali Elmi, Leila (MP)"
+    },
+    {
+      "id": "0441733186214",
+      "name": "Ali Maher, Osama (m)"
+    },
+    {
+      "id": "0309480686522",
+      "name": "Ali-Elmi, Leila (MP)"
+    },
+    {
+      "id": "012481285121",
+      "name": "Ali, Amne (S)"
+    },
+    {
+      "id": "0316505710324",
+      "name": "Alm Ericson, Janine (MP)"
+    },
+    {
+      "id": "028954589415",
+      "name": "Alm, Ann-Sofie (M)"
+    },
+    {
+      "id": "0239948123229",
+      "name": "Almqvist, Erik (SD)"
+    },
+    {
+      "id": "0390912778804",
+      "name": "Althin, Peter (kd)"
+    },
+    {
+      "id": "0849219210615",
+      "name": "Amin, Jabar (MP)"
+    },
+    {
+      "id": "0521260619925",
+      "name": "Amloh, Sofia (S)"
+    },
+    {
+      "id": "0926002991620",
+      "name": "Andersson Garpvall, Pontus (SD)"
+    },
+    {
+      "id": "0802091197024",
+      "name": "Andersson Tay, Andrea (V)"
+    },
+    {
+      "id": "0173946230722",
+      "name": "Andersson Willner, Maria (S)"
+    },
+    {
+      "id": "0777657837318",
+      "name": "Andersson, Anders (kd)"
+    },
+    {
+      "id": "0263304349100",
+      "name": "Andersson, Christina (c)"
+    },
+    {
+      "id": "0594680769027",
+      "name": "Andersson, Daniel (S)"
+    },
+    {
+      "id": "0480085646428",
+      "name": "Andersson, Erik (M)"
+    },
+    {
+      "id": "0119766779312",
+      "name": "Andersson, Helén (C)"
+    },
+    {
+      "id": "0273732267214",
+      "name": "Andersson, Jan (c)"
+    },
+    {
+      "id": "0529103571012",
+      "name": "Andersson, Jan R (m)"
+    },
+    {
+      "id": "0180442748612",
+      "name": "Andersson, Johan (s)"
+    },
+    {
+      "id": "0964730940415",
+      "name": "Andersson, Johan (S)"
+    },
+    {
+      "id": "0538494048717",
+      "name": "Andersson, Jonas (SD)"
+    },
+    {
+      "id": "025931369428",
+      "name": "Andersson, Jonas (SD)"
+    },
+    {
+      "id": "0859721748313",
+      "name": "Andersson, Jörgen (M)"
+    },
+    {
+      "id": "0583257327619",
+      "name": "Andersson, Kerstin (s)"
+    },
+    {
+      "id": "0254021157518",
+      "name": "Andersson, Lars (SD)"
+    },
+    {
+      "id": "03856618629",
+      "name": "Andersson, Linda (M)"
+    },
+    {
+      "id": "0760437424714",
+      "name": "Andersson, Magdalena (m)"
+    },
+    {
+      "id": "098412828516",
+      "name": "Andersson, Magdalena (S)"
+    },
+    {
+      "id": "0174490514929",
+      "name": "Andersson, Marcus (S)"
+    },
+    {
+      "id": "0928964569700",
+      "name": "Andersson, Margareta (c)"
+    },
+    {
+      "id": "0262455192724",
+      "name": "Andersson, Max (mp)"
+    },
+    {
+      "id": "0133767709317",
+      "name": "Andersson, Phia (s)"
+    },
+    {
+      "id": "0926002991620",
+      "name": "Andersson, Pontus (SD)"
+    },
+    {
+      "id": "086684470825",
+      "name": "Andersson, Tobias (SD)"
+    },
+    {
+      "id": "0628190530410",
+      "name": "Andersson, Ulla (V)"
+    },
+    {
+      "id": "0223175563813",
+      "name": "Andersson, Yvonne (kd)"
+    },
+    {
+      "id": "0332067570917",
+      "name": "Andnor, Berit (s)"
+    },
+    {
+      "id": "0845133742919",
+      "name": "André, Lili (KD)"
+    },
+    {
+      "id": "0836813859011",
+      "name": "Andreasson, Martin (fp)"
+    },
+    {
+      "id": "0526693079901",
+      "name": "Andrén, Gunnar (fp)"
+    },
+    {
+      "id": "0892978334516",
+      "name": "Anefur, Michael (kd)"
+    },
+    {
+      "id": "0916272051100",
+      "name": "Anger, Staffan (m)"
+    },
+    {
+      "id": "0990007083418",
+      "name": "Ångström, Lars (mp)"
+    },
+    {
+      "id": "0203071331400",
+      "name": "Ångström, Yvonne (fp)"
+    },
+    {
+      "id": "0796071663617",
+      "name": "Ankarberg Johansson, Acko (KD)"
+    },
+    {
+      "id": "0866055333028",
+      "name": "Anstrell, Alexandra (M)"
+    },
+    {
+      "id": "0575283695521",
+      "name": "Antoni, Helena (M)"
+    },
+    {
+      "id": "0386515634211",
+      "name": "Appelros, Staffan (m)"
+    },
+    {
+      "id": "0130640724922",
+      "name": "Aranda, Clara (SD)"
+    },
+    {
+      "id": "0802826314426",
+      "name": "Arkelsten, Sofia (m)"
+    },
+    {
+      "id": "0386912710815",
+      "name": "Arkhem, Mats (SD)"
+    },
+    {
+      "id": "0641996868011",
+      "name": "Arleklo, Ann (s)"
+    },
+    {
+      "id": "0758652610",
+      "name": "Arnholm, Maria (FP)"
+    },
+    {
+      "id": "0758652610",
+      "name": "Arnholm, Maria (L)"
+    },
+    {
+      "id": "0241675049710",
+      "name": "Arnold, Otto (KD)"
+    },
+    {
+      "id": "0333961113904",
+      "name": "Aronson, Marita (fp)"
+    },
+    {
+      "id": "03856618629",
+      "name": "Arvidsson Wemmert, Linda (M)"
+    },
+    {
+      "id": "0556854176401",
+      "name": "Arvidsson, Eva (s)"
+    },
+    {
+      "id": "0204494765606",
+      "name": "Åsebol, Ann-Britt (M)"
+    },
+    {
+      "id": "0262017901513",
+      "name": "Ask, Beatrice (m)"
+    },
+    {
+      "id": "0679228585116",
+      "name": "Åsling, Per (c)"
+    },
+    {
+      "id": "0526748040023",
+      "name": "Aspling, Ludvig (SD)"
+    },
+    {
+      "id": "088028607414",
+      "name": "Asplund, Lena (m)"
+    },
+    {
+      "id": "042839539117",
+      "name": "Åström, Alice (v)"
+    },
+    {
+      "id": "0699506181311",
+      "name": "Åström, Karin (s)"
+    },
+    {
+      "id": "0662364517619",
+      "name": "Astudillo, Luciano (s)"
+    },
+    {
+      "id": "0135054091316",
+      "name": "Ataseven, Metin (M)"
+    },
+    {
+      "id": "0745549193810",
+      "name": "Attefall, Stefan (kd)"
+    },
+    {
+      "id": "0965245623824",
+      "name": "Attefjord, Nicklas (MP)"
+    },
+    {
+      "id": "0817433088402",
+      "name": "Aurelius, Nils Fredrik (m)"
+    },
+    {
+      "id": "0800956862429",
+      "name": "Avci, Gulan (fp)"
+    },
+    {
+      "id": "0800956862429",
+      "name": "Avci, Gulan (L)"
+    },
+    {
+      "id": "0783865993627",
+      "name": "Avenborg, Tomas (M)"
+    },
+    {
+      "id": "0338458649710",
+      "name": "Avsan, Anti (M)"
+    },
+    {
+      "id": "0890152141226",
+      "name": "Awad, Nadja (V)"
+    },
+    {
+      "id": "0913965980315",
+      "name": "Axelsson, Christina (s)"
+    },
+    {
+      "id": "0958776965517",
+      "name": "Axelsson, Lennart (s)"
+    },
+    {
+      "id": "0409763768311",
+      "name": "Axelsson, Marie (S)"
+    },
+    {
+      "id": "0502490570219",
+      "name": "Axén Olin, Kristina (M)"
+    },
+    {
+      "id": "0782242286018",
+      "name": "Axén, Gunnar (m)"
+    },
+    {
+      "id": "0245468368228",
+      "name": "Aydin, Yusuf (KD)"
+    },
+    {
+      "id": "0196024739401",
+      "name": "B Kjellin, Margareta (M)"
+    },
+    {
+      "id": "0599661454115",
+      "name": "Bäckelin, Lena (S)"
+    },
+    {
+      "id": "0859909330720",
+      "name": "Backeskog, Sanna (S)"
+    },
+    {
+      "id": "0970400972210",
+      "name": "Backman, Hans (fp)"
+    },
+    {
+      "id": "0662749063210",
+      "name": "Bäckman, Roland (s)"
+    },
+    {
+      "id": "0130789484021",
+      "name": "Bäckström Johansson, Mattias (SD)"
+    },
+    {
+      "id": "0665485817222",
+      "name": "Bäckström, Daniel (C)"
+    },
+    {
+      "id": "0792716417210",
+      "name": "Bäckström, Lars (v)"
+    },
+    {
+      "id": "0117613859601",
+      "name": "Bager, Erling (fp)"
+    },
+    {
+      "id": "0787584650516",
+      "name": "Bah Kuhnke, Alice (MP)"
+    },
+    {
+      "id": "0166790812128",
+      "name": "Bali, Hanif (M)"
+    },
+    {
+      "id": "0133282248705",
+      "name": "Bargholtz, Helena (fp)"
+    },
+    {
+      "id": "0973474532717",
+      "name": "Baylan, Ibrahim (S)"
+    },
+    {
+      "id": "0100689229625",
+      "name": "Beckman, Hannes (M)"
+    },
+    {
+      "id": "0588282566419",
+      "name": "Beckman, Lars (M)"
+    },
+    {
+      "id": "0466653728712",
+      "name": "Begic, Denis (S)"
+    },
+    {
+      "id": "0993294767708",
+      "name": "Beijer, Lennart (v)"
+    },
+    {
+      "id": "0348584595917",
+      "name": "Beiming, Cinnika (s)"
+    },
+    {
+      "id": "0472335069513",
+      "name": "Bengtson Skogsberg, Eva (m)"
+    },
+    {
+      "id": "0546982180011",
+      "name": "Bengtsson, Anders (s)"
+    },
+    {
+      "id": "0138741628520",
+      "name": "Bengtsson, Angelika (SD)"
+    },
+    {
+      "id": "0721657655513",
+      "name": "Bengtsson, Finn (m)"
+    },
+    {
+      "id": "0393199907225",
+      "name": "Bengtsson, Jenny (V)"
+    },
+    {
+      "id": "069534526423",
+      "name": "Bengtsson, Mathias (KD)"
+    },
+    {
+      "id": "0513020576128",
+      "name": "Bengtzboe, Erik (M)"
+    },
+    {
+      "id": "0188653245302",
+      "name": "Berg, Bengt (V)"
+    },
+    {
+      "id": "0602796111612",
+      "name": "Berg, Heli (fp)"
+    },
+    {
+      "id": "0679667648714",
+      "name": "Berg, Marianne (v)"
+    },
+    {
+      "id": "0193378456716",
+      "name": "Berg, Ulf (m)"
+    },
+    {
+      "id": "0185680273604",
+      "name": "Bergbäck, Åke (fp)"
+    },
+    {
+      "id": "0951905661227",
+      "name": "Bergenblock, Christofer (C)"
+    },
+    {
+      "id": "0828721176319",
+      "name": "Bergheden, Sten (m)"
+    },
+    {
+      "id": "0624040854527",
+      "name": "Berginger, Emma (MP)"
+    },
+    {
+      "id": "0476336341120",
+      "name": "Bergkvist, Anna (m)"
+    },
+    {
+      "id": "0780836041816",
+      "name": "Berglind, Mats (s)"
+    },
+    {
+      "id": "0372922430808",
+      "name": "Berglund Nilsson, Mona (s)"
+    },
+    {
+      "id": "0628005785225",
+      "name": "Berglund, Jörgen (M)"
+    },
+    {
+      "id": "0606863154419",
+      "name": "Berglund, Mats (MP)"
+    },
+    {
+      "id": "0798631972204",
+      "name": "Berglund, Rune (s)"
+    },
+    {
+      "id": "0299937536814",
+      "name": "Bergman, Håkan (S)"
+    },
+    {
+      "id": "0426843954410",
+      "name": "Bergman, Ulrik (M)"
+    },
+    {
+      "id": "012576033427",
+      "name": "Bergstedt, Hannah (S)"
+    },
+    {
+      "id": "0401968752713",
+      "name": "Bergström, Stina (MP)"
+    },
+    {
+      "id": "058426570914",
+      "name": "Bergström, Sven (c)"
+    },
+    {
+      "id": "0668293417401",
+      "name": "Berlin, Christina (fp)"
+    },
+    {
+      "id": "0424138087713",
+      "name": "Berliner, Agneta (fp)"
+    },
+    {
+      "id": "0701525641715",
+      "name": "Bernhardsson, Bo (s)"
+    },
+    {
+      "id": "0737824098113",
+      "name": "Berntsson, Magnus (KD)"
+    },
+    {
+      "id": "0182800488922",
+      "name": "Bieler, Paula (SD)"
+    },
+    {
+      "id": "0658668232410",
+      "name": "Bill, Per (m)"
+    },
+    {
+      "id": "0956595590924",
+      "name": "Billström, Tobias (m)"
+    },
+    {
+      "id": "0710595759638",
+      "name": "Birinxhiku, Aida (S)"
+    },
+    {
+      "id": "0930305890123",
+      "name": "Bjälkö, Sara-Lena (SD)"
+    },
+    {
+      "id": "0395762282903",
+      "name": "Bjellqvist, Elsemarie (S)"
+    },
+    {
+      "id": "037063714405",
+      "name": "Björck, Anders (m)"
+    },
+    {
+      "id": "0516528386117",
+      "name": "Björck, Patrik (s)"
+    },
+    {
+      "id": "0770363683317",
+      "name": "Björk, Malin (C)"
+    },
+    {
+      "id": "0140985614421",
+      "name": "Björk, Peder (S)"
+    },
+    {
+      "id": "0926214745119",
+      "name": "Björklund, Heléne (S)"
+    },
+    {
+      "id": "0603490586517",
+      "name": "Björklund, Jan (FP)"
+    },
+    {
+      "id": "0603490586517",
+      "name": "Björklund, Jan (L)"
+    },
+    {
+      "id": "079095006519",
+      "name": "Björkman, Jan (s)"
+    },
+    {
+      "id": "0784309503313",
+      "name": "Björling, Ewa (m)"
+    },
+    {
+      "id": "037508021018",
+      "name": "Björlund, Torbjörn (v)"
+    },
+    {
+      "id": "0381231495405",
+      "name": "Björnlod, Leif (mp)"
+    },
+    {
+      "id": "0671241874717",
+      "name": "Björnsdotter Rahm, Elisabeth (M)"
+    },
+    {
+      "id": "0340854285007",
+      "name": "Bjurling, Laila (s)"
+    },
+    {
+      "id": "0996640018922",
+      "name": "Bladelius, Yasmine (S)"
+    },
+    {
+      "id": "0741005094627",
+      "name": "Blix, Gustav (m)"
+    },
+    {
+      "id": "0719332223713",
+      "name": "Blom, Juno (L)"
+    },
+    {
+      "id": "035234573112",
+      "name": "Blomkvist, Anna-Lena (SD)"
+    },
+    {
+      "id": "0581480697617",
+      "name": "Bodström, Thomas (s)"
+    },
+    {
+      "id": "0512357753412",
+      "name": "Bohlin Olsson, Britt (s)"
+    },
+    {
+      "id": "0512357753412",
+      "name": "Bohlin, Britt (s)"
+    },
+    {
+      "id": "0108109641223",
+      "name": "Bohlin, Carl-Oskar (M)"
+    },
+    {
+      "id": "0897304708905",
+      "name": "Bohlin, Sinikka (s)"
+    },
+    {
+      "id": "0575313291605",
+      "name": "Bojerud, Stellan (SD)"
+    },
+    {
+      "id": "0956444284814",
+      "name": "Bolund, Per (mp)"
+    },
+    {
+      "id": "072821648404",
+      "name": "Bonnier, Helena (M)"
+    },
+    {
+      "id": "0139948283718",
+      "name": "Börjesson, Agneta (MP)"
+    },
+    {
+      "id": "0371882294919",
+      "name": "Boulwén, Carita (SD)"
+    },
+    {
+      "id": "0729710260118",
+      "name": "Bouveng, Helena (m)"
+    },
+    {
+      "id": "0264838147315",
+      "name": "Bråkenhielm, Catharina (S)"
+    },
+    {
+      "id": "0272604986201",
+      "name": "Brandin, Claes-Göran (s)"
+    },
+    {
+      "id": "0128805841317",
+      "name": "Brännström, Katarina (M)"
+    },
+    {
+      "id": "0590020362617",
+      "name": "Brinck, Cecilia (M)"
+    },
+    {
+      "id": "0116603319117",
+      "name": "Brink, Josefin (v)"
+    },
+    {
+      "id": "0689360934600",
+      "name": "Britton, Sven (S)"
+    },
+    {
+      "id": "0977824845202",
+      "name": "Brodén, Anita (FP)"
+    },
+    {
+      "id": "0181478122414",
+      "name": "Brodén, Anne Marie (M)"
+    },
+    {
+      "id": "0378597308227",
+      "name": "Brodin, Camilla (KD)"
+    },
+    {
+      "id": "0333193598116",
+      "name": "Broman, Bo (SD)"
+    },
+    {
+      "id": "0795530089824",
+      "name": "Brown, Nils (M)"
+    },
+    {
+      "id": "0304498908019",
+      "name": "Brunegård, Gudrun (KD)"
+    },
+    {
+      "id": "0220064764318",
+      "name": "Brunsberg, Camilla (M)"
+    },
+    {
+      "id": "0375671185701",
+      "name": "Brus, Sven (kd)"
+    },
+    {
+      "id": "0781357446917",
+      "name": "Bucht, Sven-Erik (S)"
+    },
+    {
+      "id": "028536711718",
+      "name": "Burman, Ingrid (v)"
+    },
+    {
+      "id": "0853204119514",
+      "name": "Burwick, Marlene (S)"
+    },
+    {
+      "id": "0512510717328",
+      "name": "Busch Thor, Ebba (KD)"
+    },
+    {
+      "id": "0512510717328",
+      "name": "Busch, Ebba (KD)"
+    },
+    {
+      "id": "0877778793323",
+      "name": "Büser, Johan (S)"
+    },
+    {
+      "id": "0506806850221",
+      "name": "Bylund, Linus (SD)"
+    },
+    {
+      "id": "0409551181119",
+      "name": "Caplan, Stefan (M)"
+    },
+    {
+      "id": "0542160909628",
+      "name": "Carlson, Andreas (KD)"
+    },
+    {
+      "id": "0737073162411",
+      "name": "Carlsson Löfdahl, Emma (-)"
+    },
+    {
+      "id": "0737073162411",
+      "name": "Carlsson Löfdahl, Emma (fp)"
+    },
+    {
+      "id": "0737073162411",
+      "name": "Carlsson Löfdahl, Emma (L)"
+    },
+    {
+      "id": "0673622610409",
+      "name": "Carlsson, Birgitta (c)"
+    },
+    {
+      "id": "0389220391128",
+      "name": "Carlsson, Christian (KD)"
+    },
+    {
+      "id": "049290762318",
+      "name": "Carlsson, Clas-Göran (S)"
+    },
+    {
+      "id": "049290762318",
+      "name": "Carlsson, ClasGöran (S)"
+    },
+    {
+      "id": "0387230530213",
+      "name": "Carlsson, Crister (M)"
+    },
+    {
+      "id": "0977860675311",
+      "name": "Carlsson, Gunilla (m)"
+    },
+    {
+      "id": "0875221317013",
+      "name": "Carlsson, Gunilla (s)"
+    },
+    {
+      "id": "0236597884217",
+      "name": "Carlsson, Rose-Marie (s)"
+    },
+    {
+      "id": "0836001490919",
+      "name": "Carlsson, Ulrika (c)"
+    },
+    {
+      "id": "0286498639614",
+      "name": "Carlsson, Willemo (m)"
+    },
+    {
+      "id": "0810673119603",
+      "name": "Carlström, Marianne (s)"
+    },
+    {
+      "id": "0315499690028",
+      "name": "Carvalho, Teresa (S)"
+    },
+    {
+      "id": "0475643059428",
+      "name": "Cato Hansson, Jonny (C)"
+    },
+    {
+      "id": "0475643059428",
+      "name": "Cato, Jonny (C)"
+    },
+    {
+      "id": "0637028706011",
+      "name": "Ceballos, Bodil (mp)"
+    },
+    {
+      "id": "0105797223918",
+      "name": "Cederbratt, Mikael (m)"
+    },
+    {
+      "id": "0970259744617",
+      "name": "Cederfelt, Margareta (M)"
+    },
+    {
+      "id": "0519542449425",
+      "name": "Christensson, Fredrik (C)"
+    },
+    {
+      "id": "0279488554424",
+      "name": "Christiansson, Alexander (SD)"
+    },
+    {
+      "id": "0972636989226",
+      "name": "Cisija, Dzenan (S)"
+    },
+    {
+      "id": "0564126739422",
+      "name": "Coenraads, Åsa (M)"
+    },
+    {
+      "id": "0721509806321",
+      "name": "Dadgostar, Nooshi (V)"
+    },
+    {
+      "id": "0468904415516",
+      "name": "Dahl, Cecilia (s)"
+    },
+    {
+      "id": "0554852839719",
+      "name": "Dahlqvist, Mikael (S)"
+    },
+    {
+      "id": "0781029778411",
+      "name": "Dalman Eek, Cecilia (S)"
+    },
+    {
+      "id": "0284039893826",
+      "name": "Dalunde, Jakop (MP)"
+    },
+    {
+      "id": "014744660015",
+      "name": "Damberg, Mikael (s)"
+    },
+    {
+      "id": "0306286538528",
+      "name": "Damm, Sofia (KD)"
+    },
+    {
+      "id": "066036027425",
+      "name": "Damsgaard, Mikael (M)"
+    },
+    {
+      "id": "0190801883908",
+      "name": "Danestig, Britt-Marie (v)"
+    },
+    {
+      "id": "0603366539729",
+      "name": "Danielsson, Malin (L)"
+    },
+    {
+      "id": "0244345953026",
+      "name": "Danielsson, Peter (m)"
+    },
+    {
+      "id": "0352254228107",
+      "name": "Danielsson, Staffan (c)"
+    },
+    {
+      "id": "0395613047500",
+      "name": "Darell, Linnéa (fp)"
+    },
+    {
+      "id": "0691468495629",
+      "name": "Darvik, Axel (fp)"
+    },
+    {
+      "id": "0820673454606",
+      "name": "Davidson, Inger (kd)"
+    },
+    {
+      "id": "0125165702713",
+      "name": "de Pourbaix-Lundin, Marietta (m)"
+    },
+    {
+      "id": "0852475703226",
+      "name": "Delgado Varas, Lorena (V)"
+    },
+    {
+      "id": "0852475703226",
+      "name": "Delgado, Lorena (V)"
+    },
+    {
+      "id": "0447797778718",
+      "name": "Delis, Sotiris (M)"
+    },
+    {
+      "id": "0747488001814",
+      "name": "Demir, Hamza (V)"
+    },
+    {
+      "id": "0251136832626",
+      "name": "Demirok, Muharrem (C)"
+    },
+    {
+      "id": "0986091320811",
+      "name": "Deremar, Catarina (C)"
+    },
+    {
+      "id": "0442629549320",
+      "name": "Dibrani, Adnan (S)"
+    },
+    {
+      "id": "0321885416125",
+      "name": "Dinamarca, Rossana (v)"
+    },
+    {
+      "id": "0182190010218",
+      "name": "Dingizian, Esabelle (MP)"
+    },
+    {
+      "id": "0344222203323",
+      "name": "Dioukarev, Dennis (SD)"
+    },
+    {
+      "id": "0424684306815",
+      "name": "Dogru, Sedat (M)"
+    },
+    {
+      "id": "0708340640717",
+      "name": "Domeij, Åsa (mp)"
+    },
+    {
+      "id": "0604811710522",
+      "name": "Drougge, Ida (M)"
+    },
+    {
+      "id": "0560258077929",
+      "name": "Drummond, Bino (M)"
+    },
+    {
+      "id": "0432998314415",
+      "name": "Duàn, Annika (S)"
+    },
+    {
+      "id": "0742883909221",
+      "name": "E Weinerhall, John (M)"
+    },
+    {
+      "id": "0742883909221",
+      "name": "E. Weinerhall, John (M)"
+    },
+    {
+      "id": "0235974887200",
+      "name": "Eberstein, Susanne (s)"
+    },
+    {
+      "id": "0480339311713",
+      "name": "Eclund, Annika (KD)"
+    },
+    {
+      "id": "0376461485627",
+      "name": "Edin, Henrik (L)"
+    },
+    {
+      "id": "0456373360003",
+      "name": "Edlind-Friberg, Louise (fp)"
+    },
+    {
+      "id": "0154189076919",
+      "name": "Ehn, Tina (mp)"
+    },
+    {
+      "id": "0266627143525",
+      "name": "Ehrencrona, Magnus (MP)"
+    },
+    {
+      "id": "0548089226618",
+      "name": "Einarsson, Mats (v)"
+    },
+    {
+      "id": "0438928446810",
+      "name": "Ek, Lena (c)"
+    },
+    {
+      "id": "057993099726",
+      "name": "Ek, Magnus (C)"
+    },
+    {
+      "id": "0697895317615",
+      "name": "Ekendahl, Maud (m)"
+    },
+    {
+      "id": "0412502344925",
+      "name": "Ekeroth Clausson, Ida (S)"
+    },
+    {
+      "id": "0412502344925",
+      "name": "Ekeroth, Ida (S)"
+    },
+    {
+      "id": "0369028728526",
+      "name": "Ekeroth, Kent (SD)"
+    },
+    {
+      "id": "0759167494321",
+      "name": "Ekerum, Petra (S)"
+    },
+    {
+      "id": "0610573125306",
+      "name": "Ekholm, Berndt (s)"
+    },
+    {
+      "id": "0494242537816",
+      "name": "Eklind, Hans (KD)"
+    },
+    {
+      "id": "037781229619",
+      "name": "Eklöf, Staffan (SD)"
+    },
+    {
+      "id": "0111697351426",
+      "name": "Eklund, Louise (L)"
+    },
+    {
+      "id": "0730984957305",
+      "name": "Ekström, Anne-Marie (fp)"
+    },
+    {
+      "id": "0475778011711",
+      "name": "Ekström, Hans (S)"
+    },
+    {
+      "id": "0121939297619",
+      "name": "El Haj, Jamal (S)"
+    },
+    {
+      "id": "0121939297619",
+      "name": "El-Haj, Jamal (S)"
+    },
+    {
+      "id": "0846171262302",
+      "name": "Eldensjö, Kjell (kd)"
+    },
+    {
+      "id": "0116759114313",
+      "name": "Eliasson, Bengt (FP)"
+    },
+    {
+      "id": "0116759114313",
+      "name": "Eliasson, Bengt (L)"
+    },
+    {
+      "id": "0905755961314",
+      "name": "Elinderson, Lars (m)"
+    },
+    {
+      "id": "064601872511",
+      "name": "Elmsäter-Svärd, Catharina (m)"
+    },
+    {
+      "id": "0121015874810",
+      "name": "Elofsson, Torsten (KD)"
+    },
+    {
+      "id": "0861521539920",
+      "name": "Emilsson, Aron (SD)"
+    },
+    {
+      "id": "0655028250417",
+      "name": "Emilsson, Lena (S)"
+    },
+    {
+      "id": "0723453743904",
+      "name": "Emtell, Per-Johan (MP)"
+    },
+    {
+      "id": "033662260219",
+      "name": "Eneim, Montaser (M)"
+    },
+    {
+      "id": "0284192765516",
+      "name": "Eneroth, Tomas (s)"
+    },
+    {
+      "id": "0590042760718",
+      "name": "Engblom, Annicka (m)"
+    },
+    {
+      "id": "0341604836310",
+      "name": "Engdahl, Karin (S)"
+    },
+    {
+      "id": "0936723349517",
+      "name": "Engelhardt, Christer (s)"
+    },
+    {
+      "id": "0251564185908",
+      "name": "Engle, Kerstin (s)"
+    },
+    {
+      "id": "0256404677510",
+      "name": "Engström, Cecilia (KD)"
+    },
+    {
+      "id": "0618560932311",
+      "name": "Engström, Hillevi (m)"
+    },
+    {
+      "id": "0906336297511",
+      "name": "Engström, Marie (v)"
+    },
+    {
+      "id": "085742305813",
+      "name": "Engström, Patrik (S)"
+    },
+    {
+      "id": "0764422217512",
+      "name": "Engsund, Lars (M)"
+    },
+    {
+      "id": "0202577142527",
+      "name": "Enholm, Matheus (SD)"
+    },
+    {
+      "id": "045666679112",
+      "name": "Enochson, Annelie (kd)"
+    },
+    {
+      "id": "0607691439013",
+      "name": "Enström, Karin (m)"
+    },
+    {
+      "id": "0640669898710",
+      "name": "Ericson, Gunvor G (mp)"
+    },
+    {
+      "id": "0940980416614",
+      "name": "Ericson, Jan (M)"
+    },
+    {
+      "id": "0745594497101",
+      "name": "Ericson, Lars-Ivar (c)"
+    },
+    {
+      "id": "0671571847522",
+      "name": "Eriksson Falk, Mattias (SD)"
+    },
+    {
+      "id": "0667054859301",
+      "name": "Eriksson, Alf (s)"
+    },
+    {
+      "id": "0296384583518",
+      "name": "Eriksson, Åsa (S)"
+    },
+    {
+      "id": "0362924695201",
+      "name": "Eriksson, Birgitta (s)"
+    },
+    {
+      "id": "0191316991613",
+      "name": "Eriksson, Christer (c)"
+    },
+    {
+      "id": "0391973624515",
+      "name": "Eriksson, Erik A (c)"
+    },
+    {
+      "id": "0574355225922",
+      "name": "Eriksson, Fredrik (SD)"
+    },
+    {
+      "id": "0157062733618",
+      "name": "Eriksson, Jonas (MP)"
+    },
+    {
+      "id": "0988383147219",
+      "name": "Eriksson, Lars (S)"
+    },
+    {
+      "id": "0447198048312",
+      "name": "Eriksson, Peter (mp)"
+    },
+    {
+      "id": "0506541436524",
+      "name": "Eriksson, Sanne (S)"
+    },
+    {
+      "id": "023732429721",
+      "name": "Eriksson, Sofie (S)"
+    },
+    {
+      "id": "0331791853028",
+      "name": "Eriksson, Yasmine (SD)"
+    },
+    {
+      "id": "0497565513923",
+      "name": "Eriksson, Ziita (M)"
+    },
+    {
+      "id": "0573273704102",
+      "name": "Erlandsson, Christer (s)"
+    },
+    {
+      "id": "0465398691116",
+      "name": "Erlandsson, Eskil (c)"
+    },
+    {
+      "id": "0983984918111",
+      "name": "Ernkrans, Matilda (s)"
+    },
+    {
+      "id": "09812885803",
+      "name": "Ertsborn, Jan (fp)"
+    },
+    {
+      "id": "014386615025",
+      "name": "Esbati, Ali (V)"
+    },
+    {
+      "id": "0860699089813",
+      "name": "Escanilla, Jeannette (V)"
+    },
+    {
+      "id": "0544137999406",
+      "name": "Esch, Björn (kd)"
+    },
+    {
+      "id": "0468956880528",
+      "name": "Eskilandersson, Mikael (SD)"
+    },
+    {
+      "id": "0667220767927",
+      "name": "Ezelius, Erik (S)"
+    },
+    {
+      "id": "0871076471012",
+      "name": "Fagerström, Ann-Marie (s)"
+    },
+    {
+      "id": "0394601078212",
+      "name": "Fahmi, Mahmood (m)"
+    },
+    {
+      "id": "0640627133410",
+      "name": "Falkhaven, Elisabeth (MP)"
+    },
+    {
+      "id": "0994460509110",
+      "name": "Fälth, Maria (KD)"
+    },
+    {
+      "id": "0833552896828",
+      "name": "Farid, Jasmin (M)"
+    },
+    {
+      "id": "0157618290428",
+      "name": "Farivar, Rashid (SD)"
+    },
+    {
+      "id": "0575584900819",
+      "name": "Färm, Daniel (S)"
+    },
+    {
+      "id": "0523902030928",
+      "name": "Fazelian, Aylin (S)"
+    },
+    {
+      "id": "0868286862422",
+      "name": "Federley, Fredrick (c)"
+    },
+    {
+      "id": "046426524512",
+      "name": "Felten, Olle (-)"
+    },
+    {
+      "id": "046426524512",
+      "name": "Felten, Olle (SD)"
+    },
+    {
+      "id": "0553513261108",
+      "name": "Feltzing, Barbro (mp)"
+    },
+    {
+      "id": "0462699892622",
+      "name": "Ferm, Maria (MP)"
+    },
+    {
+      "id": "0514503951114",
+      "name": "Fernández, Rocio (fp)"
+    },
+    {
+      "id": "065701062615",
+      "name": "Filper, Runar (SD)"
+    },
+    {
+      "id": "0861447317415",
+      "name": "Finnborg, Thomas (M)"
+    },
+    {
+      "id": "0750518623913",
+      "name": "Finstorp, Lotta (M)"
+    },
+    {
+      "id": "082878762718",
+      "name": "Flanking, Anders (C)"
+    },
+    {
+      "id": "0401150407611",
+      "name": "Flyborg, Eva (fp)"
+    },
+    {
+      "id": "0422059125318",
+      "name": "Fogelström, Conny (s)"
+    },
+    {
+      "id": "0914002106327",
+      "name": "Fölster, Sofia (M)"
+    },
+    {
+      "id": "0469825305127",
+      "name": "Forsberg, Anders (SD)"
+    },
+    {
+      "id": "0257612529618",
+      "name": "Forslund, Kenneth G (s)"
+    },
+    {
+      "id": "0811968273221",
+      "name": "Forslund, Patrik (m)"
+    },
+    {
+      "id": "0980092192122",
+      "name": "Forssell, Joar (L)"
+    },
+    {
+      "id": "0126797549328",
+      "name": "Forssell, Johan (M)"
+    },
+    {
+      "id": "0982795248728",
+      "name": "Forssmed, Jakob (kd)"
+    },
+    {
+      "id": "0170700930812",
+      "name": "Frans, Joe (s)"
+    },
+    {
+      "id": "0211757295524",
+      "name": "Fransson, Josef (SD)"
+    },
+    {
+      "id": "0694273653613",
+      "name": "Fransson, Margareta (MP)"
+    },
+    {
+      "id": "0271495844814",
+      "name": "Fransson, Sonja (s)"
+    },
+    {
+      "id": "038604236714",
+      "name": "Franzén, Mia (fp)"
+    },
+    {
+      "id": "0627450126815",
+      "name": "Fredholm, Kajsa (V)"
+    },
+    {
+      "id": "0703330864716",
+      "name": "Fredriksson, Inger (C)"
+    },
+    {
+      "id": "0965607699115",
+      "name": "Fredriksson, Kerstin (s)"
+    },
+    {
+      "id": "0599003208801",
+      "name": "Fremling, Lennart (fp)"
+    },
+    {
+      "id": "0979278953316",
+      "name": "Frid, Egon (v)"
+    },
+    {
+      "id": "0238588409223",
+      "name": "Fridolin, Gustav (MP)"
+    },
+    {
+      "id": "0395154929710",
+      "name": "Frimert, Anders (S)"
+    },
+    {
+      "id": "0874331493311",
+      "name": "Frisk, Helena (s)"
+    },
+    {
+      "id": "0148424181819",
+      "name": "Frohm Utterstedt, Ann-Christine (SD)"
+    },
+    {
+      "id": "0148424181819",
+      "name": "From Utterstedt, Ann-Christine (SD)"
+    },
+    {
+      "id": "0506482805418",
+      "name": "From, Isak (S)"
+    },
+    {
+      "id": "0533104339313",
+      "name": "Frost Lindberg, Merit (M)"
+    },
+    {
+      "id": "0341628241813",
+      "name": "Fundahn, Marianne (S)"
+    },
+    {
+      "id": "0229002789006",
+      "name": "Furustrand, Reynoldh (s)"
+    },
+    {
+      "id": "0257612529618",
+      "name": "G Forslund, Kenneth (S)"
+    },
+    {
+      "id": "0355151001911",
+      "name": "Gabelic, Aleksander (s)"
+    },
+    {
+      "id": "025158809026",
+      "name": "Gabrielsson, Ida (V)"
+    },
+    {
+      "id": "0504711999229",
+      "name": "Gamov, Pavel (-)"
+    },
+    {
+      "id": "0504711999229",
+      "name": "Gamov, Pavel (SD)"
+    },
+    {
+      "id": "064711971110",
+      "name": "Gardfjell, Maria (MP)"
+    },
+    {
+      "id": "0706974423606",
+      "name": "Garstedt, Inge (m)"
+    },
+    {
+      "id": "0899169869710",
+      "name": "Gellerman, Helena (L)"
+    },
+    {
+      "id": "0891731772016",
+      "name": "Gerdau, Mats (m)"
+    },
+    {
+      "id": "019623784404",
+      "name": "Gerdin, Viviann (c)"
+    },
+    {
+      "id": "0403769921921",
+      "name": "Ghasemi, Tina (M)"
+    },
+    {
+      "id": "0136268785826",
+      "name": "Gholam Ali Pour, Nima (SD)"
+    },
+    {
+      "id": "0149554070404",
+      "name": "Gidblom, Birgitta (s)"
+    },
+    {
+      "id": "0112333043027",
+      "name": "Giertz, Rasmus (SD)"
+    },
+    {
+      "id": "0376867803913",
+      "name": "Gille, Agneta (S)"
+    },
+    {
+      "id": "0338088431726",
+      "name": "Gille, Sara (SD)"
+    },
+    {
+      "id": "0939158389321",
+      "name": "Gonzalez Westling, Samuel (V)"
+    },
+    {
+      "id": "0984153507725",
+      "name": "Göthberg, Gustaf (M)"
+    },
+    {
+      "id": "0281408160607",
+      "name": "Goude, Gunnar (mp)"
+    },
+    {
+      "id": "0957631371811",
+      "name": "Granberg, Lars U (s)"
+    },
+    {
+      "id": "0461756329828",
+      "name": "Granbom Ellison, Karin (fp)"
+    },
+    {
+      "id": "0461756329828",
+      "name": "Granbom, Karin (fp)"
+    },
+    {
+      "id": "0136310791918",
+      "name": "Granlund, Marie (s)"
+    },
+    {
+      "id": "0634122058105",
+      "name": "Granström, Per Erik (s)"
+    },
+    {
+      "id": "0834369509410",
+      "name": "Grape, Ulf (m)"
+    },
+    {
+      "id": "0538387395826",
+      "name": "Green, Mats (M)"
+    },
+    {
+      "id": "0975579292417",
+      "name": "Green, Monica (s)"
+    },
+    {
+      "id": "0321274454602",
+      "name": "Grönfeldt Bergman, Lisbeth (m)"
+    },
+    {
+      "id": "0841422940412",
+      "name": "Grönhagen, Carina (s)"
+    },
+    {
+      "id": "0227924728814",
+      "name": "Grönlund Krantz, Anna (fp)"
+    },
+    {
+      "id": "0227924728814",
+      "name": "Grönlund, Anna (fp)"
+    },
+    {
+      "id": "0281670919717",
+      "name": "Grubb, Jörgen (SD)"
+    },
+    {
+      "id": "0194498232620",
+      "name": "Güclü Hedin, Roza (S)"
+    },
+    {
+      "id": "0411459873625",
+      "name": "Gunnarsson, Hanna (V)"
+    },
+    {
+      "id": "0750727320521",
+      "name": "Gunnarsson, Jonas (S)"
+    },
+    {
+      "id": "0785143384002",
+      "name": "Gunnarsson, Rolf (m)"
+    },
+    {
+      "id": "0925451929216",
+      "name": "Gunther, Penilla (KD)"
+    },
+    {
+      "id": "0933424396309",
+      "name": "Gustafsson, Billy (s)"
+    },
+    {
+      "id": "0645111757928",
+      "name": "Gustafsson, Elin (S)"
+    },
+    {
+      "id": "0782713019602",
+      "name": "Gustafsson, Holger (kd)"
+    },
+    {
+      "id": "0463244199702",
+      "name": "Gustafsson, Inger (fp)"
+    },
+    {
+      "id": "0534056896314",
+      "name": "Gustafsson, Lars (kd)"
+    },
+    {
+      "id": "0923797859612",
+      "name": "Gustavsson, Eva-Lena (S)"
+    },
+    {
+      "id": "0694077681517",
+      "name": "Gustavsson, Lennart (v)"
+    },
+    {
+      "id": "0483338990013",
+      "name": "Gustbée, Roland (M)"
+    },
+    {
+      "id": "0229627943828",
+      "name": "Guteland, Jytte (S)"
+    },
+    {
+      "id": "0987147242812",
+      "name": "Gylling, Johnny (kd)"
+    },
+    {
+      "id": "0350758939722",
+      "name": "Haag, Pontus (M)"
+    },
+    {
+      "id": "0181728423812",
+      "name": "Habsburg Douglas, Walburga (m)"
+    },
+    {
+      "id": "08188046917",
+      "name": "Haby, Susanna (M)"
+    },
+    {
+      "id": "0308306375022",
+      "name": "Haddad, Roger (FP)"
+    },
+    {
+      "id": "0308306375022",
+      "name": "Haddad, Roger (L)"
+    },
+    {
+      "id": "0920901966627",
+      "name": "Haddou, Tony (V)"
+    },
+    {
+      "id": "0761548559113",
+      "name": "Hagberg, Christin (s)"
+    },
+    {
+      "id": "0367418588113",
+      "name": "Hagberg, Liselott (fp)"
+    },
+    {
+      "id": "0480007629014",
+      "name": "Hagberg, Michael (s)"
+    },
+    {
+      "id": "0225823431305",
+      "name": "Hagfeldt, Stefan (m)"
+    },
+    {
+      "id": "0600928907216",
+      "name": "Hägg, Carina (s)"
+    },
+    {
+      "id": "0584659199514",
+      "name": "Hägglund, Göran (kd)"
+    },
+    {
+      "id": "0583257327619",
+      "name": "Haglö, Kerstin (s)"
+    },
+    {
+      "id": "0435740736429",
+      "name": "Hagman, Hampus (KD)"
+    },
+    {
+      "id": "0105126451619",
+      "name": "Hagwall, Anna (-)"
+    },
+    {
+      "id": "0105126451619",
+      "name": "Hagwall, Anna (SD)"
+    },
+    {
+      "id": "0760500234712",
+      "name": "Haider, Monica (S)"
+    },
+    {
+      "id": "0630820052511",
+      "name": "Håkansson, Per-Arne (S)"
+    },
+    {
+      "id": "0488332307829",
+      "name": "Halef, Abraham (S)"
+    },
+    {
+      "id": "0285631067215",
+      "name": "Halef, Robert (KD)"
+    },
+    {
+      "id": "0556755096938",
+      "name": "Hallberg, Axel (MP)"
+    },
+    {
+      "id": "0853395328224",
+      "name": "Hallengren, Lena (s)"
+    },
+    {
+      "id": "0190560012714",
+      "name": "Hallström, Pia (M)"
+    },
+    {
+      "id": "0186426023519",
+      "name": "Hamednaca, Arhe (S)"
+    },
+    {
+      "id": "0319703582208",
+      "name": "Hamilton, Björn (m)"
+    },
+    {
+      "id": "0477013214601",
+      "name": "Hamilton, Carl B (FP)"
+    },
+    {
+      "id": "0477013214601",
+      "name": "Hamilton, Carl B (L)"
+    },
+    {
+      "id": "0810201628512",
+      "name": "Hammar Johnsson, Ann-Charlotte (M)"
+    },
+    {
+      "id": "0227802801605",
+      "name": "Hammarberg, Thomas (S)"
+    },
+    {
+      "id": "0889860537413",
+      "name": "Hammarbergh, Krister (m)"
+    },
+    {
+      "id": "0810852280213",
+      "name": "Hänel Sandström, Marie-Louise (M)"
+    },
+    {
+      "id": "0223069839622",
+      "name": "Hannah, Robert (FP)"
+    },
+    {
+      "id": "0223069839622",
+      "name": "Hannah, Robert (L)"
+    },
+    {
+      "id": "0692076685824",
+      "name": "Hansén, Camilla (MP)"
+    },
+    {
+      "id": "0274710563201",
+      "name": "Hansson, Agne (c)"
+    },
+    {
+      "id": "0843345349823",
+      "name": "Hansson, Anders (M)"
+    },
+    {
+      "id": "0495018514310",
+      "name": "Hansson, Ann-Louise (MP)"
+    },
+    {
+      "id": "0652497579621",
+      "name": "Haraldsson, Johanna (S)"
+    },
+    {
+      "id": "089413816205",
+      "name": "Hård, Leif (S)"
+    },
+    {
+      "id": "0910241260018",
+      "name": "Härstedt, Kent (s)"
+    },
+    {
+      "id": "0534870997412",
+      "name": "Hartzell, Åsa (M)"
+    },
+    {
+      "id": "0566106045918",
+      "name": "Hassan, Maria (s)"
+    },
+    {
+      "id": "0961349903416",
+      "name": "Hassan, Rebwar (MP)"
+    },
+    {
+      "id": "035234573112",
+      "name": "Hedberg, Anna-Lena (SD)"
+    },
+    {
+      "id": "0938534705001",
+      "name": "Hedberg, Gunnar (M)"
+    },
+    {
+      "id": "0589561178823",
+      "name": "Hedberg, Peter (S)"
+    },
+    {
+      "id": "0204443909416",
+      "name": "Hedin, Johan (C)"
+    },
+    {
+      "id": "0194498232620",
+      "name": "Hedin, Roza Güclü (S)"
+    },
+    {
+      "id": "0773497241728",
+      "name": "Hedlund, Roger (SD)"
+    },
+    {
+      "id": "0475092656901",
+      "name": "Hedquist, Lennart (m)"
+    },
+    {
+      "id": "0699787174310",
+      "name": "Hedström, Lotta (mp)"
+    },
+    {
+      "id": "0836001490919",
+      "name": "Heie, Ulrika (C)"
+    },
+    {
+      "id": "0873650166625",
+      "name": "Heikkinen Breitholtz, Sara (S)"
+    },
+    {
+      "id": "0764949934324",
+      "name": "Heindorff, Ulrika (M)"
+    },
+    {
+      "id": "0395042560705",
+      "name": "Heinemann, Kerstin (fp)"
+    },
+    {
+      "id": "0681030112815",
+      "name": "Helander, Peter (C)"
+    },
+    {
+      "id": "0111536149811",
+      "name": "Hellberg, Owe (v)"
+    },
+    {
+      "id": "0504851635310",
+      "name": "Helldén, Daniel (MP)"
+    },
+    {
+      "id": "0781520322912",
+      "name": "Hellman, Jörgen (s)"
+    },
+    {
+      "id": "0505783078517",
+      "name": "Hellmark Knutsson, Helene (S)"
+    },
+    {
+      "id": "0963654118003",
+      "name": "Hellquist, Solveig (fp)"
+    },
+    {
+      "id": "0362779191527",
+      "name": "Hellsborn, Erik (SD)"
+    },
+    {
+      "id": "0537400268911",
+      "name": "Helmersson Olsson, Caroline (S)"
+    },
+    {
+      "id": "0537400268911",
+      "name": "Helmersson-Olsson, Caroline (s)"
+    },
+    {
+      "id": "0788526088220",
+      "name": "Henriksson, Emma (kd)"
+    },
+    {
+      "id": "0644177413119",
+      "name": "Henriksson, Stig (V)"
+    },
+    {
+      "id": "055824190225",
+      "name": "Hermansson, Ebba (SD)"
+    },
+    {
+      "id": "082139988919",
+      "name": "Hermansson, Kerstin (c)"
+    },
+    {
+      "id": "088461404416",
+      "name": "Herrey, Richard (M)"
+    },
+    {
+      "id": "0603753860213",
+      "name": "Herrstedt, Carina (SD)"
+    },
+    {
+      "id": "0249261021627",
+      "name": "Hervieu, Hannes (C)"
+    },
+    {
+      "id": "0231432628318",
+      "name": "Heydari, Shadiye (S)"
+    },
+    {
+      "id": "0914133868703",
+      "name": "Hietala Nordlund, Barbro (s)"
+    },
+    {
+      "id": "0710863816703",
+      "name": "Hillar Rosenqvist, Helena (mp)"
+    },
+    {
+      "id": "0819601620927",
+      "name": "Hirvonen Falk, Annika (MP)"
+    },
+    {
+      "id": "0819601620927",
+      "name": "Hirvonen, Annika (MP)"
+    },
+    {
+      "id": "0316870450511",
+      "name": "Hjalmarsson, Harald (M)"
+    },
+    {
+      "id": "0980316377627",
+      "name": "Hjälmered, Lars (m)"
+    },
+    {
+      "id": "0962261029919",
+      "name": "Hjerling, Annica (MP)"
+    },
+    {
+      "id": "0540190357911",
+      "name": "Hoff, Hans (s)"
+    },
+    {
+      "id": "0166402877505",
+      "name": "Hoffmann, Ulla (v)"
+    },
+    {
+      "id": "0316345926026",
+      "name": "Hoffstedt, Gustaf (M)"
+    },
+    {
+      "id": "083953568015",
+      "name": "Höglund, Malin (M)"
+    },
+    {
+      "id": "0552248175312",
+      "name": "Högman, Berit (s)"
+    },
+    {
+      "id": "0502353466300",
+      "name": "Högmark, Anders G (m)"
+    },
+    {
+      "id": "0525562399327",
+      "name": "Högström, Caroline (M)"
+    },
+    {
+      "id": "0927576375115",
+      "name": "Högström, Kenth (s)"
+    },
+    {
+      "id": "0440497495914",
+      "name": "Högström, Tomas (m)"
+    },
+    {
+      "id": "0346261747912",
+      "name": "Höij, Helena (kd)"
+    },
+    {
+      "id": "0521844714515",
+      "name": "Höj Larsen, Christina (V)"
+    },
+    {
+      "id": "0584386800218",
+      "name": "Hökmark, Gunnar (m)"
+    },
+    {
+      "id": "0219220227418",
+      "name": "Hökmark, Isabella (M)"
+    },
+    {
+      "id": "0485476395125",
+      "name": "Holm Barenfeld, Christian (M)"
+    },
+    {
+      "id": "0485476395125",
+      "name": "Holm, Christian (m)"
+    },
+    {
+      "id": "0216534495014",
+      "name": "Holm, Jens (V)"
+    },
+    {
+      "id": "0584183916016",
+      "name": "Holm, Ulf (mp)"
+    },
+    {
+      "id": "0395416536118",
+      "name": "Holma, Siv (v)"
+    },
+    {
+      "id": "0902172188709",
+      "name": "Holmqvist, Nils-Göran (s)"
+    },
+    {
+      "id": "0974061238314",
+      "name": "Holmqvist, Paula (S)"
+    },
+    {
+      "id": "0262525788220",
+      "name": "Hornberger, Johanna (M)"
+    },
+    {
+      "id": "0635943298419",
+      "name": "Hovskär, Dan (KD)"
+    },
+    {
+      "id": "0628870165823",
+      "name": "Hult, Emma (MP)"
+    },
+    {
+      "id": "069309987221",
+      "name": "Hultberg, Johan (M)"
+    },
+    {
+      "id": "0937688366013",
+      "name": "Hultqvist, Peter (s)"
+    },
+    {
+      "id": "0652944607906",
+      "name": "Husmark Pehrsson, Cristina (m)"
+    },
+    {
+      "id": "0379072486818",
+      "name": "Ibrisagic, Anna (m)"
+    },
+    {
+      "id": "0989755177525",
+      "name": "Ingeson, Mattias (KD)"
+    },
+    {
+      "id": "0515213566019",
+      "name": "Isacsson, Lars (S)"
+    },
+    {
+      "id": "0516879803714",
+      "name": "Isovaara, Lars (SD)"
+    },
+    {
+      "id": "0634917636517",
+      "name": "Israelsson, Margareta (s)"
+    },
+    {
+      "id": "0495314169413",
+      "name": "Jacobsson Gjörtler, Jonas (M)"
+    },
+    {
+      "id": "0495314169413",
+      "name": "Jacobsson, Jonas (M)"
+    },
+    {
+      "id": "0977592683711",
+      "name": "Jacobsson, Magnus (KD)"
+    },
+    {
+      "id": "0342890774415",
+      "name": "Jacobsson, Maria (S)"
+    },
+    {
+      "id": "0482927154110",
+      "name": "Jakobsson, Leif (s)"
+    },
+    {
+      "id": "0977592683711",
+      "name": "Jakobsson, Magnus (KD)"
+    },
+    {
+      "id": "0678712094213",
+      "name": "Jakobsson, Stefan (SD)"
+    },
+    {
+      "id": "0254695027922",
+      "name": "Jallow, Malcolm Momodou (V)"
+    },
+    {
+      "id": "0254695027922",
+      "name": "Jallow, Momodou (V)"
+    },
+    {
+      "id": "0254695027922",
+      "name": "Jallow, Momodou Malcolm (V)"
+    },
+    {
+      "id": "0882001830516",
+      "name": "Jämtin, Carin (s)"
+    },
+    {
+      "id": "048970816012",
+      "name": "Jansson, Eva-Lena (s)"
+    },
+    {
+      "id": "0779329190517",
+      "name": "Jansson, Kjell (M)"
+    },
+    {
+      "id": "0236051814311",
+      "name": "Jansson, Mikael (-)"
+    },
+    {
+      "id": "0236051814311",
+      "name": "Jansson, Mikael (SD)"
+    },
+    {
+      "id": "0535289016620",
+      "name": "Järkeborn, Christoffer (M)"
+    },
+    {
+      "id": "0640774576009",
+      "name": "Jarl Beck, Inger (s)"
+    },
+    {
+      "id": "0817058516814",
+      "name": "Järlesjö, Ina (kd)"
+    },
+    {
+      "id": "0737666060225",
+      "name": "Järrebring, Joakim (S)"
+    },
+    {
+      "id": "0857394544302",
+      "name": "Järrel, Henrik S (m)"
+    },
+    {
+      "id": "0747883322423",
+      "name": "Jawad, Amir (L)"
+    },
+    {
+      "id": "067992138910",
+      "name": "Jeppsson, Peter (s)"
+    },
+    {
+      "id": "0219220227418",
+      "name": "Jernbeck, Isabella (m)"
+    },
+    {
+      "id": "0742251416419",
+      "name": "Jeryd, Renée (s)"
+    },
+    {
+      "id": "0722683622001",
+      "name": "Jilmstad, Lars (M)"
+    },
+    {
+      "id": "0928223863802",
+      "name": "Jóhannesson, Berit (v)"
+    },
+    {
+      "id": "0193303720505",
+      "name": "Johansson, Anita (s)"
+    },
+    {
+      "id": "0960030082916",
+      "name": "Johansson, Ann-Kristine (s)"
+    },
+    {
+      "id": "0691264514114",
+      "name": "Johansson, Anna (S)"
+    },
+    {
+      "id": "0862868280923",
+      "name": "Johansson, Annie (c)"
+    },
+    {
+      "id": "0463955388312",
+      "name": "Johansson, Bengt-Anders (m)"
+    },
+    {
+      "id": "0155044813008",
+      "name": "Johansson, Carl-Axel (m)"
+    },
+    {
+      "id": "0542215898226",
+      "name": "Johansson, Jan Emanuel (s)"
+    },
+    {
+      "id": "0957513768616",
+      "name": "Johansson, Johan (M)"
+    },
+    {
+      "id": "0284604377408",
+      "name": "Johansson, Jörgen (c)"
+    },
+    {
+      "id": "0327857385513",
+      "name": "Johansson, Kenneth (c)"
+    },
+    {
+      "id": "0288805051019",
+      "name": "Johansson, Lars (s)"
+    },
+    {
+      "id": "0910803550317",
+      "name": "Johansson, Lena (S)"
+    },
+    {
+      "id": "033935884729",
+      "name": "Johansson, Martina (C)"
+    },
+    {
+      "id": "0444616389415",
+      "name": "Johansson, Mats (m)"
+    },
+    {
+      "id": "0517869568019",
+      "name": "Johansson, Mikael (mp)"
+    },
+    {
+      "id": "0473783431010",
+      "name": "Johansson, Morgan (S)"
+    },
+    {
+      "id": "0934639939611",
+      "name": "Johansson, Ola (C)"
+    },
+    {
+      "id": "0701022001100",
+      "name": "Johansson, Torgny (s)"
+    },
+    {
+      "id": "0995355603410",
+      "name": "Johansson, Wiwi-Anne (v)"
+    },
+    {
+      "id": "011731125914",
+      "name": "Johansson, Ylva (s)"
+    },
+    {
+      "id": "039984931601",
+      "name": "Johnson, Jacob (v)"
+    },
+    {
+      "id": "0122987223112",
+      "name": "Johnsson Fornarve, Lotta (V)"
+    },
+    {
+      "id": "0921688244311",
+      "name": "Johnsson, Eva (kd)"
+    },
+    {
+      "id": "0879055385113",
+      "name": "Johnsson, Jeppe (m)"
+    },
+    {
+      "id": "0410231576416",
+      "name": "Johnsson, Lars (M)"
+    },
+    {
+      "id": "0256743155204",
+      "name": "Johnsson, Per-Ingvar (C)"
+    },
+    {
+      "id": "0205360448417",
+      "name": "Johnsson, Peter (S)"
+    },
+    {
+      "id": "0803753212716",
+      "name": "Jomshof, Richard (SD)"
+    },
+    {
+      "id": "0642224351118",
+      "name": "Jonson, Pål (M)"
+    },
+    {
+      "id": "0229760896014",
+      "name": "Jonsson, Anders W (C)"
+    },
+    {
+      "id": "0682674527208",
+      "name": "Jönsson, Anita (s)"
+    },
+    {
+      "id": "0148397245014",
+      "name": "Jonsson, Annica (v)"
+    },
+    {
+      "id": "0327078838011",
+      "name": "Jönsson, Christine (m)"
+    },
+    {
+      "id": "0495218011521",
+      "name": "Jönsson, Johanna (C)"
+    },
+    {
+      "id": "0355822136816",
+      "name": "Jonsson, Lotta (kd)"
+    },
+    {
+      "id": "0765747165821",
+      "name": "Jonsson, Marcus (KD)"
+    },
+    {
+      "id": "0499755198526",
+      "name": "Jonsson, Mattias (S)"
+    },
+    {
+      "id": "0597915398712",
+      "name": "Jönsson, Mona (mp)"
+    },
+    {
+      "id": "0183544538819",
+      "name": "Jönsson, Patrik (SD)"
+    },
+    {
+      "id": "0205360448417",
+      "name": "Jonsson, Peter (s)"
+    },
+    {
+      "id": "0598792324417",
+      "name": "Jörgensen, Ulrika (M)"
+    },
+    {
+      "id": "0503029811325",
+      "name": "Josefsson, David (M)"
+    },
+    {
+      "id": "0110600080618",
+      "name": "Juholt, Håkan (s)"
+    },
+    {
+      "id": "0144048894712",
+      "name": "Juntti, Ellen (M)"
+    },
+    {
+      "id": "0231938174010",
+      "name": "Jutterström, Peter (M)"
+    },
+    {
+      "id": "0871764071911",
+      "name": "Kain, Nina (SD)"
+    },
+    {
+      "id": "0990587970528",
+      "name": "Kajevic, Zinaida (S)"
+    },
+    {
+      "id": "0545353563812",
+      "name": "Kakabaveh, Amineh (-)"
+    },
+    {
+      "id": "0545353563812",
+      "name": "Kakabaveh, Amineh (v)"
+    },
+    {
+      "id": "0668060748617",
+      "name": "Käll, Stefan (FP)"
+    },
+    {
+      "id": "0283284978818",
+      "name": "Kallifatides, Markus (S)"
+    },
+    {
+      "id": "0313210809828",
+      "name": "Källström, Emil (C)"
+    },
+    {
+      "id": "0454447556218",
+      "name": "Kamil, Ismail (FP)"
+    },
+    {
+      "id": "0116084827614",
+      "name": "Kaplan, Mehmet (mp)"
+    },
+    {
+      "id": "0522240580423",
+      "name": "Karapet, Arin (M)"
+    },
+    {
+      "id": "0509830681123",
+      "name": "Karkiainen, Ida (S)"
+    },
+    {
+      "id": "0314880166319",
+      "name": "Karlsson, Agneta (S)"
+    },
+    {
+      "id": "0249730539015",
+      "name": "Karlsson, Anders (C)"
+    },
+    {
+      "id": "087735695612",
+      "name": "Karlsson, Anders (s)"
+    },
+    {
+      "id": "0199751900210",
+      "name": "Karlsson, Annelie (S)"
+    },
+    {
+      "id": "0648224557612",
+      "name": "Karlsson, Åsa (S)"
+    },
+    {
+      "id": "0779781772919",
+      "name": "Karlsson, Christina (S)"
+    },
+    {
+      "id": "0271543079118",
+      "name": "Karlsson, Heidi (SD)"
+    },
+    {
+      "id": "0883123676901",
+      "name": "Karlsson, Kjell-Erik (v)"
+    },
+    {
+      "id": "0198917587520",
+      "name": "Karlsson, Maj (V)"
+    },
+    {
+      "id": "0522054204918",
+      "name": "Karlsson, Mattias (M)"
+    },
+    {
+      "id": "0831636664429",
+      "name": "Karlsson, Mattias (SD)"
+    },
+    {
+      "id": "065105536026",
+      "name": "Karlsson, Niklas (S)"
+    },
+    {
+      "id": "0959102638818",
+      "name": "Karlsson, Roger (c)"
+    },
+    {
+      "id": "0114869877121",
+      "name": "Karlsson, Sara (S)"
+    },
+    {
+      "id": "0520793981601",
+      "name": "Karlsson, Sonia (s)"
+    },
+    {
+      "id": "0397924710612",
+      "name": "Karlsson, Ulrika (M)"
+    },
+    {
+      "id": "0600069352021",
+      "name": "Kärrholm, Fredrik (M)"
+    },
+    {
+      "id": "0425115010020",
+      "name": "Kasirga, Kadir (S)"
+    },
+    {
+      "id": "0962410717322",
+      "name": "Kayhan, Sultan (S)"
+    },
+    {
+      "id": "0515990253512",
+      "name": "Kerimo, Yilmaz (s)"
+    },
+    {
+      "id": "0296832736219",
+      "name": "Khelili Dylami, Reza (m)"
+    },
+    {
+      "id": "0731265898310",
+      "name": "Kierkemann, Marianne (m)"
+    },
+    {
+      "id": "0338278373318",
+      "name": "Kihlström, Dan (kd)"
+    },
+    {
+      "id": "0828001951212",
+      "name": "Kihlström, Ingemar (KD)"
+    },
+    {
+      "id": "012053331219",
+      "name": "Kinberg Batra, Anna (M)"
+    },
+    {
+      "id": "0294138886823",
+      "name": "Kinnunen, Martin (SD)"
+    },
+    {
+      "id": "0463606088610",
+      "name": "Kjellberg, Bertil (m)"
+    },
+    {
+      "id": "0196024739401",
+      "name": "Kjellin, Margareta B (m)"
+    },
+    {
+      "id": "0921939922800",
+      "name": "Kjörnsberg, Arne (s)"
+    },
+    {
+      "id": "0600784831409",
+      "name": "Klackenberg, Dag (M)"
+    },
+    {
+      "id": "0656591334119",
+      "name": "Klarberg, Per (SD)"
+    },
+    {
+      "id": "0708483204009",
+      "name": "Klockare, Lennart (s)"
+    },
+    {
+      "id": "0716036604716",
+      "name": "Knutsson, Elisabet (MP)"
+    },
+    {
+      "id": "0251617324715",
+      "name": "Köhler, Katarina (s)"
+    },
+    {
+      "id": "0867950366726",
+      "name": "Koliev, Faradj (S)"
+    },
+    {
+      "id": "0627722735100",
+      "name": "Kollmats, Lennart (fp)"
+    },
+    {
+      "id": "0384833975200",
+      "name": "Könberg, Bo (fp)"
+    },
+    {
+      "id": "0807866053922",
+      "name": "König Jerlmyr, Anna (m)"
+    },
+    {
+      "id": "0211726202212",
+      "name": "Kornevik Jakobsson, Maria (c)"
+    },
+    {
+      "id": "0211726202212",
+      "name": "Kornevik-Jakobsson, Maria (c)"
+    },
+    {
+      "id": "0256716955026",
+      "name": "Köse, Serkan (S)"
+    },
+    {
+      "id": "099373212513",
+      "name": "Krantz, Tobias (fp)"
+    },
+    {
+      "id": "0222691314314",
+      "name": "Kristersson, Ulf (M)"
+    },
+    {
+      "id": "0836614547702",
+      "name": "Kristiansson Karlstedt, Kerstin (s)"
+    },
+    {
+      "id": "0638497389621",
+      "name": "Kronlid, Julia (SD)"
+    },
+    {
+      "id": "0457722435319",
+      "name": "Kronståhl, Tomas (S)"
+    },
+    {
+      "id": "0271543079118",
+      "name": "Kronvall, Heidi (SD)"
+    },
+    {
+      "id": "0262124593702",
+      "name": "Kvarnström, Kurt (s)"
+    },
+    {
+      "id": "0544752215503",
+      "name": "Kvist, Kenneth (v)"
+    },
+    {
+      "id": "0825441263617",
+      "name": "Lahti, Birger (V)"
+    },
+    {
+      "id": "0348383585915",
+      "name": "Lahti, Marielle (MP)"
+    },
+    {
+      "id": "0637784834317",
+      "name": "Laitinen Carlsson, Diana (S)"
+    },
+    {
+      "id": "0904448094023",
+      "name": "Lakso, Linus (MP)"
+    },
+    {
+      "id": "0397940298012",
+      "name": "Lamell, Roger (S)"
+    },
+    {
+      "id": "0559652845303",
+      "name": "Lander, Jarl (s)"
+    },
+    {
+      "id": "0363608290410",
+      "name": "Landgren, Per (kd)"
+    },
+    {
+      "id": "0494054455310",
+      "name": "Lång, David (SD)"
+    },
+    {
+      "id": "0316979049321",
+      "name": "Längberg, Karl (S)"
+    },
+    {
+      "id": "075747847023",
+      "name": "Lantz, Gustaf (S)"
+    },
+    {
+      "id": "0479155832315",
+      "name": "Lantz, Kenneth (kd)"
+    },
+    {
+      "id": "0287864972117",
+      "name": "Larsen, Sofia (c)"
+    },
+    {
+      "id": "0773506435611",
+      "name": "Larsson, Anders (c)"
+    },
+    {
+      "id": "0685749336810",
+      "name": "Larsson, Dag (S)"
+    },
+    {
+      "id": "07776758016",
+      "name": "Larsson, Ewa (mp)"
+    },
+    {
+      "id": "0899795917517",
+      "name": "Larsson, Håkan (c)"
+    },
+    {
+      "id": "0878075468027",
+      "name": "Larsson, Hillevi (S)"
+    },
+    {
+      "id": "0544046588414",
+      "name": "Larsson, Jan-Olof (s)"
+    },
+    {
+      "id": "0449003924218",
+      "name": "Larsson, Kalle (v)"
+    },
+    {
+      "id": "0151848520718",
+      "name": "Larsson, Katja (s)"
+    },
+    {
+      "id": "0371013828421",
+      "name": "Larsson, Lars (SD)"
+    },
+    {
+      "id": "0427321850912",
+      "name": "Larsson, Lars Mejern (S)"
+    },
+    {
+      "id": "0203877548421",
+      "name": "Larsson, Malin (S)"
+    },
+    {
+      "id": "0697941234716",
+      "name": "Larsson, Margareta (-)"
+    },
+    {
+      "id": "0697941234716",
+      "name": "Larsson, Margareta (SD)"
+    },
+    {
+      "id": "0331967573912",
+      "name": "Larsson, Maria (kd)"
+    },
+    {
+      "id": "0226631365426",
+      "name": "Larsson, Mikael (C)"
+    },
+    {
+      "id": "0125036219125",
+      "name": "Larsson, Nina (fp)"
+    },
+    {
+      "id": "0156396655712",
+      "name": "Larsson, Olle (SD)"
+    },
+    {
+      "id": "0134101155612",
+      "name": "Larsson, Rikard (S)"
+    },
+    {
+      "id": "0847676507229",
+      "name": "Larsson, Stina (c)"
+    },
+    {
+      "id": "0996640018922",
+      "name": "Larsson, Yasmine (S)"
+    },
+    {
+      "id": "0985426914829",
+      "name": "Lasses, Anna (C)"
+    },
+    {
+      "id": "0448155122323",
+      "name": "Lavesson, Olof (m)"
+    },
+    {
+      "id": "0546731406922",
+      "name": "Le Moine, Rebecka (MP)"
+    },
+    {
+      "id": "0872978640827",
+      "name": "Leander, Helena (mp)"
+    },
+    {
+      "id": "0442073683012",
+      "name": "Leghissa, Zara (S)"
+    },
+    {
+      "id": "0980725315516",
+      "name": "Leijonborg, Lars (fp)"
+    },
+    {
+      "id": "0591624095901",
+      "name": "Leivik, Björn (m)"
+    },
+    {
+      "id": "0775091111217",
+      "name": "Lejon, Britta (s)"
+    },
+    {
+      "id": "0146133946627",
+      "name": "Lennkvist Manriquez, Andreas (V)"
+    },
+    {
+      "id": "0739152363302",
+      "name": "Lennmarker, Göran (m)"
+    },
+    {
+      "id": "0506541436524",
+      "name": "Lennström, Sanne (S)"
+    },
+    {
+      "id": "0890727249707",
+      "name": "Levi, Lennart (c)"
+    },
+    {
+      "id": "0750092881021",
+      "name": "Lewerentz, Joanna (M)"
+    },
+    {
+      "id": "0838085832923",
+      "name": "Lifvenhage, Ann-Sofie (M)"
+    },
+    {
+      "id": "0115057914316",
+      "name": "Lilja, Lars (s)"
+    },
+    {
+      "id": "0440673458216",
+      "name": "Liljeberg, Ulrika (C)"
+    },
+    {
+      "id": "0767503635911",
+      "name": "Liljevall, Désirée (s)"
+    },
+    {
+      "id": "0172220256016",
+      "name": "Lillemets, Annika (MP)"
+    },
+    {
+      "id": "08644719105",
+      "name": "Lilliehöök, Anna (m)"
+    },
+    {
+      "id": "0324815829026",
+      "name": "Linander, Johan (c)"
+    },
+    {
+      "id": "0888807074321",
+      "name": "Lind, Amanda (MP)"
+    },
+    {
+      "id": "0133149500010",
+      "name": "Lind, Björn (s)"
+    },
+    {
+      "id": "0557180142229",
+      "name": "Lindahl, Fredrik (SD)"
+    },
+    {
+      "id": "084624777218",
+      "name": "Lindahl, Helena (C)"
+    },
+    {
+      "id": "0916145693524",
+      "name": "Lindberg, Camilla (fp)"
+    },
+    {
+      "id": "0433422973328",
+      "name": "Lindberg, Kristoffer (S)"
+    },
+    {
+      "id": "0430865615328",
+      "name": "Lindberg, Linda (SD)"
+    },
+    {
+      "id": "0634013303818",
+      "name": "Lindberg, Niclas (s)"
+    },
+    {
+      "id": "0559925283228",
+      "name": "Lindberg, Teres (S)"
+    },
+    {
+      "id": "0870805820217",
+      "name": "Lindblad, Göran (m)"
+    },
+    {
+      "id": "0371414788216",
+      "name": "Lindblad, Lars (m)"
+    },
+    {
+      "id": "0901257862125",
+      "name": "Linde, Hans (v)"
+    },
+    {
+      "id": "0397377293714",
+      "name": "Lindell, Göran (C)"
+    },
+    {
+      "id": "0393583311409",
+      "name": "Lindén, Lars (kd)"
+    },
+    {
+      "id": "0479638936816",
+      "name": "Lindén, Rolf (s)"
+    },
+    {
+      "id": "0612837785809",
+      "name": "Linderoth, Curt (m)"
+    },
+    {
+      "id": "0252067342313",
+      "name": "Lindestam, Åsa (s)"
+    },
+    {
+      "id": "0869873635602",
+      "name": "Lindgren, Anna (m)"
+    },
+    {
+      "id": "0481005050915",
+      "name": "Lindgren, Else-Marie (kd)"
+    },
+    {
+      "id": "0977023188809",
+      "name": "Lindgren, Sylvia (s)"
+    },
+    {
+      "id": "0499497337518",
+      "name": "Lindgren, Ulrik (kd)"
+    },
+    {
+      "id": "0780214960516",
+      "name": "Lindh, Eva (S)"
+    },
+    {
+      "id": "062367962120",
+      "name": "Lindhagen, Åsa (MP)"
+    },
+    {
+      "id": "0641486384014",
+      "name": "Lindholm, Jan (mp)"
+    },
+    {
+      "id": "0591020192311",
+      "name": "Lindholm, Ulf (SD)"
+    },
+    {
+      "id": "0526129317828",
+      "name": "Lindholm, Veronica (S)"
+    },
+    {
+      "id": "0252641216303",
+      "name": "Lindkvist, Britt-Marie (s)"
+    },
+    {
+      "id": "0932188207010",
+      "name": "Lindström, Leif (V)"
+    },
+    {
+      "id": "0914994510206",
+      "name": "Lindström, Lolo (M)"
+    },
+    {
+      "id": "0892215792827",
+      "name": "Lindström, Torsten (kd)"
+    },
+    {
+      "id": "0598053101129",
+      "name": "Lindvall, David (S)"
+    },
+    {
+      "id": "0744139167426",
+      "name": "Ling, Rasmus (MP)"
+    },
+    {
+      "id": "0972254695405",
+      "name": "Linna, Elina (v)"
+    },
+    {
+      "id": "0274462857213",
+      "name": "Löberg, Petter (s)"
+    },
+    {
+      "id": "0363721826713",
+      "name": "Lodenius, Per (C)"
+    },
+    {
+      "id": "0737073162411",
+      "name": "Löfdahl Landberg, Emma (fp)"
+    },
+    {
+      "id": "0285612919302",
+      "name": "Löfgren, Ulla (m)"
+    },
+    {
+      "id": "0538404901718",
+      "name": "Löfsjögård, Malin (m)"
+    },
+    {
+      "id": "0612916684825",
+      "name": "Löfstrand, Johan (s)"
+    },
+    {
+      "id": "0150664940102",
+      "name": "Lohman, Eva (M)"
+    },
+    {
+      "id": "0998575875190",
+      "name": "Lönn, Daniel (SD)"
+    },
+    {
+      "id": "0150027900515",
+      "name": "Lönnberg, Anders (S)"
+    },
+    {
+      "id": "0630993685307",
+      "name": "Lönnberg, Ulf (KD)"
+    },
+    {
+      "id": "0586690122908",
+      "name": "Lönnroth, Johan (v)"
+    },
+    {
+      "id": "0862868280923",
+      "name": "Lööf, Annie (C)"
+    },
+    {
+      "id": "0736867676621",
+      "name": "Loord, Jimmy (KD)"
+    },
+    {
+      "id": "0705556766027",
+      "name": "López, Karla (mp)"
+    },
+    {
+      "id": "0441279609311",
+      "name": "Lövendahl, Torbjörn (s)"
+    },
+    {
+      "id": "0846730583715",
+      "name": "Lövgren, Monika (SD)"
+    },
+    {
+      "id": "0708565346310",
+      "name": "Ludvigsson, Anne (s)"
+    },
+    {
+      "id": "0210444373111",
+      "name": "Luhr, Katarina (MP)"
+    },
+    {
+      "id": "0358514648113",
+      "name": "Lund Kopparklint, Marléne (M)"
+    },
+    {
+      "id": "0957794828205",
+      "name": "Lundberg, Agneta (s)"
+    },
+    {
+      "id": "02658325625",
+      "name": "Lundberg, Angelica (SD)"
+    },
+    {
+      "id": "0534173087404",
+      "name": "Lundberg, Carin (s)"
+    },
+    {
+      "id": "0512424416400",
+      "name": "Lundberg, Inger (s)"
+    },
+    {
+      "id": "0979018047922",
+      "name": "Lunderquist, Kajsa (M)"
+    },
+    {
+      "id": "0537484650407",
+      "name": "Lundgren, Bo (m)"
+    },
+    {
+      "id": "089246126523",
+      "name": "Lundgren, Elin (S)"
+    },
+    {
+      "id": "0155487380917",
+      "name": "Lundgren, Kerstin (c)"
+    },
+    {
+      "id": "0911916463828",
+      "name": "Lundh Sammeli, Fredrik (s)"
+    },
+    {
+      "id": "0911916463828",
+      "name": "Lundh, Fredrik (s)"
+    },
+    {
+      "id": "0240128497814",
+      "name": "Lundqvist-Brömster, Maria (fp)"
+    },
+    {
+      "id": "0418929039326",
+      "name": "Lundqvist, Patrik (S)"
+    },
+    {
+      "id": "0829600202519",
+      "name": "Lundström, Anna-Karin (s)"
+    },
+    {
+      "id": "0541320528015",
+      "name": "Lundström, Nina (FP)"
+    },
+    {
+      "id": "0541320528015",
+      "name": "Lundström, Nina (L)"
+    },
+    {
+      "id": "0489096664719",
+      "name": "Lundström, Sten (v)"
+    },
+    {
+      "id": "0919433006307",
+      "name": "Luttropp, Agneta (MP)"
+    },
+    {
+      "id": "0910587614018",
+      "name": "M. Enow, Mohamoud (M)"
+    },
+    {
+      "id": "0448973586529",
+      "name": "Magnusson, Adrian (S)"
+    },
+    {
+      "id": "0522460069116",
+      "name": "Magnusson, Cecilia (m)"
+    },
+    {
+      "id": "0502770250503",
+      "name": "Magnusson, Göran (s)"
+    },
+    {
+      "id": "0766496753128",
+      "name": "Malm, Fredrik (fp)"
+    },
+    {
+      "id": "0766496753128",
+      "name": "Malm, Fredrik (L)"
+    },
+    {
+      "id": "0547818628111",
+      "name": "Malmberg, Betty (m)"
+    },
+    {
+      "id": "0373223420310",
+      "name": "Malmberg, Niclas (MP)"
+    },
+    {
+      "id": "0572788110724",
+      "name": "Malmer Stenergard, Maria (M)"
+    },
+    {
+      "id": "019430605328",
+      "name": "Malmqvist, Josefin (M)"
+    },
+    {
+      "id": "0203334943718",
+      "name": "Malmström, Louise (s)"
+    },
+    {
+      "id": "025967059622",
+      "name": "Manhammar, Magnus (S)"
+    },
+    {
+      "id": "0793372891224",
+      "name": "Manouchi, Noria (M)"
+    },
+    {
+      "id": "0500946976511",
+      "name": "Marcelind, Ragnwi (kd)"
+    },
+    {
+      "id": "0683297678211",
+      "name": "Markström, Elisebeht (s)"
+    },
+    {
+      "id": "0389795960120",
+      "name": "Marmgren, Martin (MP)"
+    },
+    {
+      "id": "0397073482210",
+      "name": "Mårtensen, Camilla (L)"
+    },
+    {
+      "id": "0831039938224",
+      "name": "Marttinen, Adam (SD)"
+    },
+    {
+      "id": "0616721755222",
+      "name": "Meijer, Louise (M)"
+    },
+    {
+      "id": "0427321850912",
+      "name": "Mejern Larsson, Lars (s)"
+    },
+    {
+      "id": "0576122429317",
+      "name": "Melin, Martin (L)"
+    },
+    {
+      "id": "0576619284416",
+      "name": "Melki, Aphram (C)"
+    },
+    {
+      "id": "0165732384110",
+      "name": "Messing, Ulrica (s)"
+    },
+    {
+      "id": "0387358739126",
+      "name": "Millard, Jonas (SD)"
+    },
+    {
+      "id": "048561486727",
+      "name": "Mixter, Isabell (V)"
+    },
+    {
+      "id": "0624994476012",
+      "name": "Mizimovic, Nermina (S)"
+    },
+    {
+      "id": "0824721092613",
+      "name": "Moberg, Carina (s)"
+    },
+    {
+      "id": "0680329141121",
+      "name": "Modig, Aron (KD)"
+    },
+    {
+      "id": "0238095659621",
+      "name": "Modig, Linda (C)"
+    },
+    {
+      "id": "0687163544710",
+      "name": "Modigh, Sofia (KD)"
+    },
+    {
+      "id": "0940558892720",
+      "name": "Mohamed Abdirahman, Mubarik (S)"
+    },
+    {
+      "id": "0271338654822",
+      "name": "Möller, Ola (S)"
+    },
+    {
+      "id": "0254695027922",
+      "name": "Momodou Jallow, Malcolm (V)"
+    },
+    {
+      "id": "0248883870202",
+      "name": "Montan, Göran (m)"
+    },
+    {
+      "id": "0880018341619",
+      "name": "Morell, Thomas (SD)"
+    },
+    {
+      "id": "080633830413",
+      "name": "Mouneimne, Jamal (S)"
+    },
+    {
+      "id": "019625586527",
+      "name": "Munkhammar, Johnny (M)"
+    },
+    {
+      "id": "0803790353229",
+      "name": "Muranovic, Azra (S)"
+    },
+    {
+      "id": "0280087199210",
+      "name": "Mutt, Valter (MP)"
+    },
+    {
+      "id": "0699787174310",
+      "name": "N Hedström, Lotta (mp)"
+    },
+    {
+      "id": "0511863596121",
+      "name": "Nådin, Erica (S)"
+    },
+    {
+      "id": "0619928872229",
+      "name": "Naraghi, Laila (S)"
+    },
+    {
+      "id": "0283009944701",
+      "name": "Narti, Ana Maria (fp)"
+    },
+    {
+      "id": "0639398547124",
+      "name": "Nasr, Bassem (MP)"
+    },
+    {
+      "id": "0468775142013",
+      "name": "Nenes, Christina (s)"
+    },
+    {
+      "id": "0749416304126",
+      "name": "Nicholson, Marie (M)"
+    },
+    {
+      "id": "0752691002718",
+      "name": "Niemi, Pyry (S)"
+    },
+    {
+      "id": "0247856302113",
+      "name": "Nihlén, Thomas (mp)"
+    },
+    {
+      "id": "0992604658114",
+      "name": "Nilsson Wigström, Cecilia (fp)"
+    },
+    {
+      "id": "0653578338415",
+      "name": "Nilsson, Agneta (S)"
+    },
+    {
+      "id": "0950203660913",
+      "name": "Nilsson, Annika (s)"
+    },
+    {
+      "id": "0761548559113",
+      "name": "Nilsson, Christin (s)"
+    },
+    {
+      "id": "012547905113",
+      "name": "Nilsson, Christina (SD)"
+    },
+    {
+      "id": "0955635879822",
+      "name": "Nilsson, Dan (s)"
+    },
+    {
+      "id": "011548866929",
+      "name": "Nilsson, Elin (L)"
+    },
+    {
+      "id": "0568055205114",
+      "name": "Nilsson, Gustav (m)"
+    },
+    {
+      "id": "0208558695314",
+      "name": "Nilsson, Ingemar (S)"
+    },
+    {
+      "id": "0339894357417",
+      "name": "Nilsson, Jennie (S)"
+    },
+    {
+      "id": "0807438844115",
+      "name": "Nilsson, Karin (c)"
+    },
+    {
+      "id": "0905637653912",
+      "name": "Nilsson, Kerstin (S)"
+    },
+    {
+      "id": "0779781772919",
+      "name": "Nilsson, Kristina (S)"
+    },
+    {
+      "id": "0446973363306",
+      "name": "Nilsson, Lennart (s)"
+    },
+    {
+      "id": "0228167770927",
+      "name": "Nilsson, Maria (L)"
+    },
+    {
+      "id": "0529963707818",
+      "name": "Nilsson, Martin (s)"
+    },
+    {
+      "id": "0797642182211",
+      "name": "Nilsson, Mats G (m)"
+    },
+    {
+      "id": "0186989169008",
+      "name": "Nilsson, Nils Oskar (m)"
+    },
+    {
+      "id": "0460690753617",
+      "name": "Nilsson, Pia (S)"
+    },
+    {
+      "id": "088327461512",
+      "name": "Nilsson, Rolf K (m)"
+    },
+    {
+      "id": "0454698803028",
+      "name": "Nilsson, Sofia (C)"
+    },
+    {
+      "id": "0791649913415",
+      "name": "Nilsson, Stefan (-)"
+    },
+    {
+      "id": "0791649913415",
+      "name": "Nilsson, Stefan (MP)"
+    },
+    {
+      "id": "0797281536419",
+      "name": "Nilsson, Tomas (S)"
+    },
+    {
+      "id": "0542573140300",
+      "name": "Nilsson, Ulf (fp)"
+    },
+    {
+      "id": "0410640630411",
+      "name": "Nilsson, Ulrik (M)"
+    },
+    {
+      "id": "0671881934227",
+      "name": "Nissinen, Johan (SD)"
+    },
+    {
+      "id": "0880137451720",
+      "name": "Nohrén, Emma (MP)"
+    },
+    {
+      "id": "0365748677411",
+      "name": "Nordberg, Mats (SD)"
+    },
+    {
+      "id": "0723133822026",
+      "name": "Nordblom, Carl (M)"
+    },
+    {
+      "id": "0961483563503",
+      "name": "Nordborg, Gudrun (V)"
+    },
+    {
+      "id": "0125056691517",
+      "name": "Nordell, Lars-Axel (kd)"
+    },
+    {
+      "id": "0291542732518",
+      "name": "Nordén, Marie (s)"
+    },
+    {
+      "id": "0285527517421",
+      "name": "Nordengrip, Caroline (SD)"
+    },
+    {
+      "id": "0192918410514",
+      "name": "Nordgren, Gunilla (M)"
+    },
+    {
+      "id": "0828198456420",
+      "name": "Nordin, Lise (MP)"
+    },
+    {
+      "id": "0132818093422",
+      "name": "Nordin, Rickard (C)"
+    },
+    {
+      "id": "0654147472012",
+      "name": "Nordin, Sten (m)"
+    },
+    {
+      "id": "0320950917801",
+      "name": "Nordlander, Inger (s)"
+    },
+    {
+      "id": "0442872782509",
+      "name": "Nordlund, Harald (fp)"
+    },
+    {
+      "id": "0115607185214",
+      "name": "Nordmark, Gunnar (fp)"
+    },
+    {
+      "id": "0976656359110",
+      "name": "Nordquist, Kaj (s)"
+    },
+    {
+      "id": "0161616238120",
+      "name": "Nordquist, Lina (L)"
+    },
+    {
+      "id": "0427695165918",
+      "name": "Nordqvist, Kew (MP)"
+    },
+    {
+      "id": "0834510274913",
+      "name": "Nordström, Charlotte (M)"
+    },
+    {
+      "id": "0766285636614",
+      "name": "Nordström, Kjell (s)"
+    },
+    {
+      "id": "0611350076611",
+      "name": "Nordström, Susanne (M)"
+    },
+    {
+      "id": "023451344303",
+      "name": "Norinder, Patrik (m)"
+    },
+    {
+      "id": "0698463786600",
+      "name": "Norlander, Göran (s)"
+    },
+    {
+      "id": "0585684563812",
+      "name": "Norlén, Andreas (m)"
+    },
+    {
+      "id": "0301987597720",
+      "name": "Norlin, Liza-Maria (kd)"
+    },
+    {
+      "id": "0523902030928",
+      "name": "Nouri, Aylin (S)"
+    },
+    {
+      "id": "0178667655211",
+      "name": "Noyan, Edip (M)"
+    },
+    {
+      "id": "0138450838510",
+      "name": "Nuder, Pär (s)"
+    },
+    {
+      "id": "0768554866215",
+      "name": "Nyberg, Katja (SD)"
+    },
+    {
+      "id": "0731442709013",
+      "name": "Nylander, Christer (fp)"
+    },
+    {
+      "id": "0731442709013",
+      "name": "Nylander, Christer (L)"
+    },
+    {
+      "id": "0313390540217",
+      "name": "Nylund Watz, Ingela (S)"
+    },
+    {
+      "id": "019331401512",
+      "name": "Nylund, Anna-Karin (s)"
+    },
+    {
+      "id": "0376353897112",
+      "name": "Nysmed, Leif (S)"
+    },
+    {
+      "id": "013162757105",
+      "name": "Nyström, Elizabeth (m)"
+    },
+    {
+      "id": "0747852417614",
+      "name": "Öberg, Maria (s)"
+    },
+    {
+      "id": "0732677378827",
+      "name": "Obminska, Marta (M)"
+    },
+    {
+      "id": "02910042914",
+      "name": "Ödebrink, Carina (S)"
+    },
+    {
+      "id": "0837462035506",
+      "name": "Ödeen, Lena (fp)"
+    },
+    {
+      "id": "0700424025906",
+      "name": "Odell, Mats (kd)"
+    },
+    {
+      "id": "0483316376813",
+      "name": "Odenberg, Mikael (m)"
+    },
+    {
+      "id": "0214849275619",
+      "name": "Ödmann, Christopher (mp)"
+    },
+    {
+      "id": "0625199891029",
+      "name": "Öfverbeck, Johanna (MP)"
+    },
+    {
+      "id": "0404025497421",
+      "name": "Ohlsson, Birgitta (fp)"
+    },
+    {
+      "id": "0404025497421",
+      "name": "Ohlsson, Birgitta (L)"
+    },
+    {
+      "id": "0859968278117",
+      "name": "Ohlsson, Carina (S)"
+    },
+    {
+      "id": "0371688419616",
+      "name": "Ohly, Lars (v)"
+    },
+    {
+      "id": "0368245926011",
+      "name": "Öhman, Conny (s)"
+    },
+    {
+      "id": "084677425329",
+      "name": "Öholm, Oskar (m)"
+    },
+    {
+      "id": "0751280022025",
+      "name": "Ojanne, Alexander (S)"
+    },
+    {
+      "id": "0323000187920",
+      "name": "Olame Bayibsa, Solange (S)"
+    },
+    {
+      "id": "0875425244515",
+      "name": "Olander, Ronny (s)"
+    },
+    {
+      "id": "0380453403808",
+      "name": "Olauson, Britt (s)"
+    },
+    {
+      "id": "0345062474310",
+      "name": "Olin, Mona (SD)"
+    },
+    {
+      "id": "0191189790215",
+      "name": "Ollén, Peter (M)"
+    },
+    {
+      "id": "0409655917321",
+      "name": "Olofsgård, Jakob (L)"
+    },
+    {
+      "id": "0902086611116",
+      "name": "Olofsson, Eva (v)"
+    },
+    {
+      "id": "0563922839001",
+      "name": "Olofsson, Katarina (SD)"
+    },
+    {
+      "id": "0356767744510",
+      "name": "Olofsson, Maud (c)"
+    },
+    {
+      "id": "0653904370212",
+      "name": "Olovsson, Fredrik (s)"
+    },
+    {
+      "id": "0655418111118",
+      "name": "Olsen, Laila (S)"
+    },
+    {
+      "id": "0456305921813",
+      "name": "Olsson, Hans (s)"
+    },
+    {
+      "id": "0514469375718",
+      "name": "Olsson, Ingrid (s)"
+    },
+    {
+      "id": "0472349361027",
+      "name": "Olsson, Kalle (S)"
+    },
+    {
+      "id": "046703152205",
+      "name": "Olsson, Kent (m)"
+    },
+    {
+      "id": "0615338062910",
+      "name": "Olsson, Lena (v)"
+    },
+    {
+      "id": "0835507837915",
+      "name": "Olsson, LiseLotte (v)"
+    },
+    {
+      "id": "066769783310",
+      "name": "Olsson, Lotta (M)"
+    },
+    {
+      "id": "010392780417",
+      "name": "Olsson, Marie (S)"
+    },
+    {
+      "id": "0114065053815",
+      "name": "Olsson, Rolf (v)"
+    },
+    {
+      "id": "0222102752213",
+      "name": "Olsson, Stefan (M)"
+    },
+    {
+      "id": "043972220518",
+      "name": "Omanovic, Jasenko (S)"
+    },
+    {
+      "id": "05634168328",
+      "name": "Örbrink, Nike (KD)"
+    },
+    {
+      "id": "0279385965920",
+      "name": "Oretorp, Kristin (c)"
+    },
+    {
+      "id": "0987246082523",
+      "name": "Örn, Paula (S)"
+    },
+    {
+      "id": "0266517781926",
+      "name": "Örnebjär, Christina (FP)"
+    },
+    {
+      "id": "0266517781926",
+      "name": "Örnebjär, Christina (L)"
+    },
+    {
+      "id": "0573136138218",
+      "name": "Örnfjäder, Krister (s)"
+    },
+    {
+      "id": "0792733370419",
+      "name": "Oscarsson, Magnus (KD)"
+    },
+    {
+      "id": "0973782197017",
+      "name": "Oscarsson, Mikael (KD)"
+    },
+    {
+      "id": "042413114103",
+      "name": "Oskarsson, Anne (SD)"
+    },
+    {
+      "id": "0468775142013",
+      "name": "Oskarsson, Christina (s)"
+    },
+    {
+      "id": "0743081365718",
+      "name": "Oskarsson, Irene (kd)"
+    },
+    {
+      "id": "0228907110117",
+      "name": "Osman Sherifay, Mariam (s)"
+    },
+    {
+      "id": "0827298177012",
+      "name": "Östberg Svanelind, Maria (s)"
+    },
+    {
+      "id": "0325462829512",
+      "name": "Östberg, Christina (SD)"
+    },
+    {
+      "id": "0277648711624",
+      "name": "Österberg, Anders (S)"
+    },
+    {
+      "id": "0714307225418",
+      "name": "Österberg, Sven-Erik (s)"
+    },
+    {
+      "id": "0246624521815",
+      "name": "Östring Bergman, Karin (C)"
+    },
+    {
+      "id": "0977281927618",
+      "name": "Östros, Thomas (s)"
+    },
+    {
+      "id": "0832311880029",
+      "name": "Ottoson, Erik (M)"
+    },
+    {
+      "id": "0509415296421",
+      "name": "Ottosson, Kjell-Arne (KD)"
+    },
+    {
+      "id": "0860364634014",
+      "name": "Ottosson, Mattias (S)"
+    },
+    {
+      "id": "0283117091429",
+      "name": "Öz, Emanuel (S)"
+    },
+    {
+      "id": "0229825314217",
+      "name": "Özürküt, Sermin (v)"
+    },
+    {
+      "id": "0587736055221",
+      "name": "Paarup-Petersen, Niels (C)"
+    },
+    {
+      "id": "0888126424314",
+      "name": "Pagrotsky, Leif (s)"
+    },
+    {
+      "id": "0548314774911",
+      "name": "Palm, Veronica (s)"
+    },
+    {
+      "id": "091303475611",
+      "name": "Palmqvist, Eric (SD)"
+    },
+    {
+      "id": "0999976269027",
+      "name": "Palmstierna, Amanda (MP)"
+    },
+    {
+      "id": "0377384542907",
+      "name": "Pålsson Ahlgren, Chatrine (kd)"
+    },
+    {
+      "id": "0906365922712",
+      "name": "Pålsson, Anne-Marie (m)"
+    },
+    {
+      "id": "0377384542907",
+      "name": "Pålsson, Chatrine (kd)"
+    },
+    {
+      "id": "039655712615",
+      "name": "Pålsson, Margareta (m)"
+    },
+    {
+      "id": "0899701619804",
+      "name": "Papadopoulos, Nikos (s)"
+    },
+    {
+      "id": "0113077554312",
+      "name": "Pärssinen, Raimo (S)"
+    },
+    {
+      "id": "0996373560505",
+      "name": "Patriksson, Runar (fp)"
+    },
+    {
+      "id": "0556347007015",
+      "name": "Pedersen, Peter (v)"
+    },
+    {
+      "id": "0224712677012",
+      "name": "Pehrson, Johan (fp)"
+    },
+    {
+      "id": "0224712677012",
+      "name": "Pehrson, Johan (L)"
+    },
+    {
+      "id": "0119851690521",
+      "name": "Perez, David (SD)"
+    },
+    {
+      "id": "0903751303011",
+      "name": "Persson, Catherine (s)"
+    },
+    {
+      "id": "0340418158820",
+      "name": "Persson, Daniel (SD)"
+    },
+    {
+      "id": "0780069612618",
+      "name": "Persson, Göran (s)"
+    },
+    {
+      "id": "0825004049003",
+      "name": "Persson, Göran (s)"
+    },
+    {
+      "id": "0124035957411",
+      "name": "Persson, Kent (v)"
+    },
+    {
+      "id": "0641953830512",
+      "name": "Persson, Magnus (SD)"
+    },
+    {
+      "id": "0213183979300",
+      "name": "Persson, Margareta (s)"
+    },
+    {
+      "id": "023767922422",
+      "name": "Persson, Mats (FP)"
+    },
+    {
+      "id": "023767922422",
+      "name": "Persson, Mats (L)"
+    },
+    {
+      "id": "0903307301618",
+      "name": "Persson, Peter (S)"
+    },
+    {
+      "id": "0709749259417",
+      "name": "Persson, Rickard (MP)"
+    },
+    {
+      "id": "0758217192418",
+      "name": "Persson, Sven Gunnar (kd)"
+    },
+    {
+      "id": "0114769874810",
+      "name": "Persson, Sven Yngve (m)"
+    },
+    {
+      "id": "0488357052317",
+      "name": "Pertoft, Mats (mp)"
+    },
+    {
+      "id": "0797352642914",
+      "name": "Peterson, Mikael (S)"
+    },
+    {
+      "id": "0358278412329",
+      "name": "Petersson, Björn (S)"
+    },
+    {
+      "id": "0617957067613",
+      "name": "Petersson, Helene (s)"
+    },
+    {
+      "id": "0176437434123",
+      "name": "Petersson, Jenny (M)"
+    },
+    {
+      "id": "0860429409414",
+      "name": "Pethrus Engström, Désirée (kd)"
+    },
+    {
+      "id": "0860429409414",
+      "name": "Pethrus, Désirée (KD)"
+    },
+    {
+      "id": "0558039843819",
+      "name": "Pettersson, Göran (M)"
+    },
+    {
+      "id": "0103624617217",
+      "name": "Pettersson, Helén (s)"
+    },
+    {
+      "id": "0365797008114",
+      "name": "Pettersson, Leif (S)"
+    },
+    {
+      "id": "0235326752716",
+      "name": "Pettersson, Lennart (c)"
+    },
+    {
+      "id": "0341628241813",
+      "name": "Pettersson, Marianne (S)"
+    },
+    {
+      "id": "0747667590310",
+      "name": "Pettersson, Marina (s)"
+    },
+    {
+      "id": "0627371646324",
+      "name": "Petzäll, William (-)"
+    },
+    {
+      "id": "0627371646324",
+      "name": "Petzäll, William (SD)"
+    },
+    {
+      "id": "0405594274208",
+      "name": "Pihl Krabbe, Ewa (S)"
+    },
+    {
+      "id": "0101299073819",
+      "name": "Pilsäter, Karin (fp)"
+    },
+    {
+      "id": "0791786201912",
+      "name": "Plass, Maria (M)"
+    },
+    {
+      "id": "0503363679811",
+      "name": "Plath, Stefan (SD)"
+    },
+    {
+      "id": "0630824497414",
+      "name": "Polfjärd, Jessica (m)"
+    },
+    {
+      "id": "0468765214727",
+      "name": "Posio Nilsson, Yasmine (V)"
+    },
+    {
+      "id": "0468765214727",
+      "name": "Posio, Yasmine (V)"
+    },
+    {
+      "id": "0125165702713",
+      "name": "Pourbaix-Lundin, Marietta (m)"
+    },
+    {
+      "id": "0227531635413",
+      "name": "Püss, Lars (M)"
+    },
+    {
+      "id": "0184153884114",
+      "name": "Puustinen, Jari (M)"
+    },
+    {
+      "id": "0962841101917",
+      "name": "Qarlsson, Annika (c)"
+    },
+    {
+      "id": "0456680171315",
+      "name": "Quensel, Charlotte (SD)"
+    },
+    {
+      "id": "0519740099915",
+      "name": "Quicklund, Saila (M)"
+    },
+    {
+      "id": "0781648625615",
+      "name": "Rådberg, Peter (mp)"
+    },
+    {
+      "id": "0946889218011",
+      "name": "Rådhström, Jan-Evert (m)"
+    },
+    {
+      "id": "0267085997926",
+      "name": "Rådström Baastad, Lena (S)"
+    },
+    {
+      "id": "0741187745315",
+      "name": "Rådström, Britta (s)"
+    },
+    {
+      "id": "071293048118",
+      "name": "Ragnarsson, Thomas (M)"
+    },
+    {
+      "id": "0246927519019",
+      "name": "Rågsjö, Karin (V)"
+    },
+    {
+      "id": "0671241874717",
+      "name": "Rahm, Elisabeth (M)"
+    },
+    {
+      "id": "0970607693429",
+      "name": "Rahm, Lage (mp)"
+    },
+    {
+      "id": "0783069490115",
+      "name": "Räihä, Mirja (S)"
+    },
+    {
+      "id": "0925652297119",
+      "name": "Ramhorn, Per (SD)"
+    },
+    {
+      "id": "0663840649717",
+      "name": "Rangdag, Anette (SD)"
+    },
+    {
+      "id": "0709911904721",
+      "name": "Rantsi, Johanna (M)"
+    },
+    {
+      "id": "0837501934208",
+      "name": "Rask, Ola (s)"
+    },
+    {
+      "id": "0710022029620",
+      "name": "Rasmusson, Magda (MP)"
+    },
+    {
+      "id": "037561614928",
+      "name": "Redar, Lawen (S)"
+    },
+    {
+      "id": "0938901612810",
+      "name": "Reinfeldt, Fredrik (m)"
+    },
+    {
+      "id": "0388920259006",
+      "name": "René, Inger (m)"
+    },
+    {
+      "id": "0523880046118",
+      "name": "Renström, Yoomi (s)"
+    },
+    {
+      "id": "074310796828",
+      "name": "Resare, Magnus (M)"
+    },
+    {
+      "id": "0182190010218",
+      "name": "Reshdouni, Esabelle (mp)"
+    },
+    {
+      "id": "0545733815610",
+      "name": "Reslow, Patrick (-)"
+    },
+    {
+      "id": "0545733815610",
+      "name": "Reslow, Patrick (M)"
+    },
+    {
+      "id": "0545733815610",
+      "name": "Reslow, Patrick (SD)"
+    },
+    {
+      "id": "04571388712",
+      "name": "Reuterskiöld, Adam (M)"
+    },
+    {
+      "id": "0326963110315",
+      "name": "Rheyneuclaudes Kihlman, Anna (M)"
+    },
+    {
+      "id": "07012286624",
+      "name": "Riazat, Daniel (V)"
+    },
+    {
+      "id": "0145294944502",
+      "name": "Richthoff, Roger (-)"
+    },
+    {
+      "id": "0145294944502",
+      "name": "Richthoff, Roger (SD)"
+    },
+    {
+      "id": "0145294944502",
+      "name": "Richtoff, Roger (SD)"
+    },
+    {
+      "id": "0273506284025",
+      "name": "Riedl, Edward (M)"
+    },
+    {
+      "id": "0184968091618",
+      "name": "Riise, Jan (MP)"
+    },
+    {
+      "id": "0302393368216",
+      "name": "Rinaldo Miller, Camilla (KD)"
+    },
+    {
+      "id": "0552112259207",
+      "name": "Ringholm, Bosse (s)"
+    },
+    {
+      "id": "0698785853314",
+      "name": "Ringman, Agneta (s)"
+    },
+    {
+      "id": "0285352171912",
+      "name": "Ripa, Henrik (M)"
+    },
+    {
+      "id": "0604604418610",
+      "name": "Risberg, Jacob (MP)"
+    },
+    {
+      "id": "0478371872009",
+      "name": "Rivière, Helena (m)"
+    },
+    {
+      "id": "0855286184126",
+      "name": "Rodén, Jessica (S)"
+    },
+    {
+      "id": "0591055036519",
+      "name": "Rojas, Mauricio (fp)"
+    },
+    {
+      "id": "0591055036519",
+      "name": "Rojas, Mauricio (L)"
+    },
+    {
+      "id": "0474290584024",
+      "name": "Rojhan Gustafsson, Azadeh (S)"
+    },
+    {
+      "id": "0474290584024",
+      "name": "Rojhan, Azadeh (S)"
+    },
+    {
+      "id": "0279360042003",
+      "name": "Romanus, Gabriel (fp)"
+    },
+    {
+      "id": "0951854268017",
+      "name": "Romson, Åsa (MP)"
+    },
+    {
+      "id": "0926477102420",
+      "name": "Rönn, Cecilia (L)"
+    },
+    {
+      "id": "0771287795114",
+      "name": "Rönnmark, Marie-Louise (S)"
+    },
+    {
+      "id": "0381853591928",
+      "name": "Roos, Malte (MP)"
+    },
+    {
+      "id": "0992420223820",
+      "name": "Rosencrantz, Jessica (M)"
+    },
+    {
+      "id": "039102787629",
+      "name": "Rosengren, Oliver (M)"
+    },
+    {
+      "id": "0681085425612",
+      "name": "Rosengren, Per (v)"
+    },
+    {
+      "id": "0702674089702",
+      "name": "Roslund, Carl-Axel (m)"
+    },
+    {
+      "id": "0718034011110",
+      "name": "Roswall, Jessika (M)"
+    },
+    {
+      "id": "0844246115721",
+      "name": "Roszkowska Öberg, Eliza (m)"
+    },
+    {
+      "id": "0409540163215",
+      "name": "Rothenberg, Hans (m)"
+    },
+    {
+      "id": "0267143098400",
+      "name": "Roxbergh, Claes (mp)"
+    },
+    {
+      "id": "0694917698222",
+      "name": "Rubbestad, Michael (SD)"
+    },
+    {
+      "id": "0504073787702",
+      "name": "Rubenson, Björn (KD)"
+    },
+    {
+      "id": "0662032691523",
+      "name": "Rud Pedersen, Amalia (S)"
+    },
+    {
+      "id": "0574724112206",
+      "name": "Runegrund, Rosita (kd)"
+    },
+    {
+      "id": "0502174718806",
+      "name": "Runeson, Carin (s)"
+    },
+    {
+      "id": "0332753845811",
+      "name": "Ruwaida, Yvonne (mp)"
+    },
+    {
+      "id": "0938171000810",
+      "name": "Rydell, Annette (S)"
+    },
+    {
+      "id": "0235494367806",
+      "name": "Saarinen, Ingegerd (mp)"
+    },
+    {
+      "id": "0802373156815",
+      "name": "Sabuni, Nyamko (fp)"
+    },
+    {
+      "id": "0577400273410",
+      "name": "Sachet, Ameer (s)"
+    },
+    {
+      "id": "0925968558417",
+      "name": "Sacrédeus, Lennart (kd)"
+    },
+    {
+      "id": "0476457225115",
+      "name": "Sahlberg, Pär Axel (s)"
+    },
+    {
+      "id": "0806338394516",
+      "name": "Sahlin, Mona (s)"
+    },
+    {
+      "id": "0772402807013",
+      "name": "Sällström, Sven Olof (SD)"
+    },
+    {
+      "id": "0772402807013",
+      "name": "Sällström, Sven-Olof (SD)"
+    },
+    {
+      "id": "0483306984615",
+      "name": "Samuelson, Björn (M)"
+    },
+    {
+      "id": "0900533740700",
+      "name": "Samuelsson, Marianne (mp)"
+    },
+    {
+      "id": "0900815713419",
+      "name": "Sandahl, Olle (kd)"
+    },
+    {
+      "id": "0103812031214",
+      "name": "Sandberg, Gunnar (s)"
+    },
+    {
+      "id": "0376395541120",
+      "name": "Sandell, Joakim (S)"
+    },
+    {
+      "id": "0150200797210",
+      "name": "Sander, Mats (m)"
+    },
+    {
+      "id": "0206034257412",
+      "name": "Sandgren, Jacob (S)"
+    },
+    {
+      "id": "0213183979300",
+      "name": "Sandgren, Margareta (s)"
+    },
+    {
+      "id": "0883183598315",
+      "name": "Sandlin-Hedman, Lena (s)"
+    },
+    {
+      "id": "0697941234716",
+      "name": "Sandstedt, Margareta (SD)"
+    },
+    {
+      "id": "0590881101608",
+      "name": "Sandström, Åke (c)"
+    },
+    {
+      "id": "0883392691612",
+      "name": "Särnblad Stoors, Anneli (s)"
+    },
+    {
+      "id": "0883392691612",
+      "name": "Särnblad, Anneli (s)"
+    },
+    {
+      "id": "0407081382317",
+      "name": "Sätherberg, Anna-Caren (S)"
+    },
+    {
+      "id": "0112806493429",
+      "name": "Saweståhl, Fredrik (M)"
+    },
+    {
+      "id": "0954072997110",
+      "name": "Schlyter, Carl (MP)"
+    },
+    {
+      "id": "0170630324419",
+      "name": "Schöldberg, Per (C)"
+    },
+    {
+      "id": "07351347121",
+      "name": "Schröder, Anders (MP)"
+    },
+    {
+      "id": "041911485722",
+      "name": "Schröder, Magdalena (M)"
+    },
+    {
+      "id": "0210198640127",
+      "name": "Schulte, Fredrik (M)"
+    },
+    {
+      "id": "0232670694320",
+      "name": "Schyllert, Gustav (M)"
+    },
+    {
+      "id": "0236004923301",
+      "name": "Schyman, Gudrun (-)"
+    },
+    {
+      "id": "0236004923301",
+      "name": "Schyman, Gudrun (v)"
+    },
+    {
+      "id": "0468206532916",
+      "name": "Segelström, Inger (s)"
+    },
+    {
+      "id": "0952789103522",
+      "name": "Segerlind, Elin (V)"
+    },
+    {
+      "id": "0105689536302",
+      "name": "Selin Lindgren, Eva (c)"
+    },
+    {
+      "id": "0497217816024",
+      "name": "Selin, Markus (S)"
+    },
+    {
+      "id": "0185503778507",
+      "name": "Sellén, Birgitta (c)"
+    },
+    {
+      "id": "0494431859015",
+      "name": "Sellström, Anders (KD)"
+    },
+    {
+      "id": "0338088431726",
+      "name": "Seppälä, Sara (SD)"
+    },
+    {
+      "id": "0768605712423",
+      "name": "Sestrajcic, Daniel (V)"
+    },
+    {
+      "id": "0922497728524",
+      "name": "Shekarabi, Ardalan (S)"
+    },
+    {
+      "id": "051870309210",
+      "name": "Sibinska, Anna (MP)"
+    },
+    {
+      "id": "0393171737407",
+      "name": "Sidén, Anita (m)"
+    },
+    {
+      "id": "0469626830920",
+      "name": "Sigfrid, Karl (m)"
+    },
+    {
+      "id": "0610162335824",
+      "name": "Sigvardsson, Niklas (S)"
+    },
+    {
+      "id": "0592345073323",
+      "name": "Sillén, Anna (M)"
+    },
+    {
+      "id": "0194834079816",
+      "name": "Sjö, Tobias (M)"
+    },
+    {
+      "id": "0970709885516",
+      "name": "Sjöblom, Inga-Lill (S)"
+    },
+    {
+      "id": "0534948028412",
+      "name": "Sjödahl, Magnus (KD)"
+    },
+    {
+      "id": "0916454726102",
+      "name": "Sjölund, Anders (m)"
+    },
+    {
+      "id": "0947572086414",
+      "name": "Sjölund, Anne-Li (C)"
+    },
+    {
+      "id": "0383111552218",
+      "name": "Sjöstedt, Jonas (V)"
+    },
+    {
+      "id": "055257333723",
+      "name": "Sjöstedt, Oscar (SD)"
+    },
+    {
+      "id": "089057453314",
+      "name": "Sjösten, Ulf (m)"
+    },
+    {
+      "id": "0891897903314",
+      "name": "Sjöstrand, Sven-Erik (v)"
+    },
+    {
+      "id": "0250583732424",
+      "name": "Skalberg Karlsson, Jesper (M)"
+    },
+    {
+      "id": "0455086201022",
+      "name": "Skalin, Johnny (SD)"
+    },
+    {
+      "id": "0161597857912",
+      "name": "Skånberg, Tuve (kd)"
+    },
+    {
+      "id": "0361291071906",
+      "name": "Skårman, Carl-Erik (m)"
+    },
+    {
+      "id": "0334816698724",
+      "name": "Skog, Karolina (MP)"
+    },
+    {
+      "id": "0885483214625",
+      "name": "Skoglund, John (S)"
+    },
+    {
+      "id": "0841428824218",
+      "name": "Sköld Jansson, Camilla (v)"
+    },
+    {
+      "id": "0706528359123",
+      "name": "Sköld, Linus (S)"
+    },
+    {
+      "id": "0107123682905",
+      "name": "Sköldestig, Berndt (s)"
+    },
+    {
+      "id": "0369212790927",
+      "name": "Skönnbrink, Sofia (S)"
+    },
+    {
+      "id": "0209063197208",
+      "name": "Skoog, Christer (s)"
+    },
+    {
+      "id": "0767167947420",
+      "name": "Slottner, Erik (KD)"
+    },
+    {
+      "id": "0150118366721",
+      "name": "Snecker, Linda (V)"
+    },
+    {
+      "id": "0452755722723",
+      "name": "Söder, Björn (SD)"
+    },
+    {
+      "id": "0992473266516",
+      "name": "Söder, Larry (KD)"
+    },
+    {
+      "id": "0514669448526",
+      "name": "Söderberg, Elin (MP)"
+    },
+    {
+      "id": "0977557986415",
+      "name": "Söderberg, Gunnel (m)"
+    },
+    {
+      "id": "0492644357418",
+      "name": "Söderlund, Per (SD)"
+    },
+    {
+      "id": "0428644311601",
+      "name": "Söderqvist, Nils-Erik (s)"
+    },
+    {
+      "id": "0845783625227",
+      "name": "Sohrabi, Arwin (S)"
+    },
+    {
+      "id": "0185498861416",
+      "name": "Sommestad, Lena (S)"
+    },
+    {
+      "id": "0565167965311",
+      "name": "Sonidsson, Eva (S)"
+    },
+    {
+      "id": "0483837558914",
+      "name": "Sörenson, Anna-Lena (S)"
+    },
+    {
+      "id": "0644591005314",
+      "name": "Spets, Crister (SD)"
+    },
+    {
+      "id": "0480384439015",
+      "name": "Stafilidis, Tasso (v)"
+    },
+    {
+      "id": "0603753860213",
+      "name": "Ståhl Herrstedt, Carina (SD)"
+    },
+    {
+      "id": "0170585430421",
+      "name": "Ståhl, Jimmy (SD)"
+    },
+    {
+      "id": "0365696629917",
+      "name": "Ståhlgren, Inge (S)"
+    },
+    {
+      "id": "0704744533715",
+      "name": "Stålhammar, Pernilla (MP)"
+    },
+    {
+      "id": "0186490041606",
+      "name": "Stalin, Kerstin-Maria (mp)"
+    },
+    {
+      "id": "0314794471216",
+      "name": "Starbrink, Anna (L)"
+    },
+    {
+      "id": "0718937995813",
+      "name": "Staxäng, Lars-Arne (M)"
+    },
+    {
+      "id": "0437269990517",
+      "name": "Steele, Anna (FP)"
+    },
+    {
+      "id": "0437269990517",
+      "name": "SteeleKarlström, Anna (FP)"
+    },
+    {
+      "id": "0465804601318",
+      "name": "Steensland, Pia (KD)"
+    },
+    {
+      "id": "0717363246311",
+      "name": "Stegrud, Jessica (SD)"
+    },
+    {
+      "id": "0665360289423",
+      "name": "Stenberg, Fredrik (S)"
+    },
+    {
+      "id": "0851966755011",
+      "name": "Stenberg, Hans (s)"
+    },
+    {
+      "id": "0747852417614",
+      "name": "Stenberg, Maria (s)"
+    },
+    {
+      "id": "0349986646724",
+      "name": "Stenevi, Märta (MP)"
+    },
+    {
+      "id": "0955748436811",
+      "name": "Stenkvist, Robert (SD)"
+    },
+    {
+      "id": "0462541496508",
+      "name": "Stenmark, Rigmor (c)"
+    },
+    {
+      "id": "0932000030511",
+      "name": "Stockhaus, Maria (M)"
+    },
+    {
+      "id": "0575283695521",
+      "name": "Storckenfeldt, Helena (M)"
+    },
+    {
+      "id": "0269067253614",
+      "name": "Strand, Thomas (s)"
+    },
+    {
+      "id": "0861143074410",
+      "name": "Strandberg, Torkild (fp)"
+    },
+    {
+      "id": "0530425150220",
+      "name": "Strandhäll, Annika (S)"
+    },
+    {
+      "id": "0194021108712",
+      "name": "Strandman, Mikael (SD)"
+    },
+    {
+      "id": "0510486065729",
+      "name": "Streijffert, Magdalena (s)"
+    },
+    {
+      "id": "07921826010",
+      "name": "Strömberg, Anna-Belle (S)"
+    },
+    {
+      "id": "0136801772915",
+      "name": "Strömkvist, Maria (S)"
+    },
+    {
+      "id": "0584506101017",
+      "name": "Stuart, Magnus (M)"
+    },
+    {
+      "id": "0599736947819",
+      "name": "Sundell, Ola (m)"
+    },
+    {
+      "id": "0778725756419",
+      "name": "Sundén Andersson, Lisbeth (M)"
+    },
+    {
+      "id": "0905312407726",
+      "name": "Sundin, Cassandra (SD)"
+    },
+    {
+      "id": "027964311318",
+      "name": "Sundin, Karin (S)"
+    },
+    {
+      "id": "0456066032422",
+      "name": "Sundin, Mathias (FP)"
+    },
+    {
+      "id": "0456066032422",
+      "name": "Sundin, Mathias (L)"
+    },
+    {
+      "id": "0959236354417",
+      "name": "Sundström, Anders (s)"
+    },
+    {
+      "id": "0526874284718",
+      "name": "Svanström, Stefan (KD)"
+    },
+    {
+      "id": "0899112324519",
+      "name": "Svantesson, Elisabeth (M)"
+    },
+    {
+      "id": "0801311569314",
+      "name": "Svantorp, Gunilla (S)"
+    },
+    {
+      "id": "0372414474424",
+      "name": "Svärd, Oskar (M)"
+    },
+    {
+      "id": "0447461551212",
+      "name": "Svedberg, Per (s)"
+    },
+    {
+      "id": "0178323535715",
+      "name": "Svedin, Johnny (SD)"
+    },
+    {
+      "id": "0682989845822",
+      "name": "Svenneling, Håkan (V)"
+    },
+    {
+      "id": "0822010116020",
+      "name": "Svensk Larm, Jim (S)"
+    },
+    {
+      "id": "0457308547314",
+      "name": "Svensson Smith, Karin (-)"
+    },
+    {
+      "id": "0457308547314",
+      "name": "Svensson Smith, Karin (mp)"
+    },
+    {
+      "id": "0457308547314",
+      "name": "Svensson Smith, Karin (v)"
+    },
+    {
+      "id": "0739780276601",
+      "name": "Svensson, Alf (kd)"
+    },
+    {
+      "id": "0575413157004",
+      "name": "Svensson, Ingvar (kd)"
+    },
+    {
+      "id": "0512645510895",
+      "name": "Svensson, Jonathan (S)"
+    },
+    {
+      "id": "0381918573217",
+      "name": "Svensson, Michael (M)"
+    },
+    {
+      "id": "0395292877305",
+      "name": "Svensson, Per-Olof (s)"
+    },
+    {
+      "id": "0916608741910",
+      "name": "Svensson, Suzanne (S)"
+    },
+    {
+      "id": "0415959965211",
+      "name": "Sydow Mölleby, Mia (V)"
+    },
+    {
+      "id": "0787533297400",
+      "name": "Sydow, Björn (s)"
+    },
+    {
+      "id": "0292756653724",
+      "name": "Sydow, Henrik (m)"
+    },
+    {
+      "id": "0229350341619",
+      "name": "Szatmari Waldau, Ilona (V)"
+    },
+    {
+      "id": "0229350341619",
+      "name": "Szatmári Waldau, Ilona (V)"
+    },
+    {
+      "id": "0666958447826",
+      "name": "Szyber, Caroline (KD)"
+    },
+    {
+      "id": "0398471271026",
+      "name": "Tånghag, Frida (V)"
+    },
+    {
+      "id": "0325462829512",
+      "name": "Tapper Östberg, Christina (SD)"
+    },
+    {
+      "id": "0394430340317",
+      "name": "Tedestam Berglöw, Monica (SD)"
+    },
+    {
+      "id": "0613297818326",
+      "name": "Tegnér, Mathias (S)"
+    },
+    {
+      "id": "0322827326923",
+      "name": "Teimouri, Arman (L)"
+    },
+    {
+      "id": "010343930918",
+      "name": "Tenfjord Toftby, Cecilie (M)"
+    },
+    {
+      "id": "010343930918",
+      "name": "Tenfjord-Toftby, Cecilie (m)"
+    },
+    {
+      "id": "0476336341120",
+      "name": "Tenje, Anna (m)"
+    },
+    {
+      "id": "0280164118408",
+      "name": "Ternemar, Tommy (s)"
+    },
+    {
+      "id": "0911990886006",
+      "name": "Ternström, Solveig (c)"
+    },
+    {
+      "id": "0783033318602",
+      "name": "Tesfazion, Rezene (s)"
+    },
+    {
+      "id": "0714579775816",
+      "name": "Thalén Finné, Ewa (m)"
+    },
+    {
+      "id": "0181942435301",
+      "name": "Thalén, Ingela (s)"
+    },
+    {
+      "id": "0602744999917",
+      "name": "Thand Ringqvist, Elisabeth (C)"
+    },
+    {
+      "id": "0824343942006",
+      "name": "Thingwall, Göran (-)"
+    },
+    {
+      "id": "0824343942006",
+      "name": "Thingwall, Göran (m)"
+    },
+    {
+      "id": "0853831481615",
+      "name": "Thomsson, Lars (C)"
+    },
+    {
+      "id": "0272006117024",
+      "name": "Thorbjörnson, Jon (V)"
+    },
+    {
+      "id": "0326064715100",
+      "name": "Thorborg, Karin (v)"
+    },
+    {
+      "id": "0879782396219",
+      "name": "Thorell, Olle (s)"
+    },
+    {
+      "id": "0316177736318",
+      "name": "Thorén, Sverker (fp)"
+    },
+    {
+      "id": "0631251014601",
+      "name": "Thulin, Mildred (c)"
+    },
+    {
+      "id": "0547805254924",
+      "name": "Thunander, Jessica (V)"
+    },
+    {
+      "id": "0905254899611",
+      "name": "Thunström, Louise (S)"
+    },
+    {
+      "id": "041911485722",
+      "name": "Thuresson, Magdalena (M)"
+    },
+    {
+      "id": "0325462829512",
+      "name": "Thuring, Christina (SD)"
+    },
+    {
+      "id": "0985943148917",
+      "name": "Tiblom, Victoria (SD)"
+    },
+    {
+      "id": "0240670797111",
+      "name": "Tidland, Björn (SD)"
+    },
+    {
+      "id": "0197306878612",
+      "name": "Tidlund, Greger (s)"
+    },
+    {
+      "id": "0959102638818",
+      "name": "Tiefensee, Roger (c)"
+    },
+    {
+      "id": "0663851410627",
+      "name": "Timgren, Beatrice (SD)"
+    },
+    {
+      "id": "0996403729104",
+      "name": "Tingsgård, Tone (s)"
+    },
+    {
+      "id": "0887345842319",
+      "name": "Tjernberg, Gunilla (kd)"
+    },
+    {
+      "id": "069436402021",
+      "name": "Tobé, Tomas (m)"
+    },
+    {
+      "id": "068822158616",
+      "name": "Tolgfors, Katarina (M)"
+    },
+    {
+      "id": "0864542495614",
+      "name": "Tolgfors, Sten (m)"
+    },
+    {
+      "id": "0597298079716",
+      "name": "Tornberg, Stefan (c)"
+    },
+    {
+      "id": "088172351225",
+      "name": "Törnestam, Andrea (S)"
+    },
+    {
+      "id": "0183788551910",
+      "name": "Torstensson, Åsa (c)"
+    },
+    {
+      "id": "0495661214429",
+      "name": "Tovatt, Lorentz (MP)"
+    },
+    {
+      "id": "0604459858621",
+      "name": "Töyrä, Emilia (S)"
+    },
+    {
+      "id": "0228027853620",
+      "name": "Tsouplaki, Vasiliki (V)"
+    },
+    {
+      "id": "0535526562910",
+      "name": "Tysklind, Lars (FP)"
+    },
+    {
+      "id": "0535526562910",
+      "name": "Tysklind, Lars (L)"
+    },
+    {
+      "id": "0275724540919",
+      "name": "Ullenhag, Erik (fp)"
+    },
+    {
+      "id": "0275724540919",
+      "name": "Ullenhag, Erik (L)"
+    },
+    {
+      "id": "0328926898814",
+      "name": "Ulvskog, Marita (s)"
+    },
+    {
+      "id": "0467253407311",
+      "name": "Unander, Hans (s)"
+    },
+    {
+      "id": "0104804820009",
+      "name": "Unckel, Per (m)"
+    },
+    {
+      "id": "0237055280513",
+      "name": "Utbult, Roland (KD)"
+    },
+    {
+      "id": "0321885416125",
+      "name": "Valeria D, Rossana (v)"
+    },
+    {
+      "id": "0575745085214",
+      "name": "Vallius, Paavo (s)"
+    },
+    {
+      "id": "0880452278816",
+      "name": "Valtersson, Mikaela (mp)"
+    },
+    {
+      "id": "0548843588006",
+      "name": "Vänerlöv, Ingemar (kd)"
+    },
+    {
+      "id": "0222234581210",
+      "name": "Västerteg, Claes (c)"
+    },
+    {
+      "id": "0245113256029",
+      "name": "Vencu Velasquez Castro, Daniel (S)"
+    },
+    {
+      "id": "0200490530919",
+      "name": "Venegas, Marco (MP)"
+    },
+    {
+      "id": "0911067396229",
+      "name": "Vepsä, Mattias (S)"
+    },
+    {
+      "id": "0720249554818",
+      "name": "Vestlund, Börje (s)"
+    },
+    {
+      "id": "0502688311316",
+      "name": "Vikström, Anna (S)"
+    },
+    {
+      "id": "0903081277919",
+      "name": "Vilhelmsson, Helena (C)"
+    },
+    {
+      "id": "0718034011110",
+      "name": "Vilhelmsson, Jessika (M)"
+    },
+    {
+      "id": "0406831930624",
+      "name": "Vinge, Henrik (SD)"
+    },
+    {
+      "id": "0567810897103",
+      "name": "Virgin, Lilian (s)"
+    },
+    {
+      "id": "0496341906327",
+      "name": "Völker, Alexandra (S)"
+    },
+    {
+      "id": "0544137999406",
+      "name": "von der Esch, Björn (kd)"
+    },
+    {
+      "id": "0292756653724",
+      "name": "von Sydow, Henrik (m)"
+    },
+    {
+      "id": "0229760896014",
+      "name": "W Jonsson, Anders (C)"
+    },
+    {
+      "id": "0150118366721",
+      "name": "W Snecker, Linda (V)"
+    },
+    {
+      "id": "083921164513",
+      "name": "Waberi, Abdirizak (M)"
+    },
+    {
+      "id": "0661283223209",
+      "name": "Wachtmeister, Peder (M)"
+    },
+    {
+      "id": "0378961686325",
+      "name": "Wagenius, Hanna (C)"
+    },
+    {
+      "id": "0814945477312",
+      "name": "Wahlén, Gunilla (v)"
+    },
+    {
+      "id": "0195810270316",
+      "name": "Wahlgren, Marie (fp)"
+    },
+    {
+      "id": "0587985033012",
+      "name": "Wahlström, Göte (s)"
+    },
+    {
+      "id": "0135730306412",
+      "name": "Waidelich, Tommy (s)"
+    },
+    {
+      "id": "0205071690103",
+      "name": "Wälivaara, Erling (kd)"
+    },
+    {
+      "id": "0970427364222",
+      "name": "Wallén, Anna (S)"
+    },
+    {
+      "id": "0111479807829",
+      "name": "Wallentheim, Anna (S)"
+    },
+    {
+      "id": "0116712544316",
+      "name": "Wallin, Eva (KD)"
+    },
+    {
+      "id": "0381915897316",
+      "name": "Wallin, Gunhild (c)"
+    },
+    {
+      "id": "0525611880106",
+      "name": "Wallin, Gunnel (c)"
+    },
+    {
+      "id": "0980681611418",
+      "name": "Wallmark, Hans (m)"
+    },
+    {
+      "id": "0999542677318",
+      "name": "Wallouch, Anne-Marie (v)"
+    },
+    {
+      "id": "0115834246514",
+      "name": "Wallrup, Emma (V)"
+    },
+    {
+      "id": "0781623040415",
+      "name": "Waltersson Grönvall, Camilla (M)"
+    },
+    {
+      "id": "0117203219614",
+      "name": "Warborn, Jörgen (M)"
+    },
+    {
+      "id": "0796312429425",
+      "name": "Wärnick, Viktor (M)"
+    },
+    {
+      "id": "0741225202024",
+      "name": "Wasberg, Meeri (s)"
+    },
+    {
+      "id": "039371311407",
+      "name": "Watz, Marianne (m)"
+    },
+    {
+      "id": "0700714424203",
+      "name": "Wegendal, Lars (s)"
+    },
+    {
+      "id": "0906517990916",
+      "name": "Weibull Kornias, Marie (m)"
+    },
+    {
+      "id": "0776705932527",
+      "name": "Weidby, Ciczie (V)"
+    },
+    {
+      "id": "0414687558527",
+      "name": "Weimer, Maria (FP)"
+    },
+    {
+      "id": "0414687558527",
+      "name": "Weimer, Maria (L)"
+    },
+    {
+      "id": "0742883909221",
+      "name": "Weinerhall, John (M)"
+    },
+    {
+      "id": "0742883909221",
+      "name": "Weinerhall, John E. (M)"
+    },
+    {
+      "id": "03856618629",
+      "name": "Wemmert, Linda (M)"
+    },
+    {
+      "id": "0618938634020",
+      "name": "Wennerström, Marcus (S)"
+    },
+    {
+      "id": "098329342620",
+      "name": "Wernäng, Jennie (M)"
+    },
+    {
+      "id": "0435526123410",
+      "name": "Wester, Ulla (s)"
+    },
+    {
+      "id": "031005479013",
+      "name": "Westerberg, Per (m)"
+    },
+    {
+      "id": "0412148992926",
+      "name": "Westerén, Hanna (S)"
+    },
+    {
+      "id": "022805994927",
+      "name": "Westergren, Sofia (M)"
+    },
+    {
+      "id": "0363228965800",
+      "name": "Westerholm, Barbro (fp)"
+    },
+    {
+      "id": "0363228965800",
+      "name": "Westerholm, Barbro (L)"
+    },
+    {
+      "id": "0853813080501",
+      "name": "Westerlund Panke, Majléne (s)"
+    },
+    {
+      "id": "0150118366721",
+      "name": "Westerlund Snecker, Linda (V)"
+    },
+    {
+      "id": "0469084171710",
+      "name": "Westerlund, Ulrika (MP)"
+    },
+    {
+      "id": "0802546764724",
+      "name": "Westlund, Åsa (S)"
+    },
+    {
+      "id": "0937521536309",
+      "name": "Westman, Henrik (m)"
+    },
+    {
+      "id": "0678597762924",
+      "name": "Westmont, Martin (SD)"
+    },
+    {
+      "id": "010643534813",
+      "name": "Westroth, Eric (SD)"
+    },
+    {
+      "id": "0481460392727",
+      "name": "Wetterling, Jessica (V)"
+    },
+    {
+      "id": "031414803913",
+      "name": "Wetterstrand, Maria (mp)"
+    },
+    {
+      "id": "0321224145104",
+      "name": "Wibe, Sören (s)"
+    },
+    {
+      "id": "0950559490627",
+      "name": "Wickberg, Marie (C)"
+    },
+    {
+      "id": "0456522027421",
+      "name": "Wickman, Linnéa (S)"
+    },
+    {
+      "id": "0161972600410",
+      "name": "Widding, Elsa (-)"
+    },
+    {
+      "id": "0161972600410",
+      "name": "Widding, Elsa (SD)"
+    },
+    {
+      "id": "0893004490313",
+      "name": "Widegren, Cecilia (m)"
+    },
+    {
+      "id": "025877594729",
+      "name": "Widegren, John (M)"
+    },
+    {
+      "id": "0446541913415",
+      "name": "Widman, Allan (fp)"
+    },
+    {
+      "id": "0446541913415",
+      "name": "Widman, Allan (L)"
+    },
+    {
+      "id": "0482689573825",
+      "name": "Wiechel, Björn (S)"
+    },
+    {
+      "id": "0204240926023",
+      "name": "Wiechel, Markus (SD)"
+    },
+    {
+      "id": "016950536026",
+      "name": "Wigh, Hanna (-)"
+    },
+    {
+      "id": "016950536026",
+      "name": "Wigh, Hanna (SD)"
+    },
+    {
+      "id": "0992604658114",
+      "name": "Wigström, Cecilia (fp)"
+    },
+    {
+      "id": "0649200228012",
+      "name": "Wikén, Stefan (s)"
+    },
+    {
+      "id": "0720250789315",
+      "name": "Wiking, Mats (S)"
+    },
+    {
+      "id": "0693341580004",
+      "name": "Wiklander, Tony (SD)"
+    },
+    {
+      "id": "0926555793514",
+      "name": "Wiklund, Anders (v)"
+    },
+    {
+      "id": "0638431210311",
+      "name": "Wikström, Cecilia (fp)"
+    },
+    {
+      "id": "0551169456620",
+      "name": "Wikström, Gabriel (S)"
+    },
+    {
+      "id": "0541785328823",
+      "name": "Wikström, Jonas (v)"
+    },
+    {
+      "id": "0743231788202",
+      "name": "Wikström, Rune (m)"
+    },
+    {
+      "id": "0455256796113",
+      "name": "Winbäck, Christer (fp)"
+    },
+    {
+      "id": "0254161225015",
+      "name": "Wistedt, Lars (SD)"
+    },
+    {
+      "id": "0808145784313",
+      "name": "Wittgren-Ahl, Siw (s)"
+    },
+    {
+      "id": "0493288854424",
+      "name": "Wykman, Niklas (M)"
+    },
+    {
+      "id": "0924947945722",
+      "name": "Yazdanfar, Maryam (s)"
+    },
+    {
+      "id": "0744993950910",
+      "name": "Ygeman, Anders (s)"
+    },
+    {
+      "id": "0238095659621",
+      "name": "Ylivainio, Linda (C)"
+    },
+    {
+      "id": "0884738092723",
+      "name": "Yngwe, Kristina (C)"
+    },
+    {
+      "id": "0470861746302",
+      "name": "Ytterberg, Mariann (s)"
+    },
+    {
+      "id": "0966063008623",
+      "name": "Yurkovskiy, Leonid (SD)"
+    },
+    {
+      "id": "0874331493311",
+      "name": "Zakariasén, Helena (s)"
+    },
+    {
+      "id": "0798417016112",
+      "name": "Zakrisson, Kristina (s)"
+    },
+    {
+      "id": "0196077326617",
+      "name": "Zander, Solveig (C)"
+    },
+    {
+      "id": "0964379974219",
+      "name": "Zedell, Christina (s)"
+    },
+    {
+      "id": "0677210453318",
+      "name": "Zethraeus, Pernilla (v)"
+    }
   ],
-  "extractedAt": "2025-05-26T16:33:02.419Z",
+  "extractedAt": "2025-05-26T16:54:55.961Z",
   "source": "Extracted from Riksdag HTML select element"
 }
