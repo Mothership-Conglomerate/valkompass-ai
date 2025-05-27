@@ -1,3 +1,5 @@
+import ReactMarkdown from 'react-markdown';
+
 interface MessageBubbleProps {
   message: string;
   role: "user" | "ai";
@@ -9,11 +11,11 @@ export default function MessageBubble({ message, role }: MessageBubbleProps) {
   return (
     <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
       <div
-        className={`p-3 rounded-lg max-w-xs text-white ${
+        className={`prose p-3 rounded-lg max-w-lg text-white ${
           isUser ? "bg-indigo-500" : "bg-blue-500"
-        }`}
+        } whitespace-pre-line`}
       >
-        {message}
+        {isUser ? message : <ReactMarkdown>{message}</ReactMarkdown>}
       </div>
     </div>
   );
