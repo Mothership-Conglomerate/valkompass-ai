@@ -45,3 +45,4 @@ next-env.d.ts
 TODO.md
 knowledge-base/knowledge_base.egg-info
 knowledge-base/build
+public/kb-documents

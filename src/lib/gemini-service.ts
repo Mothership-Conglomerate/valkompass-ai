@@ -29,7 +29,11 @@ const formatContextForPrompt = (context: RetrievedContext): string => {
   if (context.segments.length > 0) {
     formattedContext += "Relevant Segments from Documents:\n";
     context.segments.forEach((seg, index) => {
-      formattedContext += `  ${index + 1}. Text: "${seg.segmentText}" (Source: ${seg.documentPath}, Page: ${seg.segmentPage || 'N/A'})\n`;
+      // Include publicUrl in the source information if available
+      const sourceInfo = seg.publicUrl 
+        ? `(Source URL: ${seg.publicUrl}, Document: ${seg.documentPath}, Page: ${seg.segmentPage || 'N/A'})` 
+        : `(Source Document: ${seg.documentPath}, Page: ${seg.segmentPage || 'N/A'})`;
+      formattedContext += `  ${index + 1}. Text: "${seg.segmentText}" ${sourceInfo}\n`;
     });
   }
   return formattedContext;

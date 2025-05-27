@@ -55,6 +55,8 @@ def parse_json(path: str, document_id: str) -> tuple[str, list[DocumentSegment]]
                 end_index=end_index,
                 page=i + 1,  # Using index as page number (1-indexed)
                 metadata={"url": url},
+                type="website",
+                public_url=url,
             )
         )
         current_char_offset += len(content)

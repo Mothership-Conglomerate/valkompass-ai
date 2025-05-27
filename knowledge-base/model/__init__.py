@@ -35,6 +35,8 @@ class DocumentSegment(BaseModel):
     metadata: dict | None = None
     embedding: np.ndarray | None = None
     topic_id: int | None = None
+    type: str | None = None
+    public_url: str | None = None
 
     model_config = {"arbitrary_types_allowed": True}
 

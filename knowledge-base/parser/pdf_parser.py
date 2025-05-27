@@ -1,6 +1,7 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from model import DocumentSegment
 import pdfplumber
+import os
 
 
 def parse_pdf(path: str, document_id: str) -> tuple[str, list[DocumentSegment]]:
@@ -64,6 +65,11 @@ def __parse_and_segment_langchain(
     # 5) Build DocumentSegment objects, now with page numbers
     segments: list[DocumentSegment] = []
     current_search_cursor = 0
+
+    # Construct the public URL for the PDF
+    pdf_filename = os.path.basename(path)
+    pdf_public_url = f"/kb-documents/{pdf_filename}"
+
     for i, text_chunk in enumerate(split_texts):
         # Skip chunks that are empty or contain only whitespace (e.g., "\n", "  ", "\t\n ")
         s_text_chunk = text_chunk.strip()
@@ -109,6 +115,8 @@ def __parse_and_segment_langchain(
                 end_index=chunk_end_index,
                 page=assigned_page_number,
                 metadata=None,
+                type="pdf",
+                public_url=pdf_public_url,
             )
         )
 
