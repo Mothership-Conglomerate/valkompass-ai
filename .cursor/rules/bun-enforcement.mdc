@@ -1,6 +1,6 @@
 ---
 description: 
-globs: 
+globs: **/*.ts,**/*.tsx
 alwaysApply: false
 ---
 # Bun Package Manager Enforcement

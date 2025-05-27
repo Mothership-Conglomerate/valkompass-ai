@@ -2,19 +2,10 @@
 
 import ChatInput from "./chat-input";
 import MessageBubble from "./message-bubble";
-import { useState } from "react";
-import { Message } from "../types/types";
+import { useChat } from "../hooks/use-chat"; // Updated import path
 
 export default function ChatArea() {
-  const [messages, setMessages] = useState<Message[]>([]);
-
-  const handleSendMessage = (message: string) => {
-    setMessages([...messages, { id: messages.length + 1, text: message, role: "user" as const }]);
-  };
-
-  const clearMessages = () => {
-    setMessages([]);
-  };
+  const { messages, sendMessage, clearMessages, isLoading, error } = useChat();
 
   return (
     <>
@@ -23,6 +14,12 @@ export default function ChatArea() {
           {messages.map((msg) => (
             <MessageBubble key={msg.id} message={msg.text} role={msg.role} />
           ))}
+          {isLoading && (
+            <MessageBubble key="loading" message="AI tänker..." role="ai" />
+          )}
+          {error && (
+             <MessageBubble key="error" message={`Error: ${error}`} role="ai" />
+          )}
         </div>
         {messages.length > 0 && (
           <div className="pt-4 flex justify-end">
@@ -35,7 +32,7 @@ export default function ChatArea() {
           </div>
         )}
       </div>
-      <ChatInput onSendMessage={handleSendMessage} />
+      <ChatInput onSendMessage={sendMessage} />
     </>
   );
 }
