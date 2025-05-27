@@ -24,11 +24,11 @@ export default function MessageBubble({ message, role }: MessageBubbleProps) {
   });
 
   return (
-    <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
+    <div className={`flex p-4 ${isUser ? "justify-end" : "justify-start"}`}>
       <div
-        className={`prose p-3 rounded-lg max-w-lg text-white ${
-          isUser ? "bg-indigo-500" : "bg-blue-500"
-        } whitespace-pre-line`}
+        className={`prose prose-p:m-0 p-3 rounded-lg whitespace-pre-line ${
+          isUser ? "bg-indigo-500 max-w-xs text-white" : "bg-transparent border p-4 w-full text-gray-800"
+        }`}
       >
         {isUser ? (
           message

@@ -9,7 +9,7 @@ export default function ChatArea() {
 
   return (
     <>
-      <div className="flex-grow bg-gray-50 rounded-t-lg shadow-lg p-6 flex flex-col">
+      <div className="bg-white/50 rounded-t-lg p-6 flex flex-col flex-grow">
         <div className="flex-grow space-y-4 overflow-y-auto">
           {messages.map((msg) => (
             <MessageBubble key={msg.id} message={msg.text} role={msg.role} />

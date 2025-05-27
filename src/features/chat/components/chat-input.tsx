@@ -15,11 +15,11 @@ export default function ChatInput({ onSendMessage }: ChatInputProps) {
   };
 
   return (
-    <div className="bg-white rounded-b-lg shadow-lg p-4">
+    <div className="bg-white/50 rounded-b-lg p-4 ">
       <div className="flex items-center">
         <input
           type="text"
-          className="flex-grow p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-grow p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white/100"
           placeholder="Skriv ditt meddelande..."
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
