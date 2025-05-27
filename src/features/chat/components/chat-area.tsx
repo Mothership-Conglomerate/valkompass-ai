@@ -2,6 +2,7 @@
 
 import ChatInput from "./chat-input";
 import MessageBubble from "./message-bubble";
+import MessageBubbleLoading from "./message-bubble-loading";
 import { useChat } from "../hooks/use-chat"; // Updated import path
 
 export default function ChatArea() {
@@ -14,9 +15,7 @@ export default function ChatArea() {
           {messages.map((msg) => (
             <MessageBubble key={msg.id} message={msg.text} role={msg.role} />
           ))}
-          {isLoading && (
-            <MessageBubble key="loading" message="AI tänker..." role="ai" />
-          )}
+          {isLoading && <MessageBubbleLoading />}
           {error && (
              <MessageBubble key="error" message={`Error: ${error}`} role="ai" />
           )}
