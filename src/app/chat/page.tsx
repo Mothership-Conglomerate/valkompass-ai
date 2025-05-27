@@ -8,7 +8,7 @@ export default function ChatPage() {
     <div className="min-h-screen flex flex-col">
       <NavBar activePage={activePage} />
       <main className="flex-grow flex flex-col p-4 sm:p-8">
-        <div className="w-3/4 mx-auto flex flex-col flex-grow shadow-2xl">
+        <div className="w-full sm:w-3/4 mx-auto flex flex-col flex-grow shadow-2xl">
           <ChatArea />
         </div>
       </main>
