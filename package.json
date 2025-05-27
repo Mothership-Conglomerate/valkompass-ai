@@ -28,6 +28,7 @@
     "neo4j-driver": "^5.28.1",
     "next": "15.3.2",
     "openai": "^4.103.0",
+    "posthog-node": "^4.17.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
