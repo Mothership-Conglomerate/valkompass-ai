@@ -15,8 +15,8 @@ export default function HomePage() {
             <h1 className="text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600 pb-4">
               Valkompass.ai
             </h1>
-            <p className="text-lg md:text-xl text-gray-700 mt-6 max-w-2xl mx-auto">
-              Vi samlar partiernas åsikter och handlingar och låter dig ställa frågor och konversera med dem. 
+            <p className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-900 mt-6 max-w-2xl mx-auto">
+              Vi samlar partiernas åsikter och beslut – du ställer frågorna!
             </p>
           </section>
 
@@ -26,11 +26,12 @@ export default function HomePage() {
               Hur det funkar
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Valkompass.ai samlar in partiernas officiella dokument (partiprogram, valmanifest, voteringshistorik, utlåtanden i riksdagen, arbetsgrupper och andra officiella sammanhang med offentliga protokoll).
+            Valkompass.ai samlar in partiernas officiella dokument, som partiprogram, valmanifest, voteringshistorik, riksdagsutlåtanden, arbetsgruppsrapporter och andra protokoll från offentliga sammanhang.
             </p>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto pt-6">
-              Dokumenten används av en AI-modell (Gemini 2.5 flash) med datan och låter dig ställa frågor och konversera med dem.
-              Allt vi gör är open source. För kod och mer information, se <a href="https://github.com/Mothership-Conglomerate/valkompass-ai" className="text-blue-500 hover:text-blue-600">vårt GitHub-repo</a>.
+            Dessa dokument används av en AI-modell (Gemini 2.5 Flash) som analyserar innehållet och gör det möjligt för dig att ställa frågor och föra samtal med partiernas ståndpunkter som grund.
+<br></br><br></br>
+            Allt vi gör är open source. <br></br>För kod och mer information, <a href="https://github.com/Mothership-Conglomerate/valkompass-ai" className="text-blue-500 hover:text-blue-600">besök vårt GitHub-repo</a>.
             </p>
           </section>
           <CTA />
