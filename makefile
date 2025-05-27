@@ -18,5 +18,5 @@ graph-kb-clear:
 
 # Default action is parse then embed
 process-kb-docs:
-	cd knowledge-base && uv run python main.py --actions parse embed
+	cd knowledge-base && uv run python main.py --actions parse embed topicmodel graph
 

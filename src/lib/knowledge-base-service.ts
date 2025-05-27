@@ -32,6 +32,7 @@ export interface RetrievedSegment {
   segmentPage: number;
   similarityScore: number;
   publicUrl?: string;
+  documentSourceType?: string;
 }
 
 export interface RetrievedContext {
@@ -72,18 +73,31 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
        MATCH (doc:Document)-[:CONTAINS]->(segment)
        // Optional: If you want to ensure segments are related to the found topic, uncomment and adjust:
        // MATCH (segment)-[:MENTIONS]->(t:Topic {name: $topicName})
-       RETURN doc.path AS documentPath, segment.text AS segmentText, segment.page AS segmentPage, segment.public_url AS publicUrl, score AS similarityScore
+       RETURN doc.path AS documentPath, segment.type AS segmentType, segment.text AS segmentText, segment.page AS segmentPage, segment.public_url AS publicUrl, score AS similarityScore
        ORDER BY similarityScore DESC`, 
       { queryEmbedding, topicName } // topicName is used if the optional MATCH above is enabled
     );
 
-    const segments: RetrievedSegment[] = segmentsResult.records.map(record => ({
-      documentPath: record.get('documentPath'),
-      segmentText: record.get('segmentText'),
-      segmentPage: record.get('segmentPage') ? record.get('segmentPage').toNumber() : 0, // Ensure page is a number
-      similarityScore: record.get('similarityScore'),
-      publicUrl: record.get('publicUrl') || undefined,
-    })); 
+    const segments: RetrievedSegment[] = segmentsResult.records.map(record => {
+      const rawPublicUrl = record.get('publicUrl');
+      const documentSourceType = record.get('segmentType');
+      let finalPublicUrl = rawPublicUrl || undefined;
+
+      if (documentSourceType === 'pdf' && rawPublicUrl && process.env.APP_DOMAIN) {
+        finalPublicUrl = `${process.env.APP_DOMAIN}${rawPublicUrl}`;
+      } else if (documentSourceType === 'pdf' && rawPublicUrl) {
+        console.warn("APP_DOMAIN environment variable is not set. PDF publicUrl will be relative.");
+      }
+
+      return {
+        documentPath: record.get('documentPath'),
+        documentSourceType: documentSourceType || undefined,
+        segmentText: record.get('segmentText'),
+        segmentPage: record.get('segmentPage') ? record.get('segmentPage').toNumber() : 0, // Ensure page is a number
+        similarityScore: record.get('similarityScore'),
+        publicUrl: finalPublicUrl,
+      };
+    }); 
 
     return {
       topicName,

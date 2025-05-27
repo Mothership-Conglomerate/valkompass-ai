@@ -68,7 +68,9 @@ def __parse_and_segment_langchain(
 
     # Construct the public URL for the PDF
     pdf_filename = os.path.basename(path)
-    pdf_public_url = f"/kb-documents/{pdf_filename}"
+    # Get the parent directory name (e.g., "liberalerna")
+    party_name = os.path.basename(os.path.dirname(path))
+    pdf_public_url = f"/kb-documents/{party_name}/{pdf_filename}"
 
     for i, text_chunk in enumerate(split_texts):
         # Skip chunks that are empty or contain only whitespace (e.g., "\n", "  ", "\t\n ")

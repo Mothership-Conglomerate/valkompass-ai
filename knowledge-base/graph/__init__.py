@@ -134,6 +134,7 @@ class SchemaManager:
                         else None,
                         "public_url": seg.public_url,
                         "doc_id": doc.id,
+                        "type": seg.type,
                     }
                 )
 
@@ -149,7 +150,8 @@ class SchemaManager:
                         s.page        = seg_data.page,
                         s.metadata    = seg_data.metadata,
                         s.embedding   = seg_data.embedding,
-                        s.public_url  = seg_data.public_url
+                        s.public_url  = seg_data.public_url,
+                        s.type        = seg_data.type
                     WITH s, seg_data
                     MATCH (d:Document {id:seg_data.doc_id})
                     MERGE (d)-[:CONTAINS]->(s)
