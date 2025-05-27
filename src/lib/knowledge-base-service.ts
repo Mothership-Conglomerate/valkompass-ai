@@ -82,7 +82,7 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
       const rawPublicUrl = record.get('publicUrl');
       const documentSourceType = record.get('segmentType');
       let finalPublicUrl = rawPublicUrl || undefined;
-      let pageNumber = documentSourceType === 'pdf' ? record.get('segmentPage')?.toNumber() : undefined;
+      const pageNumber = documentSourceType === 'pdf' ? record.get('segmentPage')?.toNumber() : undefined;
 
       if (documentSourceType === 'pdf' && rawPublicUrl && process.env.APP_DOMAIN) {
         finalPublicUrl = `${process.env.APP_DOMAIN}${rawPublicUrl}`;
