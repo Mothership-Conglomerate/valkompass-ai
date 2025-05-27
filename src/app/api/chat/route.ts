@@ -22,13 +22,14 @@ async function chatHandler(req: NextRequest) {
       message_type: 'user',
     });
 
-    const aiTextResponse = await getGeminiChatResponse(userMessage.text);
+    const aiTextResponse = await getGeminiChatResponse(userMessage.text, userMessage.history);
 
     const aiResponse: Message = {
       id: Date.now(), // Simple ID generation
       text: aiTextResponse,
       role: "ai",
       timestamp: new Date(),
+      history: userMessage.history || '', // Include the history from user message or empty string
     };
 
     const duration = Date.now() - startTime;

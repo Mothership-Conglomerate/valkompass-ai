@@ -39,7 +39,7 @@ const formatContextForPrompt = (context: RetrievedContext): string => {
   return formattedContext;
 };
 
-export const getGeminiChatResponse = async (userMessageText: string): Promise<string> => {
+export const getGeminiChatResponse = async (userMessageText: string, clientHistory?: string): Promise<string> => {
   try {
     // 1. Get embedding for user message
     const queryEmbedding = await getOpenAIEmbedding(userMessageText);
@@ -51,13 +51,19 @@ export const getGeminiChatResponse = async (userMessageText: string): Promise<st
     let promptForGemini = "";
 
     let systemInstruction = SYSTEM_INSTRUCTION;
+    
+    // Include client-side chat history if available
+    const historyContext = clientHistory && clientHistory.trim() 
+      ? `\nRecent Chat History:\n${clientHistory}\n\n` 
+      : '';
+    
     if (retrievedContext && (retrievedContext.segments.length > 0 || retrievedContext.topicName)) {
       const formattedContext = formatContextForPrompt(retrievedContext);
-      promptForGemini = `Context:\n${formattedContext}\n\nUser Question: ${userMessageText}\n\nAnswer:`;
+      promptForGemini = `Context:\n${formattedContext}${historyContext}User Question: ${userMessageText}\n\nAnswer:`;
     } else {
       // Fallback if no context is found, or handle as a direct question to Gemini without RAG
       // For now, we'll still use a modified prompt that encourages it to say if it doesn't know from its general knowledge.
-      promptForGemini = userMessageText; // Send user message directly if no context
+      promptForGemini = historyContext + userMessageText; // Send user message directly if no context
       systemInstruction = SYSTEM_INSTRUCTION_NO_CONTEXT;
       console.warn("No specific context found from KB for the query. Proceeding with a general response.");
     }

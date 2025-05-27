@@ -14,5 +14,10 @@ export const sendMessageToApi = async (userMessage: Message): Promise<Message> =
   }
 
   const data = await response.json();
-  return data.message as Message;
+  const message = data.message as Message;
+  
+  // Ensure timestamp is converted back to Date object from JSON string
+  message.timestamp = new Date(message.timestamp);
+  
+  return message;
 };

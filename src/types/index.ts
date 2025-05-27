@@ -3,4 +3,5 @@ export interface Message {
   text: string;
   role: "user" | "ai";
   timestamp: Date;
+  history: string;
 } 
