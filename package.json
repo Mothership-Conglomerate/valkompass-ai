@@ -8,7 +8,7 @@
     "build": "bun run prepare-kb-documents && next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare-kb-documents": "mkdir -p public/kb-documents && rsync -a --include='*/' --include='*.pdf' --exclude='*' knowledge-base/documents/ public/kb-documents/",
+    "prepare-kb-documents": "mkdir -p public/kb-documents && (cd knowledge-base/documents && find . -type d -exec mkdir -p ../../public/kb-documents/{} \\; && find . -name \"*.pdf\" -exec cp -p {} ../../public/kb-documents/{} \\; && cd ../..)",
     "fetch-politicians": "cd commands && bun install && bun run fetch-politicians",
     "extract-parties": "cd commands && bun install && bun run extract-parties",
     "test-fetch-votes": "cd commands && bun install && bun run test-fetch-votes",
