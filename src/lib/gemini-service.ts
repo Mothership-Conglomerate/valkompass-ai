@@ -1,6 +1,6 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 import { getOpenAIEmbedding } from "./openai-service";
-import { getContextFromKB, RetrievedContext } from "./knowledge-base-service";
+import { getContextFromKB, RetrievedContext, RetrievedSegment } from "./knowledge-base-service";
 import { SYSTEM_INSTRUCTION, SYSTEM_INSTRUCTION_NO_CONTEXT } from "./prompt";
 
 const API_KEY = process.env.GEMINI_API_KEY;
@@ -11,7 +11,7 @@ if (!API_KEY) {
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash-latest",
+  model: "gemini-2.5-flash",
 });
 
 const generationConfig = {
@@ -39,46 +39,154 @@ const formatContextForPrompt = (context: RetrievedContext): string => {
   return formattedContext;
 };
 
+const generateLLMSearchQueries = async (userMessageText: string, clientHistory?: string): Promise<string[]> => {
+  const prompt = `Based on the following user message and chat history, generate 1 to 4 concise search queries that can be used to retrieve relevant information from a knowledge base about Swedish politics.
+Return the queries as a JSON array of strings. For example: ["query 1", "query 2"].
+If the user message is simple and seems like a direct question, you can return an array with just that message as the query.
+
+Chat History:
+${clientHistory || "No history provided."}
+
+User Message:
+${userMessageText}
+
+Search Queries (JSON array):`;
+
+  try {
+    const queryGenModel = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const result = await queryGenModel.generateContent({
+      contents: [{ role: "user", parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.5,
+        maxOutputTokens: 200,
+        topK: 1,
+        topP: 1,
+      },
+    });
+    const responseText = result.response.text();
+    console.log("LLM response for query generation:", responseText);
+
+    let jsonString: string | null = null;
+
+    // 1. Try to extract from a JSON markdown code block
+    const markdownMatch = responseText.match(/```(?:json)?\s*(\[[\s\S]*?\])\s*```/);
+    if (markdownMatch && markdownMatch[1]) {
+      jsonString = markdownMatch[1];
+      console.log("Extracted JSON string from markdown block:", jsonString);
+    } else {
+      // 2. If not in a markdown block, try to find the first standalone JSON array
+      const standaloneMatch = responseText.match(/\[[\s\S]*?\]/);
+      if (standaloneMatch && standaloneMatch[0]) {
+        jsonString = standaloneMatch[0];
+        console.log("Extracted JSON string using standalone regex:", jsonString);
+      }
+    }
+
+    if (jsonString) {
+      try {
+        // Sanitize the string further: remove leading/trailing whitespace that might break JSON.parse
+        jsonString = jsonString.trim();
+        const queries = JSON.parse(jsonString);
+        if (Array.isArray(queries) && queries.every(q => typeof q === 'string') && queries.length > 0 && queries.length <= 4) {
+          console.log("Generated KB search queries:", queries);
+          return queries;
+        }
+        console.warn("Parsed JSON is not a valid query array:", queries);
+      } catch (e) {
+        console.error("Failed to parse extracted JSON string.", "String was:", jsonString, "Error:", e);
+      }
+    }
+    
+    console.warn("Failed to parse LLM-generated queries or invalid format. Falling back to user message.", "Full response was:", responseText);
+    return [userMessageText]; // Fallback
+  } catch (error) {
+    console.error("Error generating search queries with LLM:", error);
+    return [userMessageText]; // Fallback to user's original message
+  }
+};
+
+const mergeAndDeduplicateContexts = (contexts: (RetrievedContext | null)[]): RetrievedContext | null => {
+  if (!contexts || contexts.every(c => c === null)) {
+    return null;
+  }
+
+  const validContexts = contexts.filter(c => c !== null) as RetrievedContext[];
+  if (validContexts.length === 0) {
+    return null;
+  }
+
+  // For simplicity, take topic from the first valid context that has one.
+  // A more sophisticated approach might involve LLM-based summarization or ranking.
+  const primaryTopicContext = validContexts.find(c => c.topicName && c.topicDescription);
+  const topicName = primaryTopicContext?.topicName || "Aggregated Topics";
+  const topicDescription = primaryTopicContext?.topicDescription || "Information retrieved from multiple queries.";
+
+  const allSegments: RetrievedSegment[] = [];
+  const seenSegments = new Set<string>(); // To track unique segments "text@@@path"
+
+  validContexts.forEach(context => {
+    context.segments.forEach(segment => {
+      const segmentIdentifier = `${segment.segmentText}@@@${segment.documentPath}`;
+      if (!seenSegments.has(segmentIdentifier)) {
+        allSegments.push(segment);
+        seenSegments.add(segmentIdentifier);
+      }
+    });
+  });
+
+  // Optional: Sort segments by similarity score if needed, though they come pre-sorted per query.
+  // For now, maintaining the order from concatenated results.
+
+  return {
+    topicName,
+    topicDescription,
+    segments: allSegments,
+  };
+};
+
 export const getGeminiChatResponse = async (userMessageText: string, clientHistory?: string): Promise<string> => {
   try {
-    // 1. Get embedding for user message
-    const queryEmbedding = await getOpenAIEmbedding(userMessageText);
+    // 1. Generate search queries using LLM
+    const searchQueries = await generateLLMSearchQueries(userMessageText, clientHistory);
+    console.log("Search queries", searchQueries);
+    // 2. For each query: get embedding and fetch context from Neo4j in parallel
+    const contextPromises = searchQueries.map(async (query) => {
+      try {
+        const queryEmbedding = await getOpenAIEmbedding(query);
+        // Fetch with a limit of 15 segments per query
+        return await getContextFromKB(queryEmbedding, 15); 
+      } catch (error) {
+        console.error(`Error fetching context for query "${query}":`, error);
+        return null; // Return null if a specific query fails
+      }
+    });
 
-    // 2. Fetch context from Neo4j
-    const retrievedContext = await getContextFromKB(queryEmbedding);
-    console.log("Got context from KB", retrievedContext);
+    const retrievedContextsArray = await Promise.all(contextPromises);
+    
+    // 3. Merge and deduplicate contexts
+    const mergedContext = mergeAndDeduplicateContexts(retrievedContextsArray);
     
     let promptForGemini = "";
-
     let systemInstruction = SYSTEM_INSTRUCTION;
     
-    // Include client-side chat history if available
     const historyContext = clientHistory && clientHistory.trim() 
       ? `\nRecent Chat History:\n${clientHistory}\n\n` 
       : '';
     
-    if (retrievedContext && (retrievedContext.segments.length > 0 || retrievedContext.topicName)) {
-      const formattedContext = formatContextForPrompt(retrievedContext);
-      promptForGemini = `Context:\n${formattedContext}${historyContext}User Question: ${userMessageText}\n\nAnswer:`;
+    if (mergedContext && (mergedContext.segments.length > 0 || mergedContext.topicName)) {
+      const formattedContext = formatContextForPrompt(mergedContext);
+      promptForGemini = `Context:\\n${formattedContext}${historyContext}User Question: ${userMessageText}\\n\\nAnswer:`;
     } else {
-      // Fallback if no context is found, or handle as a direct question to Gemini without RAG
-      // For now, we'll still use a modified prompt that encourages it to say if it doesn't know from its general knowledge.
-      promptForGemini = historyContext + userMessageText; // Send user message directly if no context
+      promptForGemini = historyContext + userMessageText;
       systemInstruction = SYSTEM_INSTRUCTION_NO_CONTEXT;
-      console.warn("No specific context found from KB for the query. Proceeding with a general response.");
+      console.warn("No specific context found from KB for any query. Proceeding with a general response.");
     }
 
     const chat = model.startChat({
       generationConfig,
       history: [
         ...chatHistory,
-        // Construct a specific history turn for this RAG query if needed,
-        // or let the system prompt guide the current turn.
-        // For now, the system prompt directly prefaces the user query with context.
       ],
-      // Apply system instruction. For some models, system instruction is a specific parameter.
-      // For gemini-1.5-flash, it's typically part of the first message or overall instructions.
-      // We will prepend it to the user's effective prompt.
     });
 
     const fullPrompt = systemInstruction + "\n\n" + promptForGemini;

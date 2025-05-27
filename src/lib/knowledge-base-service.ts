@@ -41,7 +41,7 @@ export interface RetrievedContext {
   segments: RetrievedSegment[];
 }
 
-export const getContextFromKB = async (queryEmbedding: number[]): Promise<RetrievedContext | null> => {
+export const getContextFromKB = async (queryEmbedding: number[], limit: number = 25): Promise<RetrievedContext | null> => {
   const session: Session = getDriver().session();
   try {
     // 1. Find the most similar topic
@@ -68,14 +68,14 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
     // or perform a broader segment search. For now, sticking to topic-constrained segment search.
     // TODO: Look at this logic ... how should it work?
     const segmentsResult = await session.run(
-      `CALL db.index.vector.queryNodes('segment_embedding_idx', 25, $queryEmbedding) 
+      `CALL db.index.vector.queryNodes('segment_embedding_idx', $limit, $queryEmbedding) 
        YIELD node AS segment, score
        MATCH (doc:Document)-[:CONTAINS]->(segment)
        // Optional: If you want to ensure segments are related to the found topic, uncomment and adjust:
        // MATCH (segment)-[:MENTIONS]->(t:Topic {name: $topicName})
        RETURN doc.path AS documentPath, segment.type AS segmentType, segment.text AS segmentText, segment.page AS segmentPage, segment.public_url AS publicUrl, score AS similarityScore
        ORDER BY similarityScore DESC`, 
-      { queryEmbedding, topicName } // topicName is used if the optional MATCH above is enabled
+      { queryEmbedding, topicName, limit } // topicName is used if the optional MATCH above is enabled, pass limit
     );
 
     const segments: RetrievedSegment[] = segmentsResult.records.map(record => {
