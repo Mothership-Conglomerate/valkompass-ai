@@ -22,6 +22,7 @@
     "@google/generative-ai": "^0.24.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "deepmerge-ts": "^7.1.5",
     "lucide-react": "^0.511.0",
     "neo4j-driver": "^5.28.1",
     "next": "15.3.2",
@@ -29,6 +30,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
+    "rehype-sanitize": "^6.0.0",
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
