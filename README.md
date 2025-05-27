@@ -1,4 +1,4 @@
-![Valkompass Logo](images/valkompass_image.png)
+![Valkompass Logo](images/valkompass_image.avif)
 
 # Welcome to Valkompass!
 
