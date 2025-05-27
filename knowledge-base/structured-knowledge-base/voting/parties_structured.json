@@ -1,0 +1,42 @@
+[
+    {
+        "id": "C",
+        "name": "Centerpartiet"
+    },
+    {
+        "id": "FP",
+        "name": "Folkpartiet liberalerna"
+    },
+    {
+        "id": "L",
+        "name": "Liberalerna"
+    },
+    {
+        "id": "M",
+        "name": "Moderaterna"
+    },
+    {
+        "id": "S",
+        "name": "Socialdemokraterna"
+    },
+    {
+        "id": "KD",
+        "name": "Kristdemokraterna"
+    },
+    {
+        "id": "-",
+        "name": "Partilös"
+    },
+    {
+        "id": "SD",
+        "name": "Sverigedemokraterna"
+    },
+    {
+        "id": "MP",
+        "name": "Miljöpartiet de gröna"
+    },
+    {
+        "id": "V",
+        "name": "Vänsterpartiet"
+    }
+]
