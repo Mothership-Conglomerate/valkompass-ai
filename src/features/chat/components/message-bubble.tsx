@@ -36,7 +36,7 @@ export default function MessageBubble({ message, role }: MessageBubbleProps) {
           <ReactMarkdown
             rehypePlugins={[[rehypeSanitize, customSchema]]}
             components={{
-              a: ({node, ...props}) => (
+              a: ({ ...props}) => (
                 // eslint-disable-next-line react/jsx-no-target-blank
                 <a className="text-blue-600 underline" target="_blank" rel="noopener noreferrer" {...props} />
               ),
