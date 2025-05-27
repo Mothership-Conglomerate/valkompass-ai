@@ -23,7 +23,7 @@ export function getPostHogClient(): PostHog {
 export async function trackEvent(
   distinctId: string,
   event: string,
-  properties?: Record<string, any>
+  properties?: Record<string, unknown>
 ) {
   try {
     const client = getPostHogClient()
@@ -46,7 +46,7 @@ export async function trackApiCall(
   method: string,
   statusCode: number,
   duration?: number,
-  properties?: Record<string, any>
+  properties?: Record<string, unknown>
 ) {
   await trackEvent(distinctId, 'api_call', {
     endpoint,
