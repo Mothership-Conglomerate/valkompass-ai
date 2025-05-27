@@ -25,7 +25,7 @@ export default function ChatArea() {
           <div className="pt-4 flex justify-end">
             <button
               onClick={clearMessages}
-              className="bg-transparent hover:underline text-sm text-gray-500"
+              className="bg-transparent hover:underline text-sm text-gray-500 cursor-pointer"
             >
               Rensa chatten
             </button>

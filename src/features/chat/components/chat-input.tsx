@@ -30,7 +30,7 @@ export default function ChatInput({ onSendMessage }: ChatInputProps) {
           }}
         />
         <button
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold p-3 rounded-r-md"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold p-3 rounded-r-md cursor-pointer"
           onClick={handleSend}
         >
           Skicka
