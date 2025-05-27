@@ -71,7 +71,7 @@ export const getGeminiChatResponse = async (userMessageText: string): Promise<st
       // We will prepend it to the user's effective prompt.
     });
 
-    const fullPrompt = SYSTEM_INSTRUCTION + "\n\n" + promptForGemini;
+    const fullPrompt = systemInstruction + "\n\n" + promptForGemini;
     
     const result = await chat.sendMessage(fullPrompt);
     const response = result.response;

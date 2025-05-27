@@ -1,4 +1,3 @@
-import Link from "next/link";
 import NavBar from "@/components/nav-bar";
 import CTA from "@/components/cta";
 
