@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavBarProps {
   activePage: string;
@@ -9,9 +10,18 @@ export default function NavBar({ activePage }: NavBarProps) {
     <nav className="w-full bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-center sm:justify-between h-16">
+          {/* Mobile logo */}
+          <div className="flex sm:hidden items-center pr-8">
+            <Link href="/">
+              <Image src="/valkompass_transparent_no_text.avif" alt="Valkompass" width={40} height={40} />
+            </Link>
+          </div>
           <div className="hidden sm:flex items-center">
-            <Link href="/" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-700">
-              Valkompass.ai
+            <Link href="/" className="flex items-center space-x-2">
+              <Image src={"/valkompass_transparent_no_text.avif"} alt="Valkompass" width={50} height={50} />
+              <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-700">
+                Valkompass.ai
+              </span>
             </Link>
           </div>
           <div className="flex space-x-4 sm:absolute sm:left-1/2 sm:top-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:space-x-8">
