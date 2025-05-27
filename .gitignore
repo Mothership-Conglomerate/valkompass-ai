@@ -42,3 +42,5 @@ yarn-error.log*
 next-env.d.ts
 **.pyc
 TODO.md
+knowledge-base/knowledge_base.egg-info
+knowledge-base/build

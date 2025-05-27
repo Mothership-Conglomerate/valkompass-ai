@@ -27,3 +27,6 @@ dev = [
     "pytest>=8.3.5",
     "pytest-asyncio>=1.0.0",
 ]
+
+[tool.setuptools]
+packages = ["analysis", "documents", "graph", "model", "parser", "util", "tests"]
