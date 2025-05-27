@@ -65,7 +65,9 @@ def __parse_and_segment_langchain(
     segments: list[DocumentSegment] = []
     current_search_cursor = 0
     for i, text_chunk in enumerate(split_texts):
-        if not text_chunk.strip():  # Skip empty or whitespace-only chunks
+        # Skip chunks that are empty or contain only whitespace (e.g., "\n", "  ", "\t\n ")
+        s_text_chunk = text_chunk.strip()
+        if not s_text_chunk or s_text_chunk == "\\n":
             continue
 
         chunk_start_index = raw.find(text_chunk, current_search_cursor)

@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 
+import os
 from pathlib import Path
 from typing import List
 import argparse
@@ -8,6 +9,7 @@ import asyncio
 from tqdm import tqdm
 from tqdm.asyncio import tqdm as async_tqdm
 
+from graph import SchemaManager
 from model import Document, DocumentSegment, Topic
 from parser import parse_document
 from util.errors import NoSuchDocumentError
@@ -18,6 +20,7 @@ from model.store import (
     load_documents_from_json,
     store_document_as_json,
     store_topics_as_json,
+    load_topics_from_json,
 )
 
 load_dotenv()
@@ -93,9 +96,9 @@ async def main():
     parser.add_argument(
         "--actions",
         nargs="+",
-        choices=["parse", "embed", "topicmodel"],
-        default=["parse", "embed"],
-        help="Specify a list of actions: parse, embed, topicmodel. Default is parse then embed.",
+        choices=["parse", "embed", "topicmodel", "graph"],
+        default=["parse", "embed", "topicmodel", "graph"],
+        help="Specify a list of actions: parse, embed, topicmodel, graph. Default is parse then embed.",
     )
     parser.add_argument(
         "--docs-dir",
@@ -114,6 +117,7 @@ async def main():
     args = parser.parse_args()
 
     documents: List[Document] = []
+    topics: List[Topic] = []
     processed_something = False
 
     # Convert string paths from args to Path objects
@@ -189,13 +193,11 @@ async def main():
             all_segments
         )  # Pass only segments with embeddings
 
-        pydantic_topics = topics_to_pydantic(topic_model_bertopic)
+        topics = topics_to_pydantic(topic_model_bertopic)
 
-        if pydantic_topics:
-            print(f"Generated {len(pydantic_topics)} topics.")
-            store_topics_as_json(
-                pydantic_topics, STRUCTURED_KB_OUTPUT_DIR, "topics.json"
-            )
+        if topics:
+            print(f"Generated {len(topics)} topics.")
+            store_topics_as_json(topics, STRUCTURED_KB_OUTPUT_DIR, "topics.json")
         else:
             print("No topics were generated (excluding outliers).")
 
@@ -212,6 +214,34 @@ async def main():
             updated_doc_count += 1
         print(f"Successfully stored {updated_doc_count} documents with topic IDs.")
         processed_something = True
+
+    if "graph" in args.actions:
+        if not topics:
+            print(f"Loading topics from {STRUCTURED_KB_OUTPUT_DIR}...")
+            topics = load_topics_from_json(STRUCTURED_KB_OUTPUT_DIR)
+
+        if not documents:
+            print(f"Loading documents from {structured_output_dir}...")
+            documents = load_documents_from_json(structured_output_dir)
+
+        print("Starting graph operations...")
+        schema_manager = SchemaManager(
+            uri=os.getenv("NEO4J_URI"),
+            user=os.getenv("NEO4J_USERNAME"),
+            password=os.getenv("NEO4J_PASSWORD"),
+        )
+        schema_manager.apply_schema()
+        print("Schema applied successfully.")
+
+        print("Upserting topics...")
+        for topic in tqdm(topics, desc="Upserting topics", unit="topic"):
+            schema_manager.upsert_topic(topic)
+        print("Topics upserted successfully.")
+
+        print("Upserting documents...")
+        for doc in tqdm(documents, desc="Upserting documents", unit="doc"):
+            schema_manager.upsert_document(doc)
+        print("Documents upserted successfully.")
 
     if not processed_something:
         print(

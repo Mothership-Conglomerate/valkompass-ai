@@ -149,6 +149,7 @@ def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
     Builds a human-readable name and description for each topic
     based on its top keywords.
     Skips the outlier topic (ID -1).
+    Assigns topic embeddings from the model.
     """
     pydantic_topics: list[Topic] = []
     if not hasattr(topic_model, "get_topic_info") or not hasattr(
@@ -159,39 +160,63 @@ def topics_to_pydantic(topic_model: BERTopic) -> list[Topic]:
         )
         return pydantic_topics
 
-    try:
-        topic_info_df = topic_model.get_topic_info()
-        if topic_info_df.empty:
-            return pydantic_topics
+    topic_embeddings_available = (
+        hasattr(topic_model, "topic_embeddings_")
+        and topic_model.topic_embeddings_ is not None
+    )
+    if not topic_embeddings_available:
+        print(
+            "Warning: topic_model.topic_embeddings_ is not available. Topics will be created without embeddings."
+        )
 
-        for _, row in topic_info_df.iterrows():  # Use _ if index is not needed directly
-            tid = row["Topic"]
-            if tid == -1:  # Skip outlier topic
-                continue
+    topic_info_df = topic_model.get_topic_info()
+    if topic_info_df.empty:
+        return pydantic_topics
 
-            kw_scores = topic_model.get_topic(tid)
-            if not kw_scores:
-                continue
+    for df_idx, row in topic_info_df.iterrows():  # df_idx is the DataFrame index
+        tid = row["Topic"]
+        if tid == -1:  # Skip outlier topic
+            continue
 
-            # Filter out empty or whitespace-only strings from keywords
-            keywords = [word for word, _ in kw_scores[:5] if word and word.strip()]
+        kw_scores = topic_model.get_topic(tid)
+        if not kw_scores:
+            # This case might occur if a topic ID exists in get_topic_info but not in get_topic
+            # Or if it's an empty topic.
+            print(f"Warning: No keywords found for topic {tid}. Skipping.")
+            continue
 
-            if len(keywords) >= 2:
-                name = " / ".join(keywords[:2])
-            elif len(keywords) == 1:
-                name = keywords[0]
+        # Filter out empty or whitespace-only strings from keywords
+        keywords = [word for word, _ in kw_scores[:5] if word and word.strip()]
+
+        if len(keywords) >= 2:
+            name = " / ".join(keywords[:2])
+        elif len(keywords) == 1:
+            name = keywords[0]
+        else:
+            name = f"Topic {tid}"
+
+        description = "Keywords: " + ", ".join(keywords)
+        if not keywords:
+            description = "No keywords found for this topic."  # Should be rare due to earlier continue
+
+        topic_embedding = None
+        if topic_embeddings_available:
+            # The df_idx from iterrows() on get_topic_info() corresponds to the
+            # row index in topic_embeddings_ because topics are sorted.
+            if 0 <= df_idx < len(topic_model.topic_embeddings_):
+                topic_embedding = topic_model.topic_embeddings_[df_idx]
             else:
-                name = f"Topic {tid}"
+                print(
+                    f"Warning: DataFrame index {df_idx} is out of bounds for topic_embeddings_ (len {len(topic_model.topic_embeddings_)}). Topic {tid} will not have an embedding."
+                )
 
-            description = "Keywords: " + ", ".join(keywords)
-            if not keywords:
-                description = "No keywords found for this topic."
-
-            pydantic_topics.append(
-                Topic(id=int(tid), name=name, description=description)
+        pydantic_topics.append(
+            Topic(
+                id=int(tid),
+                name=name,
+                description=description,
+                embedding=topic_embedding,
             )
-
-    except Exception as e:
-        print(f"Error converting topics to Pydantic: {e}")
+        )
 
     return pydantic_topics

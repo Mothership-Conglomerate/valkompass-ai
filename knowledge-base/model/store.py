@@ -108,7 +108,39 @@ def store_topics_as_json(
     output_filepath = output_dir / filename
 
     # Convert list of Pydantic models to a list of dicts, then dump to JSON
-    topics_data = [topic.model_dump() for topic in topics]
+    topics_data = [topic.model_dump(mode="json") for topic in topics]
     with open(output_filepath, "w", encoding="utf-8") as f:
         json.dump(topics_data, f, indent=2, ensure_ascii=False)
     print(f"Successfully stored {len(topics)} topics in {output_filepath}.")
+
+
+def load_topics_from_json(
+    input_dir: Path, filename: str = "topics.json"
+) -> List[Topic]:
+    """
+    Loads Topic objects from a JSON file in a specified directory.
+
+    Args:
+        input_dir: The directory containing the JSON file.
+        filename: The name of the JSON file.
+
+    Returns:
+        A list of loaded Topic objects.
+    """
+    input_filepath = input_dir / filename
+    if not input_filepath.exists():
+        print(f"Topics file not found: {input_filepath}")
+        return []
+
+    loaded_topics: List[Topic] = []
+    print(f"Loading topics from {input_filepath}...")
+
+    with open(input_filepath, "r", encoding="utf-8") as f:
+        topics_data = json.load(f)
+        for topic_data in tqdm(topics_data, desc="Loading JSON topics", unit="topic"):
+            # Pydantic will use field_validator for 'embedding' to convert list to np.ndarray
+            topic_obj = Topic(**topic_data)
+            loaded_topics.append(topic_obj)
+
+    print(f"Successfully loaded {len(loaded_topics)} topics from {input_filepath}.")
+    return loaded_topics
