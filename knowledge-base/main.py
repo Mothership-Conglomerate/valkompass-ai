@@ -230,6 +230,7 @@ async def main():
             user=os.getenv("NEO4J_USERNAME"),
             password=os.getenv("NEO4J_PASSWORD"),
         )
+        schema_manager.nuke_database()
         schema_manager.apply_schema()
         print("Schema applied successfully.")
 

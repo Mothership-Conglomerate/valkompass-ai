@@ -58,6 +58,45 @@ class SchemaManager:
                 stmt = f"CREATE {idx['cypher']}"
                 session.run(stmt)
 
+    # TODO: Test this to see if it works??
+    def nuke_database(self) -> None:
+        """Remove all data, indexes, and constraints from the database."""
+        with self.driver.session() as session:
+            # Drop all constraints
+            for ct in SCHEMA["constraints"]:
+                stmt = f"DROP {ct['cypher'].replace('IF NOT EXISTS FOR', 'ON')}"  # DROP CONSTRAINT constraint_name ON (n:Label) REQUIRE n.property IS UNIQUE
+                try:
+                    session.run(stmt)
+                except Exception as e:
+                    # It's okay if a constraint doesn't exist when we try to drop it
+                    print(f"Could not drop constraint {ct['name']}: {e}")
+
+            # Drop all indexes
+            for idx in SCHEMA["indexes"]:
+                # For vector indexes, the name is explicitly defined in the cypher.
+                # For regular indexes, the name is given in the 'name' field.
+                index_name = idx["name"]
+                if "VECTOR INDEX" in idx["cypher"]:
+                    # Attempt to extract the vector index name if it's different or more complex
+                    # Example: "VECTOR INDEX my_vector_idx IF NOT EXISTS FOR..."
+                    parts = idx["cypher"].split()
+                    if "INDEX" in parts and parts.index("INDEX") + 1 < len(parts):
+                        potential_name = parts[parts.index("INDEX") + 1]
+                        # simple heuristic to check if it's a name before "IF NOT EXISTS"
+                        if potential_name.lower() != "if":
+                            index_name = potential_name
+
+                stmt = f"DROP INDEX {index_name}"
+                try:
+                    session.run(stmt)
+                except Exception as e:
+                    # It's okay if an index doesn't exist when we try to drop it
+                    print(f"Could not drop index {index_name}: {e}")
+
+            # Delete all nodes and relationships
+            session.run("MATCH (n) DETACH DELETE n")
+            print("Database nuked: all data, indexes, and constraints removed.")
+
     def upsert_topic(self, topic: Topic) -> None:
         with self.driver.session() as session:
             session.run(
@@ -154,6 +193,17 @@ if __name__ == "__main__":
     # adjust URI/credentials as needed
     mgr = SchemaManager("bolt://localhost:7687", "neo4j", "password")
     try:
+        # Example usage:
+        # To apply schema:
+        # mgr.apply_schema()
+        # print("Schema applied successfully.")
+
+        # To nuke the database (use with caution!):
+        # print("Attempting to nuke the database...")
+        # mgr.nuke_database()
+        # print("Database nuke attempt finished.")
+
+        # For regular schema application:
         mgr.apply_schema()
         print("Schema applied successfully.")
     finally:
