@@ -13,16 +13,14 @@ const formatChatHistory = (messages: Message[], maxLength: number = 5000): strin
     return '';
   }
 
-  // Filter to only include user messages, not AI responses
-  const userMessages = messages.filter(msg => msg.role === 'user');
-  
-  if (userMessages.length === 0) {
-    return '';
-  }
-
-  // Format each user message with timestamp
-  const formattedMessages = userMessages.map(msg => {
-    return `\n${msg.text}`;
+  // Format each message as "Role: Message text"
+  const formattedMessages = messages.map(msg => {
+    const roleLabel = msg.role === 'user' ? 'User' : 'AI';
+    // Ensure timestamp is a Date object (it might be a string from JSON)
+    const timestamp = msg.timestamp instanceof Date 
+      ? msg.timestamp.toLocaleTimeString() 
+      : new Date(msg.timestamp).toLocaleTimeString();
+    return `[${timestamp}] ${roleLabel}: ${msg.text}`;
   });
 
   // Join all messages with newlines

@@ -36,7 +36,7 @@ export function ChatHistoryDebug({ messages }: ChatHistoryDebugProps) {
       {isVisible && (
         <div className="mt-2 p-3 bg-gray-50 rounded text-xs font-mono">
           <div className="mb-2 font-semibold text-gray-700">
-            User Chat History Sent with Latest Message:
+            Chat History Sent with Latest Message:
           </div>
           <div className="whitespace-pre-wrap text-gray-600 max-h-48 overflow-y-auto">
             {latestUserMessage.history || '(No history)'}

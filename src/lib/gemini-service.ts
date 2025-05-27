@@ -54,12 +54,12 @@ export const getGeminiChatResponse = async (userMessageText: string, clientHisto
     
     // Include client-side chat history if available
     const historyContext = clientHistory && clientHistory.trim() 
-      ? `\nPrevious User Questions:\n${clientHistory}\n\n` 
+      ? `\nRecent Chat History:\n${clientHistory}\n\n` 
       : '';
     
     if (retrievedContext && (retrievedContext.segments.length > 0 || retrievedContext.topicName)) {
       const formattedContext = formatContextForPrompt(retrievedContext);
-      promptForGemini = `Context:\n${formattedContext}\n\n${historyContext}\n\nUser Question: ${userMessageText}\n\nAnswer:`;
+      promptForGemini = `Context:\n${formattedContext}${historyContext}User Question: ${userMessageText}\n\nAnswer:`;
     } else {
       // Fallback if no context is found, or handle as a direct question to Gemini without RAG
       // For now, we'll still use a modified prompt that encourages it to say if it doesn't know from its general knowledge.
