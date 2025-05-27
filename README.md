@@ -1,3 +1,14 @@
+![Valkompass Logo](images/valkompass_image.png)
+
+# Welcome to Valkompass!
+
+Valkompass.ai is an open-source tool that helps you explore and compare the positions and decisions of Swedish political parties. By collecting official documents—such as party programs, election manifestos, voting records, parliamentary reports, and other public protocols—Valkompass.ai leverages advanced AI (Gemini 2.5 Flash) to analyze this information. You can ask questions and engage in conversations, with answers grounded in the actual stances and actions of the parties.
+
+Whether you're a voter seeking clarity, a journalist researching policy, or simply curious about Swedish politics, Valkompass.ai empowers you to make informed decisions with transparent, data-driven insights.
+
+## History
+Valkompass.ai was created during a hackathon at Mashup Day Malmö in May 2025.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
