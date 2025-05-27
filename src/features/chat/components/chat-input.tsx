@@ -15,7 +15,7 @@ export default function ChatInput({ onSendMessage }: ChatInputProps) {
   };
 
   return (
-    <div className="bg-white/50 rounded-b-lg p-4 ">
+    <div className="bg-white/40 rounded-b-lg p-4 ">
       <div className="flex items-center">
         <input
           type="text"

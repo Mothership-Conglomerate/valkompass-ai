@@ -13,7 +13,7 @@ export default function ChatArea() {
 
   return (
     <>
-      <div className="bg-white/50 rounded-t-lg p-6 flex flex-col flex-grow">
+      <div className="bg-white/40 rounded-t-lg p-6 flex flex-col flex-grow">
         <div className={`flex-grow overflow-y-auto ${messages.length === 0 && !isLoading && !error ? 'flex items-center justify-center' : ''}`}>
           {messages.length === 0 && !isLoading && !error ? (
             <div className="flex flex-col items-center space-y-4 text-gray-600">
