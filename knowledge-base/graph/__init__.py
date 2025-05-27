@@ -1,3 +1,4 @@
+import json
 from neo4j import GraphDatabase
 from model import Topic, Document
 
@@ -22,20 +23,20 @@ SCHEMA = {
         # basic look-ups
         {
             "name": "topic_name_idx",
-            "cypher": "INDEX IF NOT EXISTS FOR (n:Topic) ON (n.name)",
+            "cypher": "INDEX topic_name_idx IF NOT EXISTS FOR (n:Topic) ON (n.name)",
         },
         {
             "name": "doc_path_idx",
-            "cypher": "INDEX IF NOT EXISTS FOR (n:Document) ON (n.path)",
+            "cypher": "INDEX doc_path_idx IF NOT EXISTS FOR (n:Document) ON (n.path)",
         },
         # vector indexes for fast embedding search (requires Neo4j vector plugin)
         {
             "name": "topic_embedding_idx",
-            "cypher": "VECTOR INDEX topic_embedding_idx IF NOT EXISTS FOR (n:Topic) ON (n.embedding) OPTIONS { indexProvider: 'vector-1.0', indexConfig: { `vector.dimensions`: 1536, `vector.similarity_function`: 'cosine'} }",
+            "cypher": "VECTOR INDEX topic_embedding_idx IF NOT EXISTS FOR (n:Topic) ON (n.embedding) OPTIONS { indexConfig: { `vector.dimensions`: 1536, `vector.similarity_function`: 'cosine'} }",
         },
         {
             "name": "segment_embedding_idx",
-            "cypher": "VECTOR INDEX segment_embedding_idx IF NOT EXISTS FOR (n:DocumentSegment) ON (n.embedding) OPTIONS { indexProvider: 'vector-1.0', indexConfig: { `vector.dimensions`: 1536, `vector.similarity_function`: 'cosine'} }",
+            "cypher": "VECTOR INDEX segment_embedding_idx IF NOT EXISTS FOR (n:DocumentSegment) ON (n.embedding) OPTIONS { indexConfig: { `vector.dimensions`: 1536, `vector.similarity_function`: 'cosine'} }",
         },
     ],
 }
@@ -58,40 +59,27 @@ class SchemaManager:
                 stmt = f"CREATE {idx['cypher']}"
                 session.run(stmt)
 
-    # TODO: Test this to see if it works??
-    def nuke_database(self) -> None:
+    def clear_database(self) -> None:
         """Remove all data, indexes, and constraints from the database."""
         with self.driver.session() as session:
             # Drop all constraints
             for ct in SCHEMA["constraints"]:
-                stmt = f"DROP {ct['cypher'].replace('IF NOT EXISTS FOR', 'ON')}"  # DROP CONSTRAINT constraint_name ON (n:Label) REQUIRE n.property IS UNIQUE
+                stmt = f"DROP CONSTRAINT {ct['name']} IF EXISTS"
                 try:
                     session.run(stmt)
                 except Exception as e:
                     # It's okay if a constraint doesn't exist when we try to drop it
-                    print(f"Could not drop constraint {ct['name']}: {e}")
+                    print(f"Error dropping constraint {ct['name']}: {e}")
 
             # Drop all indexes
             for idx in SCHEMA["indexes"]:
-                # For vector indexes, the name is explicitly defined in the cypher.
-                # For regular indexes, the name is given in the 'name' field.
                 index_name = idx["name"]
-                if "VECTOR INDEX" in idx["cypher"]:
-                    # Attempt to extract the vector index name if it's different or more complex
-                    # Example: "VECTOR INDEX my_vector_idx IF NOT EXISTS FOR..."
-                    parts = idx["cypher"].split()
-                    if "INDEX" in parts and parts.index("INDEX") + 1 < len(parts):
-                        potential_name = parts[parts.index("INDEX") + 1]
-                        # simple heuristic to check if it's a name before "IF NOT EXISTS"
-                        if potential_name.lower() != "if":
-                            index_name = potential_name
-
-                stmt = f"DROP INDEX {index_name}"
+                stmt = f"DROP INDEX {index_name} IF EXISTS"
                 try:
                     session.run(stmt)
                 except Exception as e:
                     # It's okay if an index doesn't exist when we try to drop it
-                    print(f"Could not drop index {index_name}: {e}")
+                    print(f"Error dropping index {index_name}: {e}")
 
             # Delete all nodes and relationships
             session.run("MATCH (n) DETACH DELETE n")
@@ -138,7 +126,9 @@ class SchemaManager:
                         "start_index": seg.start_index,
                         "end_index": seg.end_index,
                         "page": seg.page,
-                        "metadata": seg.metadata,
+                        "metadata": json.dumps(seg.metadata)
+                        if seg.metadata is not None
+                        else None,
                         "embedding": seg.embedding.tolist()
                         if seg.embedding is not None
                         else None,

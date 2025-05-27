@@ -55,9 +55,14 @@ def load_and_parse_documents(
     doc_paths_abs: List[Path] = []
     # Recursively find all files in the documents_dir
     # Add more extensions here if needed, e.g., "*.txt", "*.docx"
-    supported_extensions = ["*.pdf", "*.txt"]
+    supported_extensions = ["*.pdf", "*.json"]
     for ext in supported_extensions:
         doc_paths_abs.extend(list(documents_dir_abs.rglob(ext)))
+
+    # Remove everything in /voting/ for now
+    doc_paths_abs = [
+        path for path in doc_paths_abs if "voting" not in str(path).lower()
+    ]
 
     if not doc_paths_abs:
         print(
@@ -96,7 +101,7 @@ async def main():
     parser.add_argument(
         "--actions",
         nargs="+",
-        choices=["parse", "embed", "topicmodel", "graph"],
+        choices=["parse", "embed", "topicmodel", "graph", "graph-clear"],
         default=["parse", "embed", "topicmodel", "graph"],
         help="Specify a list of actions: parse, embed, topicmodel, graph. Default is parse then embed.",
     )
@@ -230,7 +235,7 @@ async def main():
             user=os.getenv("NEO4J_USERNAME"),
             password=os.getenv("NEO4J_PASSWORD"),
         )
-        schema_manager.nuke_database()
+        schema_manager.clear_database()
         schema_manager.apply_schema()
         print("Schema applied successfully.")
 
@@ -243,6 +248,15 @@ async def main():
         for doc in tqdm(documents, desc="Upserting documents", unit="doc"):
             schema_manager.upsert_document(doc)
         print("Documents upserted successfully.")
+
+    if "graph-clear" in args.actions:
+        schema_manager = SchemaManager(
+            uri=os.getenv("NEO4J_URI"),
+            user=os.getenv("NEO4J_USERNAME"),
+            password=os.getenv("NEO4J_PASSWORD"),
+        )
+        print("Starting graph operations...")
+        schema_manager.clear_database()
 
     if not processed_something:
         print(
