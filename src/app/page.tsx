@@ -31,7 +31,7 @@ export default function HomePage() {
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto pt-6">
             Dessa dokument används av en AI-modell (Gemini 2.5 Flash) som analyserar innehållet och gör det möjligt för dig att ställa frågor och föra samtal med partiernas ståndpunkter som grund.
 <br></br><br></br>
-            Allt vi gör är open source. <br></br>För kod och mer information, <a href="https://github.com/Mothership-Conglomerate/valkompass-ai" className="text-blue-500 hover:text-blue-600" target="_blank">besök vårt GitHub-repo</a>.
+            Allt vi gör är open source. <br></br>För kod och mer information, <a href="https://github.com/valkompass-ai/valkompass-ai" className="text-blue-500 hover:text-blue-600" target="_blank">besök vårt GitHub-repo</a>.
             </p>
           </section>
           <CTA />
