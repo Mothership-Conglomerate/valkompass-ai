@@ -20,7 +20,7 @@ export default function GetInvolvedPage() {
           </p>
           <p className="text-lg text-blue-600">
             <a href="mailto:valkompass@proton.me" className="underline">
-              Kontakta oss: valkompass@proton.me
+              valkompass@proton.me
             </a>
           </p>
         </section>
