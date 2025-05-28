@@ -11,7 +11,7 @@ from tqdm.asyncio import tqdm as async_tqdm
 
 from graph import SchemaManager
 from model import Document, DocumentSegment, Topic
-from parser import parse_document
+from parser import parse_document, parse_all_voting_data
 from util.errors import NoSuchDocumentError
 from analysis.embedding import EmbeddingClient
 from analysis.topic_modeling import extract_topics, topics_to_pydantic
@@ -21,6 +21,14 @@ from model.store import (
     store_document_as_json,
     store_topics_as_json,
     load_topics_from_json,
+    store_parties_as_json,
+    load_parties_from_json,
+    store_politicians_as_json,
+    load_politicians_from_json,
+    store_voting_sessions_as_json,
+    load_voting_sessions_from_json,
+    store_votes_as_json,
+    load_votes_from_json,
 )
 
 load_dotenv()
@@ -28,10 +36,15 @@ load_dotenv()
 # Project root directory
 PROJECT_ROOT_DIR = Path(__file__).parent.parent
 DOCUMENTS_BASE_DIR_ABS = Path(__file__).parent / "documents"
+# Specific directory for voting documents within the main documents folder
+VOTING_DATA_BASE_DIR_ABS = DOCUMENTS_BASE_DIR_ABS / "voting"
+
 STRUCTURED_KB_OUTPUT_DIR = Path(__file__).parent / "structured-knowledge-base"
 STRUCTURED_DOCS_OUTPUT_DIR = (
     Path(__file__).parent / "structured-knowledge-base" / "documents"
 )
+# Specific output directory for structured voting data
+STRUCTURED_VOTING_OUTPUT_DIR = STRUCTURED_KB_OUTPUT_DIR / "voting"
 
 
 def load_and_parse_documents(
@@ -101,9 +114,16 @@ async def main():
     parser.add_argument(
         "--actions",
         nargs="+",
-        choices=["parse", "embed", "topicmodel", "graph", "graph-clear"],
+        choices=[
+            "parse",
+            "embed",
+            "topicmodel",
+            "graph",
+            "graph-clear",
+            "parse-voting",
+        ],
         default=["parse", "embed", "topicmodel", "graph"],
-        help="Specify a list of actions: parse, embed, topicmodel, graph. Default is parse then embed.",
+        help="Specify a list of actions: parse, embed, topicmodel, graph, graph-clear, parse-voting. Default is parse then embed.",
     )
     parser.add_argument(
         "--docs-dir",
@@ -128,6 +148,9 @@ async def main():
     # Convert string paths from args to Path objects
     docs_dir_abs = Path(args.docs_dir)
     structured_output_dir = Path(args.structured_output_dir)
+    # Define voting_data_dir based on the general docs_dir for flexibility, or make it a new arg
+    # For now, assume voting data is in a 'voting' subdirectory of the main docs_dir.
+    voting_data_input_dir = docs_dir_abs / "voting"
 
     if "parse" in args.actions:
         print(f"Starting document parsing from: {docs_dir_abs}...")
@@ -137,6 +160,32 @@ async def main():
         print(f"Successfully parsed {len(documents)} documents.")
         print(f"Storing parsed documents to {structured_output_dir}...")
         store_documents_as_json(documents, structured_output_dir)
+        processed_something = True
+
+    if "parse-voting" in args.actions:
+        print(f"Starting voting data parsing from: {voting_data_input_dir}...")
+        parsed_parties, parsed_politicians, parsed_voting_sessions, parsed_votes = (
+            parse_all_voting_data(voting_data_input_dir)
+        )
+
+        STRUCTURED_VOTING_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+        if parsed_parties:
+            print(f"Storing {len(parsed_parties)} parsed parties...")
+            store_parties_as_json(parsed_parties, STRUCTURED_VOTING_OUTPUT_DIR)
+        if parsed_politicians:
+            print(f"Storing {len(parsed_politicians)} parsed politicians...")
+            store_politicians_as_json(parsed_politicians, STRUCTURED_VOTING_OUTPUT_DIR)
+        if parsed_voting_sessions:
+            print(f"Storing {len(parsed_voting_sessions)} parsed voting sessions...")
+            store_voting_sessions_as_json(
+                parsed_voting_sessions, STRUCTURED_VOTING_OUTPUT_DIR
+            )
+        if parsed_votes:
+            print(f"Storing {len(parsed_votes)} parsed votes...")
+            store_votes_as_json(parsed_votes, STRUCTURED_VOTING_OUTPUT_DIR)
+
+        print("Voting data parsing and storage complete.")
         processed_something = True
 
     if "embed" in args.actions:
@@ -260,7 +309,7 @@ async def main():
 
     if not processed_something:
         print(
-            "No actions were performed. Please specify --actions parse or --actions embed."
+            "No actions were performed. Please specify an action, e.g., --actions parse or --actions embed or --actions parse-voting."
         )
     else:
         print("Knowledge base processing complete.")

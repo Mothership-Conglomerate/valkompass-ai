@@ -6,6 +6,10 @@ from tqdm import tqdm
 from . import (
     Document,
     Topic,
+    Party,
+    Politician,
+    VotingSession,
+    Vote,
 )  # Assuming Document and Topic are in __init__.py in the same package
 
 
@@ -144,3 +148,112 @@ def load_topics_from_json(
 
     print(f"Successfully loaded {len(loaded_topics)} topics from {input_filepath}.")
     return loaded_topics
+
+
+# --- Storage for Parties ---
+
+
+def store_parties_as_json(
+    parties: List[Party], output_dir: Path, filename: str = "parties_structured.json"
+):
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filepath = output_dir / filename
+    parties_data = [party.model_dump(mode="json") for party in parties]
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(parties_data, f, ensure_ascii=False, indent=4)
+    print(f"Stored {len(parties)} parties to {filepath}")
+
+
+def load_parties_from_json(
+    input_dir: Path, filename: str = "parties_structured.json"
+) -> List[Party]:
+    filepath = input_dir / filename
+    if not filepath.exists():
+        print(f"Parties file not found: {filepath}")
+        return []
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return [Party(**party_data) for party_data in data]
+
+
+# --- Storage for Politicians ---
+
+
+def store_politicians_as_json(
+    politicians: List[Politician],
+    output_dir: Path,
+    filename: str = "politicians_structured.json",
+):
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filepath = output_dir / filename
+    politicians_data = [pol.model_dump(mode="json") for pol in politicians]
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(politicians_data, f, ensure_ascii=False, indent=4)
+    print(f"Stored {len(politicians)} politicians to {filepath}")
+
+
+def load_politicians_from_json(
+    input_dir: Path, filename: str = "politicians_structured.json"
+) -> List[Politician]:
+    filepath = input_dir / filename
+    if not filepath.exists():
+        print(f"Politicians file not found: {filepath}")
+        return []
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return [Politician(**pol_data) for pol_data in data]
+
+
+# --- Storage for VotingSessions ---
+
+
+def store_voting_sessions_as_json(
+    sessions: List[VotingSession],
+    output_dir: Path,
+    filename: str = "voting_sessions_structured.json",
+):
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filepath = output_dir / filename
+    sessions_data = [session.model_dump(mode="json") for session in sessions]
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(sessions_data, f, ensure_ascii=False, indent=4)
+    print(f"Stored {len(sessions)} voting sessions to {filepath}")
+
+
+def load_voting_sessions_from_json(
+    input_dir: Path, filename: str = "voting_sessions_structured.json"
+) -> List[VotingSession]:
+    filepath = input_dir / filename
+    if not filepath.exists():
+        print(f"Voting sessions file not found: {filepath}")
+        return []
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    # Handle potential embedding deserialization if it becomes complex
+    return [VotingSession(**session_data) for session_data in data]
+
+
+# --- Storage for Votes ---
+
+
+def store_votes_as_json(
+    votes: List[Vote], output_dir: Path, filename: str = "votes_structured.json"
+):
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filepath = output_dir / filename
+    votes_data = [vote.model_dump(mode="json") for vote in votes]
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(votes_data, f, ensure_ascii=False, indent=4)
+    print(f"Stored {len(votes)} votes to {filepath}")
+
+
+def load_votes_from_json(
+    input_dir: Path, filename: str = "votes_structured.json"
+) -> List[Vote]:
+    filepath = input_dir / filename
+    if not filepath.exists():
+        print(f"Votes file not found: {filepath}")
+        return []
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return [Vote(**vote_data) for vote_data in data]
