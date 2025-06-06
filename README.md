@@ -9,39 +9,50 @@ Whether you're a voter seeking clarity, a journalist researching policy, or simp
 ## History
 Valkompass.ai was created during a hackathon at Mashup Day Malmö in May 2025.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, React
+- **AI**: Google Gemini models for analysis
+- **Database**: Neo4j for knowledge graph storage
+- **Package Manager**: Bun for frontend, UV for Python
+- **Knowledge Processing**: Python for document parsing and analysis
+
+## Prerequisites
+
+- Node.js 20+ or Bun
+- Python 3.13+ (for knowledge base processing)
+- Neo4j database (optional for local development), docker compose available.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How do we handle political data? 
 
-## Learn More
+All raw and processed data points are stored in the [knowledge-base](./knowledge-base/) directory. Whenever we deploy a new version of valkompass.ai, only the data available in [structured-knowledge-base](./knowledge-base/structured-knowledge-base/) is transferred to our Neo4j database. This process enhances transparency regarding the data the AI can access.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions! Here's how to get started:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Run tests and ensure code quality
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to your branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Areas where we need help:
+- Adding more political data sources.
+- Improving AI analysis accuracy
+- Frontend UI/UX improvements
+- Documentation
+- Testing and bug fixes
