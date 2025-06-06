@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Message } from '@/types';
 import { sendMessageToApi } from '../api/chat-api';
-import { v7 as uuidv7 } from 'uuid';
 
 /**
  * Formats chat history into a string representation
@@ -55,7 +54,7 @@ export const useChat = () => {
     const chatHistory = formatChatHistory(messages);
 
     const newUserMessage: Message = {
-      id: uuidv7(),
+      id: Date.now(), // Using timestamp for unique ID, consider more robust solution for production
       text: messageText,
       role: 'user' as const,
       timestamp: new Date(),
@@ -74,10 +73,11 @@ export const useChat = () => {
       setError(err.message || 'Failed to get response from AI.');
       // Optionally add an error message to the chat
       const errorMessage: Message = {
-        id: uuidv7(),
+        id: Date.now() + 1, // Ensure unique ID
         text: "Sorry, I couldn't get a response. Please try again.",
         role: 'ai' as const,
         timestamp: new Date(),
+        history: '', // Error messages don't need history
       };
       setMessages((prevMessages) => [...prevMessages, errorMessage]);
     } finally {

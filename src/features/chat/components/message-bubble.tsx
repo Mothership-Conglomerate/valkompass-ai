@@ -37,6 +37,7 @@ export default function MessageBubble({ message, role }: MessageBubbleProps) {
             rehypePlugins={[[rehypeSanitize, customSchema]]}
             components={{
               a: ({ ...props}) => (
+                // eslint-disable-next-line react/jsx-no-target-blank
                 <a className="text-blue-600" target="_blank" rel="noopener noreferrer" {...props} />
               ),
             }}
