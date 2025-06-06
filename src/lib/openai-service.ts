@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { trackEmbeddingCall } from './posthog';
+import { EMBEDDING_MODELS, calculateEmbeddingCost, type EmbeddingModelKey } from '@/types/model-types';
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
@@ -11,16 +12,11 @@ const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
 });
 
-// Using text-embedding-3-small as it's newer and generally more performant/cost-effective
-const EMBEDDING_MODEL = 'text-embedding-3-small';
-const DIMENSIONS = 1536;
-
-// Rough cost calculation for text-embedding-3-small: $0.00002 per 1K tokens
-const calculateEmbeddingCost = (textLength: number): number => {
-  // Rough approximation: 1 token ≈ 4 characters
-  const estimatedTokens = textLength / 4;
-  return (estimatedTokens / 1000) * 0.00002;
-};
+// Using the model configuration from centralized types
+const EMBEDDING_MODEL_KEY: EmbeddingModelKey = 'text-embedding-3-small';
+const EMBEDDING_CONFIG = EMBEDDING_MODELS[EMBEDDING_MODEL_KEY];
+const EMBEDDING_MODEL = EMBEDDING_CONFIG.model;
+const DIMENSIONS = EMBEDDING_CONFIG.dimensions;
 
 export const getOpenAIEmbedding = async (text: string, messageId: string, distinctId?: string): Promise<number[]> => {
   if (!text || text.trim() === '') {
@@ -39,11 +35,11 @@ export const getOpenAIEmbedding = async (text: string, messageId: string, distin
     });
 
     const duration = Date.now() - startTime;
-    const cost = calculateEmbeddingCost(cleanText.length);
+    const cost = calculateEmbeddingCost(EMBEDDING_MODEL_KEY, cleanText.length);
 
     // Track successful embedding call
     if (distinctId) {
-      await trackEmbeddingCall(distinctId, 'openai', EMBEDDING_MODEL, {
+      await trackEmbeddingCall(distinctId, EMBEDDING_CONFIG.provider, EMBEDDING_MODEL, {
         textLength: cleanText.length,
         dimensions: DIMENSIONS,
         duration,
@@ -59,7 +55,7 @@ export const getOpenAIEmbedding = async (text: string, messageId: string, distin
     
     // Track failed embedding call
     if (distinctId) {
-      await trackEmbeddingCall(distinctId, 'openai', EMBEDDING_MODEL, {
+      await trackEmbeddingCall(distinctId, EMBEDDING_CONFIG.provider, EMBEDDING_MODEL, {
         textLength: cleanText.length,
         dimensions: DIMENSIONS,
         duration,

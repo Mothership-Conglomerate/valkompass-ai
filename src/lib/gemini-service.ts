@@ -4,6 +4,7 @@ import { getContextFromKB, RetrievedContext } from "./knowledge-base-service";
 import { SYSTEM_INSTRUCTION, SYSTEM_INSTRUCTION_NO_CONTEXT } from "./prompt";
 import { trackLLMCall, trackChatInteraction } from "./posthog";
 import { Message } from "@/types";
+import { LLM_MODELS, calculateLLMCost, type LLMModelKey } from "@/types/model-types";
 
 const API_KEY = process.env.GEMINI_API_KEY;
 
@@ -12,24 +13,21 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
+
+// Using the model configuration from centralized types
+const LLM_MODEL_KEY: LLMModelKey = 'gemini-1.5-flash-latest';
+const LLM_CONFIG = LLM_MODELS[LLM_MODEL_KEY];
+const MODEL_NAME = LLM_CONFIG.model;
+
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash-latest",
+  model: MODEL_NAME,
 });
 
-const MODEL_NAME = "gemini-1.5-flash-latest";
 const generationConfig = {
   temperature: 0.7, // Slightly lower temperature for more factual RAG responses
   topK: 1,
   topP: 1,
-  maxOutputTokens: 2048,
-};
-
-// Rough cost calculation for Gemini 1.5 Flash
-// Input: $0.075 per 1M tokens, Output: $0.30 per 1M tokens
-const calculateGeminiCost = (inputTokens: number, outputTokens: number): number => {
-  const inputCost = (inputTokens / 1_000_000) * 0.075;
-  const outputCost = (outputTokens / 1_000_000) * 0.30;
-  return inputCost + outputCost;
+  maxOutputTokens: LLM_CONFIG.maxOutputTokens,
 };
 
 // Rough token estimation (Gemini uses different tokenization but this is approximate)
@@ -109,11 +107,11 @@ export const getGeminiChatResponse = async (message: Message, distinctId?: strin
     // Estimate output tokens
     const estimatedOutputTokens = estimateTokens(text);
     const estimatedTotalTokens = estimatedInputTokens + estimatedOutputTokens;
-    const estimatedCost = calculateGeminiCost(estimatedInputTokens, estimatedOutputTokens);
+    const estimatedCost = calculateLLMCost(LLM_MODEL_KEY, estimatedInputTokens, estimatedOutputTokens);
 
     // Track Gemini API call
     if (distinctId) {
-      await trackLLMCall(distinctId, 'google', MODEL_NAME, 'chat_completion', {
+      await trackLLMCall(distinctId, LLM_CONFIG.provider, MODEL_NAME, 'chat_completion', {
         inputTokens: estimatedInputTokens,
         outputTokens: estimatedOutputTokens,
         totalTokens: estimatedTotalTokens,
@@ -142,7 +140,7 @@ export const getGeminiChatResponse = async (message: Message, distinctId?: strin
     
     // Track failed Gemini call
     if (distinctId) {
-      await trackLLMCall(distinctId, 'google', MODEL_NAME, 'chat_completion', {
+      await trackLLMCall(distinctId, LLM_CONFIG.provider, MODEL_NAME, 'chat_completion', {
         duration: Date.now() - overallStartTime,
         success: false,
         errorMessage,
