@@ -13,6 +13,9 @@ package-lock.json
 
 # testing
 /coverage
+test-results.xml
+*.junit.xml
+/test-results/
 
 # next.js
 /.next/

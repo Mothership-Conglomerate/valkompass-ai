@@ -1,7 +1,7 @@
 export interface Message {
-  id: number;
+  id: string;
   text: string;
   role: "user" | "ai";
   timestamp: Date;
-  history: string;
+  history?: string;
 } 
