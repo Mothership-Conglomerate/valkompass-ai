@@ -1,4 +1,5 @@
 import neo4j, { Driver, Session } from 'neo4j-driver';
+import { trackKnowledgeBaseQuery } from './posthog';
 
 const NEO4J_URI = process.env.NEO4J_URI;
 const NEO4J_USERNAME = process.env.NEO4J_USERNAME;
@@ -39,10 +40,21 @@ export interface RetrievedContext {
   topicName: string;
   topicDescription: string;
   segments: RetrievedSegment[];
+  // Analytics data
+  retrievalDuration?: number;
+  totalSegmentsFound?: number;
+  avgSimilarityScore?: number;
+  documentsReferenced?: Array<{
+    path: string;
+    type?: string;
+    publicUrl?: string;
+  }>;
 }
 
-export const getContextFromKB = async (queryEmbedding: number[]): Promise<RetrievedContext | null> => {
+export const  getContextFromKB = async (queryEmbedding: number[], messageId: string, distinctId?: string): Promise<RetrievedContext | null> => {
   const session: Session = getDriver().session();
+  const overallStartTime = Date.now();
+  
   try {
     // 1. Find the most similar topic
     const topicResult = await session.run(
@@ -54,6 +66,19 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
     );
 
     if (topicResult.records.length === 0) {
+      const duration = Date.now() - overallStartTime;
+      
+      // Track failed topic search
+      if (distinctId) {
+        await trackKnowledgeBaseQuery(distinctId, {
+          queryType: 'topic_search',
+          success: false,
+          duration,
+          resultsFound: 0,
+          messageId,
+        });
+      }
+      
       console.warn("No matching topic found in knowledge base.");
       return null;
     }
@@ -63,10 +88,6 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
     const topicDescription = topTopic.get('description');
 
     // 2. Find the top 25 similar segments related to this topic and their documents
-    // This query assumes segments are MENTIONing topics. If the relationship is different, adjust.
-    // If segments are not directly linked to topics, we might search all segments and then filter by topic if desired,
-    // or perform a broader segment search. For now, sticking to topic-constrained segment search.
-    // TODO: Look at this logic ... how should it work?
     const segmentsResult = await session.run(
       `CALL db.index.vector.queryNodes('segment_embedding_idx', 25, $queryEmbedding) 
        YIELD node AS segment, score
@@ -100,13 +121,63 @@ export const getContextFromKB = async (queryEmbedding: number[]): Promise<Retrie
       };
     }); 
 
+    // Calculate analytics data
+    const retrievalDuration = Date.now() - overallStartTime;
+    const totalSegmentsFound = segments.length;
+    const avgSimilarityScore = segments.length > 0 
+      ? segments.reduce((sum, seg) => sum + seg.similarityScore, 0) / segments.length 
+      : 0;
+    
+    // Extract unique documents referenced
+    const documentsMap = new Map<string, { path: string; type?: string; publicUrl?: string }>();
+    segments.forEach(segment => {
+      if (!documentsMap.has(segment.documentPath)) {
+        documentsMap.set(segment.documentPath, {
+          path: segment.documentPath,
+          type: segment.documentSourceType,
+          publicUrl: segment.publicUrl,
+        });
+      }
+    });
+    const documentsReferenced = Array.from(documentsMap.values());
+
+    // Track successful retrieval
+    if (distinctId) {
+      await trackKnowledgeBaseQuery(distinctId, {
+        queryType: 'semantic_search',
+        success: true,
+        duration: retrievalDuration,
+        resultsFound: totalSegmentsFound,
+        topSimilarityScore: segments.length > 0 ? segments[0].similarityScore : undefined,
+        messageId,
+      });
+    }
+
     return {
       topicName,
       topicDescription,
       segments,
+      retrievalDuration,
+      totalSegmentsFound,
+      avgSimilarityScore,
+      documentsReferenced,
     };
 
   } catch (error) {
+    const duration = Date.now() - overallStartTime;
+    
+    // Track failed retrieval
+    if (distinctId) {
+      await trackKnowledgeBaseQuery(distinctId, {
+        queryType: 'semantic_search',
+        success: false,
+        duration,
+        resultsFound: 0,
+        errorMessage: error instanceof Error ? error.message : 'Unknown error',
+        messageId,
+      });
+    }
+
     console.error("Error querying Neo4j knowledge base:", error);
     throw new Error("Failed to retrieve context from knowledge base.");
   } finally {
