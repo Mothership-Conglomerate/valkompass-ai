@@ -57,6 +57,152 @@ export async function trackApiCall(
   })
 }
 
+// Enhanced tracking for LLM operations
+export async function trackLLMCall(
+  distinctId: string,
+  provider: string,
+  model: string,
+  operation: string,
+  properties?: {
+    inputTokens?: number;
+    outputTokens?: number;
+    totalTokens?: number;
+    duration?: number;
+    cost?: number;
+    success?: boolean;
+    errorMessage?: string;
+    temperature?: number;
+    maxTokens?: number;
+    messageId?: string;
+  }
+) {
+  await trackEvent(distinctId, 'llm_call', {
+    provider,
+    model,
+    operation,
+    input_tokens: properties?.inputTokens,
+    output_tokens: properties?.outputTokens,
+    total_tokens: properties?.totalTokens,
+    duration_ms: properties?.duration,
+    cost_usd: properties?.cost,
+    success: properties?.success ?? true,
+    error_message: properties?.errorMessage,
+    temperature: properties?.temperature,
+    max_tokens: properties?.maxTokens,
+    message_id: properties?.messageId,
+    ...properties
+  })
+}
+
+// Track chat interactions with detailed content and context
+export async function trackChatInteraction(
+  distinctId: string,
+  properties: {
+    messageId: string | number;
+    userMessage: string;
+    aiResponse?: string;
+    messageLength: number;
+    responseLength?: number;
+    duration?: number;
+    success?: boolean;
+    errorMessage?: string;
+    // Knowledge base context
+    topicName?: string;
+    topicDescription?: string;
+    documentsReferenced?: Array<{
+      path: string;
+      type?: string;
+      publicUrl?: string;
+    }>;
+    segmentsUsed?: Array<{
+      documentPath: string;
+      text: string;
+      page?: number;
+      similarityScore: number;
+    }>;
+    // RAG metrics
+    retrievalSuccess?: boolean;
+    retrievalDuration?: number;
+    numSegmentsRetrieved?: number;
+    avgSimilarityScore?: number;
+  }
+) {
+  await trackEvent(distinctId, 'chat_interaction', {
+    message_id: properties.messageId,
+    user_message: properties.userMessage,
+    ai_response: properties.aiResponse,
+    message_length: properties.messageLength,
+    response_length: properties.responseLength,
+    duration_ms: properties.duration,
+    success: properties.success ?? true,
+    error_message: properties.errorMessage,
+    
+    // RAG context
+    topic_name: properties.topicName,
+    topic_description: properties.topicDescription,
+    documents_referenced: properties.documentsReferenced,
+    segments_used: properties.segmentsUsed,
+    
+    // RAG metrics
+    retrieval_success: properties.retrievalSuccess,
+    retrieval_duration_ms: properties.retrievalDuration,
+    num_segments_retrieved: properties.numSegmentsRetrieved,
+    avg_similarity_score: properties.avgSimilarityScore,
+  })
+}
+
+// Track embedding operations
+export async function trackEmbeddingCall(
+  distinctId: string,
+  provider: string,
+  model: string,
+  properties?: {
+    textLength?: number;
+    dimensions?: number;
+    duration?: number;
+    success?: boolean;
+    errorMessage?: string;
+    cost?: number;
+    messageId?: string;
+  }
+) {
+  await trackEvent(distinctId, 'embedding_call', {
+    provider,
+    model,
+    text_length: properties?.textLength,
+    dimensions: properties?.dimensions,
+    duration_ms: properties?.duration,
+    success: properties?.success ?? true,
+    error_message: properties?.errorMessage,
+    cost_usd: properties?.cost,
+    message_id: properties?.messageId,
+  })
+}
+
+// Track knowledge base queries
+export async function trackKnowledgeBaseQuery(
+  distinctId: string,
+  properties: {
+    queryType: 'semantic_search' | 'topic_search' | 'document_retrieval';
+    success: boolean;
+    duration?: number;
+    resultsFound?: number;
+    topSimilarityScore?: number;
+    errorMessage?: string;
+    messageId?: string;
+  }
+) {
+  await trackEvent(distinctId, 'knowledge_base_query', {
+    query_type: properties.queryType,
+    success: properties.success,
+    duration_ms: properties.duration,
+    results_found: properties.resultsFound,
+    top_similarity_score: properties.topSimilarityScore,
+    error_message: properties.errorMessage,
+    message_id: properties.messageId,
+  })
+}
+
 // Graceful shutdown
 export async function shutdownPostHog() {
   if (postHogClient) {
