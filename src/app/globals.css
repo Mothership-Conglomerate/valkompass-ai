@@ -119,4 +119,78 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Mobile optimizations */
+  html {
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  
+  /* Smooth scrolling for iOS */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Better touch targets */
+  button, input, select, textarea, a {
+    touch-action: manipulation;
+  }
+  
+  /* Prevent iOS zoom on input focus */
+  input[type="text"], 
+  input[type="email"], 
+  input[type="search"], 
+  textarea {
+    font-size: 16px;
+  }
+  
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.5);
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 0.7);
+  }
+  
+  /* Hide scrollbar on mobile */
+  @media (max-width: 640px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  /* Mobile viewport handling */
+  @supports (height: 100dvh) {
+    :root {
+      --viewport-height: 100dvh;
+    }
+  }
+  
+  @supports not (height: 100dvh) {
+    :root {
+      --viewport-height: 100vh;
+    }
+  }
+  
+  /* Ensure proper viewport behavior on mobile - only for chat page */
+  @media (max-width: 640px) {
+    .chat-page {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
 }
