@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { trackApiCall } from '../posthog'
+import { createHash } from 'crypto'
 
 export function withAnalytics(
   handler: (req: NextRequest) => Promise<NextResponse>
@@ -9,8 +10,8 @@ export function withAnalytics(
     const method = req.method
     const endpoint = req.nextUrl.pathname
     
-    // Generate a user ID from request headers
-    const distinctId = getUserId(req)
+    // Generate a privacy-preserving user ID
+    const distinctId = getPrivacyPreservingUserId(req)
 
     let response: NextResponse
     let statusCode: number
@@ -29,7 +30,7 @@ export function withAnalytics(
 
     const duration = Date.now() - startTime
 
-    // Track the API call (backend only)
+    // Track the API call with privacy-preserving properties
     await trackApiCall(
       distinctId,
       endpoint,
@@ -37,9 +38,9 @@ export function withAnalytics(
       statusCode,
       duration,
       {
-        user_agent: req.headers.get('user-agent'),
-        referer: req.headers.get('referer'),
-        ip: req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip'),
+        user_agent: getUserAgentInfo(req.headers.get('user-agent')),
+        has_referer: !!req.headers.get('referer'),
+        // No IP addresses logged
       }
     )
 
@@ -47,14 +48,51 @@ export function withAnalytics(
   }
 }
 
-// Helper function to get user ID from request
-export function getUserId(req: NextRequest): string {
-  // Try to get user ID from various sources
-  const userId = req.headers.get('x-user-id') || 
-                req.cookies.get('user_id')?.value ||
-                req.headers.get('x-forwarded-for') || 
-                req.headers.get('x-real-ip') ||
-                'anonymous'
+// Helper function to create privacy-preserving user ID
+export function getPrivacyPreservingUserId(req: NextRequest): string {
+  // Try session-based IDs first (privacy-preserving)
+  const explicitUserId = req.headers.get('x-user-id') || req.cookies.get('user_id')?.value
   
-  return userId
+  if (explicitUserId) {
+    return explicitUserId
+  }
+
+  // Create a session-stable but privacy-preserving ID
+  // Hash combination of User-Agent and a daily salt to create consistent session IDs
+  // without storing PII or IP addresses
+  const userAgent = req.headers.get('user-agent') || 'unknown'
+  const dailySalt = getDailySalt()
+  const sessionData = `${userAgent}-${dailySalt}`
+  
+  // Create a hash that's consistent for the day but changes daily
+  const hash = createHash('sha256').update(sessionData).digest('hex')
+  return `session_${hash.substring(0, 16)}`
+}
+
+// Get user agent info without logging full string
+export function getUserAgentInfo(userAgent: string | null): object {
+  if (!userAgent) {
+    return { browser: 'unknown', mobile: false }
+  }
+
+  const isMobile = /Mobile|Android|iPhone|iPad/.test(userAgent)
+  let browser = 'unknown'
+  
+  if (/Edg\//.test(userAgent)) browser = 'edge'
+  else if (/Chrome/.test(userAgent)) browser = 'chrome'
+  else if (/Firefox/.test(userAgent)) browser = 'firefox'
+  else if (/Safari/.test(userAgent) && !/Chrome/.test(userAgent)) browser = 'safari'
+
+  return { browser, mobile: isMobile }
+}
+
+// Generate a daily salt for session consistency
+function getDailySalt(): string {
+  const today = new Date().toISOString().split('T')[0] // YYYY-MM-DD
+  return `valkompass-${today}`
+}
+
+// Legacy function for backward compatibility
+export function getUserId(req: NextRequest): string {
+  return getPrivacyPreservingUserId(req)
 } 
