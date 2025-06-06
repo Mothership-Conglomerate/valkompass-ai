@@ -14,7 +14,7 @@ Valkompass.ai was created during a hackathon at Mashup Day Malmö in May 2025.
 - **Frontend**: Next.js, TypeScript, React
 - **AI**: Google Gemini models for analysis
 - **Database**: Neo4j for knowledge graph storage
-- **Package Manager**: Bun
+- **Package Manager**: Bun for frontend, UV for Python
 - **Knowledge Processing**: Python for document parsing and analysis
 
 ## Prerequisites
