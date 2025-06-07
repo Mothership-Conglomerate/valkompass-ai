@@ -383,16 +383,14 @@ class TestIntegrationPipeline:
         with pytest.raises(NoSuchDocumentError):
             parse_document("non-existent-file.json", "test-id")
 
-        # Test malformed JSON
+        # Test malformed JSON - should now raise ValueError (fail-fast principle)
         with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as f:
             f.write("invalid json content")
             temp_path = f.name
 
         try:
-            document = parse_document(temp_path, "test-malformed")
-            # Should handle gracefully and return empty segments
-            assert document.raw_content == ""
-            assert document.segments == []
+            with pytest.raises(ValueError, match="Error decoding JSON"):
+                parse_document(temp_path, "test-malformed")
         finally:
             Path(temp_path).unlink()
 
