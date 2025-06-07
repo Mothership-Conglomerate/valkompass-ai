@@ -3,6 +3,8 @@ from typing import Any
 import numpy as np
 from pydantic import BaseModel, field_serializer, field_validator, model_validator
 
+from .political_entities import Party as Party
+
 
 class Topic(BaseModel):
     id: int
