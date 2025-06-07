@@ -1,27 +1,33 @@
-from dotenv import load_dotenv
-
-import os
-from pathlib import Path
-from typing import List
 import argparse
 import asyncio
+import logging
+import os
+from pathlib import Path
 
+from dotenv import load_dotenv
 from tqdm import tqdm
 from tqdm.asyncio import tqdm as async_tqdm
 
-from graph import SchemaManager
-from model import Document, DocumentSegment, Topic
-from parser import parse_document
-from util.errors import NoSuchDocumentError
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 from analysis.embedding import EmbeddingClient
 from analysis.topic_modeling import extract_topics, topics_to_pydantic
+from graph import SchemaManager
+from model import Document, DocumentSegment, Topic
 from model.store import (
-    store_documents_as_json,
     load_documents_from_json,
-    store_document_as_json,
-    store_topics_as_json,
     load_topics_from_json,
+    store_document_as_json,
+    store_documents_as_json,
+    store_topics_as_json,
 )
+from parser import parse_document
+from util.errors import NoSuchDocumentError
 
 load_dotenv()
 
@@ -37,7 +43,7 @@ STRUCTURED_DOCS_OUTPUT_DIR = (
 def load_and_parse_documents(
     documents_dir_abs: Path = DOCUMENTS_BASE_DIR_ABS,
     project_root: Path = PROJECT_ROOT_DIR,
-) -> List[Document]:
+) -> list[Document]:
     """
     Scans a directory for documents, parses them, and returns a list of Document objects
     with paths relative to the project root.
@@ -52,7 +58,7 @@ def load_and_parse_documents(
     Returns:
         A list of Document objects.
     """
-    doc_paths_abs: List[Path] = []
+    doc_paths_abs: list[Path] = []
     # Recursively find all files in the documents_dir
     # Add more extensions here if needed, e.g., "*.txt", "*.docx"
     supported_extensions = ["*.pdf", "*.json"]
@@ -70,7 +76,7 @@ def load_and_parse_documents(
         )
         return []
 
-    parsed_documents: List[Document] = []
+    parsed_documents: list[Document] = []
     print(f"Found {len(doc_paths_abs)} documents. Starting parsing...")
 
     for i, doc_path_abs in enumerate(
@@ -87,9 +93,11 @@ def load_and_parse_documents(
 
             parsed_documents.append(document_obj)
         except NoSuchDocumentError as e:
-            print(f"Skipping (not found): {doc_path_abs}. Error: {e}")
+            logger.warning(f"Skipping (not found): {doc_path_abs}. Error: {e}")
+        except Exception as e:
+            logger.error(f"Unexpected error parsing {doc_path_abs}: {e}")
 
-    print(
+    logger.info(
         f"Successfully parsed {len(parsed_documents)} out of {len(doc_paths_abs)} documents."
     )
     return parsed_documents
@@ -121,8 +129,8 @@ async def main():
 
     args = parser.parse_args()
 
-    documents: List[Document] = []
-    topics: List[Topic] = []
+    documents: list[Document] = []
+    topics: list[Topic] = []
     processed_something = False
 
     # Convert string paths from args to Path objects
@@ -180,7 +188,7 @@ async def main():
                 return
 
         print(f"Starting topic modeling for segments in {len(documents)} documents...")
-        all_segments: List[DocumentSegment] = []
+        all_segments: list[DocumentSegment] = []
         for doc in documents:
             all_segments.extend(doc.segments)
 

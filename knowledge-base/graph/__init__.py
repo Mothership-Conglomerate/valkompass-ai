@@ -1,6 +1,8 @@
 import json
+
 from neo4j import GraphDatabase
-from model import Topic, Document
+
+from model import Document, Topic
 
 # 1) Define your schema in Python
 SCHEMA = {
